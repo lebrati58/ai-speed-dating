@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Instructions — Soirée Célibataires</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500&display=swap');
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+  background: #0D0D14;
+  color: #F5F3EE;
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 16px;
+}
+
+.card {
+  max-width: 560px;
+  width: 100%;
+  background: #12121F;
+  border: 1px solid rgba(201,168,76,0.25);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.card-header {
+  background: linear-gradient(135deg, rgba(201,168,76,0.15), rgba(201,168,76,0.05));
+  border-bottom: 1px solid rgba(201,168,76,0.2);
+  padding: 32px 36px;
+  text-align: center;
+}
+
+.eyebrow {
+  font-size: 10px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #C9A84C;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  font-weight: 400;
+  color: #F5F3EE;
+  line-height: 1.2;
+}
+h1 em { font-style: italic; color: #C9A84C; }
+
+.subtitle {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #8A8A9A;
+  letter-spacing: 1px;
+}
+
+.steps {
+  padding: 32px 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.step {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.step-num {
+  min-width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: rgba(201,168,76,0.12);
+  border: 1px solid rgba(201,168,76,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 15px;
+  color: #C9A84C;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.step-content {}
+.step-title {
+  font-size: 14px;
+  font-weight: 500;
+  color: #F5F3EE;
+  margin-bottom: 4px;
+}
+.step-desc {
+  font-size: 12px;
+  color: #8A8A9A;
+  line-height: 1.6;
+}
+
+.prompt-box {
+  margin: 0 36px 32px;
+  background: rgba(0,0,0,0.3);
+  border: 1px solid rgba(201,168,76,0.2);
+  border-left: 3px solid #C9A84C;
+  border-radius: 6px;
+  padding: 18px 20px;
+}
+
+.prompt-label {
+  font-size: 9px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #C9A84C;
+  margin-bottom: 10px;
+}
+
+.prompt-text {
+  font-size: 13px;
+  color: #F0E4BC;
+  font-style: italic;
+  line-height: 1.7;
+}
+
+.tip {
+  margin: 0 36px 32px;
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  padding: 14px 16px;
+  background: rgba(255,107,157,0.06);
+  border: 1px solid rgba(255,107,157,0.15);
+  border-radius: 6px;
+}
+.tip-icon { font-size: 16px; flex-shrink: 0; }
+.tip-text { font-size: 12px; color: rgba(255,255,255,0.5); line-height: 1.6; }
+
+.card-footer {
+  border-top: 1px solid rgba(255,255,255,0.05);
+  padding: 16px 36px;
+  text-align: center;
+  font-size: 10px;
+  color: rgba(255,255,255,0.2);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+</style>
+</head>
+<body>
+<div class="card">
+
+  <div class="card-header">
+    <p class="eyebrow">Soirée Célibataires · Tel Aviv</p>
+    <h1>Crée ton profil<br><em>en 5 minutes</em></h1>
+    <p class="subtitle">Suis ces étapes depuis ton téléphone</p>
+  </div>
+
+  <div class="steps">
+    <div class="step">
+      <div class="step-num">1</div>
+      <div class="step-content">
+        <div class="step-title">Scanne le QR code</div>
+        <div class="step-desc">Ouvre l'appareil photo de ton téléphone et pointe-le sur le QR code. Le formulaire s'ouvre automatiquement.</div>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">2</div>
+      <div class="step-content">
+        <div class="step-title">Remplis tes infos</div>
+        <div class="step-desc">Prénom, nom, âge, sexe, numéro WhatsApp. Simple et rapide.</div>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">3</div>
+      <div class="step-content">
+        <div class="step-title">Ouvre ChatGPT, Claude ou Gemini</div>
+        <div class="step-desc">Copie-colle le prompt ci-dessous dans l'IA de ton choix.</div>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">4</div>
+      <div class="step-content">
+        <div class="step-title">Colle la réponse dans le formulaire</div>
+        <div class="step-desc">Copie le texte généré par l'IA et colle-le dans le dernier champ "Upload du texte de votre IA".</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="prompt-box">
+    <div class="prompt-label">✦ Prompt à copier dans l'IA</div>
+    <div class="prompt-text">
+      "En te basant sur nos conversations, décris-moi en 8 à 10 lignes pour un profil de rencontre. Inclus : mes valeurs principales, ce que je recherche chez un partenaire, mon style de vie et mes passions, ma façon d'être en relation, et ce qui me rend unique. Sois honnête, précis et personnel. Écris à la troisième personne."
+    </div>
+  </div>
+
+  <div class="tip">
+    <div class="tip-icon">💡</div>
+    <div class="tip-text">
+      Pas d'IA ou tu n'as jamais utilisé ChatGPT ? Décris-toi toi-même en 8 lignes : qui tu es, tes valeurs, ce que tu recherches chez un partenaire, ce qui te rend unique.
+    </div>
+  </div>
+
+  <div class="card-footer">Propulsé par Claude AI · Ce soir uniquement ♥</div>
+
+</div>
+</body>
+</html>
