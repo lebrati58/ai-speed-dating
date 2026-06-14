@@ -3,539 +3,709 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI Match — Soirée Célibataires</title>
+<title>AI Match — Soirée Célibataires Tel Aviv</title>
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Inter:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap');
 
-  :root {
-    --or:      #C9A84C;
-    --or-pale: #F0E4BC;
-    --or-glow: rgba(201,168,76,0.15);
-    --nuit:    #0D0D14;
-    --encre:   #1A1A2E;
-    --gris:    #8A8A9A;
-    --blanc:   #F5F3EE;
-    --mutual:  #E8A0A0;
-  }
+:root {
+  --or: #D4AF37;
+  --or2: #F5D76E;
+  --rose: #FF6B9D;
+  --rose2: #FFB3D0;
+  --nuit: #080810;
+  --encre: #10101E;
+  --card: #12121F;
+  --gris: #7A7A8E;
+  --blanc: #F8F4EC;
+  --vert: #4ECDC4;
+}
 
-  * { margin:0; padding:0; box-sizing:border-box; }
+* { margin:0; padding:0; box-sizing:border-box; }
 
-  body {
-    background: var(--nuit);
-    color: var(--blanc);
-    font-family: 'Inter', sans-serif;
-    font-weight: 300;
-    min-height: 100vh;
-  }
+body {
+  background: var(--nuit);
+  color: var(--blanc);
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
 
-  /* ── En-tête ── */
-  header {
-    text-align: center;
-    padding: 60px 20px 40px;
-    border-bottom: 1px solid rgba(201,168,76,0.2);
-    position: relative;
-  }
-  header::before {
-    content: '';
-    position: absolute;
-    top: 0; left: 50%;
-    transform: translateX(-50%);
-    width: 1px; height: 40px;
-    background: linear-gradient(to bottom, transparent, var(--or));
-  }
-  .eyebrow {
-    font-size: 10px;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    color: var(--or);
-    margin-bottom: 16px;
-  }
-  h1 {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: clamp(40px, 6vw, 72px);
-    font-weight: 300;
-    line-height: 1;
-    letter-spacing: -1px;
-    color: var(--blanc);
-  }
-  h1 em { font-style: italic; color: var(--or); }
-  .subtitle {
-    margin-top: 14px;
-    font-size: 13px;
-    color: var(--gris);
-    letter-spacing: 1px;
-  }
+/* ─── Fond étoilé ─── */
+body::before {
+  content:'';
+  position: fixed;
+  inset: 0;
+  background-image:
+    radial-gradient(1px 1px at 20% 30%, rgba(212,175,55,0.4) 0%, transparent 100%),
+    radial-gradient(1px 1px at 80% 10%, rgba(255,107,157,0.3) 0%, transparent 100%),
+    radial-gradient(1px 1px at 50% 70%, rgba(212,175,55,0.2) 0%, transparent 100%),
+    radial-gradient(1px 1px at 10% 80%, rgba(255,107,157,0.2) 0%, transparent 100%),
+    radial-gradient(1px 1px at 90% 60%, rgba(212,175,55,0.3) 0%, transparent 100%);
+  background-size: 300px 300px, 400px 400px, 500px 500px, 350px 350px, 450px 450px;
+  pointer-events: none;
+  z-index: 0;
+}
 
-  /* ── Navigation ── */
-  nav {
-    display: flex;
-    justify-content: center;
-    gap: 0;
-    padding: 0 20px;
-    border-bottom: 1px solid rgba(255,255,255,0.07);
-  }
-  nav button {
-    background: none;
-    border: none;
-    border-bottom: 2px solid transparent;
-    color: var(--gris);
-    font-family: 'Inter', sans-serif;
-    font-size: 11px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    padding: 20px 28px;
-    cursor: pointer;
-    transition: all 0.2s;
-    position: relative;
-  }
-  nav button.active, nav button:hover { color: var(--or); border-bottom-color: var(--or); }
-  nav button .tab-badge {
-    position: absolute;
-    top: 14px; right: 10px;
-    background: var(--mutual);
-    color: var(--nuit);
-    font-size: 8px;
-    font-weight: 500;
-    padding: 1px 5px;
-    border-radius: 10px;
-    letter-spacing: 0;
-    display: none;
-  }
-  nav button .tab-badge.visible { display: inline-block; }
+/* ─── Header ─── */
+header {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 56px 20px 36px;
+  background: linear-gradient(180deg, rgba(212,175,55,0.06) 0%, transparent 100%);
+  border-bottom: 1px solid rgba(212,175,55,0.15);
+}
 
-  /* ── Contenu ── */
-  main { max-width: 1100px; margin: 0 auto; padding: 50px 20px 80px; }
-  .section { display: none; }
-  .section.active { display: block; }
+.eyebrow {
+  font-size: 10px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: var(--or);
+  margin-bottom: 14px;
+  opacity: 0.85;
+}
 
-  /* ── Stats ── */
-  .stats-bar {
-    display: flex;
-    gap: 40px;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-bottom: 50px;
-    padding: 24px;
-    background: rgba(201,168,76,0.05);
-    border: 1px solid rgba(201,168,76,0.12);
-    border-radius: 4px;
-  }
-  .stat { text-align: center; }
-  .stat-num {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 42px;
-    font-weight: 300;
-    color: var(--or);
-    line-height: 1;
-  }
-  .stat-num.mutual-num { color: var(--mutual); }
-  .stat-label {
-    font-size: 10px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: var(--gris);
-    margin-top: 6px;
-  }
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(38px, 5.5vw, 70px);
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: -0.5px;
+}
+h1 em { font-style: italic; color: var(--or); }
+h1 .heart-title { color: var(--rose); font-style: normal; }
 
-  /* ── Carte match ── */
-  .match-grid { display: grid; gap: 16px; }
-  .match-card {
-    display: grid;
-    grid-template-columns: 1fr auto 1fr;
-    align-items: center;
-    gap: 20px;
-    padding: 24px 28px;
-    background: rgba(255,255,255,0.03);
-    border: 1px solid rgba(255,255,255,0.06);
-    border-left: 3px solid var(--or);
-    border-radius: 2px;
-    transition: background 0.2s;
-    position: relative;
-  }
-  .match-card:hover { background: rgba(255,255,255,0.055); }
+.subtitle {
+  margin-top: 12px;
+  font-size: 12px;
+  color: var(--gris);
+  letter-spacing: 2px;
+}
 
-  /* Mutual match — style spécial */
-  .match-card.mutual {
-    border-left: 3px solid var(--mutual);
-    background: rgba(232,160,160,0.05);
-  }
-  .match-card.mutual:hover { background: rgba(232,160,160,0.09); }
-  .mutual-badge {
-    position: absolute;
-    top: 12px; right: 14px;
-    font-size: 10px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: var(--mutual);
-    display: flex;
-    align-items: center;
-    gap: 4px;
-  }
-  .mutual-badge::before { content: '♥'; font-size: 9px; }
+/* ─── Nav ─── */
+nav {
+  position: relative; z-index:1;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  background: rgba(8,8,16,0.8);
+  backdrop-filter: blur(10px);
+  position: sticky; top:0;
+}
+nav button {
+  background: none; border: none;
+  border-bottom: 2px solid transparent;
+  color: var(--gris);
+  font-family: 'Inter', sans-serif;
+  font-size: 10px; letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 18px 24px;
+  cursor: pointer;
+  transition: all 0.25s;
+  position: relative;
+}
+nav button.active, nav button:hover { color: var(--or); border-bottom-color: var(--or); }
+nav button.rose-tab.active, nav button.rose-tab:hover { color: var(--rose); border-bottom-color: var(--rose); }
 
-  .person.right { text-align: right; }
-  .person-name {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 22px;
-    font-weight: 400;
-    color: var(--blanc);
-  }
-  .person-age { font-size: 11px; color: var(--gris); margin-top: 3px; letter-spacing: 1px; }
+.tab-badge {
+  position: absolute; top:10px; right:6px;
+  background: var(--rose);
+  color: #fff;
+  font-size: 8px; font-weight: 600;
+  padding: 1px 5px; border-radius: 10px;
+  letter-spacing: 0; display: none;
+  animation: pulse 2s ease-in-out infinite;
+}
+.tab-badge.visible { display: inline-block; }
 
-  .score-block { text-align: center; min-width: 80px; }
-  .score-num {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 38px;
-    font-weight: 300;
-    line-height: 1;
-    color: var(--or);
-  }
-  .score-label { font-size: 9px; letter-spacing: 2px; text-transform: uppercase; color: var(--gris); }
-  .score-bar-wrap { margin-top: 8px; }
-  .score-bar-bg {
-    height: 2px;
-    background: rgba(255,255,255,0.08);
-    border-radius: 1px;
-    overflow: hidden;
-  }
-  .score-bar-fill {
-    height: 100%;
-    background: linear-gradient(to right, var(--or-pale), var(--or));
-    border-radius: 1px;
-    transition: width 0.8s ease;
-  }
-  .match-card.mutual .score-num { color: var(--mutual); }
-  .match-card.mutual .score-bar-fill { background: linear-gradient(to right, #F5C0C0, var(--mutual)); }
+@keyframes pulse {
+  0%,100% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+}
 
-  .raison {
-    grid-column: 1 / -1;
-    font-size: 12px;
-    color: var(--gris);
-    font-style: italic;
-    border-top: 1px solid rgba(255,255,255,0.05);
-    padding-top: 12px;
-    margin-top: 4px;
-    line-height: 1.6;
-  }
-  .raison::before { content: '✦ '; color: var(--or); font-style: normal; font-size: 9px; }
-  .match-card.mutual .raison::before { content: '♥ '; color: var(--mutual); }
+/* ─── Main ─── */
+main { max-width: 1200px; margin: 0 auto; padding: 44px 20px 80px; position:relative; z-index:1; }
+.section { display:none; }
+.section.active { display:block; }
 
-  .rank {
-    position: absolute;
-    left: -12px; top: 50%;
-    transform: translateY(-50%);
-    width: 24px; height: 24px;
-    border-radius: 50%;
-    background: var(--or);
-    color: var(--nuit);
-    font-size: 10px;
-    font-weight: 500;
-    display: flex; align-items: center; justify-content: center;
-  }
-  .match-card.mutual .rank { background: var(--mutual); }
+/* ─── Stats ─── */
+.stats-bar {
+  display: flex; flex-wrap: wrap;
+  gap: 2px;
+  margin-bottom: 48px;
+  border: 1px solid rgba(212,175,55,0.12);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.stat {
+  flex: 1; min-width: 120px;
+  text-align: center;
+  padding: 22px 16px;
+  background: rgba(212,175,55,0.04);
+  border-right: 1px solid rgba(212,175,55,0.08);
+}
+.stat:last-child { border-right: none; }
+.stat-num {
+  font-family: 'Playfair Display', serif;
+  font-size: 44px; font-weight: 400;
+  color: var(--or); line-height: 1;
+}
+.stat-num.rose { color: var(--rose); }
+.stat-label {
+  font-size: 9px; letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--gris); margin-top: 7px;
+}
 
-  /* ── Section "Mutuels" ── */
-  .mutual-intro {
-    text-align: center;
-    margin-bottom: 40px;
-  }
-  .mutual-intro h2 {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 32px;
-    font-weight: 300;
-    color: var(--mutual);
-    margin-bottom: 8px;
-  }
-  .mutual-intro p { font-size: 13px; color: var(--gris); }
-  .empty-mutual {
-    text-align: center;
-    padding: 60px 20px;
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 22px;
-    font-style: italic;
-    color: var(--gris);
-  }
+/* ─── Anneau SVG (score circulaire) ─── */
+.ring-wrap {
+  width: 88px; height: 88px;
+  flex-shrink: 0;
+  position: relative;
+}
+.ring-wrap svg { transform: rotate(-90deg); }
+.ring-bg { fill: none; stroke: rgba(255,255,255,0.06); stroke-width: 5; }
+.ring-fill {
+  fill: none;
+  stroke: var(--or);
+  stroke-width: 5;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 1.2s ease;
+}
+.ring-fill.rose { stroke: var(--rose); }
+.ring-label {
+  position: absolute; inset: 0;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  pointer-events: none;
+}
+.ring-pct {
+  font-family: 'Playfair Display', serif;
+  font-size: 19px; font-weight: 400;
+  color: var(--or); line-height: 1;
+}
+.ring-pct.rose { color: var(--rose); }
+.ring-sub { font-size: 8px; color: var(--gris); letter-spacing: 1px; }
 
-  /* ── Vue par personne ── */
-  .person-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 16px;
-  }
-  .person-card {
-    padding: 22px 24px;
-    background: rgba(255,255,255,0.03);
-    border: 1px solid rgba(255,255,255,0.06);
-    border-radius: 2px;
-  }
-  .person-card-name {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 20px;
-    color: var(--blanc);
-    margin-bottom: 4px;
-  }
-  .person-card-age { font-size: 11px; color: var(--gris); }
+/* ─── Carte match ─── */
+.match-grid { display: grid; gap: 14px; }
 
-  /* Top 3 dans la carte personne */
-  .match-entries { margin-top: 14px; }
-  .match-entry {
-    padding: 12px 0;
-    border-top: 1px solid rgba(255,255,255,0.06);
-    display: flex;
-    align-items: flex-start;
-    gap: 12px;
-  }
-  .match-entry-rank {
-    min-width: 20px;
-    font-size: 10px;
-    color: var(--or);
-    font-weight: 500;
-    margin-top: 3px;
-  }
-  .match-entry.mutual-entry .match-entry-rank { color: var(--mutual); }
-  .match-entry-body { flex: 1; }
-  .match-entry-name {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 19px;
-    color: var(--or);
-    line-height: 1.1;
-  }
-  .match-entry.mutual-entry .match-entry-name { color: var(--mutual); }
-  .match-entry-score { font-size: 11px; color: var(--gris); margin-top: 2px; }
-  .match-entry-raison {
-    margin-top: 5px;
-    font-size: 11px;
-    color: rgba(255,255,255,0.35);
-    font-style: italic;
-    line-height: 1.5;
-  }
-  .match-mutual-tag {
-    font-size: 9px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: var(--mutual);
-    margin-left: 6px;
-  }
+.match-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 22px 26px;
+  background: var(--card);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-left: 3px solid var(--or);
+  border-radius: 8px;
+  transition: transform 0.2s, background 0.2s;
+  position: relative;
+  overflow: hidden;
+  animation: fadeUp 0.4s ease both;
+}
+.match-card::before {
+  content:'';
+  position: absolute; inset: 0;
+  background: linear-gradient(90deg, rgba(212,175,55,0.04) 0%, transparent 60%);
+  pointer-events: none;
+}
+.match-card:hover { transform: translateY(-2px); background: #15152A; }
 
-  /* ── Loading / Error ── */
-  .loading {
-    text-align: center;
-    padding: 80px 20px;
-    color: var(--gris);
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 22px;
-    font-style: italic;
-  }
-  .error {
-    text-align: center;
-    padding: 60px 20px;
-    color: #E05A5A;
-    font-size: 13px;
-    line-height: 2;
-  }
+.match-card.mutual {
+  border-left: 3px solid var(--rose);
+  background: #160D15;
+}
+.match-card.mutual::before {
+  background: linear-gradient(90deg, rgba(255,107,157,0.07) 0%, transparent 60%);
+}
 
-  footer {
-    text-align: center;
-    padding: 30px;
-    font-size: 10px;
-    color: rgba(255,255,255,0.15);
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    border-top: 1px solid rgba(255,255,255,0.05);
-  }
+@keyframes fadeUp {
+  from { opacity:0; transform: translateY(16px); }
+  to   { opacity:1; transform: translateY(0); }
+}
+
+.match-rank {
+  min-width: 28px;
+  font-family: 'Playfair Display', serif;
+  font-size: 28px; font-weight: 400;
+  color: rgba(212,175,55,0.3);
+  text-align: center; line-height: 1;
+}
+.match-card.mutual .match-rank { color: rgba(255,107,157,0.35); }
+
+.match-names {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.match-person { flex: 1; }
+.match-person.right { text-align: right; }
+
+.person-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px; font-weight: 400;
+  color: var(--blanc); line-height: 1.2;
+}
+.person-age { font-size: 11px; color: var(--gris); margin-top: 3px; letter-spacing: 1px; }
+
+.match-divider {
+  font-size: 18px;
+  color: rgba(212,175,55,0.4);
+  flex-shrink: 0;
+}
+.match-card.mutual .match-divider { color: var(--rose); font-size: 20px; }
+
+.match-raison {
+  flex: 1.2;
+  font-size: 12px;
+  color: rgba(248,244,236,0.45);
+  font-style: italic;
+  line-height: 1.65;
+  padding-left: 18px;
+  border-left: 1px solid rgba(255,255,255,0.06);
+}
+.match-raison::before {
+  content: '✦ '; color: var(--or); font-style: normal; font-size: 9px;
+}
+.match-card.mutual .match-raison::before { content: '♥ '; color: var(--rose); }
+
+.mutual-tag {
+  position: absolute; top:12px; right:14px;
+  font-size: 9px; letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--rose);
+  display: flex; align-items: center; gap: 4px;
+}
+.mutual-tag .hrt { animation: heartbeat 1.4s ease-in-out infinite; display:inline-block; }
+@keyframes heartbeat {
+  0%,100% { transform: scale(1); }
+  14% { transform: scale(1.3); }
+  28% { transform: scale(1); }
+  42% { transform: scale(1.15); }
+}
+
+/* ─── Mutual section spéciale ─── */
+.mutual-banner {
+  text-align: center;
+  margin-bottom: 44px;
+  padding: 32px;
+  background: linear-gradient(135deg, rgba(255,107,157,0.08), rgba(212,175,55,0.06));
+  border: 1px solid rgba(255,107,157,0.18);
+  border-radius: 12px;
+}
+.mutual-banner h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px; font-weight: 400;
+  color: var(--rose);
+  margin-bottom: 8px;
+}
+.mutual-banner p { font-size: 13px; color: var(--gris); }
+.hearts-row { font-size: 22px; margin-bottom: 12px; letter-spacing: 8px; }
+
+/* ─── Barre affinité ─── */
+.affinity-bar-wrap { margin-top: 6px; }
+.affinity-bar-bg {
+  height: 3px; background: rgba(255,255,255,0.07);
+  border-radius: 2px; overflow: hidden;
+}
+.affinity-bar-fill {
+  height: 100%;
+  border-radius: 2px;
+  background: linear-gradient(to right, #D4AF37, #F5D76E);
+  transition: width 1.2s ease;
+}
+.match-card.mutual .affinity-bar-fill {
+  background: linear-gradient(to right, var(--rose), var(--rose2));
+}
+
+/* ─── Cartes personne ─── */
+.person-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+  gap: 16px;
+}
+.person-card {
+  background: var(--card);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 10px;
+  padding: 24px;
+  animation: fadeUp 0.4s ease both;
+}
+.person-card-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 16px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+.person-avatar {
+  width: 44px; height: 44px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, rgba(212,175,55,0.3), rgba(212,175,55,0.1));
+  border: 1px solid rgba(212,175,55,0.3);
+  display: flex; align-items: center; justify-content: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 18px; color: var(--or);
+  flex-shrink: 0;
+}
+.person-card-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px; color: var(--blanc);
+}
+.person-card-age { font-size: 11px; color: var(--gris); margin-top: 2px; }
+
+.match-entry {
+  display: flex; align-items: center; gap: 12px;
+  padding: 11px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+.match-entry:last-child { border-bottom: none; padding-bottom: 0; }
+
+.entry-rank {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px; color: rgba(212,175,55,0.25);
+  min-width: 22px; text-align: center;
+}
+.entry-rank.mutual-rank { color: rgba(255,107,157,0.4); }
+
+.entry-info { flex: 1; min-width: 0; }
+.entry-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 17px; color: var(--or);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.entry-name.rose { color: var(--rose); }
+.entry-meta { font-size: 10px; color: var(--gris); margin-top: 2px; }
+.entry-raison {
+  font-size: 10px; color: rgba(248,244,236,0.35);
+  font-style: italic; line-height: 1.5; margin-top: 4px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.entry-ring { flex-shrink: 0; }
+
+/* ─── Diagramme barres d'affinité ─── */
+.affinity-chart {
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(255,255,255,0.05);
+}
+.affinity-chart-title {
+  font-size: 9px; letter-spacing: 2px;
+  text-transform: uppercase; color: var(--gris);
+  margin-bottom: 10px;
+}
+.affinity-row {
+  display: flex; align-items: center; gap: 10px;
+  margin-bottom: 7px;
+}
+.affinity-name { font-size: 11px; color: var(--blanc); min-width: 60px; }
+.affinity-bar-outer {
+  flex: 1; height: 4px;
+  background: rgba(255,255,255,0.07);
+  border-radius: 2px; overflow: hidden;
+}
+.affinity-bar-inner {
+  height: 100%; border-radius: 2px;
+  background: linear-gradient(to right, var(--or), var(--or2));
+  transition: width 1.2s ease;
+}
+.affinity-bar-inner.rose-bar {
+  background: linear-gradient(to right, var(--rose), var(--rose2));
+}
+.affinity-pct { font-size: 10px; color: var(--or); min-width: 30px; text-align: right; }
+.affinity-pct.rose { color: var(--rose); }
+
+/* ─── Loading / Error ─── */
+.loading {
+  text-align: center; padding: 80px 20px;
+  color: var(--gris);
+  font-family: 'Playfair Display', serif;
+  font-size: 22px; font-style: italic;
+}
+.error {
+  text-align: center; padding: 60px 20px;
+  color: #E05A5A; font-size: 13px; line-height: 2;
+}
+
+/* ─── Vide ─── */
+.empty-state {
+  text-align: center; padding: 60px 20px;
+  font-family: 'Playfair Display', serif;
+  font-size: 22px; font-style: italic;
+  color: var(--gris);
+}
+
+/* ─── Footer ─── */
+footer {
+  position: relative; z-index:1;
+  text-align: center; padding: 28px;
+  font-size: 9px; color: rgba(255,255,255,0.12);
+  letter-spacing: 3px; text-transform: uppercase;
+  border-top: 1px solid rgba(255,255,255,0.04);
+}
+
+/* ─── Responsive ─── */
+@media (max-width: 700px) {
+  .match-raison { display: none; }
+  .match-names { gap: 10px; }
+}
 </style>
 </head>
 <body>
 
 <header>
-  <p class="eyebrow">Soirée Célibataires — Tel Aviv</p>
-  <h1>Les <em>Affinités</em><br>de ce soir</h1>
+  <p class="eyebrow">Soirée Célibataires · Tel Aviv</p>
+  <h1>Les <em>Affinités</em> <span class="heart-title">♥</span><br>de ce soir</h1>
   <p class="subtitle" id="refresh-info">Chargement en cours…</p>
 </header>
 
 <nav>
-  <button class="active" onclick="showSection('top', this)">Top Matchs</button>
-  <button onclick="showSection('mutual', this)">
-    Affinités Mutuelles
+  <button class="active" onclick="showTab('top',this)">✦ Top Matchs</button>
+  <button class="rose-tab" onclick="showTab('mutual',this)">
+    ♥ Affinités Mutuelles
     <span class="tab-badge" id="mutual-badge"></span>
   </button>
-  <button onclick="showSection('all', this)">Par Personne</button>
+  <button onclick="showTab('all',this)">◈ Par Personne</button>
 </nav>
 
 <main>
 
-  <!-- TAB 1 : Top Matchs -->
-  <div id="top" class="section active">
-    <div class="stats-bar" id="stats" style="display:none">
-      <div class="stat">
-        <div class="stat-num" id="s-profils">—</div>
-        <div class="stat-label">Participants</div>
-      </div>
-      <div class="stat">
-        <div class="stat-num" id="s-paires">—</div>
-        <div class="stat-label">Paires analysées</div>
-      </div>
-      <div class="stat">
-        <div class="stat-num" id="s-top">—</div>
-        <div class="stat-label">Score max</div>
-      </div>
-      <div class="stat">
-        <div class="stat-num mutual-num" id="s-mutual">—</div>
-        <div class="stat-label">Affinités mutuelles</div>
-      </div>
+<!-- TAB 1 — Top Matchs -->
+<div id="top" class="section active">
+  <div class="stats-bar" id="stats" style="display:none">
+    <div class="stat">
+      <div class="stat-num" id="s-profils">—</div>
+      <div class="stat-label">Participants</div>
     </div>
-    <div class="match-grid" id="top-list">
-      <div class="loading">Chargement des matchs…</div>
+    <div class="stat">
+      <div class="stat-num" id="s-paires">—</div>
+      <div class="stat-label">Paires analysées</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num" id="s-top">—</div>
+      <div class="stat-label">Compatibilité max</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num rose" id="s-mutual">—</div>
+      <div class="stat-label">Affinités mutuelles ♥</div>
     </div>
   </div>
+  <div class="match-grid" id="top-list">
+    <div class="loading">Chargement des affinités…</div>
+  </div>
+</div>
 
-  <!-- TAB 2 : Affinités Mutuelles -->
-  <div id="mutual" class="section">
-    <div class="mutual-intro">
-      <h2>♥ Affinités Mutuelles</h2>
-      <p>Ces personnes se sont mutuellement placées dans leurs meilleurs matchs</p>
-    </div>
-    <div class="match-grid" id="mutual-list">
-      <div class="loading">Chargement…</div>
-    </div>
+<!-- TAB 2 — Mutuels -->
+<div id="mutual" class="section">
+  <div class="mutual-banner">
+    <div class="hearts-row">♥ ♥ ♥</div>
+    <h2>Affinités Mutuelles</h2>
+    <p>Ces personnes se sont choisies mutuellement — compatibilité dans les deux sens</p>
   </div>
+  <div class="match-grid" id="mutual-list">
+    <div class="loading">Chargement…</div>
+  </div>
+</div>
 
-  <!-- TAB 3 : Par Personne -->
-  <div id="all" class="section">
-    <div class="person-grid" id="person-list">
-      <div class="loading">Chargement…</div>
-    </div>
+<!-- TAB 3 — Par Personne -->
+<div id="all" class="section">
+  <div class="person-grid" id="person-list">
+    <div class="loading">Chargement…</div>
   </div>
+</div>
 
 </main>
-
-<footer>Propulsé par Claude AI · Ce soir uniquement</footer>
+<footer>Propulsé par Claude AI · Ce soir uniquement · ♥</footer>
 
 <script>
-let data = null;
+const CIRCUMFERENCE = 2 * Math.PI * 36; // r=36
 
-function showSection(id, btn) {
+function showTab(id, btn) {
   document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
   document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
   document.getElementById(id).classList.add('active');
   btn.classList.add('active');
 }
 
-function scoreColor(score) {
-  if (score >= 80) return '#C9A84C';
-  if (score >= 60) return '#A08A3A';
-  return '#6A6A7A';
+function ring(score, isMutual) {
+  const offset = CIRCUMFERENCE - (CIRCUMFERENCE * score / 100);
+  const colorClass = isMutual ? 'rose' : '';
+  const textClass  = isMutual ? 'rose' : '';
+  return `
+    <div class="ring-wrap">
+      <svg viewBox="0 0 80 80" width="80" height="80">
+        <circle class="ring-bg"   cx="40" cy="40" r="36"/>
+        <circle class="ring-fill ${colorClass}" cx="40" cy="40" r="36"
+          stroke-dasharray="${CIRCUMFERENCE}"
+          stroke-dashoffset="${offset}"/>
+      </svg>
+      <div class="ring-label">
+        <span class="ring-pct ${textClass}">${score}%</span>
+        <span class="ring-sub">affinité</span>
+      </div>
+    </div>`;
 }
 
-function matchCardHTML(m, index) {
+function matchCard(m, index) {
   const isMutual = m.mutual === true;
-  const mutualBadge = isMutual ? `<span class="mutual-badge">Mutuel</span>` : '';
-  const rankBadge = index !== undefined ? `<span class="rank">${index + 1}</span>` : '';
+  const divider  = isMutual ? '♥' : '×';
+  const mutualTag = isMutual
+    ? `<div class="mutual-tag"><span class="hrt">♥</span> Mutuel</div>` : '';
+  const rankNum  = index !== undefined ? index + 1 : '';
+
   return `
     <div class="match-card${isMutual ? ' mutual' : ''}">
-      ${rankBadge}
-      ${mutualBadge}
-      <div class="person">
-        <div class="person-name">${m.profil_a.nom}</div>
-        <div class="person-age">${m.profil_a.age} ans</div>
-      </div>
-      <div class="score-block">
-        <div class="score-num">${m.score}</div>
-        <div class="score-label">/ 100</div>
-        <div class="score-bar-wrap">
-          <div class="score-bar-bg">
-            <div class="score-bar-fill" style="width:${m.score}%"></div>
+      ${mutualTag}
+      <div class="match-rank">${rankNum}</div>
+      ${ring(m.score, isMutual)}
+      <div class="match-names">
+        <div class="match-person">
+          <div class="person-name">${m.profil_a.nom}</div>
+          <div class="person-age">${m.profil_a.age} ans</div>
+          <div class="affinity-bar-wrap">
+            <div class="affinity-bar-bg">
+              <div class="affinity-bar-fill" style="width:${m.score}%"></div>
+            </div>
           </div>
         </div>
+        <div class="match-divider">${divider}</div>
+        <div class="match-person right">
+          <div class="person-name">${m.profil_b.nom}</div>
+          <div class="person-age">${m.profil_b.age} ans</div>
+        </div>
       </div>
-      <div class="person right">
-        <div class="person-name">${m.profil_b.nom}</div>
-        <div class="person-age">${m.profil_b.age} ans</div>
-      </div>
-      <div class="raison">${m.raison}</div>
+      <div class="match-raison">${m.raison || ''}</div>
     </div>`;
 }
 
 function renderTop(matchs) {
   const el = document.getElementById('top-list');
-  if (!matchs || !matchs.length) {
-    el.innerHTML = '<div class="loading">Aucun match disponible.</div>';
-    return;
-  }
-  el.innerHTML = matchs.slice(0, 20).map((m, i) => matchCardHTML(m, i)).join('');
+  if (!matchs?.length) { el.innerHTML = '<div class="loading">Aucun match disponible.</div>'; return; }
+  el.innerHTML = matchs.slice(0,20).map((m,i) => matchCard(m,i)).join('');
 }
 
 function renderMutual(mutuals) {
   const el = document.getElementById('mutual-list');
-  if (!mutuals || !mutuals.length) {
-    el.innerHTML = '<div class="empty-mutual">Les affinités mutuelles apparaîtront ici…</div>';
+  if (!mutuals?.length) {
+    el.innerHTML = '<div class="empty-state">Les affinités mutuelles apparaîtront ici ♥</div>';
     return;
   }
-  el.innerHTML = mutuals.map((m, i) => matchCardHTML(m, i)).join('');
+  el.innerHTML = mutuals.map((m,i) => matchCard(m,i)).join('');
+}
+
+function smallRing(score, isMutual, size=52) {
+  const r = size/2 - 5;
+  const circ = 2 * Math.PI * r;
+  const offset = circ - (circ * score / 100);
+  const col = isMutual ? 'rose' : '';
+  return `
+    <div class="ring-wrap entry-ring" style="width:${size}px;height:${size}px">
+      <svg viewBox="0 0 ${size} ${size}" width="${size}" height="${size}">
+        <circle class="ring-bg" cx="${size/2}" cy="${size/2}" r="${r}"/>
+        <circle class="ring-fill ${col}" cx="${size/2}" cy="${size/2}" r="${r}"
+          stroke-dasharray="${circ.toFixed(1)}"
+          stroke-dashoffset="${offset.toFixed(1)}"/>
+      </svg>
+      <div class="ring-label">
+        <span class="ring-pct ${col}" style="font-size:13px">${score}%</span>
+      </div>
+    </div>`;
 }
 
 function renderPersons(persons) {
   const el = document.getElementById('person-list');
-  if (!persons || !persons.length) {
-    el.innerHTML = '<div class="loading">Aucune donnée.</div>';
-    return;
-  }
+  if (!persons?.length) { el.innerHTML = '<div class="loading">Aucune donnée.</div>'; return; }
 
   el.innerHTML = persons.map(p => {
-    const top3 = p.top3 || (p.meilleur_match ? [{
-      match: p.meilleur_match,
-      score: p.score,
-      raison: p.raison,
-      mutual: false
-    }] : []);
+    const top3 = p.top3 || (p.meilleur_match
+      ? [{match: p.meilleur_match, score: p.score, raison: p.raison, mutual: false}]
+      : []);
 
-    const entriesHTML = top3.map((entry, i) => {
-      const mutualTag = entry.mutual
-        ? `<span class="match-mutual-tag">♥ Mutuel</span>`
-        : '';
+    const initiale = (p.personne.nom || '?')[0].toUpperCase();
+
+    const entries = top3.map((e, i) => {
+      const isMut = e.mutual === true;
       return `
-        <div class="match-entry${entry.mutual ? ' mutual-entry' : ''}">
-          <div class="match-entry-rank">#${i + 1}</div>
-          <div class="match-entry-body">
-            <div class="match-entry-name">${entry.match.nom}${mutualTag}</div>
-            <div class="match-entry-score">${entry.score}/100 · ${entry.match.age} ans</div>
-            <div class="match-entry-raison">${entry.raison}</div>
+        <div class="match-entry">
+          <div class="entry-rank${isMut ? ' mutual-rank' : ''}">${i+1}</div>
+          <div class="entry-info">
+            <div class="entry-name${isMut ? ' rose' : ''}">${e.match.nom}${isMut ? ' ♥' : ''}</div>
+            <div class="entry-meta">${e.match.age} ans · ${e.score}% compatibilité</div>
+            <div class="entry-raison">${e.raison || ''}</div>
           </div>
+          ${smallRing(e.score, isMut)}
+        </div>`;
+    }).join('');
+
+    // Diagramme barres
+    const bars = top3.map(e => {
+      const isMut = e.mutual === true;
+      return `
+        <div class="affinity-row">
+          <div class="affinity-name">${e.match.nom}</div>
+          <div class="affinity-bar-outer">
+            <div class="affinity-bar-inner${isMut ? ' rose-bar' : ''}" style="width:${e.score}%"></div>
+          </div>
+          <div class="affinity-pct${isMut ? ' rose' : ''}">${e.score}%</div>
         </div>`;
     }).join('');
 
     return `
       <div class="person-card">
-        <div class="person-card-name">${p.personne.nom}</div>
-        <div class="person-card-age">${p.personne.age} ans · ${p.personne.sexe}</div>
-        <div class="match-entries">${entriesHTML}</div>
+        <div class="person-card-header">
+          <div class="person-avatar">${initiale}</div>
+          <div>
+            <div class="person-card-name">${p.personne.nom}</div>
+            <div class="person-card-age">${p.personne.age} ans · ${p.personne.sexe}</div>
+          </div>
+        </div>
+        ${entries}
+        ${bars ? `<div class="affinity-chart">
+          <div class="affinity-chart-title">Diagramme d'affinité</div>
+          ${bars}
+        </div>` : ''}
       </div>`;
   }).join('');
+}
+
+function countUp(el, target, suffix='') {
+  let n = 0;
+  const step = Math.ceil(target / 30);
+  const iv = setInterval(() => {
+    n = Math.min(n + step, target);
+    el.textContent = n + suffix;
+    if (n >= target) clearInterval(iv);
+  }, 40);
 }
 
 async function loadData() {
   try {
     const res = await fetch('results.json?t=' + Date.now());
     if (!res.ok) throw new Error('results.json introuvable');
-    data = await res.json();
+    const data = await res.json();
 
-    // Stats
+    // Stats avec animation
     const statsEl = document.getElementById('stats');
     statsEl.style.display = 'flex';
+    const st = data.stats || {};
+    const mutuals = st.mutuals ?? (data.mutual_matches?.length || 0);
 
-    const stats = data.stats || {};
-    const hommes = stats.hommes || 0;
-    const femmes = stats.femmes || 0;
-    const mutuals = stats.mutuals || (data.mutual_matches ? data.mutual_matches.length : 0);
+    countUp(document.getElementById('s-profils'), data.total_profils || 0);
+    const h = st.hommes || 0, f = st.femmes || 0;
+    document.getElementById('s-paires').textContent = h && f ? `${h}×${f}` : data.top_matchs?.length || 0;
+    countUp(document.getElementById('s-top'), data.top_matchs?.[0]?.score || 0, '%');
+    countUp(document.getElementById('s-mutual'), mutuals);
 
-    document.getElementById('s-profils').textContent = data.total_profils || 0;
-    document.getElementById('s-paires').textContent  = hommes && femmes ? `${hommes}×${femmes}` : data.top_matchs.length;
-    document.getElementById('s-top').textContent     = data.top_matchs[0]?.score ?? '—';
-    document.getElementById('s-mutual').textContent  = mutuals;
-
-    // Badge sur l'onglet mutual
-    const badge = document.getElementById('mutual-badge');
     if (mutuals > 0) {
+      const badge = document.getElementById('mutual-badge');
       badge.textContent = mutuals;
       badge.classList.add('visible');
     }
@@ -544,21 +714,20 @@ async function loadData() {
     renderMutual(data.mutual_matches || []);
     renderPersons(data.best_per_person);
 
-    const now = new Date().toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' });
-    document.getElementById('refresh-info').textContent = `Mis à jour à ${now}`;
+    const now = new Date().toLocaleTimeString('fr-FR', {hour:'2-digit', minute:'2-digit'});
+    document.getElementById('refresh-info').textContent = `Mis à jour à ${now} · Actualisation auto toutes les 60s`;
 
   } catch(e) {
     document.getElementById('top-list').innerHTML = `
       <div class="error">
         Impossible de charger <strong>results.json</strong><br>
         Lance d'abord : <code>python matcher.py</code><br><br>
-        <span style="color:#555">${e.message}</span>
+        <span style="opacity:.4">${e.message}</span>
       </div>`;
     document.getElementById('refresh-info').textContent = 'En attente des données…';
   }
 }
 
-// Charger au démarrage puis toutes les 60 secondes
 loadData();
 setInterval(loadData, 60000);
 </script>
