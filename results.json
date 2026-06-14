@@ -1,0 +1,297 @@
+{
+  "top_matchs": [
+    {
+      "profil_a": {
+        "id": 1,
+        "nom": "David",
+        "age": "34",
+        "sexe": "Homme",
+        "telephone": "0501234567",
+        "resume_ia": "David est un homme curieux et bienveillant, profondément attaché à ses racines tout en étant ouvert sur le monde. \nIl travaille dans le hi-tech à Tel Aviv et apprécie l'équilibre entre ambition professionnelle et vie personnelle épanouie. \nPassionné de randonnée en Galilée et de cuisine méditerranéenne, il aime partager des repas avec des amis autour d'une bonne table. \nIl valorise l'honnêteté, l'humour subtil et les conversations profondes. \nSur le plan sentimental, il cherche une partenaire indépendante, avec qui construire quelque chose de solide et de sincère. \nIl est à l'aise en français comme en hébreu, et se sent chez lui dans les deux cultures. \nLégèrement introverti mais chaleureux en petit comité, il préfère la qualité à la quantité dans ses relations."
+      },
+      "profil_b": {
+        "id": 4,
+        "nom": "Noa",
+        "age": "27",
+        "sexe": "Femme",
+        "telephone": "0507778899",
+        "resume_ia": "Noa est une jeune femme solaire et créative, graphiste freelance passionnée par le design et la photographie urbaine. \nNée à Lyon, elle vit à Tel Aviv depuis 3 ans et adore l'énergie de la ville. \nElle est spontanée, drôle, et aime sortir aussi bien dans des bars branchés de Rothschild que dans des musées le dimanche matin. \nTrès curieuse, elle apprend constamment : elle suit actuellement des cours de poterie et d'arabe dialectal. \nSur le plan sentimental, elle cherche quelqu'un d'aventurier, ouvert d'esprit, avec qui rire et voyager. \nElle n'a pas peur des profondeurs émotionnelles mais tient à sa légèreté de vivre. \nElle valorise l'authenticité par-dessus tout et déteste les jeux de séduction superficiels."
+      },
+      "score": 62,
+      "score_h": 50,
+      "score_f": 75,
+      "raison": "Candidat 1 semble partager les valeurs d'authenticité et d'ouverture d'esprit de Noa.",
+      "mutual": false
+    },
+    {
+      "profil_a": {
+        "id": 2,
+        "nom": "Noam",
+        "age": "29",
+        "sexe": "Homme",
+        "telephone": "0529876543",
+        "resume_ia": "Noam est un jeune homme énergique et optimiste, originaire de Paris, installé à Tel Aviv depuis 4 ans. \nIl travaille comme chef dans un restaurant gastronomique de Florentine et vit pleinement sa passion pour la cuisine créative. \nGrand sportif, il pratique le beach-volley et la natation presque chaque matin. \nIl est extraverti, aime les sorties culturelles, les concerts de jazz et les voyages spontanés. \nSur le plan personnel, il cherche une femme avec qui partager sa joie de vivre, ses aventures et ses projets. \nIl valorise l'authenticité et n'a pas peur de montrer ses émotions. \nTrès attaché à la famille, il rêve de construire un foyer chaleureux mêlant les cultures française et israélienne."
+      },
+      "profil_b": {
+        "id": 4,
+        "nom": "Noa",
+        "age": "27",
+        "sexe": "Femme",
+        "telephone": "0507778899",
+        "resume_ia": "Noa est une jeune femme solaire et créative, graphiste freelance passionnée par le design et la photographie urbaine. \nNée à Lyon, elle vit à Tel Aviv depuis 3 ans et adore l'énergie de la ville. \nElle est spontanée, drôle, et aime sortir aussi bien dans des bars branchés de Rothschild que dans des musées le dimanche matin. \nTrès curieuse, elle apprend constamment : elle suit actuellement des cours de poterie et d'arabe dialectal. \nSur le plan sentimental, elle cherche quelqu'un d'aventurier, ouvert d'esprit, avec qui rire et voyager. \nElle n'a pas peur des profondeurs émotionnelles mais tient à sa légèreté de vivre. \nElle valorise l'authenticité par-dessus tout et déteste les jeux de séduction superficiels."
+      },
+      "score": 55,
+      "score_h": 50,
+      "score_f": 60,
+      "raison": "Candidat 2 présente quelques points communs mais moins d'affinités profondes avec le profil de Noa.",
+      "mutual": false
+    },
+    {
+      "profil_a": {
+        "id": 1,
+        "nom": "David",
+        "age": "34",
+        "sexe": "Homme",
+        "telephone": "0501234567",
+        "resume_ia": "David est un homme curieux et bienveillant, profondément attaché à ses racines tout en étant ouvert sur le monde. \nIl travaille dans le hi-tech à Tel Aviv et apprécie l'équilibre entre ambition professionnelle et vie personnelle épanouie. \nPassionné de randonnée en Galilée et de cuisine méditerranéenne, il aime partager des repas avec des amis autour d'une bonne table. \nIl valorise l'honnêteté, l'humour subtil et les conversations profondes. \nSur le plan sentimental, il cherche une partenaire indépendante, avec qui construire quelque chose de solide et de sincère. \nIl est à l'aise en français comme en hébreu, et se sent chez lui dans les deux cultures. \nLégèrement introverti mais chaleureux en petit comité, il préfère la qualité à la quantité dans ses relations."
+      },
+      "profil_b": {
+        "id": 3,
+        "nom": "Sophie",
+        "age": "31",
+        "sexe": "Femme",
+        "telephone": "0541112233",
+        "resume_ia": "Sophie est une femme indépendante et cultivée, psychologue de formation, installée à Tel Aviv depuis 6 ans. \nElle est profondément empathique et à l'écoute, qualités qu'elle applique autant dans sa vie professionnelle que personnelle. \nElle aime la littérature, le yoga du matin et les longues balades au bord de la mer. \nDiscrète mais passionnée, elle s'exprime avec beaucoup de profondeur dès qu'elle est en confiance. \nElle cherche un homme mature, capable de vraie communication et d'engagement sincère. \nElle est attachée à ses valeurs : honnêteté, douceur, sens de l'humour. \nGrande cuisinière, elle adore organiser des dîners intimes où la conversation coule autant que le vin."
+      },
+      "score": 50,
+      "score_h": 50,
+      "score_f": 50,
+      "raison": "",
+      "mutual": false
+    },
+    {
+      "profil_a": {
+        "id": 2,
+        "nom": "Noam",
+        "age": "29",
+        "sexe": "Homme",
+        "telephone": "0529876543",
+        "resume_ia": "Noam est un jeune homme énergique et optimiste, originaire de Paris, installé à Tel Aviv depuis 4 ans. \nIl travaille comme chef dans un restaurant gastronomique de Florentine et vit pleinement sa passion pour la cuisine créative. \nGrand sportif, il pratique le beach-volley et la natation presque chaque matin. \nIl est extraverti, aime les sorties culturelles, les concerts de jazz et les voyages spontanés. \nSur le plan personnel, il cherche une femme avec qui partager sa joie de vivre, ses aventures et ses projets. \nIl valorise l'authenticité et n'a pas peur de montrer ses émotions. \nTrès attaché à la famille, il rêve de construire un foyer chaleureux mêlant les cultures française et israélienne."
+      },
+      "profil_b": {
+        "id": 3,
+        "nom": "Sophie",
+        "age": "31",
+        "sexe": "Femme",
+        "telephone": "0541112233",
+        "resume_ia": "Sophie est une femme indépendante et cultivée, psychologue de formation, installée à Tel Aviv depuis 6 ans. \nElle est profondément empathique et à l'écoute, qualités qu'elle applique autant dans sa vie professionnelle que personnelle. \nElle aime la littérature, le yoga du matin et les longues balades au bord de la mer. \nDiscrète mais passionnée, elle s'exprime avec beaucoup de profondeur dès qu'elle est en confiance. \nElle cherche un homme mature, capable de vraie communication et d'engagement sincère. \nElle est attachée à ses valeurs : honnêteté, douceur, sens de l'humour. \nGrande cuisinière, elle adore organiser des dîners intimes où la conversation coule autant que le vin."
+      },
+      "score": 50,
+      "score_h": 50,
+      "score_f": 50,
+      "raison": "",
+      "mutual": false
+    }
+  ],
+  "best_per_person": [
+    {
+      "personne": {
+        "id": 1,
+        "nom": "David",
+        "age": "34",
+        "sexe": "Homme",
+        "telephone": "0501234567",
+        "resume_ia": "David est un homme curieux et bienveillant, profondément attaché à ses racines tout en étant ouvert sur le monde. \nIl travaille dans le hi-tech à Tel Aviv et apprécie l'équilibre entre ambition professionnelle et vie personnelle épanouie. \nPassionné de randonnée en Galilée et de cuisine méditerranéenne, il aime partager des repas avec des amis autour d'une bonne table. \nIl valorise l'honnêteté, l'humour subtil et les conversations profondes. \nSur le plan sentimental, il cherche une partenaire indépendante, avec qui construire quelque chose de solide et de sincère. \nIl est à l'aise en français comme en hébreu, et se sent chez lui dans les deux cultures. \nLégèrement introverti mais chaleureux en petit comité, il préfère la qualité à la quantité dans ses relations."
+      },
+      "meilleur_match": {
+        "id": 4,
+        "nom": "Noa",
+        "age": "27",
+        "sexe": "Femme",
+        "telephone": "0507778899",
+        "resume_ia": "Noa est une jeune femme solaire et créative, graphiste freelance passionnée par le design et la photographie urbaine. \nNée à Lyon, elle vit à Tel Aviv depuis 3 ans et adore l'énergie de la ville. \nElle est spontanée, drôle, et aime sortir aussi bien dans des bars branchés de Rothschild que dans des musées le dimanche matin. \nTrès curieuse, elle apprend constamment : elle suit actuellement des cours de poterie et d'arabe dialectal. \nSur le plan sentimental, elle cherche quelqu'un d'aventurier, ouvert d'esprit, avec qui rire et voyager. \nElle n'a pas peur des profondeurs émotionnelles mais tient à sa légèreté de vivre. \nElle valorise l'authenticité par-dessus tout et déteste les jeux de séduction superficiels."
+      },
+      "score": 62,
+      "raison": "Candidat 1 semble partager les valeurs d'authenticité et d'ouverture d'esprit de Noa.",
+      "top3": [
+        {
+          "match": {
+            "id": 4,
+            "nom": "Noa",
+            "age": "27",
+            "sexe": "Femme",
+            "telephone": "0507778899",
+            "resume_ia": "Noa est une jeune femme solaire et créative, graphiste freelance passionnée par le design et la photographie urbaine. \nNée à Lyon, elle vit à Tel Aviv depuis 3 ans et adore l'énergie de la ville. \nElle est spontanée, drôle, et aime sortir aussi bien dans des bars branchés de Rothschild que dans des musées le dimanche matin. \nTrès curieuse, elle apprend constamment : elle suit actuellement des cours de poterie et d'arabe dialectal. \nSur le plan sentimental, elle cherche quelqu'un d'aventurier, ouvert d'esprit, avec qui rire et voyager. \nElle n'a pas peur des profondeurs émotionnelles mais tient à sa légèreté de vivre. \nElle valorise l'authenticité par-dessus tout et déteste les jeux de séduction superficiels."
+          },
+          "score": 62,
+          "raison": "Candidat 1 semble partager les valeurs d'authenticité et d'ouverture d'esprit de Noa.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 3,
+            "nom": "Sophie",
+            "age": "31",
+            "sexe": "Femme",
+            "telephone": "0541112233",
+            "resume_ia": "Sophie est une femme indépendante et cultivée, psychologue de formation, installée à Tel Aviv depuis 6 ans. \nElle est profondément empathique et à l'écoute, qualités qu'elle applique autant dans sa vie professionnelle que personnelle. \nElle aime la littérature, le yoga du matin et les longues balades au bord de la mer. \nDiscrète mais passionnée, elle s'exprime avec beaucoup de profondeur dès qu'elle est en confiance. \nElle cherche un homme mature, capable de vraie communication et d'engagement sincère. \nElle est attachée à ses valeurs : honnêteté, douceur, sens de l'humour. \nGrande cuisinière, elle adore organiser des dîners intimes où la conversation coule autant que le vin."
+          },
+          "score": 50,
+          "raison": "",
+          "mutual": false
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 4,
+        "nom": "Noa",
+        "age": "27",
+        "sexe": "Femme",
+        "telephone": "0507778899",
+        "resume_ia": "Noa est une jeune femme solaire et créative, graphiste freelance passionnée par le design et la photographie urbaine. \nNée à Lyon, elle vit à Tel Aviv depuis 3 ans et adore l'énergie de la ville. \nElle est spontanée, drôle, et aime sortir aussi bien dans des bars branchés de Rothschild que dans des musées le dimanche matin. \nTrès curieuse, elle apprend constamment : elle suit actuellement des cours de poterie et d'arabe dialectal. \nSur le plan sentimental, elle cherche quelqu'un d'aventurier, ouvert d'esprit, avec qui rire et voyager. \nElle n'a pas peur des profondeurs émotionnelles mais tient à sa légèreté de vivre. \nElle valorise l'authenticité par-dessus tout et déteste les jeux de séduction superficiels."
+      },
+      "meilleur_match": {
+        "id": 1,
+        "nom": "David",
+        "age": "34",
+        "sexe": "Homme",
+        "telephone": "0501234567",
+        "resume_ia": "David est un homme curieux et bienveillant, profondément attaché à ses racines tout en étant ouvert sur le monde. \nIl travaille dans le hi-tech à Tel Aviv et apprécie l'équilibre entre ambition professionnelle et vie personnelle épanouie. \nPassionné de randonnée en Galilée et de cuisine méditerranéenne, il aime partager des repas avec des amis autour d'une bonne table. \nIl valorise l'honnêteté, l'humour subtil et les conversations profondes. \nSur le plan sentimental, il cherche une partenaire indépendante, avec qui construire quelque chose de solide et de sincère. \nIl est à l'aise en français comme en hébreu, et se sent chez lui dans les deux cultures. \nLégèrement introverti mais chaleureux en petit comité, il préfère la qualité à la quantité dans ses relations."
+      },
+      "score": 62,
+      "raison": "Candidat 1 semble partager les valeurs d'authenticité et d'ouverture d'esprit de Noa.",
+      "top3": [
+        {
+          "match": {
+            "id": 1,
+            "nom": "David",
+            "age": "34",
+            "sexe": "Homme",
+            "telephone": "0501234567",
+            "resume_ia": "David est un homme curieux et bienveillant, profondément attaché à ses racines tout en étant ouvert sur le monde. \nIl travaille dans le hi-tech à Tel Aviv et apprécie l'équilibre entre ambition professionnelle et vie personnelle épanouie. \nPassionné de randonnée en Galilée et de cuisine méditerranéenne, il aime partager des repas avec des amis autour d'une bonne table. \nIl valorise l'honnêteté, l'humour subtil et les conversations profondes. \nSur le plan sentimental, il cherche une partenaire indépendante, avec qui construire quelque chose de solide et de sincère. \nIl est à l'aise en français comme en hébreu, et se sent chez lui dans les deux cultures. \nLégèrement introverti mais chaleureux en petit comité, il préfère la qualité à la quantité dans ses relations."
+          },
+          "score": 62,
+          "raison": "Candidat 1 semble partager les valeurs d'authenticité et d'ouverture d'esprit de Noa.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 2,
+            "nom": "Noam",
+            "age": "29",
+            "sexe": "Homme",
+            "telephone": "0529876543",
+            "resume_ia": "Noam est un jeune homme énergique et optimiste, originaire de Paris, installé à Tel Aviv depuis 4 ans. \nIl travaille comme chef dans un restaurant gastronomique de Florentine et vit pleinement sa passion pour la cuisine créative. \nGrand sportif, il pratique le beach-volley et la natation presque chaque matin. \nIl est extraverti, aime les sorties culturelles, les concerts de jazz et les voyages spontanés. \nSur le plan personnel, il cherche une femme avec qui partager sa joie de vivre, ses aventures et ses projets. \nIl valorise l'authenticité et n'a pas peur de montrer ses émotions. \nTrès attaché à la famille, il rêve de construire un foyer chaleureux mêlant les cultures française et israélienne."
+          },
+          "score": 55,
+          "raison": "Candidat 2 présente quelques points communs mais moins d'affinités profondes avec le profil de Noa.",
+          "mutual": false
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 2,
+        "nom": "Noam",
+        "age": "29",
+        "sexe": "Homme",
+        "telephone": "0529876543",
+        "resume_ia": "Noam est un jeune homme énergique et optimiste, originaire de Paris, installé à Tel Aviv depuis 4 ans. \nIl travaille comme chef dans un restaurant gastronomique de Florentine et vit pleinement sa passion pour la cuisine créative. \nGrand sportif, il pratique le beach-volley et la natation presque chaque matin. \nIl est extraverti, aime les sorties culturelles, les concerts de jazz et les voyages spontanés. \nSur le plan personnel, il cherche une femme avec qui partager sa joie de vivre, ses aventures et ses projets. \nIl valorise l'authenticité et n'a pas peur de montrer ses émotions. \nTrès attaché à la famille, il rêve de construire un foyer chaleureux mêlant les cultures française et israélienne."
+      },
+      "meilleur_match": {
+        "id": 4,
+        "nom": "Noa",
+        "age": "27",
+        "sexe": "Femme",
+        "telephone": "0507778899",
+        "resume_ia": "Noa est une jeune femme solaire et créative, graphiste freelance passionnée par le design et la photographie urbaine. \nNée à Lyon, elle vit à Tel Aviv depuis 3 ans et adore l'énergie de la ville. \nElle est spontanée, drôle, et aime sortir aussi bien dans des bars branchés de Rothschild que dans des musées le dimanche matin. \nTrès curieuse, elle apprend constamment : elle suit actuellement des cours de poterie et d'arabe dialectal. \nSur le plan sentimental, elle cherche quelqu'un d'aventurier, ouvert d'esprit, avec qui rire et voyager. \nElle n'a pas peur des profondeurs émotionnelles mais tient à sa légèreté de vivre. \nElle valorise l'authenticité par-dessus tout et déteste les jeux de séduction superficiels."
+      },
+      "score": 55,
+      "raison": "Candidat 2 présente quelques points communs mais moins d'affinités profondes avec le profil de Noa.",
+      "top3": [
+        {
+          "match": {
+            "id": 4,
+            "nom": "Noa",
+            "age": "27",
+            "sexe": "Femme",
+            "telephone": "0507778899",
+            "resume_ia": "Noa est une jeune femme solaire et créative, graphiste freelance passionnée par le design et la photographie urbaine. \nNée à Lyon, elle vit à Tel Aviv depuis 3 ans et adore l'énergie de la ville. \nElle est spontanée, drôle, et aime sortir aussi bien dans des bars branchés de Rothschild que dans des musées le dimanche matin. \nTrès curieuse, elle apprend constamment : elle suit actuellement des cours de poterie et d'arabe dialectal. \nSur le plan sentimental, elle cherche quelqu'un d'aventurier, ouvert d'esprit, avec qui rire et voyager. \nElle n'a pas peur des profondeurs émotionnelles mais tient à sa légèreté de vivre. \nElle valorise l'authenticité par-dessus tout et déteste les jeux de séduction superficiels."
+          },
+          "score": 55,
+          "raison": "Candidat 2 présente quelques points communs mais moins d'affinités profondes avec le profil de Noa.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 3,
+            "nom": "Sophie",
+            "age": "31",
+            "sexe": "Femme",
+            "telephone": "0541112233",
+            "resume_ia": "Sophie est une femme indépendante et cultivée, psychologue de formation, installée à Tel Aviv depuis 6 ans. \nElle est profondément empathique et à l'écoute, qualités qu'elle applique autant dans sa vie professionnelle que personnelle. \nElle aime la littérature, le yoga du matin et les longues balades au bord de la mer. \nDiscrète mais passionnée, elle s'exprime avec beaucoup de profondeur dès qu'elle est en confiance. \nElle cherche un homme mature, capable de vraie communication et d'engagement sincère. \nElle est attachée à ses valeurs : honnêteté, douceur, sens de l'humour. \nGrande cuisinière, elle adore organiser des dîners intimes où la conversation coule autant que le vin."
+          },
+          "score": 50,
+          "raison": "",
+          "mutual": false
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 3,
+        "nom": "Sophie",
+        "age": "31",
+        "sexe": "Femme",
+        "telephone": "0541112233",
+        "resume_ia": "Sophie est une femme indépendante et cultivée, psychologue de formation, installée à Tel Aviv depuis 6 ans. \nElle est profondément empathique et à l'écoute, qualités qu'elle applique autant dans sa vie professionnelle que personnelle. \nElle aime la littérature, le yoga du matin et les longues balades au bord de la mer. \nDiscrète mais passionnée, elle s'exprime avec beaucoup de profondeur dès qu'elle est en confiance. \nElle cherche un homme mature, capable de vraie communication et d'engagement sincère. \nElle est attachée à ses valeurs : honnêteté, douceur, sens de l'humour. \nGrande cuisinière, elle adore organiser des dîners intimes où la conversation coule autant que le vin."
+      },
+      "meilleur_match": {
+        "id": 1,
+        "nom": "David",
+        "age": "34",
+        "sexe": "Homme",
+        "telephone": "0501234567",
+        "resume_ia": "David est un homme curieux et bienveillant, profondément attaché à ses racines tout en étant ouvert sur le monde. \nIl travaille dans le hi-tech à Tel Aviv et apprécie l'équilibre entre ambition professionnelle et vie personnelle épanouie. \nPassionné de randonnée en Galilée et de cuisine méditerranéenne, il aime partager des repas avec des amis autour d'une bonne table. \nIl valorise l'honnêteté, l'humour subtil et les conversations profondes. \nSur le plan sentimental, il cherche une partenaire indépendante, avec qui construire quelque chose de solide et de sincère. \nIl est à l'aise en français comme en hébreu, et se sent chez lui dans les deux cultures. \nLégèrement introverti mais chaleureux en petit comité, il préfère la qualité à la quantité dans ses relations."
+      },
+      "score": 50,
+      "raison": "",
+      "top3": [
+        {
+          "match": {
+            "id": 1,
+            "nom": "David",
+            "age": "34",
+            "sexe": "Homme",
+            "telephone": "0501234567",
+            "resume_ia": "David est un homme curieux et bienveillant, profondément attaché à ses racines tout en étant ouvert sur le monde. \nIl travaille dans le hi-tech à Tel Aviv et apprécie l'équilibre entre ambition professionnelle et vie personnelle épanouie. \nPassionné de randonnée en Galilée et de cuisine méditerranéenne, il aime partager des repas avec des amis autour d'une bonne table. \nIl valorise l'honnêteté, l'humour subtil et les conversations profondes. \nSur le plan sentimental, il cherche une partenaire indépendante, avec qui construire quelque chose de solide et de sincère. \nIl est à l'aise en français comme en hébreu, et se sent chez lui dans les deux cultures. \nLégèrement introverti mais chaleureux en petit comité, il préfère la qualité à la quantité dans ses relations."
+          },
+          "score": 50,
+          "raison": "",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 2,
+            "nom": "Noam",
+            "age": "29",
+            "sexe": "Homme",
+            "telephone": "0529876543",
+            "resume_ia": "Noam est un jeune homme énergique et optimiste, originaire de Paris, installé à Tel Aviv depuis 4 ans. \nIl travaille comme chef dans un restaurant gastronomique de Florentine et vit pleinement sa passion pour la cuisine créative. \nGrand sportif, il pratique le beach-volley et la natation presque chaque matin. \nIl est extraverti, aime les sorties culturelles, les concerts de jazz et les voyages spontanés. \nSur le plan personnel, il cherche une femme avec qui partager sa joie de vivre, ses aventures et ses projets. \nIl valorise l'authenticité et n'a pas peur de montrer ses émotions. \nTrès attaché à la famille, il rêve de construire un foyer chaleureux mêlant les cultures française et israélienne."
+          },
+          "score": 50,
+          "raison": "",
+          "mutual": false
+        }
+      ]
+    }
+  ],
+  "mutual_matches": [],
+  "total_profils": 4,
+  "stats": {
+    "hommes": 2,
+    "femmes": 2,
+    "mutuals": 0
+  }
+}
