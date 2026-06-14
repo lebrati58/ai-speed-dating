@@ -568,7 +568,7 @@ function matchCard(m, index) {
       ${ring(m.score, isMutual)}
       <div class="match-names">
         <div class="match-person">
-          <div class="person-name">${m.profil_a.nom}</div>
+          <div class="person-name">${m.profil_a.nom} ${m.profil_a.nom_famille||''}</div>
           <div class="person-age">${m.profil_a.age} ans</div>
           <div class="affinity-bar-wrap">
             <div class="affinity-bar-bg">
@@ -578,7 +578,7 @@ function matchCard(m, index) {
         </div>
         <div class="match-divider">${divider}</div>
         <div class="match-person right">
-          <div class="person-name">${m.profil_b.nom}</div>
+          <div class="person-name">${m.profil_b.nom} ${m.profil_b.nom_famille||''}</div>
           <div class="person-age">${m.profil_b.age} ans</div>
         </div>
       </div>
@@ -637,7 +637,7 @@ function renderPersons(persons) {
         <div class="match-entry">
           <div class="entry-rank${isMut ? ' mutual-rank' : ''}">${i+1}</div>
           <div class="entry-info">
-            <div class="entry-name${isMut ? ' rose' : ''}">${e.match.nom}${isMut ? ' ♥' : ''}</div>
+            <div class="entry-name${isMut ? ' rose' : ''}">${e.match.nom} ${e.match.nom_famille||''}${isMut ? ' ♥' : ''}</div>
             <div class="entry-meta">${e.match.age} ans · ${e.score}% compatibilité</div>
             <div class="entry-raison">${e.raison || ''}</div>
           </div>
@@ -650,7 +650,7 @@ function renderPersons(persons) {
       const isMut = e.mutual === true;
       return `
         <div class="affinity-row">
-          <div class="affinity-name">${e.match.nom}</div>
+          <div class="affinity-name">${e.match.nom} ${e.match.nom_famille||''}</div>
           <div class="affinity-bar-outer">
             <div class="affinity-bar-inner${isMut ? ' rose-bar' : ''}" style="width:${e.score}%"></div>
           </div>
@@ -663,7 +663,7 @@ function renderPersons(persons) {
         <div class="person-card-header">
           <div class="person-avatar">${initiale}</div>
           <div>
-            <div class="person-card-name">${p.personne.nom}</div>
+            <div class="person-card-name">${p.personne.nom} ${p.personne.nom_famille||''}</div>
             <div class="person-card-age">${p.personne.age} ans · ${p.personne.sexe}</div>
           </div>
         </div>
