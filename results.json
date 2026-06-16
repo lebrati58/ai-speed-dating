@@ -2,258 +2,634 @@
   "top_matchs": [
     {
       "profil_a": {
-        "id": 3,
+        "id": 8,
         "nom": "David",
-        "nom_famille": "Katz",
-        "age": "30",
-        "sexe": "Homme",
-        "telephone": "+972503333333",
-        "resume_ia": "David est un ingénieur high-tech ashkénaze, né à Paris et installé à Tel Aviv depuis 5 ans. Il est traditionaliste sans être très pratiquant — il fait Shabbat en famille mais ne porte pas de kippa. Il cherche une femme intelligente, ambitieuse, avec un sens de l'humour développé et une forte identité juive. Il aime le sport, les voyages, les bons restaurants et les soirées cinéma. Ce qui le rend unique : sa capacité d'écoute, sa loyauté sans faille et son côté romantique discret."
+        "nom_famille": "Bit",
+        "age": "42",
+        "sexe": "Masculin",
+        "telephone": "547363627",
+        "resume_ia": "**Prénom :** David\n**Âge :** 46\n**Situation :** Divorcé\n**Enfants :** 2 (grands, chez leur mère)\n**Ville :** Ramat Gan\n**Profession :** Ingénieur / chef de projet\n**Bio :** Papa impliqué, j'aime les week-ends en nature, la bonne cuisine et les moments simples. Je cherche une relation sérieuse avec quelqu'un de vrai. Les familles recomposées ne me font pas peur — au contraire.\n**Hauteur :** 178 cm\n**Fumeur :** Non\n**Religion :** Juif traditionnel"
       },
       "profil_b": {
-        "id": 1,
-        "nom": "Sophie",
-        "nom_famille": "Lévy",
-        "age": "28",
-        "sexe": "Femme",
-        "telephone": "+972501111111",
-        "resume_ia": "Sophie est une femme juive pratiquante, chaleureuse et ambitieuse. Elle travaille comme avocate à Tel Aviv et est très attachée à ses racines ashkénazes. Elle cherche un partenaire juif qui partage ses valeurs familiales et sa vision d'un foyer traditionnel tout en étant ouvert sur le monde. Passionnée de voyages, de cuisine française et de randonnée, elle aime les week-ends en famille et les dîners de Shabbat animés. Ce qui la rend unique : sa capacité à allier modernité et tradition avec élégance et humour."
+        "id": 7,
+        "nom": "Yoella",
+        "nom_famille": "Betito",
+        "age": "42",
+        "sexe": "Féminin",
+        "telephone": "547366262",
+        "resume_ia": "**Prénom :** Yoella\n**Âge :** 42\n**Situation :** Divorcée\n**Enfants :** 3\n**Ville :** Tel Aviv\n**Profession :** Responsable RH\n**Bio :** Maman de 3 enfants, j'aime cuisiner, les randonnées et les soirées tranquilles. Je cherche quelqu'un de stable et bienveillant, qui sait rire et qui accepte une vie bien remplie 😊\n**Hauteur :** 165 cm\n**Fumeur :** Non\n**Religion :** Juive traditionnelle"
       },
-      "score": 90,
+      "score": 91,
       "score_h": 91,
-      "score_f": 88,
-      "raison": "Sophie partage avec David le même ancrage ashkénaze, un équilibre identique entre modernité et tradition, une vie à Tel Aviv, une ambition professionnelle et un goût commun pour les voyages et les dîners de Shabbat, en faisant une correspondance quasi-idéale.",
+      "score_f": 91,
+      "raison": "Compatibilité quasi-parfaite : même situation (divorcé(e), enfants, ouvert aux familles recomposées), même religion traditionnelle, mêmes goûts (cuisine, randonnée, soirées tranquilles) et même ville en proximité immédiate.",
       "mutual": true
     },
     {
       "profil_a": {
-        "id": 4,
+        "id": 2,
+        "nom": "Noam",
+        "nom_famille": "Lévy",
+        "age": "29",
+        "sexe": "Masculin",
+        "telephone": "529876543",
+        "resume_ia": "Noam est un chef cuisinier parisien installé à Tel Aviv depuis 4 ans. Très extraverti, il aime les sorties culturelles, le jazz et les voyages spontanés. Grand sportif, il fait du beach-volley chaque matin. Il cherche une femme avec qui partager sa joie de vivre. Très attaché à la famille, il rêve d'un foyer mêlant cultures française et israélienne."
+      },
+      "profil_b": {
+        "id": 5,
+        "nom": "Noa",
+        "nom_famille": "Peretz",
+        "age": "27",
+        "sexe": "Féminin",
+        "telephone": "507778899",
+        "resume_ia": "Noa est graphiste freelance, solaire et créative, passionnée de photographie urbaine. Née à Lyon, elle vit à Tel Aviv depuis 3 ans et adore l'énergie de la ville. Spontanée et drôle, elle aime autant les bars branchés que les musées. Elle suit des cours de poterie et d'arabe. Elle cherche quelqu'un d'aventurier avec qui rire et voyager."
+      },
+      "score": 88,
+      "score_h": 88,
+      "score_f": 88,
+      "raison": "Expatriée française à Tel Aviv, spontanée, aventurière et créative, Noa partage le même ancrage géographique, la même énergie de vie et la même soif de voyages que Noam, avec une compatibilité culturelle franco-israélienne quasi idéale.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 3,
         "nom": "Raphaël",
         "nom_famille": "Bensimon",
-        "age": "33",
-        "sexe": "Homme",
-        "telephone": "+972504444444",
-        "resume_ia": "Raphaël est un chef cuisinier séfarade de Holon, chaleureux et expressif. Très attaché à ses origines tunisiennes, il est peu pratiquant mais célèbre toutes les fêtes juives avec passion. Il cherche une femme vivante, authentique, qui aime manger, rire et voyager. Il a besoin de quelqu'un qui comprend l'importance de la famille et des racines culturelles. Son côté unique : il transforme chaque repas en fête et chaque moment ordinaire en souvenir. Il est généreux, parfois impulsif, et toujours sincère."
+        "age": "37",
+        "sexe": "Masculin",
+        "telephone": "543219876",
+        "resume_ia": "Raphaël est architecte, créatif et passionné par l'art et le design urbain. Calme et réfléchi, il aime les musées, la photographie et les restaurants cachés. Il valorise la profondeur émotionnelle et l'intelligence. Il cherche une femme cultivée, indépendante, avec qui partager la beauté du quotidien. Un peu introverti mais très chaleureux une fois en confiance."
       },
       "profil_b": {
-        "id": 2,
-        "nom": "Maya",
-        "nom_famille": "Cohen",
+        "id": 4,
+        "nom": "Sophie",
+        "nom_famille": "Katz",
         "age": "31",
-        "sexe": "Femme",
-        "telephone": "+972502222222",
-        "resume_ia": "Maya est une artiste peintre séfarade, libre-penseuse et solaire. Elle a grandi à Netanya dans une famille marocaine très soudée. Elle est peu pratiquante mais très attachée à la culture et aux traditions juives séfarades. Elle recherche quelqu'un de curieux, drôle et ouvert, pas forcément très religieux, qui aime les arts, les soirées entre amis et les débats. Son moteur : la créativité et l'authenticité. Elle est directe, généreuse et légèrement désordonnée — ce qui la rend attachante."
+        "sexe": "Féminin",
+        "telephone": "541112233",
+        "resume_ia": "Sophie est psychologue, empathique et à l'écoute. Elle aime la littérature, le yoga et les balades en bord de mer. Discrète mais passionnée, elle s'exprime avec profondeur dès qu'elle est en confiance. Elle cherche un homme mature capable de vraie communication. Grande cuisinière, elle adore les dîners intimes où la conversation coule autant que le vin."
       },
-      "score": 90,
-      "score_h": 91,
+      "score": 85,
+      "score_h": 82,
       "score_f": 88,
-      "raison": "Maya partage avec Raphaël les mêmes racines séfarades, le même niveau de pratique, la même authenticité et la même énergie généreuse et créative — une connexion culturelle et humaine quasi immédiate.",
+      "raison": "Psychologue empathique et profonde, elle partage avec Raphaël le goût des dîners intimes, de la vraie communication et d'une connexion émotionnelle authentique.",
       "mutual": true
     },
     {
       "profil_a": {
         "id": 3,
-        "nom": "David",
-        "nom_famille": "Katz",
-        "age": "30",
-        "sexe": "Homme",
-        "telephone": "+972503333333",
-        "resume_ia": "David est un ingénieur high-tech ashkénaze, né à Paris et installé à Tel Aviv depuis 5 ans. Il est traditionaliste sans être très pratiquant — il fait Shabbat en famille mais ne porte pas de kippa. Il cherche une femme intelligente, ambitieuse, avec un sens de l'humour développé et une forte identité juive. Il aime le sport, les voyages, les bons restaurants et les soirées cinéma. Ce qui le rend unique : sa capacité d'écoute, sa loyauté sans faille et son côté romantique discret."
+        "nom": "Raphaël",
+        "nom_famille": "Bensimon",
+        "age": "37",
+        "sexe": "Masculin",
+        "telephone": "543219876",
+        "resume_ia": "Raphaël est architecte, créatif et passionné par l'art et le design urbain. Calme et réfléchi, il aime les musées, la photographie et les restaurants cachés. Il valorise la profondeur émotionnelle et l'intelligence. Il cherche une femme cultivée, indépendante, avec qui partager la beauté du quotidien. Un peu introverti mais très chaleureux une fois en confiance."
       },
       "profil_b": {
-        "id": 2,
-        "nom": "Maya",
-        "nom_famille": "Cohen",
-        "age": "31",
-        "sexe": "Femme",
-        "telephone": "+972502222222",
-        "resume_ia": "Maya est une artiste peintre séfarade, libre-penseuse et solaire. Elle a grandi à Netanya dans une famille marocaine très soudée. Elle est peu pratiquante mais très attachée à la culture et aux traditions juives séfarades. Elle recherche quelqu'un de curieux, drôle et ouvert, pas forcément très religieux, qui aime les arts, les soirées entre amis et les débats. Son moteur : la créativité et l'authenticité. Elle est directe, généreuse et légèrement désordonnée — ce qui la rend attachante."
+        "id": 9,
+        "nom": "Yoella",
+        "nom_famille": "Betito",
+        "age": "45",
+        "sexe": "Féminin",
+        "telephone": "584875830",
+        "resume_ia": "Yoella est une femme de 45 ans, installée en Israël depuis plusieurs années, indépendante, curieuse et profondément tournée vers la croissance personnelle. Designer de meubles et d’espaces, elle aime créer, entreprendre et transformer les idées en projets concrets. Passionnée par les voyages, elle privilégie les destinations qui offrent des paysages marquants, de l’authenticité et des découvertes humaines.\n\nMaman de trois enfants en garde partagée, elle a construit une vie équilibrée entre liberté, famille, travail et épanouissement personnel. En relation, elle recherche avant tout la transparence, la cohérence entre les paroles et les actes, la stabilité émotionnelle et la capacité à s’investir réellement dans une histoire.\n\nSes valeurs centrales sont l’honnêteté, la responsabilité, la liberté de choix, la bienveillance et le respect mutuel. Elle apprécie les conversations profondes, l’intelligence émotionnelle, l’humour et les personnes capables de se remettre en question.\n\nElle recherche un homme non-fumeur, émotionnellement disponible, cultivé, positif, autonome et prêt à construire une relation sérieuse sans jeux ni ambiguïtés. Ce qui la rend unique : un mélange de sensibilité et de caractère, une grande capacité d’analyse des relations humaines, un goût prononcé pour l’aventure, et cette volonté constante d’avancer tout en restant fidèle à elle-même."
       },
-      "score": 64,
-      "score_h": 67,
-      "score_f": 62,
-      "raison": "Maya offre une belle complicité potentielle sur l'humour, la curiosité et l'ouverture d'esprit, mais la distance culturelle ashkénaze/séfarade, son profil artistique et désorganisé, et l'absence de valeurs familiales traditionnelles explicites créent des frictions non négligeables avec les priorités de David.",
+      "score": 82,
+      "score_h": 88,
+      "score_f": 76,
+      "raison": "Designer d'espaces créative, cultivée, émotionnellement intelligente et en quête de profondeur : un alignement rare et fort avec Raphaël sur les valeurs, les intérêts et l'intensité relationnelle.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 8,
+        "nom": "David",
+        "nom_famille": "Bit",
+        "age": "42",
+        "sexe": "Masculin",
+        "telephone": "547363627",
+        "resume_ia": "**Prénom :** David\n**Âge :** 46\n**Situation :** Divorcé\n**Enfants :** 2 (grands, chez leur mère)\n**Ville :** Ramat Gan\n**Profession :** Ingénieur / chef de projet\n**Bio :** Papa impliqué, j'aime les week-ends en nature, la bonne cuisine et les moments simples. Je cherche une relation sérieuse avec quelqu'un de vrai. Les familles recomposées ne me font pas peur — au contraire.\n**Hauteur :** 178 cm\n**Fumeur :** Non\n**Religion :** Juif traditionnel"
+      },
+      "profil_b": {
+        "id": 9,
+        "nom": "Yoella",
+        "nom_famille": "Betito",
+        "age": "45",
+        "sexe": "Féminin",
+        "telephone": "584875830",
+        "resume_ia": "Yoella est une femme de 45 ans, installée en Israël depuis plusieurs années, indépendante, curieuse et profondément tournée vers la croissance personnelle. Designer de meubles et d’espaces, elle aime créer, entreprendre et transformer les idées en projets concrets. Passionnée par les voyages, elle privilégie les destinations qui offrent des paysages marquants, de l’authenticité et des découvertes humaines.\n\nMaman de trois enfants en garde partagée, elle a construit une vie équilibrée entre liberté, famille, travail et épanouissement personnel. En relation, elle recherche avant tout la transparence, la cohérence entre les paroles et les actes, la stabilité émotionnelle et la capacité à s’investir réellement dans une histoire.\n\nSes valeurs centrales sont l’honnêteté, la responsabilité, la liberté de choix, la bienveillance et le respect mutuel. Elle apprécie les conversations profondes, l’intelligence émotionnelle, l’humour et les personnes capables de se remettre en question.\n\nElle recherche un homme non-fumeur, émotionnellement disponible, cultivé, positif, autonome et prêt à construire une relation sérieuse sans jeux ni ambiguïtés. Ce qui la rend unique : un mélange de sensibilité et de caractère, une grande capacité d’analyse des relations humaines, un goût prononcé pour l’aventure, et cette volonté constante d’avancer tout en restant fidèle à elle-même."
+      },
+      "score": 81,
+      "score_h": 78,
+      "score_f": 84,
+      "raison": "Profil très aligné sur les valeurs (stabilité, transparence, engagement sérieux, non-fumeuse, enfants en garde partagée) et les passions (voyages, création, croissance personnelle), mais l'absence d'indication religieuse explicite et un style de vie plus 'libre/aventurier' introduisent une légère incertitude de compatibilité culturelle.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 1,
+        "nom": "David",
+        "nom_famille": "Cohen",
+        "age": "34",
+        "sexe": "Masculin",
+        "telephone": "501234567",
+        "resume_ia": "David est un homme curieux et bienveillant, profondément attaché à ses racines. Il travaille dans le hi-tech à Tel Aviv et cherche l'équilibre entre ambition et vie épanouie. Passionné de randonnée et de cuisine méditerranéenne. Il valorise l'honnêteté, l'humour et les conversations profondes. Il cherche une partenaire indépendante avec qui construire quelque chose de sincère."
+      },
+      "profil_b": {
+        "id": 4,
+        "nom": "Sophie",
+        "nom_famille": "Katz",
+        "age": "31",
+        "sexe": "Féminin",
+        "telephone": "541112233",
+        "resume_ia": "Sophie est psychologue, empathique et à l'écoute. Elle aime la littérature, le yoga et les balades en bord de mer. Discrète mais passionnée, elle s'exprime avec profondeur dès qu'elle est en confiance. Elle cherche un homme mature capable de vraie communication. Grande cuisinière, elle adore les dîners intimes où la conversation coule autant que le vin."
+      },
+      "score": 78,
+      "score_h": 82,
+      "score_f": 74,
+      "raison": "Sophie partage avec David le goût des conversations profondes, la cuisine et une recherche de connexion sincère et mature, avec une grande compatibilité émotionnelle et de valeurs.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 3,
+        "nom": "Raphaël",
+        "nom_famille": "Bensimon",
+        "age": "37",
+        "sexe": "Masculin",
+        "telephone": "543219876",
+        "resume_ia": "Raphaël est architecte, créatif et passionné par l'art et le design urbain. Calme et réfléchi, il aime les musées, la photographie et les restaurants cachés. Il valorise la profondeur émotionnelle et l'intelligence. Il cherche une femme cultivée, indépendante, avec qui partager la beauté du quotidien. Un peu introverti mais très chaleureux une fois en confiance."
+      },
+      "profil_b": {
+        "id": 5,
+        "nom": "Noa",
+        "nom_famille": "Peretz",
+        "age": "27",
+        "sexe": "Féminin",
+        "telephone": "507778899",
+        "resume_ia": "Noa est graphiste freelance, solaire et créative, passionnée de photographie urbaine. Née à Lyon, elle vit à Tel Aviv depuis 3 ans et adore l'énergie de la ville. Spontanée et drôle, elle aime autant les bars branchés que les musées. Elle suit des cours de poterie et d'arabe. Elle cherche quelqu'un d'aventurier avec qui rire et voyager."
+      },
+      "score": 74,
+      "score_h": 68,
+      "score_f": 80,
+      "raison": "Graphiste passionnée de photo urbaine avec un côté spontané et créatif séduisant, mais sa jeunesse et son énergie plus festive tempèrent légèrement l'alignement avec le profil plus posé de Raphaël.",
       "mutual": false
     },
     {
       "profil_a": {
-        "id": 4,
-        "nom": "Raphaël",
-        "nom_famille": "Bensimon",
-        "age": "33",
-        "sexe": "Homme",
-        "telephone": "+972504444444",
-        "resume_ia": "Raphaël est un chef cuisinier séfarade de Holon, chaleureux et expressif. Très attaché à ses origines tunisiennes, il est peu pratiquant mais célèbre toutes les fêtes juives avec passion. Il cherche une femme vivante, authentique, qui aime manger, rire et voyager. Il a besoin de quelqu'un qui comprend l'importance de la famille et des racines culturelles. Son côté unique : il transforme chaque repas en fête et chaque moment ordinaire en souvenir. Il est généreux, parfois impulsif, et toujours sincère."
+        "id": 1,
+        "nom": "David",
+        "nom_famille": "Cohen",
+        "age": "34",
+        "sexe": "Masculin",
+        "telephone": "501234567",
+        "resume_ia": "David est un homme curieux et bienveillant, profondément attaché à ses racines. Il travaille dans le hi-tech à Tel Aviv et cherche l'équilibre entre ambition et vie épanouie. Passionné de randonnée et de cuisine méditerranéenne. Il valorise l'honnêteté, l'humour et les conversations profondes. Il cherche une partenaire indépendante avec qui construire quelque chose de sincère."
       },
       "profil_b": {
-        "id": 1,
-        "nom": "Sophie",
+        "id": 5,
+        "nom": "Noa",
+        "nom_famille": "Peretz",
+        "age": "27",
+        "sexe": "Féminin",
+        "telephone": "507778899",
+        "resume_ia": "Noa est graphiste freelance, solaire et créative, passionnée de photographie urbaine. Née à Lyon, elle vit à Tel Aviv depuis 3 ans et adore l'énergie de la ville. Spontanée et drôle, elle aime autant les bars branchés que les musées. Elle suit des cours de poterie et d'arabe. Elle cherche quelqu'un d'aventurier avec qui rire et voyager."
+      },
+      "score": 72,
+      "score_h": 71,
+      "score_f": 72,
+      "raison": "Noa est drôle, aventurière et ancrée à Tel Aviv comme David, mais l'écart d'âge (7 ans) et une légèreté plus prononcée peuvent limiter la profondeur de construction commune qu'il recherche.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 2,
+        "nom": "Noam",
         "nom_famille": "Lévy",
-        "age": "28",
-        "sexe": "Femme",
-        "telephone": "+972501111111",
-        "resume_ia": "Sophie est une femme juive pratiquante, chaleureuse et ambitieuse. Elle travaille comme avocate à Tel Aviv et est très attachée à ses racines ashkénazes. Elle cherche un partenaire juif qui partage ses valeurs familiales et sa vision d'un foyer traditionnel tout en étant ouvert sur le monde. Passionnée de voyages, de cuisine française et de randonnée, elle aime les week-ends en famille et les dîners de Shabbat animés. Ce qui la rend unique : sa capacité à allier modernité et tradition avec élégance et humour."
+        "age": "29",
+        "sexe": "Masculin",
+        "telephone": "529876543",
+        "resume_ia": "Noam est un chef cuisinier parisien installé à Tel Aviv depuis 4 ans. Très extraverti, il aime les sorties culturelles, le jazz et les voyages spontanés. Grand sportif, il fait du beach-volley chaque matin. Il cherche une femme avec qui partager sa joie de vivre. Très attaché à la famille, il rêve d'un foyer mêlant cultures française et israélienne."
+      },
+      "profil_b": {
+        "id": 6,
+        "nom": "Maya",
+        "nom_famille": "Goldberg",
+        "age": "33",
+        "sexe": "Féminin",
+        "telephone": "526543210",
+        "resume_ia": "Maya est avocate spécialisée en droit international, ambitieuse mais avec beaucoup d'humour. Elle voyage souvent pour le travail mais aime rentrer chez elle retrouver ses amis. Passionnée de danse latine le week-end, elle cherche un homme sûr de lui mais pas arrogant. Elle valorise la loyauté, l'ambition partagée et la capacité à la légèreté."
+      },
+      "score": 72,
+      "score_h": 72,
+      "score_f": 71,
+      "raison": "Maya est ambitieuse, légère, aime rire et voyager, et sa quête d'un homme sûr de lui colle bien à la personnalité affirmée de Noam, même si son profil plus sédentaire et axé carrière pourrait créer quelques frictions avec son mode de vie spontané.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 1,
+        "nom": "David",
+        "nom_famille": "Cohen",
+        "age": "34",
+        "sexe": "Masculin",
+        "telephone": "501234567",
+        "resume_ia": "David est un homme curieux et bienveillant, profondément attaché à ses racines. Il travaille dans le hi-tech à Tel Aviv et cherche l'équilibre entre ambition et vie épanouie. Passionné de randonnée et de cuisine méditerranéenne. Il valorise l'honnêteté, l'humour et les conversations profondes. Il cherche une partenaire indépendante avec qui construire quelque chose de sincère."
+      },
+      "profil_b": {
+        "id": 6,
+        "nom": "Maya",
+        "nom_famille": "Goldberg",
+        "age": "33",
+        "sexe": "Féminin",
+        "telephone": "526543210",
+        "resume_ia": "Maya est avocate spécialisée en droit international, ambitieuse mais avec beaucoup d'humour. Elle voyage souvent pour le travail mais aime rentrer chez elle retrouver ses amis. Passionnée de danse latine le week-end, elle cherche un homme sûr de lui mais pas arrogant. Elle valorise la loyauté, l'ambition partagée et la capacité à la légèreté."
+      },
+      "score": 70,
+      "score_h": 58,
+      "score_f": 82,
+      "raison": "Maya est ambitieuse et drôle comme David, mais son attrait pour la danse latine, les voyages professionnels fréquents et une dynamique sociale intense s'éloignent de l'équilibre intérieur et des racines que David valorise.",
+      "mutual": false
+    },
+    {
+      "profil_a": {
+        "id": 1,
+        "nom": "David",
+        "nom_famille": "Cohen",
+        "age": "34",
+        "sexe": "Masculin",
+        "telephone": "501234567",
+        "resume_ia": "David est un homme curieux et bienveillant, profondément attaché à ses racines. Il travaille dans le hi-tech à Tel Aviv et cherche l'équilibre entre ambition et vie épanouie. Passionné de randonnée et de cuisine méditerranéenne. Il valorise l'honnêteté, l'humour et les conversations profondes. Il cherche une partenaire indépendante avec qui construire quelque chose de sincère."
+      },
+      "profil_b": {
+        "id": 9,
+        "nom": "Yoella",
+        "nom_famille": "Betito",
+        "age": "45",
+        "sexe": "Féminin",
+        "telephone": "584875830",
+        "resume_ia": "Yoella est une femme de 45 ans, installée en Israël depuis plusieurs années, indépendante, curieuse et profondément tournée vers la croissance personnelle. Designer de meubles et d’espaces, elle aime créer, entreprendre et transformer les idées en projets concrets. Passionnée par les voyages, elle privilégie les destinations qui offrent des paysages marquants, de l’authenticité et des découvertes humaines.\n\nMaman de trois enfants en garde partagée, elle a construit une vie équilibrée entre liberté, famille, travail et épanouissement personnel. En relation, elle recherche avant tout la transparence, la cohérence entre les paroles et les actes, la stabilité émotionnelle et la capacité à s’investir réellement dans une histoire.\n\nSes valeurs centrales sont l’honnêteté, la responsabilité, la liberté de choix, la bienveillance et le respect mutuel. Elle apprécie les conversations profondes, l’intelligence émotionnelle, l’humour et les personnes capables de se remettre en question.\n\nElle recherche un homme non-fumeur, émotionnellement disponible, cultivé, positif, autonome et prêt à construire une relation sérieuse sans jeux ni ambiguïtés. Ce qui la rend unique : un mélange de sensibilité et de caractère, une grande capacité d’analyse des relations humaines, un goût prononcé pour l’aventure, et cette volonté constante d’avancer tout en restant fidèle à elle-même."
+      },
+      "score": 67,
+      "score_h": 76,
+      "score_f": 58,
+      "raison": "Yoella (45 ans) présente une remarquable compatibilité de valeurs — honnêteté, profondeur, humour, indépendance — mais l'écart d'âge de 11 ans et les 3 enfants représentent des défis réels pour construire ensemble.",
+      "mutual": false
+    },
+    {
+      "profil_a": {
+        "id": 1,
+        "nom": "David",
+        "nom_famille": "Cohen",
+        "age": "34",
+        "sexe": "Masculin",
+        "telephone": "501234567",
+        "resume_ia": "David est un homme curieux et bienveillant, profondément attaché à ses racines. Il travaille dans le hi-tech à Tel Aviv et cherche l'équilibre entre ambition et vie épanouie. Passionné de randonnée et de cuisine méditerranéenne. Il valorise l'honnêteté, l'humour et les conversations profondes. Il cherche une partenaire indépendante avec qui construire quelque chose de sincère."
+      },
+      "profil_b": {
+        "id": 7,
+        "nom": "Yoella",
+        "nom_famille": "Betito",
+        "age": "42",
+        "sexe": "Féminin",
+        "telephone": "547366262",
+        "resume_ia": "**Prénom :** Yoella\n**Âge :** 42\n**Situation :** Divorcée\n**Enfants :** 3\n**Ville :** Tel Aviv\n**Profession :** Responsable RH\n**Bio :** Maman de 3 enfants, j'aime cuisiner, les randonnées et les soirées tranquilles. Je cherche quelqu'un de stable et bienveillant, qui sait rire et qui accepte une vie bien remplie 😊\n**Hauteur :** 165 cm\n**Fumeur :** Non\n**Religion :** Juive traditionnelle"
+      },
+      "score": 62,
+      "score_h": 62,
+      "score_f": 62,
+      "raison": "Yoella (42 ans) partage les valeurs de bienveillance, randonnée et cuisine, mais son profil 'juive traditionnelle' avec 3 enfants et un mode de vie bien rempli crée une incompatibilité culturelle et logistique significative avec David.",
+      "mutual": false
+    },
+    {
+      "profil_a": {
+        "id": 2,
+        "nom": "Noam",
+        "nom_famille": "Lévy",
+        "age": "29",
+        "sexe": "Masculin",
+        "telephone": "529876543",
+        "resume_ia": "Noam est un chef cuisinier parisien installé à Tel Aviv depuis 4 ans. Très extraverti, il aime les sorties culturelles, le jazz et les voyages spontanés. Grand sportif, il fait du beach-volley chaque matin. Il cherche une femme avec qui partager sa joie de vivre. Très attaché à la famille, il rêve d'un foyer mêlant cultures française et israélienne."
+      },
+      "profil_b": {
+        "id": 4,
+        "nom": "Sophie",
+        "nom_famille": "Katz",
+        "age": "31",
+        "sexe": "Féminin",
+        "telephone": "541112233",
+        "resume_ia": "Sophie est psychologue, empathique et à l'écoute. Elle aime la littérature, le yoga et les balades en bord de mer. Discrète mais passionnée, elle s'exprime avec profondeur dès qu'elle est en confiance. Elle cherche un homme mature capable de vraie communication. Grande cuisinière, elle adore les dîners intimes où la conversation coule autant que le vin."
+      },
+      "score": 62,
+      "score_h": 65,
+      "score_f": 58,
+      "raison": "Sophie partage avec Noam l'amour de la cuisine, de la mer et des échanges profonds, mais son tempérament discret et introverti contraste avec l'extraversion débordante de Noam, ce qui pourrait créer un déséquilibre à long terme.",
+      "mutual": false
+    },
+    {
+      "profil_a": {
+        "id": 3,
+        "nom": "Raphaël",
+        "nom_famille": "Bensimon",
+        "age": "37",
+        "sexe": "Masculin",
+        "telephone": "543219876",
+        "resume_ia": "Raphaël est architecte, créatif et passionné par l'art et le design urbain. Calme et réfléchi, il aime les musées, la photographie et les restaurants cachés. Il valorise la profondeur émotionnelle et l'intelligence. Il cherche une femme cultivée, indépendante, avec qui partager la beauté du quotidien. Un peu introverti mais très chaleureux une fois en confiance."
+      },
+      "profil_b": {
+        "id": 6,
+        "nom": "Maya",
+        "nom_famille": "Goldberg",
+        "age": "33",
+        "sexe": "Féminin",
+        "telephone": "526543210",
+        "resume_ia": "Maya est avocate spécialisée en droit international, ambitieuse mais avec beaucoup d'humour. Elle voyage souvent pour le travail mais aime rentrer chez elle retrouver ses amis. Passionnée de danse latine le week-end, elle cherche un homme sûr de lui mais pas arrogant. Elle valorise la loyauté, l'ambition partagée et la capacité à la légèreté."
       },
       "score": 60,
+      "score_h": 55,
+      "score_f": 65,
+      "raison": "Intelligente et ambitieuse, Maya partage l'ouverture culturelle, mais son goût pour la légèreté, la danse latine et un rythme de vie extraverti contraste avec la profondeur introvertie recherchée par Raphaël.",
+      "mutual": false
+    },
+    {
+      "profil_a": {
+        "id": 3,
+        "nom": "Raphaël",
+        "nom_famille": "Bensimon",
+        "age": "37",
+        "sexe": "Masculin",
+        "telephone": "543219876",
+        "resume_ia": "Raphaël est architecte, créatif et passionné par l'art et le design urbain. Calme et réfléchi, il aime les musées, la photographie et les restaurants cachés. Il valorise la profondeur émotionnelle et l'intelligence. Il cherche une femme cultivée, indépendante, avec qui partager la beauté du quotidien. Un peu introverti mais très chaleureux une fois en confiance."
+      },
+      "profil_b": {
+        "id": 7,
+        "nom": "Yoella",
+        "nom_famille": "Betito",
+        "age": "42",
+        "sexe": "Féminin",
+        "telephone": "547366262",
+        "resume_ia": "**Prénom :** Yoella\n**Âge :** 42\n**Situation :** Divorcée\n**Enfants :** 3\n**Ville :** Tel Aviv\n**Profession :** Responsable RH\n**Bio :** Maman de 3 enfants, j'aime cuisiner, les randonnées et les soirées tranquilles. Je cherche quelqu'un de stable et bienveillant, qui sait rire et qui accepte une vie bien remplie 😊\n**Hauteur :** 165 cm\n**Fumeur :** Non\n**Religion :** Juive traditionnelle"
+      },
+      "score": 53,
+      "score_h": 38,
+      "score_f": 68,
+      "raison": "Malgré sa bienveillance, la combinaison d'une vie familiale très chargée (3 enfants), d'une pratique religieuse traditionnelle marquée et d'attentes de stabilité quotidienne crée un écart de mode de vie significatif avec Raphaël.",
+      "mutual": false
+    },
+    {
+      "profil_a": {
+        "id": 2,
+        "nom": "Noam",
+        "nom_famille": "Lévy",
+        "age": "29",
+        "sexe": "Masculin",
+        "telephone": "529876543",
+        "resume_ia": "Noam est un chef cuisinier parisien installé à Tel Aviv depuis 4 ans. Très extraverti, il aime les sorties culturelles, le jazz et les voyages spontanés. Grand sportif, il fait du beach-volley chaque matin. Il cherche une femme avec qui partager sa joie de vivre. Très attaché à la famille, il rêve d'un foyer mêlant cultures française et israélienne."
+      },
+      "profil_b": {
+        "id": 9,
+        "nom": "Yoella",
+        "nom_famille": "Betito",
+        "age": "45",
+        "sexe": "Féminin",
+        "telephone": "584875830",
+        "resume_ia": "Yoella est une femme de 45 ans, installée en Israël depuis plusieurs années, indépendante, curieuse et profondément tournée vers la croissance personnelle. Designer de meubles et d’espaces, elle aime créer, entreprendre et transformer les idées en projets concrets. Passionnée par les voyages, elle privilégie les destinations qui offrent des paysages marquants, de l’authenticité et des découvertes humaines.\n\nMaman de trois enfants en garde partagée, elle a construit une vie équilibrée entre liberté, famille, travail et épanouissement personnel. En relation, elle recherche avant tout la transparence, la cohérence entre les paroles et les actes, la stabilité émotionnelle et la capacité à s’investir réellement dans une histoire.\n\nSes valeurs centrales sont l’honnêteté, la responsabilité, la liberté de choix, la bienveillance et le respect mutuel. Elle apprécie les conversations profondes, l’intelligence émotionnelle, l’humour et les personnes capables de se remettre en question.\n\nElle recherche un homme non-fumeur, émotionnellement disponible, cultivé, positif, autonome et prêt à construire une relation sérieuse sans jeux ni ambiguïtés. Ce qui la rend unique : un mélange de sensibilité et de caractère, une grande capacité d’analyse des relations humaines, un goût prononcé pour l’aventure, et cette volonté constante d’avancer tout en restant fidèle à elle-même."
+      },
+      "score": 48,
       "score_h": 58,
-      "score_f": 62,
-      "raison": "Sophie partage les valeurs familiales, l'amour des voyages et des bons repas, mais le fossé ashkénaze/séfarade et son foyer plus traditionnellement pratiquant pourraient créer des frictions avec le mode de vie spontané et peu pratiquant de Raphaël.",
+      "score_f": 38,
+      "raison": "Yoella (45 ans) présente une belle maturité, une créativité et des valeurs profondes compatibles avec celles de Noam, mais l'écart d'âge de 16 ans, les trois enfants en garde partagée et ses attentes de stabilité émotionnelle forte tempèrent significativement la compatibilité avec un Noam de 29 ans en mode vie spontanée.",
+      "mutual": false
+    },
+    {
+      "profil_a": {
+        "id": 8,
+        "nom": "David",
+        "nom_famille": "Bit",
+        "age": "42",
+        "sexe": "Masculin",
+        "telephone": "547363627",
+        "resume_ia": "**Prénom :** David\n**Âge :** 46\n**Situation :** Divorcé\n**Enfants :** 2 (grands, chez leur mère)\n**Ville :** Ramat Gan\n**Profession :** Ingénieur / chef de projet\n**Bio :** Papa impliqué, j'aime les week-ends en nature, la bonne cuisine et les moments simples. Je cherche une relation sérieuse avec quelqu'un de vrai. Les familles recomposées ne me font pas peur — au contraire.\n**Hauteur :** 178 cm\n**Fumeur :** Non\n**Religion :** Juif traditionnel"
+      },
+      "profil_b": {
+        "id": 6,
+        "nom": "Maya",
+        "nom_famille": "Goldberg",
+        "age": "33",
+        "sexe": "Féminin",
+        "telephone": "526543210",
+        "resume_ia": "Maya est avocate spécialisée en droit international, ambitieuse mais avec beaucoup d'humour. Elle voyage souvent pour le travail mais aime rentrer chez elle retrouver ses amis. Passionnée de danse latine le week-end, elle cherche un homme sûr de lui mais pas arrogant. Elle valorise la loyauté, l'ambition partagée et la capacité à la légèreté."
+      },
+      "score": 48,
+      "score_h": 58,
+      "score_f": 38,
+      "raison": "Femme ambitieuse et loyale avec un bon sens de l'humour, mais le profil très urbain, la danse latine et l'absence d'ancrage religieux ou familial (pas d'enfants, voyages pro intenses) créent un écart significatif avec le mode de vie stable et traditionnel de David.",
+      "mutual": false
+    },
+    {
+      "profil_a": {
+        "id": 8,
+        "nom": "David",
+        "nom_famille": "Bit",
+        "age": "42",
+        "sexe": "Masculin",
+        "telephone": "547363627",
+        "resume_ia": "**Prénom :** David\n**Âge :** 46\n**Situation :** Divorcé\n**Enfants :** 2 (grands, chez leur mère)\n**Ville :** Ramat Gan\n**Profession :** Ingénieur / chef de projet\n**Bio :** Papa impliqué, j'aime les week-ends en nature, la bonne cuisine et les moments simples. Je cherche une relation sérieuse avec quelqu'un de vrai. Les familles recomposées ne me font pas peur — au contraire.\n**Hauteur :** 178 cm\n**Fumeur :** Non\n**Religion :** Juif traditionnel"
+      },
+      "profil_b": {
+        "id": 4,
+        "nom": "Sophie",
+        "nom_famille": "Katz",
+        "age": "31",
+        "sexe": "Féminin",
+        "telephone": "541112233",
+        "resume_ia": "Sophie est psychologue, empathique et à l'écoute. Elle aime la littérature, le yoga et les balades en bord de mer. Discrète mais passionnée, elle s'exprime avec profondeur dès qu'elle est en confiance. Elle cherche un homme mature capable de vraie communication. Grande cuisinière, elle adore les dîners intimes où la conversation coule autant que le vin."
+      },
+      "score": 46,
+      "score_h": 52,
+      "score_f": 41,
+      "raison": "Qualités humaines réelles (maturité émotionnelle, amour de la cuisine, profondeur) qui résonnent avec David, mais l'écart d'âge de 15 ans, l'absence de contexte familial/religieux commun et un projet de vie probablement décalé (construction vs stabilité) limitent la compatibilité.",
+      "mutual": false
+    },
+    {
+      "profil_a": {
+        "id": 2,
+        "nom": "Noam",
+        "nom_famille": "Lévy",
+        "age": "29",
+        "sexe": "Masculin",
+        "telephone": "529876543",
+        "resume_ia": "Noam est un chef cuisinier parisien installé à Tel Aviv depuis 4 ans. Très extraverti, il aime les sorties culturelles, le jazz et les voyages spontanés. Grand sportif, il fait du beach-volley chaque matin. Il cherche une femme avec qui partager sa joie de vivre. Très attaché à la famille, il rêve d'un foyer mêlant cultures française et israélienne."
+      },
+      "profil_b": {
+        "id": 7,
+        "nom": "Yoella",
+        "nom_famille": "Betito",
+        "age": "42",
+        "sexe": "Féminin",
+        "telephone": "547366262",
+        "resume_ia": "**Prénom :** Yoella\n**Âge :** 42\n**Situation :** Divorcée\n**Enfants :** 3\n**Ville :** Tel Aviv\n**Profession :** Responsable RH\n**Bio :** Maman de 3 enfants, j'aime cuisiner, les randonnées et les soirées tranquilles. Je cherche quelqu'un de stable et bienveillant, qui sait rire et qui accepte une vie bien remplie 😊\n**Hauteur :** 165 cm\n**Fumeur :** Non\n**Religion :** Juive traditionnelle"
+      },
+      "score": 41,
+      "score_h": 38,
+      "score_f": 44,
+      "raison": "Malgré sa bienveillance et son amour de la cuisine, Yoella (42 ans, divorcée, 3 enfants, juive traditionnelle, en quête de stabilité et de soirées tranquilles) est en décalage majeur avec le mode de vie extraverti, spontané et culturellement laïque de Noam, ce qui réduit fortement la compatibilité.",
+      "mutual": false
+    },
+    {
+      "profil_a": {
+        "id": 8,
+        "nom": "David",
+        "nom_famille": "Bit",
+        "age": "42",
+        "sexe": "Masculin",
+        "telephone": "547363627",
+        "resume_ia": "**Prénom :** David\n**Âge :** 46\n**Situation :** Divorcé\n**Enfants :** 2 (grands, chez leur mère)\n**Ville :** Ramat Gan\n**Profession :** Ingénieur / chef de projet\n**Bio :** Papa impliqué, j'aime les week-ends en nature, la bonne cuisine et les moments simples. Je cherche une relation sérieuse avec quelqu'un de vrai. Les familles recomposées ne me font pas peur — au contraire.\n**Hauteur :** 178 cm\n**Fumeur :** Non\n**Religion :** Juif traditionnel"
+      },
+      "profil_b": {
+        "id": 5,
+        "nom": "Noa",
+        "nom_famille": "Peretz",
+        "age": "27",
+        "sexe": "Féminin",
+        "telephone": "507778899",
+        "resume_ia": "Noa est graphiste freelance, solaire et créative, passionnée de photographie urbaine. Née à Lyon, elle vit à Tel Aviv depuis 3 ans et adore l'énergie de la ville. Spontanée et drôle, elle aime autant les bars branchés que les musées. Elle suit des cours de poterie et d'arabe. Elle cherche quelqu'un d'aventurier avec qui rire et voyager."
+      },
+      "score": 31,
+      "score_h": 28,
+      "score_f": 34,
+      "raison": "Trop jeune (27 ans, écart de 19 ans), mode de vie urbain et festif opposé aux valeurs nature/tradition de David, et aucune indication de compatibilité religieuse ou familiale — un match peu réaliste pour une relation sérieuse.",
       "mutual": false
     }
   ],
   "best_per_person": [
     {
       "personne": {
-        "id": 3,
+        "id": 8,
         "nom": "David",
-        "nom_famille": "Katz",
-        "age": "30",
-        "sexe": "Homme",
-        "telephone": "+972503333333",
-        "resume_ia": "David est un ingénieur high-tech ashkénaze, né à Paris et installé à Tel Aviv depuis 5 ans. Il est traditionaliste sans être très pratiquant — il fait Shabbat en famille mais ne porte pas de kippa. Il cherche une femme intelligente, ambitieuse, avec un sens de l'humour développé et une forte identité juive. Il aime le sport, les voyages, les bons restaurants et les soirées cinéma. Ce qui le rend unique : sa capacité d'écoute, sa loyauté sans faille et son côté romantique discret."
+        "nom_famille": "Bit",
+        "age": "42",
+        "sexe": "Masculin",
+        "telephone": "547363627",
+        "resume_ia": "**Prénom :** David\n**Âge :** 46\n**Situation :** Divorcé\n**Enfants :** 2 (grands, chez leur mère)\n**Ville :** Ramat Gan\n**Profession :** Ingénieur / chef de projet\n**Bio :** Papa impliqué, j'aime les week-ends en nature, la bonne cuisine et les moments simples. Je cherche une relation sérieuse avec quelqu'un de vrai. Les familles recomposées ne me font pas peur — au contraire.\n**Hauteur :** 178 cm\n**Fumeur :** Non\n**Religion :** Juif traditionnel"
       },
       "meilleur_match": {
-        "id": 1,
-        "nom": "Sophie",
-        "nom_famille": "Lévy",
-        "age": "28",
-        "sexe": "Femme",
-        "telephone": "+972501111111",
-        "resume_ia": "Sophie est une femme juive pratiquante, chaleureuse et ambitieuse. Elle travaille comme avocate à Tel Aviv et est très attachée à ses racines ashkénazes. Elle cherche un partenaire juif qui partage ses valeurs familiales et sa vision d'un foyer traditionnel tout en étant ouvert sur le monde. Passionnée de voyages, de cuisine française et de randonnée, elle aime les week-ends en famille et les dîners de Shabbat animés. Ce qui la rend unique : sa capacité à allier modernité et tradition avec élégance et humour."
+        "id": 7,
+        "nom": "Yoella",
+        "nom_famille": "Betito",
+        "age": "42",
+        "sexe": "Féminin",
+        "telephone": "547366262",
+        "resume_ia": "**Prénom :** Yoella\n**Âge :** 42\n**Situation :** Divorcée\n**Enfants :** 3\n**Ville :** Tel Aviv\n**Profession :** Responsable RH\n**Bio :** Maman de 3 enfants, j'aime cuisiner, les randonnées et les soirées tranquilles. Je cherche quelqu'un de stable et bienveillant, qui sait rire et qui accepte une vie bien remplie 😊\n**Hauteur :** 165 cm\n**Fumeur :** Non\n**Religion :** Juive traditionnelle"
       },
-      "score": 90,
-      "raison": "Sophie partage avec David le même ancrage ashkénaze, un équilibre identique entre modernité et tradition, une vie à Tel Aviv, une ambition professionnelle et un goût commun pour les voyages et les dîners de Shabbat, en faisant une correspondance quasi-idéale.",
+      "score": 91,
+      "raison": "Compatibilité quasi-parfaite : même situation (divorcé(e), enfants, ouvert aux familles recomposées), même religion traditionnelle, mêmes goûts (cuisine, randonnée, soirées tranquilles) et même ville en proximité immédiate.",
       "top3": [
         {
           "match": {
-            "id": 1,
-            "nom": "Sophie",
-            "nom_famille": "Lévy",
-            "age": "28",
-            "sexe": "Femme",
-            "telephone": "+972501111111",
-            "resume_ia": "Sophie est une femme juive pratiquante, chaleureuse et ambitieuse. Elle travaille comme avocate à Tel Aviv et est très attachée à ses racines ashkénazes. Elle cherche un partenaire juif qui partage ses valeurs familiales et sa vision d'un foyer traditionnel tout en étant ouvert sur le monde. Passionnée de voyages, de cuisine française et de randonnée, elle aime les week-ends en famille et les dîners de Shabbat animés. Ce qui la rend unique : sa capacité à allier modernité et tradition avec élégance et humour."
+            "id": 7,
+            "nom": "Yoella",
+            "nom_famille": "Betito",
+            "age": "42",
+            "sexe": "Féminin",
+            "telephone": "547366262",
+            "resume_ia": "**Prénom :** Yoella\n**Âge :** 42\n**Situation :** Divorcée\n**Enfants :** 3\n**Ville :** Tel Aviv\n**Profession :** Responsable RH\n**Bio :** Maman de 3 enfants, j'aime cuisiner, les randonnées et les soirées tranquilles. Je cherche quelqu'un de stable et bienveillant, qui sait rire et qui accepte une vie bien remplie 😊\n**Hauteur :** 165 cm\n**Fumeur :** Non\n**Religion :** Juive traditionnelle"
           },
-          "score": 90,
-          "raison": "Sophie partage avec David le même ancrage ashkénaze, un équilibre identique entre modernité et tradition, une vie à Tel Aviv, une ambition professionnelle et un goût commun pour les voyages et les dîners de Shabbat, en faisant une correspondance quasi-idéale.",
+          "score": 91,
+          "raison": "Compatibilité quasi-parfaite : même situation (divorcé(e), enfants, ouvert aux familles recomposées), même religion traditionnelle, mêmes goûts (cuisine, randonnée, soirées tranquilles) et même ville en proximité immédiate.",
           "mutual": true
         },
         {
           "match": {
-            "id": 2,
-            "nom": "Maya",
-            "nom_famille": "Cohen",
-            "age": "31",
-            "sexe": "Femme",
-            "telephone": "+972502222222",
-            "resume_ia": "Maya est une artiste peintre séfarade, libre-penseuse et solaire. Elle a grandi à Netanya dans une famille marocaine très soudée. Elle est peu pratiquante mais très attachée à la culture et aux traditions juives séfarades. Elle recherche quelqu'un de curieux, drôle et ouvert, pas forcément très religieux, qui aime les arts, les soirées entre amis et les débats. Son moteur : la créativité et l'authenticité. Elle est directe, généreuse et légèrement désordonnée — ce qui la rend attachante."
+            "id": 9,
+            "nom": "Yoella",
+            "nom_famille": "Betito",
+            "age": "45",
+            "sexe": "Féminin",
+            "telephone": "584875830",
+            "resume_ia": "Yoella est une femme de 45 ans, installée en Israël depuis plusieurs années, indépendante, curieuse et profondément tournée vers la croissance personnelle. Designer de meubles et d’espaces, elle aime créer, entreprendre et transformer les idées en projets concrets. Passionnée par les voyages, elle privilégie les destinations qui offrent des paysages marquants, de l’authenticité et des découvertes humaines.\n\nMaman de trois enfants en garde partagée, elle a construit une vie équilibrée entre liberté, famille, travail et épanouissement personnel. En relation, elle recherche avant tout la transparence, la cohérence entre les paroles et les actes, la stabilité émotionnelle et la capacité à s’investir réellement dans une histoire.\n\nSes valeurs centrales sont l’honnêteté, la responsabilité, la liberté de choix, la bienveillance et le respect mutuel. Elle apprécie les conversations profondes, l’intelligence émotionnelle, l’humour et les personnes capables de se remettre en question.\n\nElle recherche un homme non-fumeur, émotionnellement disponible, cultivé, positif, autonome et prêt à construire une relation sérieuse sans jeux ni ambiguïtés. Ce qui la rend unique : un mélange de sensibilité et de caractère, une grande capacité d’analyse des relations humaines, un goût prononcé pour l’aventure, et cette volonté constante d’avancer tout en restant fidèle à elle-même."
           },
-          "score": 64,
-          "raison": "Maya offre une belle complicité potentielle sur l'humour, la curiosité et l'ouverture d'esprit, mais la distance culturelle ashkénaze/séfarade, son profil artistique et désorganisé, et l'absence de valeurs familiales traditionnelles explicites créent des frictions non négligeables avec les priorités de David.",
+          "score": 81,
+          "raison": "Profil très aligné sur les valeurs (stabilité, transparence, engagement sérieux, non-fumeuse, enfants en garde partagée) et les passions (voyages, création, croissance personnelle), mais l'absence d'indication religieuse explicite et un style de vie plus 'libre/aventurier' introduisent une légère incertitude de compatibilité culturelle.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 6,
+            "nom": "Maya",
+            "nom_famille": "Goldberg",
+            "age": "33",
+            "sexe": "Féminin",
+            "telephone": "526543210",
+            "resume_ia": "Maya est avocate spécialisée en droit international, ambitieuse mais avec beaucoup d'humour. Elle voyage souvent pour le travail mais aime rentrer chez elle retrouver ses amis. Passionnée de danse latine le week-end, elle cherche un homme sûr de lui mais pas arrogant. Elle valorise la loyauté, l'ambition partagée et la capacité à la légèreté."
+          },
+          "score": 48,
+          "raison": "Femme ambitieuse et loyale avec un bon sens de l'humour, mais le profil très urbain, la danse latine et l'absence d'ancrage religieux ou familial (pas d'enfants, voyages pro intenses) créent un écart significatif avec le mode de vie stable et traditionnel de David.",
           "mutual": false
         }
       ]
     },
     {
       "personne": {
-        "id": 1,
-        "nom": "Sophie",
-        "nom_famille": "Lévy",
-        "age": "28",
-        "sexe": "Femme",
-        "telephone": "+972501111111",
-        "resume_ia": "Sophie est une femme juive pratiquante, chaleureuse et ambitieuse. Elle travaille comme avocate à Tel Aviv et est très attachée à ses racines ashkénazes. Elle cherche un partenaire juif qui partage ses valeurs familiales et sa vision d'un foyer traditionnel tout en étant ouvert sur le monde. Passionnée de voyages, de cuisine française et de randonnée, elle aime les week-ends en famille et les dîners de Shabbat animés. Ce qui la rend unique : sa capacité à allier modernité et tradition avec élégance et humour."
+        "id": 7,
+        "nom": "Yoella",
+        "nom_famille": "Betito",
+        "age": "42",
+        "sexe": "Féminin",
+        "telephone": "547366262",
+        "resume_ia": "**Prénom :** Yoella\n**Âge :** 42\n**Situation :** Divorcée\n**Enfants :** 3\n**Ville :** Tel Aviv\n**Profession :** Responsable RH\n**Bio :** Maman de 3 enfants, j'aime cuisiner, les randonnées et les soirées tranquilles. Je cherche quelqu'un de stable et bienveillant, qui sait rire et qui accepte une vie bien remplie 😊\n**Hauteur :** 165 cm\n**Fumeur :** Non\n**Religion :** Juive traditionnelle"
       },
       "meilleur_match": {
-        "id": 3,
+        "id": 8,
         "nom": "David",
-        "nom_famille": "Katz",
-        "age": "30",
-        "sexe": "Homme",
-        "telephone": "+972503333333",
-        "resume_ia": "David est un ingénieur high-tech ashkénaze, né à Paris et installé à Tel Aviv depuis 5 ans. Il est traditionaliste sans être très pratiquant — il fait Shabbat en famille mais ne porte pas de kippa. Il cherche une femme intelligente, ambitieuse, avec un sens de l'humour développé et une forte identité juive. Il aime le sport, les voyages, les bons restaurants et les soirées cinéma. Ce qui le rend unique : sa capacité d'écoute, sa loyauté sans faille et son côté romantique discret."
+        "nom_famille": "Bit",
+        "age": "42",
+        "sexe": "Masculin",
+        "telephone": "547363627",
+        "resume_ia": "**Prénom :** David\n**Âge :** 46\n**Situation :** Divorcé\n**Enfants :** 2 (grands, chez leur mère)\n**Ville :** Ramat Gan\n**Profession :** Ingénieur / chef de projet\n**Bio :** Papa impliqué, j'aime les week-ends en nature, la bonne cuisine et les moments simples. Je cherche une relation sérieuse avec quelqu'un de vrai. Les familles recomposées ne me font pas peur — au contraire.\n**Hauteur :** 178 cm\n**Fumeur :** Non\n**Religion :** Juif traditionnel"
       },
-      "score": 90,
-      "raison": "Sophie partage avec David le même ancrage ashkénaze, un équilibre identique entre modernité et tradition, une vie à Tel Aviv, une ambition professionnelle et un goût commun pour les voyages et les dîners de Shabbat, en faisant une correspondance quasi-idéale.",
+      "score": 91,
+      "raison": "Compatibilité quasi-parfaite : même situation (divorcé(e), enfants, ouvert aux familles recomposées), même religion traditionnelle, mêmes goûts (cuisine, randonnée, soirées tranquilles) et même ville en proximité immédiate.",
       "top3": [
+        {
+          "match": {
+            "id": 8,
+            "nom": "David",
+            "nom_famille": "Bit",
+            "age": "42",
+            "sexe": "Masculin",
+            "telephone": "547363627",
+            "resume_ia": "**Prénom :** David\n**Âge :** 46\n**Situation :** Divorcé\n**Enfants :** 2 (grands, chez leur mère)\n**Ville :** Ramat Gan\n**Profession :** Ingénieur / chef de projet\n**Bio :** Papa impliqué, j'aime les week-ends en nature, la bonne cuisine et les moments simples. Je cherche une relation sérieuse avec quelqu'un de vrai. Les familles recomposées ne me font pas peur — au contraire.\n**Hauteur :** 178 cm\n**Fumeur :** Non\n**Religion :** Juif traditionnel"
+          },
+          "score": 91,
+          "raison": "Compatibilité quasi-parfaite : même situation (divorcé(e), enfants, ouvert aux familles recomposées), même religion traditionnelle, mêmes goûts (cuisine, randonnée, soirées tranquilles) et même ville en proximité immédiate.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 1,
+            "nom": "David",
+            "nom_famille": "Cohen",
+            "age": "34",
+            "sexe": "Masculin",
+            "telephone": "501234567",
+            "resume_ia": "David est un homme curieux et bienveillant, profondément attaché à ses racines. Il travaille dans le hi-tech à Tel Aviv et cherche l'équilibre entre ambition et vie épanouie. Passionné de randonnée et de cuisine méditerranéenne. Il valorise l'honnêteté, l'humour et les conversations profondes. Il cherche une partenaire indépendante avec qui construire quelque chose de sincère."
+          },
+          "score": 62,
+          "raison": "Yoella (42 ans) partage les valeurs de bienveillance, randonnée et cuisine, mais son profil 'juive traditionnelle' avec 3 enfants et un mode de vie bien rempli crée une incompatibilité culturelle et logistique significative avec David.",
+          "mutual": false
+        },
         {
           "match": {
             "id": 3,
-            "nom": "David",
-            "nom_famille": "Katz",
-            "age": "30",
-            "sexe": "Homme",
-            "telephone": "+972503333333",
-            "resume_ia": "David est un ingénieur high-tech ashkénaze, né à Paris et installé à Tel Aviv depuis 5 ans. Il est traditionaliste sans être très pratiquant — il fait Shabbat en famille mais ne porte pas de kippa. Il cherche une femme intelligente, ambitieuse, avec un sens de l'humour développé et une forte identité juive. Il aime le sport, les voyages, les bons restaurants et les soirées cinéma. Ce qui le rend unique : sa capacité d'écoute, sa loyauté sans faille et son côté romantique discret."
-          },
-          "score": 90,
-          "raison": "Sophie partage avec David le même ancrage ashkénaze, un équilibre identique entre modernité et tradition, une vie à Tel Aviv, une ambition professionnelle et un goût commun pour les voyages et les dîners de Shabbat, en faisant une correspondance quasi-idéale.",
-          "mutual": true
-        },
-        {
-          "match": {
-            "id": 4,
             "nom": "Raphaël",
             "nom_famille": "Bensimon",
-            "age": "33",
-            "sexe": "Homme",
-            "telephone": "+972504444444",
-            "resume_ia": "Raphaël est un chef cuisinier séfarade de Holon, chaleureux et expressif. Très attaché à ses origines tunisiennes, il est peu pratiquant mais célèbre toutes les fêtes juives avec passion. Il cherche une femme vivante, authentique, qui aime manger, rire et voyager. Il a besoin de quelqu'un qui comprend l'importance de la famille et des racines culturelles. Son côté unique : il transforme chaque repas en fête et chaque moment ordinaire en souvenir. Il est généreux, parfois impulsif, et toujours sincère."
+            "age": "37",
+            "sexe": "Masculin",
+            "telephone": "543219876",
+            "resume_ia": "Raphaël est architecte, créatif et passionné par l'art et le design urbain. Calme et réfléchi, il aime les musées, la photographie et les restaurants cachés. Il valorise la profondeur émotionnelle et l'intelligence. Il cherche une femme cultivée, indépendante, avec qui partager la beauté du quotidien. Un peu introverti mais très chaleureux une fois en confiance."
           },
-          "score": 60,
-          "raison": "Sophie partage les valeurs familiales, l'amour des voyages et des bons repas, mais le fossé ashkénaze/séfarade et son foyer plus traditionnellement pratiquant pourraient créer des frictions avec le mode de vie spontané et peu pratiquant de Raphaël.",
-          "mutual": false
-        }
-      ]
-    },
-    {
-      "personne": {
-        "id": 4,
-        "nom": "Raphaël",
-        "nom_famille": "Bensimon",
-        "age": "33",
-        "sexe": "Homme",
-        "telephone": "+972504444444",
-        "resume_ia": "Raphaël est un chef cuisinier séfarade de Holon, chaleureux et expressif. Très attaché à ses origines tunisiennes, il est peu pratiquant mais célèbre toutes les fêtes juives avec passion. Il cherche une femme vivante, authentique, qui aime manger, rire et voyager. Il a besoin de quelqu'un qui comprend l'importance de la famille et des racines culturelles. Son côté unique : il transforme chaque repas en fête et chaque moment ordinaire en souvenir. Il est généreux, parfois impulsif, et toujours sincère."
-      },
-      "meilleur_match": {
-        "id": 2,
-        "nom": "Maya",
-        "nom_famille": "Cohen",
-        "age": "31",
-        "sexe": "Femme",
-        "telephone": "+972502222222",
-        "resume_ia": "Maya est une artiste peintre séfarade, libre-penseuse et solaire. Elle a grandi à Netanya dans une famille marocaine très soudée. Elle est peu pratiquante mais très attachée à la culture et aux traditions juives séfarades. Elle recherche quelqu'un de curieux, drôle et ouvert, pas forcément très religieux, qui aime les arts, les soirées entre amis et les débats. Son moteur : la créativité et l'authenticité. Elle est directe, généreuse et légèrement désordonnée — ce qui la rend attachante."
-      },
-      "score": 90,
-      "raison": "Maya partage avec Raphaël les mêmes racines séfarades, le même niveau de pratique, la même authenticité et la même énergie généreuse et créative — une connexion culturelle et humaine quasi immédiate.",
-      "top3": [
-        {
-          "match": {
-            "id": 2,
-            "nom": "Maya",
-            "nom_famille": "Cohen",
-            "age": "31",
-            "sexe": "Femme",
-            "telephone": "+972502222222",
-            "resume_ia": "Maya est une artiste peintre séfarade, libre-penseuse et solaire. Elle a grandi à Netanya dans une famille marocaine très soudée. Elle est peu pratiquante mais très attachée à la culture et aux traditions juives séfarades. Elle recherche quelqu'un de curieux, drôle et ouvert, pas forcément très religieux, qui aime les arts, les soirées entre amis et les débats. Son moteur : la créativité et l'authenticité. Elle est directe, généreuse et légèrement désordonnée — ce qui la rend attachante."
-          },
-          "score": 90,
-          "raison": "Maya partage avec Raphaël les mêmes racines séfarades, le même niveau de pratique, la même authenticité et la même énergie généreuse et créative — une connexion culturelle et humaine quasi immédiate.",
-          "mutual": true
-        },
-        {
-          "match": {
-            "id": 1,
-            "nom": "Sophie",
-            "nom_famille": "Lévy",
-            "age": "28",
-            "sexe": "Femme",
-            "telephone": "+972501111111",
-            "resume_ia": "Sophie est une femme juive pratiquante, chaleureuse et ambitieuse. Elle travaille comme avocate à Tel Aviv et est très attachée à ses racines ashkénazes. Elle cherche un partenaire juif qui partage ses valeurs familiales et sa vision d'un foyer traditionnel tout en étant ouvert sur le monde. Passionnée de voyages, de cuisine française et de randonnée, elle aime les week-ends en famille et les dîners de Shabbat animés. Ce qui la rend unique : sa capacité à allier modernité et tradition avec élégance et humour."
-          },
-          "score": 60,
-          "raison": "Sophie partage les valeurs familiales, l'amour des voyages et des bons repas, mais le fossé ashkénaze/séfarade et son foyer plus traditionnellement pratiquant pourraient créer des frictions avec le mode de vie spontané et peu pratiquant de Raphaël.",
+          "score": 53,
+          "raison": "Malgré sa bienveillance, la combinaison d'une vie familiale très chargée (3 enfants), d'une pratique religieuse traditionnelle marquée et d'attentes de stabilité quotidienne crée un écart de mode de vie significatif avec Raphaël.",
           "mutual": false
         }
       ]
@@ -261,51 +637,461 @@
     {
       "personne": {
         "id": 2,
-        "nom": "Maya",
-        "nom_famille": "Cohen",
-        "age": "31",
-        "sexe": "Femme",
-        "telephone": "+972502222222",
-        "resume_ia": "Maya est une artiste peintre séfarade, libre-penseuse et solaire. Elle a grandi à Netanya dans une famille marocaine très soudée. Elle est peu pratiquante mais très attachée à la culture et aux traditions juives séfarades. Elle recherche quelqu'un de curieux, drôle et ouvert, pas forcément très religieux, qui aime les arts, les soirées entre amis et les débats. Son moteur : la créativité et l'authenticité. Elle est directe, généreuse et légèrement désordonnée — ce qui la rend attachante."
+        "nom": "Noam",
+        "nom_famille": "Lévy",
+        "age": "29",
+        "sexe": "Masculin",
+        "telephone": "529876543",
+        "resume_ia": "Noam est un chef cuisinier parisien installé à Tel Aviv depuis 4 ans. Très extraverti, il aime les sorties culturelles, le jazz et les voyages spontanés. Grand sportif, il fait du beach-volley chaque matin. Il cherche une femme avec qui partager sa joie de vivre. Très attaché à la famille, il rêve d'un foyer mêlant cultures française et israélienne."
       },
       "meilleur_match": {
-        "id": 4,
-        "nom": "Raphaël",
-        "nom_famille": "Bensimon",
-        "age": "33",
-        "sexe": "Homme",
-        "telephone": "+972504444444",
-        "resume_ia": "Raphaël est un chef cuisinier séfarade de Holon, chaleureux et expressif. Très attaché à ses origines tunisiennes, il est peu pratiquant mais célèbre toutes les fêtes juives avec passion. Il cherche une femme vivante, authentique, qui aime manger, rire et voyager. Il a besoin de quelqu'un qui comprend l'importance de la famille et des racines culturelles. Son côté unique : il transforme chaque repas en fête et chaque moment ordinaire en souvenir. Il est généreux, parfois impulsif, et toujours sincère."
+        "id": 5,
+        "nom": "Noa",
+        "nom_famille": "Peretz",
+        "age": "27",
+        "sexe": "Féminin",
+        "telephone": "507778899",
+        "resume_ia": "Noa est graphiste freelance, solaire et créative, passionnée de photographie urbaine. Née à Lyon, elle vit à Tel Aviv depuis 3 ans et adore l'énergie de la ville. Spontanée et drôle, elle aime autant les bars branchés que les musées. Elle suit des cours de poterie et d'arabe. Elle cherche quelqu'un d'aventurier avec qui rire et voyager."
       },
-      "score": 90,
-      "raison": "Maya partage avec Raphaël les mêmes racines séfarades, le même niveau de pratique, la même authenticité et la même énergie généreuse et créative — une connexion culturelle et humaine quasi immédiate.",
+      "score": 88,
+      "raison": "Expatriée française à Tel Aviv, spontanée, aventurière et créative, Noa partage le même ancrage géographique, la même énergie de vie et la même soif de voyages que Noam, avec une compatibilité culturelle franco-israélienne quasi idéale.",
       "top3": [
         {
           "match": {
-            "id": 4,
-            "nom": "Raphaël",
-            "nom_famille": "Bensimon",
-            "age": "33",
-            "sexe": "Homme",
-            "telephone": "+972504444444",
-            "resume_ia": "Raphaël est un chef cuisinier séfarade de Holon, chaleureux et expressif. Très attaché à ses origines tunisiennes, il est peu pratiquant mais célèbre toutes les fêtes juives avec passion. Il cherche une femme vivante, authentique, qui aime manger, rire et voyager. Il a besoin de quelqu'un qui comprend l'importance de la famille et des racines culturelles. Son côté unique : il transforme chaque repas en fête et chaque moment ordinaire en souvenir. Il est généreux, parfois impulsif, et toujours sincère."
+            "id": 5,
+            "nom": "Noa",
+            "nom_famille": "Peretz",
+            "age": "27",
+            "sexe": "Féminin",
+            "telephone": "507778899",
+            "resume_ia": "Noa est graphiste freelance, solaire et créative, passionnée de photographie urbaine. Née à Lyon, elle vit à Tel Aviv depuis 3 ans et adore l'énergie de la ville. Spontanée et drôle, elle aime autant les bars branchés que les musées. Elle suit des cours de poterie et d'arabe. Elle cherche quelqu'un d'aventurier avec qui rire et voyager."
           },
-          "score": 90,
-          "raison": "Maya partage avec Raphaël les mêmes racines séfarades, le même niveau de pratique, la même authenticité et la même énergie généreuse et créative — une connexion culturelle et humaine quasi immédiate.",
+          "score": 88,
+          "raison": "Expatriée française à Tel Aviv, spontanée, aventurière et créative, Noa partage le même ancrage géographique, la même énergie de vie et la même soif de voyages que Noam, avec une compatibilité culturelle franco-israélienne quasi idéale.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 6,
+            "nom": "Maya",
+            "nom_famille": "Goldberg",
+            "age": "33",
+            "sexe": "Féminin",
+            "telephone": "526543210",
+            "resume_ia": "Maya est avocate spécialisée en droit international, ambitieuse mais avec beaucoup d'humour. Elle voyage souvent pour le travail mais aime rentrer chez elle retrouver ses amis. Passionnée de danse latine le week-end, elle cherche un homme sûr de lui mais pas arrogant. Elle valorise la loyauté, l'ambition partagée et la capacité à la légèreté."
+          },
+          "score": 72,
+          "raison": "Maya est ambitieuse, légère, aime rire et voyager, et sa quête d'un homme sûr de lui colle bien à la personnalité affirmée de Noam, même si son profil plus sédentaire et axé carrière pourrait créer quelques frictions avec son mode de vie spontané.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 4,
+            "nom": "Sophie",
+            "nom_famille": "Katz",
+            "age": "31",
+            "sexe": "Féminin",
+            "telephone": "541112233",
+            "resume_ia": "Sophie est psychologue, empathique et à l'écoute. Elle aime la littérature, le yoga et les balades en bord de mer. Discrète mais passionnée, elle s'exprime avec profondeur dès qu'elle est en confiance. Elle cherche un homme mature capable de vraie communication. Grande cuisinière, elle adore les dîners intimes où la conversation coule autant que le vin."
+          },
+          "score": 62,
+          "raison": "Sophie partage avec Noam l'amour de la cuisine, de la mer et des échanges profonds, mais son tempérament discret et introverti contraste avec l'extraversion débordante de Noam, ce qui pourrait créer un déséquilibre à long terme.",
+          "mutual": false
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 5,
+        "nom": "Noa",
+        "nom_famille": "Peretz",
+        "age": "27",
+        "sexe": "Féminin",
+        "telephone": "507778899",
+        "resume_ia": "Noa est graphiste freelance, solaire et créative, passionnée de photographie urbaine. Née à Lyon, elle vit à Tel Aviv depuis 3 ans et adore l'énergie de la ville. Spontanée et drôle, elle aime autant les bars branchés que les musées. Elle suit des cours de poterie et d'arabe. Elle cherche quelqu'un d'aventurier avec qui rire et voyager."
+      },
+      "meilleur_match": {
+        "id": 2,
+        "nom": "Noam",
+        "nom_famille": "Lévy",
+        "age": "29",
+        "sexe": "Masculin",
+        "telephone": "529876543",
+        "resume_ia": "Noam est un chef cuisinier parisien installé à Tel Aviv depuis 4 ans. Très extraverti, il aime les sorties culturelles, le jazz et les voyages spontanés. Grand sportif, il fait du beach-volley chaque matin. Il cherche une femme avec qui partager sa joie de vivre. Très attaché à la famille, il rêve d'un foyer mêlant cultures française et israélienne."
+      },
+      "score": 88,
+      "raison": "Expatriée française à Tel Aviv, spontanée, aventurière et créative, Noa partage le même ancrage géographique, la même énergie de vie et la même soif de voyages que Noam, avec une compatibilité culturelle franco-israélienne quasi idéale.",
+      "top3": [
+        {
+          "match": {
+            "id": 2,
+            "nom": "Noam",
+            "nom_famille": "Lévy",
+            "age": "29",
+            "sexe": "Masculin",
+            "telephone": "529876543",
+            "resume_ia": "Noam est un chef cuisinier parisien installé à Tel Aviv depuis 4 ans. Très extraverti, il aime les sorties culturelles, le jazz et les voyages spontanés. Grand sportif, il fait du beach-volley chaque matin. Il cherche une femme avec qui partager sa joie de vivre. Très attaché à la famille, il rêve d'un foyer mêlant cultures française et israélienne."
+          },
+          "score": 88,
+          "raison": "Expatriée française à Tel Aviv, spontanée, aventurière et créative, Noa partage le même ancrage géographique, la même énergie de vie et la même soif de voyages que Noam, avec une compatibilité culturelle franco-israélienne quasi idéale.",
           "mutual": true
         },
         {
           "match": {
             "id": 3,
-            "nom": "David",
-            "nom_famille": "Katz",
-            "age": "30",
-            "sexe": "Homme",
-            "telephone": "+972503333333",
-            "resume_ia": "David est un ingénieur high-tech ashkénaze, né à Paris et installé à Tel Aviv depuis 5 ans. Il est traditionaliste sans être très pratiquant — il fait Shabbat en famille mais ne porte pas de kippa. Il cherche une femme intelligente, ambitieuse, avec un sens de l'humour développé et une forte identité juive. Il aime le sport, les voyages, les bons restaurants et les soirées cinéma. Ce qui le rend unique : sa capacité d'écoute, sa loyauté sans faille et son côté romantique discret."
+            "nom": "Raphaël",
+            "nom_famille": "Bensimon",
+            "age": "37",
+            "sexe": "Masculin",
+            "telephone": "543219876",
+            "resume_ia": "Raphaël est architecte, créatif et passionné par l'art et le design urbain. Calme et réfléchi, il aime les musées, la photographie et les restaurants cachés. Il valorise la profondeur émotionnelle et l'intelligence. Il cherche une femme cultivée, indépendante, avec qui partager la beauté du quotidien. Un peu introverti mais très chaleureux une fois en confiance."
           },
-          "score": 64,
-          "raison": "Maya offre une belle complicité potentielle sur l'humour, la curiosité et l'ouverture d'esprit, mais la distance culturelle ashkénaze/séfarade, son profil artistique et désorganisé, et l'absence de valeurs familiales traditionnelles explicites créent des frictions non négligeables avec les priorités de David.",
+          "score": 74,
+          "raison": "Graphiste passionnée de photo urbaine avec un côté spontané et créatif séduisant, mais sa jeunesse et son énergie plus festive tempèrent légèrement l'alignement avec le profil plus posé de Raphaël.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 1,
+            "nom": "David",
+            "nom_famille": "Cohen",
+            "age": "34",
+            "sexe": "Masculin",
+            "telephone": "501234567",
+            "resume_ia": "David est un homme curieux et bienveillant, profondément attaché à ses racines. Il travaille dans le hi-tech à Tel Aviv et cherche l'équilibre entre ambition et vie épanouie. Passionné de randonnée et de cuisine méditerranéenne. Il valorise l'honnêteté, l'humour et les conversations profondes. Il cherche une partenaire indépendante avec qui construire quelque chose de sincère."
+          },
+          "score": 72,
+          "raison": "Noa est drôle, aventurière et ancrée à Tel Aviv comme David, mais l'écart d'âge (7 ans) et une légèreté plus prononcée peuvent limiter la profondeur de construction commune qu'il recherche.",
+          "mutual": true
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 3,
+        "nom": "Raphaël",
+        "nom_famille": "Bensimon",
+        "age": "37",
+        "sexe": "Masculin",
+        "telephone": "543219876",
+        "resume_ia": "Raphaël est architecte, créatif et passionné par l'art et le design urbain. Calme et réfléchi, il aime les musées, la photographie et les restaurants cachés. Il valorise la profondeur émotionnelle et l'intelligence. Il cherche une femme cultivée, indépendante, avec qui partager la beauté du quotidien. Un peu introverti mais très chaleureux une fois en confiance."
+      },
+      "meilleur_match": {
+        "id": 4,
+        "nom": "Sophie",
+        "nom_famille": "Katz",
+        "age": "31",
+        "sexe": "Féminin",
+        "telephone": "541112233",
+        "resume_ia": "Sophie est psychologue, empathique et à l'écoute. Elle aime la littérature, le yoga et les balades en bord de mer. Discrète mais passionnée, elle s'exprime avec profondeur dès qu'elle est en confiance. Elle cherche un homme mature capable de vraie communication. Grande cuisinière, elle adore les dîners intimes où la conversation coule autant que le vin."
+      },
+      "score": 85,
+      "raison": "Psychologue empathique et profonde, elle partage avec Raphaël le goût des dîners intimes, de la vraie communication et d'une connexion émotionnelle authentique.",
+      "top3": [
+        {
+          "match": {
+            "id": 4,
+            "nom": "Sophie",
+            "nom_famille": "Katz",
+            "age": "31",
+            "sexe": "Féminin",
+            "telephone": "541112233",
+            "resume_ia": "Sophie est psychologue, empathique et à l'écoute. Elle aime la littérature, le yoga et les balades en bord de mer. Discrète mais passionnée, elle s'exprime avec profondeur dès qu'elle est en confiance. Elle cherche un homme mature capable de vraie communication. Grande cuisinière, elle adore les dîners intimes où la conversation coule autant que le vin."
+          },
+          "score": 85,
+          "raison": "Psychologue empathique et profonde, elle partage avec Raphaël le goût des dîners intimes, de la vraie communication et d'une connexion émotionnelle authentique.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 9,
+            "nom": "Yoella",
+            "nom_famille": "Betito",
+            "age": "45",
+            "sexe": "Féminin",
+            "telephone": "584875830",
+            "resume_ia": "Yoella est une femme de 45 ans, installée en Israël depuis plusieurs années, indépendante, curieuse et profondément tournée vers la croissance personnelle. Designer de meubles et d’espaces, elle aime créer, entreprendre et transformer les idées en projets concrets. Passionnée par les voyages, elle privilégie les destinations qui offrent des paysages marquants, de l’authenticité et des découvertes humaines.\n\nMaman de trois enfants en garde partagée, elle a construit une vie équilibrée entre liberté, famille, travail et épanouissement personnel. En relation, elle recherche avant tout la transparence, la cohérence entre les paroles et les actes, la stabilité émotionnelle et la capacité à s’investir réellement dans une histoire.\n\nSes valeurs centrales sont l’honnêteté, la responsabilité, la liberté de choix, la bienveillance et le respect mutuel. Elle apprécie les conversations profondes, l’intelligence émotionnelle, l’humour et les personnes capables de se remettre en question.\n\nElle recherche un homme non-fumeur, émotionnellement disponible, cultivé, positif, autonome et prêt à construire une relation sérieuse sans jeux ni ambiguïtés. Ce qui la rend unique : un mélange de sensibilité et de caractère, une grande capacité d’analyse des relations humaines, un goût prononcé pour l’aventure, et cette volonté constante d’avancer tout en restant fidèle à elle-même."
+          },
+          "score": 82,
+          "raison": "Designer d'espaces créative, cultivée, émotionnellement intelligente et en quête de profondeur : un alignement rare et fort avec Raphaël sur les valeurs, les intérêts et l'intensité relationnelle.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 5,
+            "nom": "Noa",
+            "nom_famille": "Peretz",
+            "age": "27",
+            "sexe": "Féminin",
+            "telephone": "507778899",
+            "resume_ia": "Noa est graphiste freelance, solaire et créative, passionnée de photographie urbaine. Née à Lyon, elle vit à Tel Aviv depuis 3 ans et adore l'énergie de la ville. Spontanée et drôle, elle aime autant les bars branchés que les musées. Elle suit des cours de poterie et d'arabe. Elle cherche quelqu'un d'aventurier avec qui rire et voyager."
+          },
+          "score": 74,
+          "raison": "Graphiste passionnée de photo urbaine avec un côté spontané et créatif séduisant, mais sa jeunesse et son énergie plus festive tempèrent légèrement l'alignement avec le profil plus posé de Raphaël.",
+          "mutual": false
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 4,
+        "nom": "Sophie",
+        "nom_famille": "Katz",
+        "age": "31",
+        "sexe": "Féminin",
+        "telephone": "541112233",
+        "resume_ia": "Sophie est psychologue, empathique et à l'écoute. Elle aime la littérature, le yoga et les balades en bord de mer. Discrète mais passionnée, elle s'exprime avec profondeur dès qu'elle est en confiance. Elle cherche un homme mature capable de vraie communication. Grande cuisinière, elle adore les dîners intimes où la conversation coule autant que le vin."
+      },
+      "meilleur_match": {
+        "id": 3,
+        "nom": "Raphaël",
+        "nom_famille": "Bensimon",
+        "age": "37",
+        "sexe": "Masculin",
+        "telephone": "543219876",
+        "resume_ia": "Raphaël est architecte, créatif et passionné par l'art et le design urbain. Calme et réfléchi, il aime les musées, la photographie et les restaurants cachés. Il valorise la profondeur émotionnelle et l'intelligence. Il cherche une femme cultivée, indépendante, avec qui partager la beauté du quotidien. Un peu introverti mais très chaleureux une fois en confiance."
+      },
+      "score": 85,
+      "raison": "Psychologue empathique et profonde, elle partage avec Raphaël le goût des dîners intimes, de la vraie communication et d'une connexion émotionnelle authentique.",
+      "top3": [
+        {
+          "match": {
+            "id": 3,
+            "nom": "Raphaël",
+            "nom_famille": "Bensimon",
+            "age": "37",
+            "sexe": "Masculin",
+            "telephone": "543219876",
+            "resume_ia": "Raphaël est architecte, créatif et passionné par l'art et le design urbain. Calme et réfléchi, il aime les musées, la photographie et les restaurants cachés. Il valorise la profondeur émotionnelle et l'intelligence. Il cherche une femme cultivée, indépendante, avec qui partager la beauté du quotidien. Un peu introverti mais très chaleureux une fois en confiance."
+          },
+          "score": 85,
+          "raison": "Psychologue empathique et profonde, elle partage avec Raphaël le goût des dîners intimes, de la vraie communication et d'une connexion émotionnelle authentique.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 1,
+            "nom": "David",
+            "nom_famille": "Cohen",
+            "age": "34",
+            "sexe": "Masculin",
+            "telephone": "501234567",
+            "resume_ia": "David est un homme curieux et bienveillant, profondément attaché à ses racines. Il travaille dans le hi-tech à Tel Aviv et cherche l'équilibre entre ambition et vie épanouie. Passionné de randonnée et de cuisine méditerranéenne. Il valorise l'honnêteté, l'humour et les conversations profondes. Il cherche une partenaire indépendante avec qui construire quelque chose de sincère."
+          },
+          "score": 78,
+          "raison": "Sophie partage avec David le goût des conversations profondes, la cuisine et une recherche de connexion sincère et mature, avec une grande compatibilité émotionnelle et de valeurs.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 2,
+            "nom": "Noam",
+            "nom_famille": "Lévy",
+            "age": "29",
+            "sexe": "Masculin",
+            "telephone": "529876543",
+            "resume_ia": "Noam est un chef cuisinier parisien installé à Tel Aviv depuis 4 ans. Très extraverti, il aime les sorties culturelles, le jazz et les voyages spontanés. Grand sportif, il fait du beach-volley chaque matin. Il cherche une femme avec qui partager sa joie de vivre. Très attaché à la famille, il rêve d'un foyer mêlant cultures française et israélienne."
+          },
+          "score": 62,
+          "raison": "Sophie partage avec Noam l'amour de la cuisine, de la mer et des échanges profonds, mais son tempérament discret et introverti contraste avec l'extraversion débordante de Noam, ce qui pourrait créer un déséquilibre à long terme.",
+          "mutual": false
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 9,
+        "nom": "Yoella",
+        "nom_famille": "Betito",
+        "age": "45",
+        "sexe": "Féminin",
+        "telephone": "584875830",
+        "resume_ia": "Yoella est une femme de 45 ans, installée en Israël depuis plusieurs années, indépendante, curieuse et profondément tournée vers la croissance personnelle. Designer de meubles et d’espaces, elle aime créer, entreprendre et transformer les idées en projets concrets. Passionnée par les voyages, elle privilégie les destinations qui offrent des paysages marquants, de l’authenticité et des découvertes humaines.\n\nMaman de trois enfants en garde partagée, elle a construit une vie équilibrée entre liberté, famille, travail et épanouissement personnel. En relation, elle recherche avant tout la transparence, la cohérence entre les paroles et les actes, la stabilité émotionnelle et la capacité à s’investir réellement dans une histoire.\n\nSes valeurs centrales sont l’honnêteté, la responsabilité, la liberté de choix, la bienveillance et le respect mutuel. Elle apprécie les conversations profondes, l’intelligence émotionnelle, l’humour et les personnes capables de se remettre en question.\n\nElle recherche un homme non-fumeur, émotionnellement disponible, cultivé, positif, autonome et prêt à construire une relation sérieuse sans jeux ni ambiguïtés. Ce qui la rend unique : un mélange de sensibilité et de caractère, une grande capacité d’analyse des relations humaines, un goût prononcé pour l’aventure, et cette volonté constante d’avancer tout en restant fidèle à elle-même."
+      },
+      "meilleur_match": {
+        "id": 3,
+        "nom": "Raphaël",
+        "nom_famille": "Bensimon",
+        "age": "37",
+        "sexe": "Masculin",
+        "telephone": "543219876",
+        "resume_ia": "Raphaël est architecte, créatif et passionné par l'art et le design urbain. Calme et réfléchi, il aime les musées, la photographie et les restaurants cachés. Il valorise la profondeur émotionnelle et l'intelligence. Il cherche une femme cultivée, indépendante, avec qui partager la beauté du quotidien. Un peu introverti mais très chaleureux une fois en confiance."
+      },
+      "score": 82,
+      "raison": "Designer d'espaces créative, cultivée, émotionnellement intelligente et en quête de profondeur : un alignement rare et fort avec Raphaël sur les valeurs, les intérêts et l'intensité relationnelle.",
+      "top3": [
+        {
+          "match": {
+            "id": 3,
+            "nom": "Raphaël",
+            "nom_famille": "Bensimon",
+            "age": "37",
+            "sexe": "Masculin",
+            "telephone": "543219876",
+            "resume_ia": "Raphaël est architecte, créatif et passionné par l'art et le design urbain. Calme et réfléchi, il aime les musées, la photographie et les restaurants cachés. Il valorise la profondeur émotionnelle et l'intelligence. Il cherche une femme cultivée, indépendante, avec qui partager la beauté du quotidien. Un peu introverti mais très chaleureux une fois en confiance."
+          },
+          "score": 82,
+          "raison": "Designer d'espaces créative, cultivée, émotionnellement intelligente et en quête de profondeur : un alignement rare et fort avec Raphaël sur les valeurs, les intérêts et l'intensité relationnelle.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 8,
+            "nom": "David",
+            "nom_famille": "Bit",
+            "age": "42",
+            "sexe": "Masculin",
+            "telephone": "547363627",
+            "resume_ia": "**Prénom :** David\n**Âge :** 46\n**Situation :** Divorcé\n**Enfants :** 2 (grands, chez leur mère)\n**Ville :** Ramat Gan\n**Profession :** Ingénieur / chef de projet\n**Bio :** Papa impliqué, j'aime les week-ends en nature, la bonne cuisine et les moments simples. Je cherche une relation sérieuse avec quelqu'un de vrai. Les familles recomposées ne me font pas peur — au contraire.\n**Hauteur :** 178 cm\n**Fumeur :** Non\n**Religion :** Juif traditionnel"
+          },
+          "score": 81,
+          "raison": "Profil très aligné sur les valeurs (stabilité, transparence, engagement sérieux, non-fumeuse, enfants en garde partagée) et les passions (voyages, création, croissance personnelle), mais l'absence d'indication religieuse explicite et un style de vie plus 'libre/aventurier' introduisent une légère incertitude de compatibilité culturelle.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 1,
+            "nom": "David",
+            "nom_famille": "Cohen",
+            "age": "34",
+            "sexe": "Masculin",
+            "telephone": "501234567",
+            "resume_ia": "David est un homme curieux et bienveillant, profondément attaché à ses racines. Il travaille dans le hi-tech à Tel Aviv et cherche l'équilibre entre ambition et vie épanouie. Passionné de randonnée et de cuisine méditerranéenne. Il valorise l'honnêteté, l'humour et les conversations profondes. Il cherche une partenaire indépendante avec qui construire quelque chose de sincère."
+          },
+          "score": 67,
+          "raison": "Yoella (45 ans) présente une remarquable compatibilité de valeurs — honnêteté, profondeur, humour, indépendance — mais l'écart d'âge de 11 ans et les 3 enfants représentent des défis réels pour construire ensemble.",
+          "mutual": false
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 1,
+        "nom": "David",
+        "nom_famille": "Cohen",
+        "age": "34",
+        "sexe": "Masculin",
+        "telephone": "501234567",
+        "resume_ia": "David est un homme curieux et bienveillant, profondément attaché à ses racines. Il travaille dans le hi-tech à Tel Aviv et cherche l'équilibre entre ambition et vie épanouie. Passionné de randonnée et de cuisine méditerranéenne. Il valorise l'honnêteté, l'humour et les conversations profondes. Il cherche une partenaire indépendante avec qui construire quelque chose de sincère."
+      },
+      "meilleur_match": {
+        "id": 4,
+        "nom": "Sophie",
+        "nom_famille": "Katz",
+        "age": "31",
+        "sexe": "Féminin",
+        "telephone": "541112233",
+        "resume_ia": "Sophie est psychologue, empathique et à l'écoute. Elle aime la littérature, le yoga et les balades en bord de mer. Discrète mais passionnée, elle s'exprime avec profondeur dès qu'elle est en confiance. Elle cherche un homme mature capable de vraie communication. Grande cuisinière, elle adore les dîners intimes où la conversation coule autant que le vin."
+      },
+      "score": 78,
+      "raison": "Sophie partage avec David le goût des conversations profondes, la cuisine et une recherche de connexion sincère et mature, avec une grande compatibilité émotionnelle et de valeurs.",
+      "top3": [
+        {
+          "match": {
+            "id": 4,
+            "nom": "Sophie",
+            "nom_famille": "Katz",
+            "age": "31",
+            "sexe": "Féminin",
+            "telephone": "541112233",
+            "resume_ia": "Sophie est psychologue, empathique et à l'écoute. Elle aime la littérature, le yoga et les balades en bord de mer. Discrète mais passionnée, elle s'exprime avec profondeur dès qu'elle est en confiance. Elle cherche un homme mature capable de vraie communication. Grande cuisinière, elle adore les dîners intimes où la conversation coule autant que le vin."
+          },
+          "score": 78,
+          "raison": "Sophie partage avec David le goût des conversations profondes, la cuisine et une recherche de connexion sincère et mature, avec une grande compatibilité émotionnelle et de valeurs.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 5,
+            "nom": "Noa",
+            "nom_famille": "Peretz",
+            "age": "27",
+            "sexe": "Féminin",
+            "telephone": "507778899",
+            "resume_ia": "Noa est graphiste freelance, solaire et créative, passionnée de photographie urbaine. Née à Lyon, elle vit à Tel Aviv depuis 3 ans et adore l'énergie de la ville. Spontanée et drôle, elle aime autant les bars branchés que les musées. Elle suit des cours de poterie et d'arabe. Elle cherche quelqu'un d'aventurier avec qui rire et voyager."
+          },
+          "score": 72,
+          "raison": "Noa est drôle, aventurière et ancrée à Tel Aviv comme David, mais l'écart d'âge (7 ans) et une légèreté plus prononcée peuvent limiter la profondeur de construction commune qu'il recherche.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 6,
+            "nom": "Maya",
+            "nom_famille": "Goldberg",
+            "age": "33",
+            "sexe": "Féminin",
+            "telephone": "526543210",
+            "resume_ia": "Maya est avocate spécialisée en droit international, ambitieuse mais avec beaucoup d'humour. Elle voyage souvent pour le travail mais aime rentrer chez elle retrouver ses amis. Passionnée de danse latine le week-end, elle cherche un homme sûr de lui mais pas arrogant. Elle valorise la loyauté, l'ambition partagée et la capacité à la légèreté."
+          },
+          "score": 70,
+          "raison": "Maya est ambitieuse et drôle comme David, mais son attrait pour la danse latine, les voyages professionnels fréquents et une dynamique sociale intense s'éloignent de l'équilibre intérieur et des racines que David valorise.",
+          "mutual": false
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 6,
+        "nom": "Maya",
+        "nom_famille": "Goldberg",
+        "age": "33",
+        "sexe": "Féminin",
+        "telephone": "526543210",
+        "resume_ia": "Maya est avocate spécialisée en droit international, ambitieuse mais avec beaucoup d'humour. Elle voyage souvent pour le travail mais aime rentrer chez elle retrouver ses amis. Passionnée de danse latine le week-end, elle cherche un homme sûr de lui mais pas arrogant. Elle valorise la loyauté, l'ambition partagée et la capacité à la légèreté."
+      },
+      "meilleur_match": {
+        "id": 2,
+        "nom": "Noam",
+        "nom_famille": "Lévy",
+        "age": "29",
+        "sexe": "Masculin",
+        "telephone": "529876543",
+        "resume_ia": "Noam est un chef cuisinier parisien installé à Tel Aviv depuis 4 ans. Très extraverti, il aime les sorties culturelles, le jazz et les voyages spontanés. Grand sportif, il fait du beach-volley chaque matin. Il cherche une femme avec qui partager sa joie de vivre. Très attaché à la famille, il rêve d'un foyer mêlant cultures française et israélienne."
+      },
+      "score": 72,
+      "raison": "Maya est ambitieuse, légère, aime rire et voyager, et sa quête d'un homme sûr de lui colle bien à la personnalité affirmée de Noam, même si son profil plus sédentaire et axé carrière pourrait créer quelques frictions avec son mode de vie spontané.",
+      "top3": [
+        {
+          "match": {
+            "id": 2,
+            "nom": "Noam",
+            "nom_famille": "Lévy",
+            "age": "29",
+            "sexe": "Masculin",
+            "telephone": "529876543",
+            "resume_ia": "Noam est un chef cuisinier parisien installé à Tel Aviv depuis 4 ans. Très extraverti, il aime les sorties culturelles, le jazz et les voyages spontanés. Grand sportif, il fait du beach-volley chaque matin. Il cherche une femme avec qui partager sa joie de vivre. Très attaché à la famille, il rêve d'un foyer mêlant cultures française et israélienne."
+          },
+          "score": 72,
+          "raison": "Maya est ambitieuse, légère, aime rire et voyager, et sa quête d'un homme sûr de lui colle bien à la personnalité affirmée de Noam, même si son profil plus sédentaire et axé carrière pourrait créer quelques frictions avec son mode de vie spontané.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 1,
+            "nom": "David",
+            "nom_famille": "Cohen",
+            "age": "34",
+            "sexe": "Masculin",
+            "telephone": "501234567",
+            "resume_ia": "David est un homme curieux et bienveillant, profondément attaché à ses racines. Il travaille dans le hi-tech à Tel Aviv et cherche l'équilibre entre ambition et vie épanouie. Passionné de randonnée et de cuisine méditerranéenne. Il valorise l'honnêteté, l'humour et les conversations profondes. Il cherche une partenaire indépendante avec qui construire quelque chose de sincère."
+          },
+          "score": 70,
+          "raison": "Maya est ambitieuse et drôle comme David, mais son attrait pour la danse latine, les voyages professionnels fréquents et une dynamique sociale intense s'éloignent de l'équilibre intérieur et des racines que David valorise.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 3,
+            "nom": "Raphaël",
+            "nom_famille": "Bensimon",
+            "age": "37",
+            "sexe": "Masculin",
+            "telephone": "543219876",
+            "resume_ia": "Raphaël est architecte, créatif et passionné par l'art et le design urbain. Calme et réfléchi, il aime les musées, la photographie et les restaurants cachés. Il valorise la profondeur émotionnelle et l'intelligence. Il cherche une femme cultivée, indépendante, avec qui partager la beauté du quotidien. Un peu introverti mais très chaleureux une fois en confiance."
+          },
+          "score": 60,
+          "raison": "Intelligente et ambitieuse, Maya partage l'ouverture culturelle, mais son goût pour la légèreté, la danse latine et un rythme de vie extraverti contraste avec la profondeur introvertie recherchée par Raphaël.",
           "mutual": false
         }
       ]
@@ -314,59 +1100,209 @@
   "mutual_matches": [
     {
       "profil_a": {
-        "id": 3,
+        "id": 8,
         "nom": "David",
-        "nom_famille": "Katz",
-        "age": "30",
-        "sexe": "Homme",
-        "telephone": "+972503333333",
-        "resume_ia": "David est un ingénieur high-tech ashkénaze, né à Paris et installé à Tel Aviv depuis 5 ans. Il est traditionaliste sans être très pratiquant — il fait Shabbat en famille mais ne porte pas de kippa. Il cherche une femme intelligente, ambitieuse, avec un sens de l'humour développé et une forte identité juive. Il aime le sport, les voyages, les bons restaurants et les soirées cinéma. Ce qui le rend unique : sa capacité d'écoute, sa loyauté sans faille et son côté romantique discret."
+        "nom_famille": "Bit",
+        "age": "42",
+        "sexe": "Masculin",
+        "telephone": "547363627",
+        "resume_ia": "**Prénom :** David\n**Âge :** 46\n**Situation :** Divorcé\n**Enfants :** 2 (grands, chez leur mère)\n**Ville :** Ramat Gan\n**Profession :** Ingénieur / chef de projet\n**Bio :** Papa impliqué, j'aime les week-ends en nature, la bonne cuisine et les moments simples. Je cherche une relation sérieuse avec quelqu'un de vrai. Les familles recomposées ne me font pas peur — au contraire.\n**Hauteur :** 178 cm\n**Fumeur :** Non\n**Religion :** Juif traditionnel"
       },
       "profil_b": {
-        "id": 1,
-        "nom": "Sophie",
-        "nom_famille": "Lévy",
-        "age": "28",
-        "sexe": "Femme",
-        "telephone": "+972501111111",
-        "resume_ia": "Sophie est une femme juive pratiquante, chaleureuse et ambitieuse. Elle travaille comme avocate à Tel Aviv et est très attachée à ses racines ashkénazes. Elle cherche un partenaire juif qui partage ses valeurs familiales et sa vision d'un foyer traditionnel tout en étant ouvert sur le monde. Passionnée de voyages, de cuisine française et de randonnée, elle aime les week-ends en famille et les dîners de Shabbat animés. Ce qui la rend unique : sa capacité à allier modernité et tradition avec élégance et humour."
+        "id": 7,
+        "nom": "Yoella",
+        "nom_famille": "Betito",
+        "age": "42",
+        "sexe": "Féminin",
+        "telephone": "547366262",
+        "resume_ia": "**Prénom :** Yoella\n**Âge :** 42\n**Situation :** Divorcée\n**Enfants :** 3\n**Ville :** Tel Aviv\n**Profession :** Responsable RH\n**Bio :** Maman de 3 enfants, j'aime cuisiner, les randonnées et les soirées tranquilles. Je cherche quelqu'un de stable et bienveillant, qui sait rire et qui accepte une vie bien remplie 😊\n**Hauteur :** 165 cm\n**Fumeur :** Non\n**Religion :** Juive traditionnelle"
       },
-      "score": 90,
+      "score": 91,
       "score_h": 91,
-      "score_f": 88,
-      "raison": "Sophie partage avec David le même ancrage ashkénaze, un équilibre identique entre modernité et tradition, une vie à Tel Aviv, une ambition professionnelle et un goût commun pour les voyages et les dîners de Shabbat, en faisant une correspondance quasi-idéale.",
+      "score_f": 91,
+      "raison": "Compatibilité quasi-parfaite : même situation (divorcé(e), enfants, ouvert aux familles recomposées), même religion traditionnelle, mêmes goûts (cuisine, randonnée, soirées tranquilles) et même ville en proximité immédiate.",
       "mutual": true
     },
     {
       "profil_a": {
-        "id": 4,
-        "nom": "Raphaël",
-        "nom_famille": "Bensimon",
-        "age": "33",
-        "sexe": "Homme",
-        "telephone": "+972504444444",
-        "resume_ia": "Raphaël est un chef cuisinier séfarade de Holon, chaleureux et expressif. Très attaché à ses origines tunisiennes, il est peu pratiquant mais célèbre toutes les fêtes juives avec passion. Il cherche une femme vivante, authentique, qui aime manger, rire et voyager. Il a besoin de quelqu'un qui comprend l'importance de la famille et des racines culturelles. Son côté unique : il transforme chaque repas en fête et chaque moment ordinaire en souvenir. Il est généreux, parfois impulsif, et toujours sincère."
+        "id": 2,
+        "nom": "Noam",
+        "nom_famille": "Lévy",
+        "age": "29",
+        "sexe": "Masculin",
+        "telephone": "529876543",
+        "resume_ia": "Noam est un chef cuisinier parisien installé à Tel Aviv depuis 4 ans. Très extraverti, il aime les sorties culturelles, le jazz et les voyages spontanés. Grand sportif, il fait du beach-volley chaque matin. Il cherche une femme avec qui partager sa joie de vivre. Très attaché à la famille, il rêve d'un foyer mêlant cultures française et israélienne."
       },
       "profil_b": {
-        "id": 2,
-        "nom": "Maya",
-        "nom_famille": "Cohen",
-        "age": "31",
-        "sexe": "Femme",
-        "telephone": "+972502222222",
-        "resume_ia": "Maya est une artiste peintre séfarade, libre-penseuse et solaire. Elle a grandi à Netanya dans une famille marocaine très soudée. Elle est peu pratiquante mais très attachée à la culture et aux traditions juives séfarades. Elle recherche quelqu'un de curieux, drôle et ouvert, pas forcément très religieux, qui aime les arts, les soirées entre amis et les débats. Son moteur : la créativité et l'authenticité. Elle est directe, généreuse et légèrement désordonnée — ce qui la rend attachante."
+        "id": 5,
+        "nom": "Noa",
+        "nom_famille": "Peretz",
+        "age": "27",
+        "sexe": "Féminin",
+        "telephone": "507778899",
+        "resume_ia": "Noa est graphiste freelance, solaire et créative, passionnée de photographie urbaine. Née à Lyon, elle vit à Tel Aviv depuis 3 ans et adore l'énergie de la ville. Spontanée et drôle, elle aime autant les bars branchés que les musées. Elle suit des cours de poterie et d'arabe. Elle cherche quelqu'un d'aventurier avec qui rire et voyager."
       },
-      "score": 90,
-      "score_h": 91,
+      "score": 88,
+      "score_h": 88,
       "score_f": 88,
-      "raison": "Maya partage avec Raphaël les mêmes racines séfarades, le même niveau de pratique, la même authenticité et la même énergie généreuse et créative — une connexion culturelle et humaine quasi immédiate.",
+      "raison": "Expatriée française à Tel Aviv, spontanée, aventurière et créative, Noa partage le même ancrage géographique, la même énergie de vie et la même soif de voyages que Noam, avec une compatibilité culturelle franco-israélienne quasi idéale.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 3,
+        "nom": "Raphaël",
+        "nom_famille": "Bensimon",
+        "age": "37",
+        "sexe": "Masculin",
+        "telephone": "543219876",
+        "resume_ia": "Raphaël est architecte, créatif et passionné par l'art et le design urbain. Calme et réfléchi, il aime les musées, la photographie et les restaurants cachés. Il valorise la profondeur émotionnelle et l'intelligence. Il cherche une femme cultivée, indépendante, avec qui partager la beauté du quotidien. Un peu introverti mais très chaleureux une fois en confiance."
+      },
+      "profil_b": {
+        "id": 4,
+        "nom": "Sophie",
+        "nom_famille": "Katz",
+        "age": "31",
+        "sexe": "Féminin",
+        "telephone": "541112233",
+        "resume_ia": "Sophie est psychologue, empathique et à l'écoute. Elle aime la littérature, le yoga et les balades en bord de mer. Discrète mais passionnée, elle s'exprime avec profondeur dès qu'elle est en confiance. Elle cherche un homme mature capable de vraie communication. Grande cuisinière, elle adore les dîners intimes où la conversation coule autant que le vin."
+      },
+      "score": 85,
+      "score_h": 82,
+      "score_f": 88,
+      "raison": "Psychologue empathique et profonde, elle partage avec Raphaël le goût des dîners intimes, de la vraie communication et d'une connexion émotionnelle authentique.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 3,
+        "nom": "Raphaël",
+        "nom_famille": "Bensimon",
+        "age": "37",
+        "sexe": "Masculin",
+        "telephone": "543219876",
+        "resume_ia": "Raphaël est architecte, créatif et passionné par l'art et le design urbain. Calme et réfléchi, il aime les musées, la photographie et les restaurants cachés. Il valorise la profondeur émotionnelle et l'intelligence. Il cherche une femme cultivée, indépendante, avec qui partager la beauté du quotidien. Un peu introverti mais très chaleureux une fois en confiance."
+      },
+      "profil_b": {
+        "id": 9,
+        "nom": "Yoella",
+        "nom_famille": "Betito",
+        "age": "45",
+        "sexe": "Féminin",
+        "telephone": "584875830",
+        "resume_ia": "Yoella est une femme de 45 ans, installée en Israël depuis plusieurs années, indépendante, curieuse et profondément tournée vers la croissance personnelle. Designer de meubles et d’espaces, elle aime créer, entreprendre et transformer les idées en projets concrets. Passionnée par les voyages, elle privilégie les destinations qui offrent des paysages marquants, de l’authenticité et des découvertes humaines.\n\nMaman de trois enfants en garde partagée, elle a construit une vie équilibrée entre liberté, famille, travail et épanouissement personnel. En relation, elle recherche avant tout la transparence, la cohérence entre les paroles et les actes, la stabilité émotionnelle et la capacité à s’investir réellement dans une histoire.\n\nSes valeurs centrales sont l’honnêteté, la responsabilité, la liberté de choix, la bienveillance et le respect mutuel. Elle apprécie les conversations profondes, l’intelligence émotionnelle, l’humour et les personnes capables de se remettre en question.\n\nElle recherche un homme non-fumeur, émotionnellement disponible, cultivé, positif, autonome et prêt à construire une relation sérieuse sans jeux ni ambiguïtés. Ce qui la rend unique : un mélange de sensibilité et de caractère, une grande capacité d’analyse des relations humaines, un goût prononcé pour l’aventure, et cette volonté constante d’avancer tout en restant fidèle à elle-même."
+      },
+      "score": 82,
+      "score_h": 88,
+      "score_f": 76,
+      "raison": "Designer d'espaces créative, cultivée, émotionnellement intelligente et en quête de profondeur : un alignement rare et fort avec Raphaël sur les valeurs, les intérêts et l'intensité relationnelle.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 8,
+        "nom": "David",
+        "nom_famille": "Bit",
+        "age": "42",
+        "sexe": "Masculin",
+        "telephone": "547363627",
+        "resume_ia": "**Prénom :** David\n**Âge :** 46\n**Situation :** Divorcé\n**Enfants :** 2 (grands, chez leur mère)\n**Ville :** Ramat Gan\n**Profession :** Ingénieur / chef de projet\n**Bio :** Papa impliqué, j'aime les week-ends en nature, la bonne cuisine et les moments simples. Je cherche une relation sérieuse avec quelqu'un de vrai. Les familles recomposées ne me font pas peur — au contraire.\n**Hauteur :** 178 cm\n**Fumeur :** Non\n**Religion :** Juif traditionnel"
+      },
+      "profil_b": {
+        "id": 9,
+        "nom": "Yoella",
+        "nom_famille": "Betito",
+        "age": "45",
+        "sexe": "Féminin",
+        "telephone": "584875830",
+        "resume_ia": "Yoella est une femme de 45 ans, installée en Israël depuis plusieurs années, indépendante, curieuse et profondément tournée vers la croissance personnelle. Designer de meubles et d’espaces, elle aime créer, entreprendre et transformer les idées en projets concrets. Passionnée par les voyages, elle privilégie les destinations qui offrent des paysages marquants, de l’authenticité et des découvertes humaines.\n\nMaman de trois enfants en garde partagée, elle a construit une vie équilibrée entre liberté, famille, travail et épanouissement personnel. En relation, elle recherche avant tout la transparence, la cohérence entre les paroles et les actes, la stabilité émotionnelle et la capacité à s’investir réellement dans une histoire.\n\nSes valeurs centrales sont l’honnêteté, la responsabilité, la liberté de choix, la bienveillance et le respect mutuel. Elle apprécie les conversations profondes, l’intelligence émotionnelle, l’humour et les personnes capables de se remettre en question.\n\nElle recherche un homme non-fumeur, émotionnellement disponible, cultivé, positif, autonome et prêt à construire une relation sérieuse sans jeux ni ambiguïtés. Ce qui la rend unique : un mélange de sensibilité et de caractère, une grande capacité d’analyse des relations humaines, un goût prononcé pour l’aventure, et cette volonté constante d’avancer tout en restant fidèle à elle-même."
+      },
+      "score": 81,
+      "score_h": 78,
+      "score_f": 84,
+      "raison": "Profil très aligné sur les valeurs (stabilité, transparence, engagement sérieux, non-fumeuse, enfants en garde partagée) et les passions (voyages, création, croissance personnelle), mais l'absence d'indication religieuse explicite et un style de vie plus 'libre/aventurier' introduisent une légère incertitude de compatibilité culturelle.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 1,
+        "nom": "David",
+        "nom_famille": "Cohen",
+        "age": "34",
+        "sexe": "Masculin",
+        "telephone": "501234567",
+        "resume_ia": "David est un homme curieux et bienveillant, profondément attaché à ses racines. Il travaille dans le hi-tech à Tel Aviv et cherche l'équilibre entre ambition et vie épanouie. Passionné de randonnée et de cuisine méditerranéenne. Il valorise l'honnêteté, l'humour et les conversations profondes. Il cherche une partenaire indépendante avec qui construire quelque chose de sincère."
+      },
+      "profil_b": {
+        "id": 4,
+        "nom": "Sophie",
+        "nom_famille": "Katz",
+        "age": "31",
+        "sexe": "Féminin",
+        "telephone": "541112233",
+        "resume_ia": "Sophie est psychologue, empathique et à l'écoute. Elle aime la littérature, le yoga et les balades en bord de mer. Discrète mais passionnée, elle s'exprime avec profondeur dès qu'elle est en confiance. Elle cherche un homme mature capable de vraie communication. Grande cuisinière, elle adore les dîners intimes où la conversation coule autant que le vin."
+      },
+      "score": 78,
+      "score_h": 82,
+      "score_f": 74,
+      "raison": "Sophie partage avec David le goût des conversations profondes, la cuisine et une recherche de connexion sincère et mature, avec une grande compatibilité émotionnelle et de valeurs.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 1,
+        "nom": "David",
+        "nom_famille": "Cohen",
+        "age": "34",
+        "sexe": "Masculin",
+        "telephone": "501234567",
+        "resume_ia": "David est un homme curieux et bienveillant, profondément attaché à ses racines. Il travaille dans le hi-tech à Tel Aviv et cherche l'équilibre entre ambition et vie épanouie. Passionné de randonnée et de cuisine méditerranéenne. Il valorise l'honnêteté, l'humour et les conversations profondes. Il cherche une partenaire indépendante avec qui construire quelque chose de sincère."
+      },
+      "profil_b": {
+        "id": 5,
+        "nom": "Noa",
+        "nom_famille": "Peretz",
+        "age": "27",
+        "sexe": "Féminin",
+        "telephone": "507778899",
+        "resume_ia": "Noa est graphiste freelance, solaire et créative, passionnée de photographie urbaine. Née à Lyon, elle vit à Tel Aviv depuis 3 ans et adore l'énergie de la ville. Spontanée et drôle, elle aime autant les bars branchés que les musées. Elle suit des cours de poterie et d'arabe. Elle cherche quelqu'un d'aventurier avec qui rire et voyager."
+      },
+      "score": 72,
+      "score_h": 71,
+      "score_f": 72,
+      "raison": "Noa est drôle, aventurière et ancrée à Tel Aviv comme David, mais l'écart d'âge (7 ans) et une légèreté plus prononcée peuvent limiter la profondeur de construction commune qu'il recherche.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 2,
+        "nom": "Noam",
+        "nom_famille": "Lévy",
+        "age": "29",
+        "sexe": "Masculin",
+        "telephone": "529876543",
+        "resume_ia": "Noam est un chef cuisinier parisien installé à Tel Aviv depuis 4 ans. Très extraverti, il aime les sorties culturelles, le jazz et les voyages spontanés. Grand sportif, il fait du beach-volley chaque matin. Il cherche une femme avec qui partager sa joie de vivre. Très attaché à la famille, il rêve d'un foyer mêlant cultures française et israélienne."
+      },
+      "profil_b": {
+        "id": 6,
+        "nom": "Maya",
+        "nom_famille": "Goldberg",
+        "age": "33",
+        "sexe": "Féminin",
+        "telephone": "526543210",
+        "resume_ia": "Maya est avocate spécialisée en droit international, ambitieuse mais avec beaucoup d'humour. Elle voyage souvent pour le travail mais aime rentrer chez elle retrouver ses amis. Passionnée de danse latine le week-end, elle cherche un homme sûr de lui mais pas arrogant. Elle valorise la loyauté, l'ambition partagée et la capacité à la légèreté."
+      },
+      "score": 72,
+      "score_h": 72,
+      "score_f": 71,
+      "raison": "Maya est ambitieuse, légère, aime rire et voyager, et sa quête d'un homme sûr de lui colle bien à la personnalité affirmée de Noam, même si son profil plus sédentaire et axé carrière pourrait créer quelques frictions avec son mode de vie spontané.",
       "mutual": true
     }
   ],
-  "total_profils": 4,
+  "total_profils": 9,
   "stats": {
-    "hommes": 2,
-    "femmes": 2,
-    "mutuals": 2
+    "hommes": 4,
+    "femmes": 5,
+    "mutuals": 8
   }
 }
