@@ -910,7 +910,7 @@ async function loadData() {
     renderTop(data.top_matchs);
     renderMutual(data.mutual_matches || []);
     renderPersons(data.best_per_person);
-    renderTables(data.top_matchs || []);
+    renderTables(data);
 
     const now = new Date().toLocaleTimeString('fr-FR', {hour:'2-digit', minute:'2-digit'});
     document.getElementById('refresh-info') && (document.getElementById('refresh-info').textContent =
@@ -926,37 +926,37 @@ async function loadData() {
   }
 }
 
-function buildTables(allScores) {
-  // Déduplique : chaque personne apparaît dans 1 seule table
+function buildTables(data) {
   const assigned = new Set();
   const couples = [];
 
-  // D'abord les matchs mutuels (triés par score)
-  for (const m of allScores) {
-    if (!m.mutual) continue;
-    const idA = m.profil_a.id ?? m.profil_a.nom;
-    const idB = m.profil_b.id ?? m.profil_b.nom;
-    if (!assigned.has(idA) && !assigned.has(idB)) {
-      couples.push({ ...m, isMutual: true });
-      assigned.add(idA); assigned.add(idB);
-    }
+  // Source 1 : tous les matchs mutuels (liste complète)
+  const mutuals = (data.mutual_matches || []).map(m => ({...m, isMutual: true}));
+  // Source 2 : tous les matchs (top_matchs peut aller jusqu'à 100)
+  const all = (data.top_matchs || []).map(m => ({...m, isMutual: !!m.mutual}));
+
+  // Fusion dédupliquée : mutuels d'abord, puis reste
+  const seen = new Set();
+  const merged = [];
+  for (const m of [...mutuals, ...all]) {
+    const key = [m.profil_a.id ?? m.profil_a.nom, m.profil_b.id ?? m.profil_b.nom].sort().join('|');
+    if (!seen.has(key)) { seen.add(key); merged.push(m); }
   }
-  // Ensuite les autres matchs pour compléter
-  for (const m of allScores) {
-    if (m.mutual) continue;
+
+  // Greedy : chaque personne apparaît dans 1 seul couple
+  for (const m of merged) {
     const idA = m.profil_a.id ?? m.profil_a.nom;
     const idB = m.profil_b.id ?? m.profil_b.nom;
     if (!assigned.has(idA) && !assigned.has(idB)) {
-      couples.push({ ...m, isMutual: false });
+      couples.push(m);
       assigned.add(idA); assigned.add(idB);
     }
   }
 
-  // Grouper par 2 couples = 1 table
+  // 2 couples par table
   const tables = [];
-  for (let i = 0; i < couples.length; i += 2) {
+  for (let i = 0; i < couples.length; i += 2)
     tables.push({ c1: couples[i], c2: couples[i+1] || null });
-  }
   return tables;
 }
 

@@ -15,7 +15,7 @@ CRITERES = {
     "Projet de vie & famille"     : 8,
 }
 SEUIL_MUTUAL = 70
-TOP_N = 20
+TOP_N = 100  # toutes les paires (10×10)
 
 PROFILES = [
   {"id":1,"nom":"Léa","nom_famille":"Cohen","age":"27","sexe":"Féminin","telephone":"0501234567",
