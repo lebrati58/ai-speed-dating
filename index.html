@@ -644,6 +644,21 @@ footer {
   .seat-name { font-size: 9px; max-width: 64px; }
   .seat-detail { display: block; font-size: 9px; }
 }
+
+/* ─── Language switcher ─── */
+.lang-switcher {
+  display: flex; justify-content: center; gap: 8px;
+  padding: 10px 0 0;
+}
+.lang-btn {
+  background: none; border: 2px solid transparent;
+  border-radius: 50%; width: 36px; height: 36px;
+  font-size: 20px; cursor: pointer;
+  transition: transform 0.15s, border-color 0.15s;
+  line-height: 1; display: flex; align-items: center; justify-content: center;
+}
+.lang-btn:hover { transform: scale(1.15); }
+.lang-btn.active { border-color: var(--pink); transform: scale(1.1); }
 </style>
 </head>
 <body>
@@ -695,16 +710,24 @@ footer {
       <div class="logo-tagline">AI-Powered Speed Dating</div>
     </div>
   </div>
-  <p class="header-event">Soirée Célibataires · Tel Aviv</p>
+  <p class="header-event" data-i18n="event">Soirée Célibataires en Israël</p>
+  <div class="lang-switcher">
+    <button class="lang-btn active" onclick="setLang('fr')" title="Français">🇫🇷</button>
+    <button class="lang-btn" onclick="setLang('en')" title="English">🇺🇸</button>
+    <button class="lang-btn" onclick="setLang('it')" title="Italiano">🇮🇹</button>
+    <button class="lang-btn" onclick="setLang('es')" title="Español">🇪🇸</button>
+    <button class="lang-btn" onclick="setLang('de')" title="Deutsch">🇩🇪</button>
+    <button class="lang-btn" onclick="setLang('he')" title="עברית">🇮🇱</button>
+  </div>
 </header>
 
 <nav>
-  <button class="active" onclick="showTab('top',this)">✦ Top Matchs</button>
+  <button class="active" onclick="showTab('top',this)" data-i18n="nav_top">✦ Top Matchs</button>
   <button onclick="showTab('mutual',this)">
-    ♥ Affinités Mutuelles
+    <span data-i18n="nav_mutual">♥ Affinités Mutuelles</span>
     <span class="tab-badge" id="mutual-badge"></span>
   </button>
-  <button onclick="showTab('all',this)">◈ Par Personne</button>
+  <button onclick="showTab('all',this)" data-i18n="nav_all">◈ Par Personne</button>
   <button onclick="showTab('tables',this)">🪑 Tables</button>
 </nav>
 
@@ -715,19 +738,19 @@ footer {
   <div class="stats-bar" id="stats" style="display:none">
     <div class="stat">
       <div class="stat-num" id="s-profils">—</div>
-      <div class="stat-label">Participants</div>
+      <div class="stat-label" data-i18n="stat_participants">Participants</div>
     </div>
     <div class="stat">
       <div class="stat-num" id="s-paires">—</div>
-      <div class="stat-label">Paires analysées</div>
+      <div class="stat-label" data-i18n="stat_pairs">Paires analysées</div>
     </div>
     <div class="stat">
       <div class="stat-num" id="s-top">—</div>
-      <div class="stat-label">Compatibilité max</div>
+      <div class="stat-label" data-i18n="stat_top">Compatibilité max</div>
     </div>
     <div class="stat">
       <div class="stat-num" id="s-mutual">—</div>
-      <div class="stat-label">Affinités mutuelles ♥</div>
+      <div class="stat-label" data-i18n="stat_mutual">Affinités mutuelles ♥</div>
     </div>
   </div>
   <div class="match-grid" id="top-list">
@@ -739,8 +762,8 @@ footer {
 <div id="mutual" class="section">
   <div class="mutual-banner">
     <div class="hearts-row">♥ ♥ ♥</div>
-    <h2>Affinités Mutuelles</h2>
-    <p>Ces personnes se sont choisies mutuellement — compatibilité dans les deux sens</p>
+    <h2 data-i18n="mutual_title">Affinités Mutuelles</h2>
+    <p data-i18n="mutual_desc">Ces personnes se sont choisies mutuellement — compatibilité dans les deux sens</p>
   </div>
   <div class="match-grid" id="mutual-list">
     <div class="loading">Chargement…</div>
@@ -757,8 +780,8 @@ footer {
 <!-- TAB 4 — Tables -->
 <div id="tables" class="section">
   <div class="tables-intro">
-    <h2>Placement des Tables</h2>
-    <p>2 couples par table · basé sur les meilleures affinités</p>
+    <h2 data-i18n="tables_title">Placement des Tables</h2>
+    <p data-i18n="tables_desc">2 couples par table · basé sur les meilleures affinités</p>
   </div>
   <div class="tables-grid" id="tables-list">
     <div class="loading">Calcul du placement…</div>
@@ -767,9 +790,163 @@ footer {
 
 </main>
 
-<footer>SpeedAite · AI-Powered Speed Dating · Tel Aviv ♥</footer>
+<footer><span data-i18n="footer_text">SpeedAite · AI-Powered Speed Dating · Israël ♥</span></footer>
 
 <script>
+
+// ─── Translations ───────────────────────────────────────────────
+const TRANSLATIONS = {
+  fr: {
+    event: 'Soirée Célibataires en Israël',
+    tagline: 'AI-Powered Speed Dating',
+    nav_top: '✦ Top Matchs', nav_mutual: '♥ Affinités Mutuelles',
+    nav_all: '◈ Par Personne', nav_tables: '🪡 Tables',
+    stat_participants: 'Participants', stat_pairs: 'Paires analysées',
+    stat_top: 'Compatibilité max', stat_mutual: 'Affinités mutuelles ♥',
+    mutual_title: 'Affinités Mutuelles',
+    mutual_desc: 'Ces personnes se sont choisies mutuellement — compatibilité dans les deux sens',
+    tables_title: 'Placement des Tables',
+    tables_desc: '2 couples par table · basé sur les meilleures affinités',
+    footer_text: 'SpeedAite · AI-Powered Speed Dating · Israël ♥',
+    years: 'ans', affinity: 'affinité', mutual_tag: 'Mutuel',
+    loading: 'Chargement des affinités…', no_match: 'Aucun match disponible.',
+    no_mutual: 'Les affinités mutuelles apparaîtront ici ♥',
+    no_data: 'Aucune donnée.', no_tables: 'Pas assez de matchs pour placer des tables.',
+    available_seat: '… place disponible',
+  },
+  en: {
+    event: 'Singles Night in Israel',
+    tagline: 'AI-Powered Speed Dating',
+    nav_top: '✦ Top Matches', nav_mutual: '♥ Mutual Matches',
+    nav_all: '◈ By Person', nav_tables: '🪡 Tables',
+    stat_participants: 'Participants', stat_pairs: 'Pairs analyzed',
+    stat_top: 'Top compatibility', stat_mutual: 'Mutual matches ♥',
+    mutual_title: 'Mutual Matches',
+    mutual_desc: 'These people chose each other — compatibility in both directions',
+    tables_title: 'Table Placement',
+    tables_desc: '2 couples per table · based on best compatibility',
+    footer_text: 'SpeedAite · AI-Powered Speed Dating · Israel ♥',
+    years: 'y.o.', affinity: 'match', mutual_tag: 'Mutual',
+    loading: 'Loading matches…', no_match: 'No matches available.',
+    no_mutual: 'Mutual matches will appear here ♥',
+    no_data: 'No data.', no_tables: 'Not enough matches to place tables.',
+    available_seat: '… seat available',
+  },
+  it: {
+    event: 'Serata per Single in Israele',
+    tagline: 'AI-Powered Speed Dating',
+    nav_top: '✦ Top Match', nav_mutual: '♥ Affinità Reciproche',
+    nav_all: '◈ Per Persona', nav_tables: '🪡 Tavoli',
+    stat_participants: 'Partecipanti', stat_pairs: 'Coppie analizzate',
+    stat_top: 'Compatibilità max', stat_mutual: 'Affinità reciproche ♥',
+    mutual_title: 'Affinità Reciproche',
+    mutual_desc: 'Queste persone si sono scelte a vicenda — compatibilità in entrambi i sensi',
+    tables_title: 'Disposizione Tavoli',
+    tables_desc: '2 coppie per tavolo · in base alle migliori affinità',
+    footer_text: 'SpeedAite · AI-Powered Speed Dating · Israele ♥',
+    years: 'anni', affinity: 'affinità', mutual_tag: 'Reciproco',
+    loading: 'Caricamento affinità…', no_match: 'Nessun match disponibile.',
+    no_mutual: 'Le affinità reciproche appariranno qui ♥',
+    no_data: 'Nessun dato.', no_tables: 'Non abbastanza match per i tavoli.',
+    available_seat: '… posto disponibile',
+  },
+  es: {
+    event: 'Noche para Solteros en Israel',
+    tagline: 'AI-Powered Speed Dating',
+    nav_top: '✦ Mejores Matchs', nav_mutual: '♥ Afinidades Mutuas',
+    nav_all: '◈ Por Persona', nav_tables: '🪡 Mesas',
+    stat_participants: 'Participantes', stat_pairs: 'Pares analizados',
+    stat_top: 'Compatibilidad máx', stat_mutual: 'Afinidades mutuas ♥',
+    mutual_title: 'Afinidades Mutuas',
+    mutual_desc: 'Estas personas se eligieron mutuamente — compatibilidad en ambas direcciones',
+    tables_title: 'Ubicación de Mesas',
+    tables_desc: '2 parejas por mesa · basado en las mejores afinidades',
+    footer_text: 'SpeedAite · AI-Powered Speed Dating · Israel ♥',
+    years: 'años', affinity: 'afinidad', mutual_tag: 'Mutuo',
+    loading: 'Cargando afinidades…', no_match: 'No hay matches disponibles.',
+    no_mutual: 'Las afinidades mutuas aparecerán aquí ♥',
+    no_data: 'Sin datos.', no_tables: 'No hay suficientes matches para las mesas.',
+    available_seat: '… lugar disponible',
+  },
+  de: {
+    event: 'Single-Abend in Israel',
+    tagline: 'KI-gestütztes Speed Dating',
+    nav_top: '✦ Top Matches', nav_mutual: '♥ Gegenseitige Matches',
+    nav_all: '◈ Pro Person', nav_tables: '🪡 Tische',
+    stat_participants: 'Teilnehmer', stat_pairs: 'Analysierte Paare',
+    stat_top: 'Max. Kompatibilität', stat_mutual: 'Gegenseitige Matches ♥',
+    mutual_title: 'Gegenseitige Matches',
+    mutual_desc: 'Diese Personen haben sich gegenseitig gewählt — Kompatibilität in beide Richtungen',
+    tables_title: 'Tischplatzierung',
+    tables_desc: '2 Paare pro Tisch · basierend auf bester Affinität',
+    footer_text: 'SpeedAite · KI-gestütztes Speed Dating · Israel ♥',
+    years: 'J.', affinity: 'Affinität', mutual_tag: 'Gegenseitig',
+    loading: 'Affinitäten werden geladen…', no_match: 'Keine Matches verfügbar.',
+    no_mutual: 'Gegenseitige Matches erscheinen hier ♥',
+    no_data: 'Keine Daten.', no_tables: 'Nicht genug Matches für Tische.',
+    available_seat: '… Platz verfügbar',
+  },
+  he: {
+    event: 'ערב רווקים בישראל',
+    tagline: 'שידוך מהיר מבוסס בינה מלאכותית',
+    nav_top: '✦ התאמות מובילות', nav_mutual: '♥ התאמות הדדיות',
+    nav_all: '◈ לפי אדם', nav_tables: '🪡 שולחנות',
+    stat_participants: 'משתתפים', stat_pairs: 'זוגות שנותחו',
+    stat_top: 'תאימות מקסימלית', stat_mutual: 'התאמות הדדיות ♥',
+    mutual_title: 'התאמות הדדיות',
+    mutual_desc: 'אנשים אלו בחרו אחד את השני — תאימות בשני הכיוונים',
+    tables_title: 'סידור שולחנות',
+    tables_desc: '2 זוגות לשולחן · מבוסס על ההתאמות הטובות ביותר',
+    footer_text: 'SpeedAite · שידוך מהיר מבוסס בינה מלאכותית · ישראל ♥',
+    years: 'שנים', affinity: 'קרבה', mutual_tag: 'הדדי',
+    loading: 'טוען נתונים…', no_match: 'אין התאמות זמינות.',
+    no_mutual: 'ההתאמות ההדדיות יופיעו כאן ♥',
+    no_data: 'אין נתונים.', no_tables: 'אין מספיק התאמות לסידור שולחנות.',
+    available_seat: '… מקום פנוי',
+  },
+};
+
+let currentLang = localStorage.getItem('sa_lang') || 'fr';
+let T = TRANSLATIONS[currentLang];
+
+function setLang(lang) {
+  currentLang = lang;
+  T = TRANSLATIONS[lang];
+  localStorage.setItem('sa_lang', lang);
+  // RTL pour hébreu
+  document.documentElement.setAttribute('dir', lang === 'he' ? 'rtl' : 'ltr');
+  document.documentElement.setAttribute('lang', lang);
+  // Active button
+  document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
+  const langMap = {fr:0,en:1,it:2,es:3,de:4,he:5};
+  const btns = document.querySelectorAll('.lang-btn');
+  if (btns[langMap[lang]]) btns[langMap[lang]].classList.add('active');
+  // Apply static translations
+  applyTranslations();
+  // Re-render dynamic content
+  if (window._loadedData) {
+    renderTop(window._loadedData.top_matchs);
+    renderMutual(window._loadedData.mutual_matches || []);
+    renderPersons(window._loadedData.best_per_person);
+    renderTables(window._loadedData);
+  }
+}
+
+function applyTranslations() {
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const key = el.getAttribute('data-i18n');
+    if (T[key]) el.textContent = T[key];
+  });
+  // Tagline (logo-tagline n'a pas de data-i18n, on le cible directement)
+  const tagEl = document.querySelector('.logo-tagline');
+  if (tagEl) tagEl.textContent = T.tagline;
+}
+
+// Init langue au load
+document.addEventListener('DOMContentLoaded', () => {
+  setLang(currentLang);
+});
+
 const CIRCUMFERENCE = 2 * Math.PI * 36;
 
 function showTab(id, btn) {
@@ -791,7 +968,7 @@ function ring(score, isMutual) {
       </svg>
       <div class="ring-label">
         <span class="ring-pct">${score}%</span>
-        <span class="ring-sub">affinité</span>
+        <span class="ring-sub">${T.affinity}</span>
       </div>
     </div>`;
 }
@@ -800,7 +977,7 @@ function matchCard(m, index) {
   const isMutual = m.mutual === true;
   const divider  = isMutual ? '♥' : '×';
   const mutualTag = isMutual
-    ? `<div class="mutual-tag"><span class="hrt">♥</span> Mutuel</div>` : '';
+    ? `<div class="mutual-tag"><span class="hrt">♥</span> ${T.mutual_tag}</div>` : '';
   const rankNum = index !== undefined ? index + 1 : '';
   return `
     <div class="match-card${isMutual ? ' mutual' : ''}">
@@ -810,7 +987,7 @@ function matchCard(m, index) {
       <div class="match-names">
         <div class="match-person">
           <div class="person-name">${m.profil_a.nom} ${m.profil_a.nom_famille||''}</div>
-          <div class="person-age">${m.profil_a.age} ans</div>
+          <div class="person-age">${m.profil_a.age} ${T.years}</div>
           <div class="affinity-bar-wrap">
             <div class="affinity-bar-bg">
               <div class="affinity-bar-fill" style="width:${m.score}%"></div>
@@ -820,7 +997,7 @@ function matchCard(m, index) {
         <div class="match-divider">${divider}</div>
         <div class="match-person right">
           <div class="person-name">${m.profil_b.nom} ${m.profil_b.nom_famille||''}</div>
-          <div class="person-age">${m.profil_b.age} ans</div>
+          <div class="person-age">${m.profil_b.age} ${T.years}</div>
         </div>
       </div>
     </div>`;
@@ -828,14 +1005,14 @@ function matchCard(m, index) {
 
 function renderTop(matchs) {
   const el = document.getElementById('top-list');
-  if (!matchs?.length) { el.innerHTML = '<div class="loading">Aucun match disponible.</div>'; return; }
+  if (!matchs?.length) { el.innerHTML = `<div class="loading">${T.no_match}</div>`; return; }
   el.innerHTML = matchs.slice(0,20).map((m,i) => matchCard(m,i)).join('');
 }
 
 function renderMutual(mutuals) {
   const el = document.getElementById('mutual-list');
   if (!mutuals?.length) {
-    el.innerHTML = '<div class="empty-state">Les affinités mutuelles apparaîtront ici ♥</div>';
+    el.innerHTML = `<div class="empty-state">${T.no_mutual}</div>`;
     return;
   }
   el.innerHTML = mutuals.map((m,i) => matchCard(m,i)).join('');
@@ -861,7 +1038,7 @@ function smallRing(score, isMutual, size=52) {
 
 function renderPersons(persons) {
   const el = document.getElementById('person-list');
-  if (!persons?.length) { el.innerHTML = '<div class="loading">Aucune donnée.</div>'; return; }
+  if (!persons?.length) { el.innerHTML = `<div class="loading">${T.no_data}</div>`; return; }
 
   el.innerHTML = persons.map(p => {
     const top3 = p.top3 || (p.meilleur_match
@@ -877,7 +1054,7 @@ function renderPersons(persons) {
           <div class="entry-rank${isMut ? ' mutual-rank' : ''}">${i+1}</div>
           <div class="entry-info">
             <div class="entry-name${isMut ? ' purple' : ''}">${e.match.nom} ${e.match.nom_famille||''}${isMut ? ' ♥' : ''}</div>
-            <div class="entry-meta">${e.match.age} ans · ${e.score}% compatibilité</div>
+            <div class="entry-meta">${e.match.age} ${T.years} · ${e.score}% ${T.affinity}</div>
           </div>
           ${smallRing(e.score, isMut)}
         </div>`;
@@ -901,7 +1078,7 @@ function renderPersons(persons) {
           <div class="person-avatar">${initiale}</div>
           <div>
             <div class="person-card-name">${p.personne.nom} ${p.personne.nom_famille||''}</div>
-            <div class="person-card-age">${p.personne.age} ans · ${p.personne.sexe}</div>
+            <div class="person-card-age">${p.personne.age} ${T.years} · ${p.personne.sexe}</div>
           </div>
         </div>
         ${entries}
@@ -946,6 +1123,7 @@ async function loadData() {
       badge.classList.add('visible');
     }
 
+    window._loadedData = data;
     renderTop(data.top_matchs);
     renderMutual(data.mutual_matches || []);
     renderPersons(data.best_per_person);
@@ -1044,7 +1222,7 @@ function renderTables(data) {
         <span>${prenom(p2a)} &amp; ${prenom(p2b)}</span>
         ${c2.isMutual ? '<span class="mutual-pill purple">♥ Mutuel</span>' : ''}
         <span class="couple-score c2">${c2.score}%</span>
-      </div>` : '<div style="font-size:10px;color:var(--gris);text-align:center;margin-top:4px">… place disponible</div>';
+      </div>` : `<div style="font-size:10px;color:var(--gris);text-align:center;margin-top:4px">${T.available_seat}</div>`;
 
     return `
       <div class="table-card${soloClass}">
@@ -1066,6 +1244,7 @@ function renderTables(data) {
   }).join('');
 }
 
+setLang(currentLang);
 loadData();
 setInterval(loadData, 60000);
 </script>
