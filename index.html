@@ -972,12 +972,12 @@ function buildTables(data) {
   return tables;
 }
 
-function renderTables(allScores) {
+function renderTables(data) {
   const el = document.getElementById('tables-list');
-  if (!allScores?.length) {
+  if (!data || (!data.top_matchs?.length && !data.mutual_matches?.length)) {
     el.innerHTML = '<div class="loading">Aucune donnée.</div>'; return;
   }
-  const tables = buildTables(allScores);
+  const tables = buildTables(data);
   if (!tables.length) {
     el.innerHTML = '<div class="empty-state">Pas assez de matchs pour placer des tables.</div>'; return;
   }
