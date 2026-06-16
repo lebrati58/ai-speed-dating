@@ -541,67 +541,79 @@ footer {
 
 /* ─── Responsive ─── */
 @media (max-width: 768px) {
-  /* Tables */
-  .tables-grid { grid-template-columns: 1fr 1fr; gap: 20px; }
-  .round-table-wrap { width: 170px; height: 170px; }
-  .round-table-surface { width: 76px; height: 76px; }
-  .seat-avatar { width: 34px; height: 34px; font-size: 14px; }
-  .seat-name { font-size: 9px; }
-  .seat-detail { font-size: 8px; }
-  .seat { width: 70px; }
 
-  /* Header */
+  /* ── Header ── */
+  header { padding: 28px 16px 20px; }
   .logo-wrap { gap: 10px; }
-  .logo-icon { width: 48px; height: 48px; }
-  .logo-name { font-size: 28px; }
+  .logo-icon { width: 44px; height: 44px; }
+  .logo-name { font-size: 26px; }
   .logo-tagline { font-size: 9px; letter-spacing: 1px; }
-  header { padding: 32px 16px 24px; }
   .header-event { font-size: 9px; }
 
-  /* Nav */
-  nav { overflow-x: auto; justify-content: flex-start; }
-  nav button { padding: 14px 16px; font-size: 9px; letter-spacing: 2px; white-space: nowrap; }
+  /* ── Nav ── */
+  nav { overflow-x: auto; justify-content: flex-start; -webkit-overflow-scrolling: touch; }
+  nav button { padding: 14px 14px; font-size: 9px; letter-spacing: 1.5px; white-space: nowrap; flex-shrink: 0; }
 
-  /* Main */
-  main { padding: 24px 12px 60px; }
+  /* ── Main ── */
+  main { padding: 20px 12px 60px; }
 
-  /* Stats */
-  .stats-bar { flex-direction: column; gap: 0; margin-bottom: 28px; }
-  .stat { border-right: none; border-bottom: 1px solid rgba(232,0,107,0.08); padding: 14px 16px; }
+  /* ── Stats ── */
+  .stats-bar { flex-direction: column; gap: 0; margin-bottom: 24px; }
+  .stat { border-right: none; border-bottom: 1px solid rgba(232,0,107,0.08); padding: 12px 16px; display: flex; align-items: center; gap: 12px; }
   .stat:last-child { border-bottom: none; }
-  .stat-num { font-size: 32px; }
+  .stat-num { font-size: 28px; }
+  .stat-label { font-size: 10px; letter-spacing: 1px; text-align: left; margin-top: 0; }
 
-  /* Match cards — stack verticalement */
+  /* ── Match cards ── */
   .match-card {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 12px;
-    padding: 16px;
+    flex-wrap: wrap;
+    padding: 14px;
+    gap: 8px;
+    position: relative;
   }
   .match-rank { display: none; }
   .match-raison { display: none; }
-  .match-names {
-    flex-direction: row;
-    align-items: center;
-    gap: 8px;
-    width: 100%;
-  }
-  .person-name { font-size: 17px; }
-  .person-age { font-size: 10px; }
-  .ring-wrap { width: 64px; height: 64px; align-self: flex-end; position: absolute; top: 14px; right: 14px; }
-  .match-card { position: relative; }
-  .ring-pct { font-size: 14px; }
+  /* Le ring reste dans le flux, plus petit */
+  .ring-wrap { width: 56px; height: 56px; flex-shrink: 0; position: static; }
+  .ring-pct { font-size: 13px; }
   .ring-sub { display: none; }
-  .mutual-tag { top: 44px; right: 14px; font-size: 8px; }
+  .match-names { flex: 1; min-width: 0; gap: 6px; }
+  .person-name { font-size: 15px; }
+  .person-age { font-size: 10px; }
+  .mutual-tag { top: 8px; right: 10px; font-size: 8px; }
 
-  /* Mutual banner */
-  .mutual-banner { padding: 20px 16px; }
-  .mutual-banner h2 { font-size: 22px; }
-  .hearts-row { font-size: 16px; letter-spacing: 4px; }
+  /* ── Mutual banner ── */
+  .mutual-banner { padding: 18px 14px; }
+  .mutual-banner h2 { font-size: 20px; }
+  .hearts-row { font-size: 14px; letter-spacing: 3px; }
 
-  /* Person grid */
+  /* ── Person grid ── */
   .person-grid { grid-template-columns: 1fr; }
-  .person-card { padding: 16px; }
+  .person-card { padding: 14px; }
+
+  /* ── Tables ── */
+  .tables-grid { grid-template-columns: 1fr 1fr; gap: 16px; }
+  .table-card { padding: 18px 10px 12px; }
+  .round-table-wrap { width: 150px; height: 150px; }
+  .round-table-surface { width: 64px; height: 64px; }
+  .table-heart { font-size: 16px; }
+  .seat { width: 62px; }
+  .seat-avatar { width: 32px; height: 32px; font-size: 13px; }
+  .seat-name { font-size: 9px; max-width: 60px; }
+  .seat-detail { display: none; }
+  .couple-legend-row { font-size: 10px; }
+  .couple-score { font-size: 9px; }
+}
+
+@media (max-width: 420px) {
+  /* 1 colonne sur très petits écrans */
+  .tables-grid { grid-template-columns: 1fr; }
+  .round-table-wrap { width: 180px; height: 180px; }
+  .round-table-surface { width: 76px; height: 76px; }
+  .seat { width: 72px; }
+  .seat-avatar { width: 38px; height: 38px; font-size: 15px; }
+  .seat-name { font-size: 10px; max-width: 70px; }
+  .seat-detail { display: block; }
 }
 </style>
 </head>
