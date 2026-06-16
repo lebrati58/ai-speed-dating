@@ -410,9 +410,59 @@ footer {
 }
 
 /* ─── Responsive ─── */
-@media (max-width: 700px) {
+@media (max-width: 768px) {
+  /* Header */
+  .logo-wrap { gap: 10px; }
+  .logo-icon { width: 48px; height: 48px; }
+  .logo-name { font-size: 28px; }
+  .logo-tagline { font-size: 9px; letter-spacing: 1px; }
+  header { padding: 32px 16px 24px; }
+  .header-event { font-size: 9px; }
+
+  /* Nav */
+  nav { overflow-x: auto; justify-content: flex-start; }
+  nav button { padding: 14px 16px; font-size: 9px; letter-spacing: 2px; white-space: nowrap; }
+
+  /* Main */
+  main { padding: 24px 12px 60px; }
+
+  /* Stats */
+  .stats-bar { flex-direction: column; gap: 0; margin-bottom: 28px; }
+  .stat { border-right: none; border-bottom: 1px solid rgba(232,0,107,0.08); padding: 14px 16px; }
+  .stat:last-child { border-bottom: none; }
+  .stat-num { font-size: 32px; }
+
+  /* Match cards — stack verticalement */
+  .match-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 16px;
+  }
+  .match-rank { display: none; }
   .match-raison { display: none; }
-  .match-names { gap: 10px; }
+  .match-names {
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+  }
+  .person-name { font-size: 17px; }
+  .person-age { font-size: 10px; }
+  .ring-wrap { width: 64px; height: 64px; align-self: flex-end; position: absolute; top: 14px; right: 14px; }
+  .match-card { position: relative; }
+  .ring-pct { font-size: 14px; }
+  .ring-sub { display: none; }
+  .mutual-tag { top: 44px; right: 14px; font-size: 8px; }
+
+  /* Mutual banner */
+  .mutual-banner { padding: 20px 16px; }
+  .mutual-banner h2 { font-size: 22px; }
+  .hearts-row { font-size: 16px; letter-spacing: 4px; }
+
+  /* Person grid */
+  .person-grid { grid-template-columns: 1fr; }
+  .person-card { padding: 16px; }
 }
 </style>
 </head>

@@ -190,11 +190,32 @@ h1 em { font-style: italic; color: var(--pink2); }
   letter-spacing: 2px; text-transform: uppercase;
 }
 
-@media (max-width: 480px) {
-  .card-header { padding: 32px 24px 24px; }
-  .form-body { padding: 24px; }
+@media (max-width: 600px) {
+  body { padding: 0; align-items: flex-start; }
+  .card {
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+    min-height: 100vh;
+    box-shadow: none;
+  }
+  .card-header { padding: 28px 20px 22px; }
+  .logo-name { font-size: 26px; }
+  .logo-tagline { font-size: 9px; letter-spacing: 1px; }
+  .logo-icon { width: 42px; height: 42px; }
+  .logo-wrap { gap: 10px; }
+  h1 { font-size: 26px; }
+  .subtitle { font-size: 13px; }
+  .form-body { padding: 20px; }
   .form-row { grid-template-columns: 1fr; gap: 0; }
-  h1 { font-size: 22px; }
+  .field { margin-bottom: 14px; }
+  .field input, .field select, .field textarea {
+    padding: 14px 14px;
+    font-size: 16px; /* évite le zoom auto iOS */
+  }
+  .field textarea { min-height: 90px; }
+  .submit-btn { padding: 18px; font-size: 16px; }
+  .card-footer { padding: 12px 20px; font-size: 9px; }
 }
 </style>
 </head>
