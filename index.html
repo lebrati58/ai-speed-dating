@@ -409,8 +409,147 @@ footer {
   border-top: 1px solid rgba(255,255,255,0.04);
 }
 
+/* ─── Tables placement ─── */
+.tables-intro {
+  text-align: center; margin-bottom: 36px; padding: 20px;
+  background: linear-gradient(135deg, rgba(232,0,107,0.06), rgba(155,48,255,0.04));
+  border: 1px solid rgba(232,0,107,0.12); border-radius: 12px;
+}
+.tables-intro h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px; font-weight: 400; margin-bottom: 6px;
+  background: linear-gradient(135deg, var(--pink), var(--purple));
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+}
+.tables-intro p { font-size: 12px; color: var(--gris); }
+
+.tables-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.table-card {
+  background: var(--card);
+  border: 1px solid rgba(255,255,255,0.05);
+  border-radius: 16px;
+  padding: 20px 16px 16px;
+  animation: fadeUp 0.4s ease both;
+  position: relative;
+}
+.table-num-badge {
+  position: absolute; top: -10px; left: 50%; transform: translateX(-50%);
+  background: linear-gradient(135deg, var(--pink), var(--purple));
+  color: #fff; font-size: 10px; font-weight: 600;
+  letter-spacing: 2px; text-transform: uppercase;
+  padding: 3px 14px; border-radius: 20px;
+  white-space: nowrap;
+}
+
+/* Table ronde visuelle */
+.round-table-wrap {
+  position: relative;
+  width: 200px; height: 200px;
+  margin: 12px auto 8px;
+}
+.round-table-surface {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90px; height: 90px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, #2A1535, #160D20);
+  border: 2px solid rgba(232,0,107,0.25);
+  display: flex; align-items: center; justify-content: center;
+  box-shadow: 0 0 20px rgba(232,0,107,0.1);
+}
+.table-heart { font-size: 20px; animation: heartbeat 2s ease-in-out infinite; }
+
+/* Sièges */
+.seat {
+  position: absolute;
+  display: flex; flex-direction: column; align-items: center;
+  width: 80px;
+}
+.seat-top    { top: 0;    left: 50%; transform: translateX(-50%); }
+.seat-bottom { bottom: 0; left: 50%; transform: translateX(-50%); }
+.seat-left   { left: 0;   top: 50%;  transform: translateY(-50%); align-items: flex-end; }
+.seat-right  { right: 0;  top: 50%;  transform: translateY(-50%); align-items: flex-start; }
+
+.seat-avatar {
+  width: 40px; height: 40px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 16px; font-weight: 400;
+  border: 2px solid transparent;
+  transition: transform 0.2s;
+}
+.seat-avatar.couple1 {
+  background: linear-gradient(135deg, rgba(232,0,107,0.25), rgba(232,0,107,0.1));
+  border-color: rgba(232,0,107,0.4);
+  color: var(--pink);
+}
+.seat-avatar.couple2 {
+  background: linear-gradient(135deg, rgba(155,48,255,0.25), rgba(155,48,255,0.1));
+  border-color: rgba(155,48,255,0.4);
+  color: var(--purple);
+}
+.seat-name {
+  font-size: 10px; font-weight: 500; color: var(--blanc);
+  margin-top: 3px; white-space: nowrap;
+  max-width: 76px; overflow: hidden; text-overflow: ellipsis; text-align: center;
+}
+.seat-detail { font-size: 9px; color: var(--gris); }
+
+/* Lignes couple (connecteurs) */
+.table-connectors {
+  position: absolute; inset: 0; pointer-events: none;
+}
+
+/* Légende couples */
+.table-couples-legend {
+  display: flex; flex-direction: column; gap: 6px;
+  margin-top: 10px; padding-top: 10px;
+  border-top: 1px solid rgba(255,255,255,0.05);
+}
+.couple-legend-row {
+  display: flex; align-items: center; gap: 8px;
+  font-size: 11px; color: var(--blanc);
+}
+.couple-dot {
+  width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0;
+}
+.couple-dot.c1 { background: var(--pink); }
+.couple-dot.c2 { background: var(--purple); }
+.couple-score {
+  margin-left: auto; font-size: 10px; font-weight: 500;
+}
+.couple-score.c1 { color: var(--pink); }
+.couple-score.c2 { color: var(--purple); }
+.mutual-pill {
+  font-size: 8px; letter-spacing: 1px; padding: 1px 6px;
+  border-radius: 10px; background: rgba(232,0,107,0.15);
+  color: var(--pink); border: 1px solid rgba(232,0,107,0.2);
+}
+.mutual-pill.purple {
+  background: rgba(155,48,255,0.15); color: var(--purple);
+  border-color: rgba(155,48,255,0.2);
+}
+
+/* Table solo (couple sans binôme) */
+.table-card.solo .round-table-surface { border-color: rgba(255,255,255,0.1); }
+
 /* ─── Responsive ─── */
 @media (max-width: 768px) {
+  /* Tables */
+  .tables-grid { grid-template-columns: 1fr 1fr; gap: 20px; }
+  .round-table-wrap { width: 170px; height: 170px; }
+  .round-table-surface { width: 76px; height: 76px; }
+  .seat-avatar { width: 34px; height: 34px; font-size: 14px; }
+  .seat-name { font-size: 9px; }
+  .seat-detail { font-size: 8px; }
+  .seat { width: 70px; }
+
   /* Header */
   .logo-wrap { gap: 10px; }
   .logo-icon { width: 48px; height: 48px; }
@@ -525,6 +664,7 @@ footer {
     <span class="tab-badge" id="mutual-badge"></span>
   </button>
   <button onclick="showTab('all',this)">◈ Par Personne</button>
+  <button onclick="showTab('tables',this)">🪑 Tables</button>
 </nav>
 
 <main>
@@ -570,6 +710,17 @@ footer {
 <div id="all" class="section">
   <div class="person-grid" id="person-list">
     <div class="loading">Chargement…</div>
+  </div>
+</div>
+
+<!-- TAB 4 — Tables -->
+<div id="tables" class="section">
+  <div class="tables-intro">
+    <h2>Placement des Tables</h2>
+    <p>2 couples par table · basé sur les meilleures affinités</p>
+  </div>
+  <div class="tables-grid" id="tables-list">
+    <div class="loading">Calcul du placement…</div>
   </div>
 </div>
 
@@ -759,6 +910,7 @@ async function loadData() {
     renderTop(data.top_matchs);
     renderMutual(data.mutual_matches || []);
     renderPersons(data.best_per_person);
+    renderTables(data.top_matchs || []);
 
     const now = new Date().toLocaleTimeString('fr-FR', {hour:'2-digit', minute:'2-digit'});
     document.getElementById('refresh-info') && (document.getElementById('refresh-info').textContent =
@@ -772,6 +924,107 @@ async function loadData() {
         <span style="opacity:.4">${e.message}</span>
       </div>`;
   }
+}
+
+function buildTables(allScores) {
+  // Déduplique : chaque personne apparaît dans 1 seule table
+  const assigned = new Set();
+  const couples = [];
+
+  // D'abord les matchs mutuels (triés par score)
+  for (const m of allScores) {
+    if (!m.mutual) continue;
+    const idA = m.profil_a.id ?? m.profil_a.nom;
+    const idB = m.profil_b.id ?? m.profil_b.nom;
+    if (!assigned.has(idA) && !assigned.has(idB)) {
+      couples.push({ ...m, isMutual: true });
+      assigned.add(idA); assigned.add(idB);
+    }
+  }
+  // Ensuite les autres matchs pour compléter
+  for (const m of allScores) {
+    if (m.mutual) continue;
+    const idA = m.profil_a.id ?? m.profil_a.nom;
+    const idB = m.profil_b.id ?? m.profil_b.nom;
+    if (!assigned.has(idA) && !assigned.has(idB)) {
+      couples.push({ ...m, isMutual: false });
+      assigned.add(idA); assigned.add(idB);
+    }
+  }
+
+  // Grouper par 2 couples = 1 table
+  const tables = [];
+  for (let i = 0; i < couples.length; i += 2) {
+    tables.push({ c1: couples[i], c2: couples[i+1] || null });
+  }
+  return tables;
+}
+
+function renderTables(allScores) {
+  const el = document.getElementById('tables-list');
+  if (!allScores?.length) {
+    el.innerHTML = '<div class="loading">Aucune donnée.</div>'; return;
+  }
+  const tables = buildTables(allScores);
+  if (!tables.length) {
+    el.innerHTML = '<div class="empty-state">Pas assez de matchs pour placer des tables.</div>'; return;
+  }
+
+  el.innerHTML = tables.map((t, i) => {
+    const c1 = t.c1; const c2 = t.c2;
+    // 4 sièges : top=homme1, bottom=femme1, left=femme2, right=homme2
+    // (ou inversement selon le sexe)
+    const p1a = c1.profil_a; // homme
+    const p1b = c1.profil_b; // femme
+    const p2a = c2 ? c2.profil_a : null;
+    const p2b = c2 ? c2.profil_b : null;
+
+    const initiale = p => (p.nom||'?')[0].toUpperCase();
+    const prenom   = p => p.nom + (p.nom_famille ? ' ' + p.nom_famille[0] + '.' : '');
+
+    const seat = (p, cls, pos) => p ? `
+      <div class="seat seat-${pos}">
+        <div class="seat-avatar ${cls}">${initiale(p)}</div>
+        <div class="seat-name">${prenom(p)}</div>
+        <div class="seat-detail">${p.age} ans</div>
+      </div>` : '';
+
+    const soloClass = !c2 ? ' solo' : '';
+
+    const legendC1 = `
+      <div class="couple-legend-row">
+        <span class="couple-dot c1"></span>
+        <span>${prenom(p1a)} &amp; ${prenom(p1b)}</span>
+        ${c1.isMutual ? '<span class="mutual-pill">♥ Mutuel</span>' : ''}
+        <span class="couple-score c1">${c1.score}%</span>
+      </div>`;
+
+    const legendC2 = c2 ? `
+      <div class="couple-legend-row">
+        <span class="couple-dot c2"></span>
+        <span>${prenom(p2a)} &amp; ${prenom(p2b)}</span>
+        ${c2.isMutual ? '<span class="mutual-pill purple">♥ Mutuel</span>' : ''}
+        <span class="couple-score c2">${c2.score}%</span>
+      </div>` : '<div style="font-size:10px;color:var(--gris);text-align:center;margin-top:4px">… place disponible</div>';
+
+    return `
+      <div class="table-card${soloClass}">
+        <div class="table-num-badge">Table ${i+1}</div>
+        <div class="round-table-wrap">
+          <div class="round-table-surface">
+            <span class="table-heart">♥</span>
+          </div>
+          ${seat(p1a, 'couple1', 'top')}
+          ${seat(p1b, 'couple1', 'bottom')}
+          ${c2 ? seat(p2a, 'couple2', 'right') : ''}
+          ${c2 ? seat(p2b, 'couple2', 'left') : ''}
+        </div>
+        <div class="table-couples-legend">
+          ${legendC1}
+          ${legendC2}
+        </div>
+      </div>`;
+  }).join('');
 }
 
 loadData();
