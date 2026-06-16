@@ -149,7 +149,36 @@ h1 em { font-style: italic; color: #C9A84C; }
   letter-spacing: 2px;
   text-transform: uppercase;
 }
+.qr-section {
+  padding: 28px 36px;
+  border-bottom: 1px solid rgba(201,168,76,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+.qr-label {
+  font-size: 10px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #C9A84C;
+}
+.qr-wrap {
+  background: #fff;
+  padding: 12px;
+  border-radius: 8px;
+  display: inline-flex;
+  box-shadow: 0 0 24px rgba(201,168,76,0.2);
+}
+.qr-url {
+  font-size: 11px;
+  color: rgba(255,255,255,0.3);
+  letter-spacing: 1px;
+  word-break: break-all;
+  text-align: center;
+}
 </style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 </head>
 <body>
 <div class="card">
@@ -158,6 +187,14 @@ h1 em { font-style: italic; color: #C9A84C; }
     <p class="eyebrow">Soirée Célibataires · Tel Aviv</p>
     <h1>Crée ton profil<br><em>en 5 minutes</em></h1>
     <p class="subtitle">Suis ces étapes depuis ton téléphone</p>
+  </div>
+
+  <div class="qr-section">
+    <p class="qr-label">✦ Scanne pour accéder au formulaire</p>
+    <div class="qr-wrap">
+      <div id="qrcode"></div>
+    </div>
+    <p class="qr-url">lebrati58.github.io/ai-speed-dating</p>
   </div>
 
   <div class="steps">
@@ -208,5 +245,15 @@ h1 em { font-style: italic; color: #C9A84C; }
   <div class="card-footer">Propulsé par Claude AI · Ce soir uniquement ♥</div>
 
 </div>
+<script>
+new QRCode(document.getElementById('qrcode'), {
+  text: 'https://lebrati58.github.io/ai-speed-dating/',
+  width: 180,
+  height: 180,
+  colorDark: '#1a1a2e',
+  colorLight: '#ffffff',
+  correctLevel: QRCode.CorrectLevel.H
+});
+</script>
 </body>
 </html>
