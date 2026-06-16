@@ -2,27 +2,27 @@
   "top_matchs": [
     {
       "profil_a": {
-        "id": 2,
-        "nom": "David",
-        "nom_famille": "Mizrahi",
-        "age": "31",
+        "id": 12,
+        "nom": "Ilan",
+        "nom_famille": "Partouche",
+        "age": "27",
         "sexe": "Masculin",
-        "telephone": "0529876543",
-        "resume_ia": "David est un entrepreneur tech ambitieux qui valorise l'humour et l'énergie positive dans une relation. Il cherche une partenaire spontanée, prête à voyager et à sortir de sa zone de confort. Son quotidien alterne entre le développement de sa startup, le hiking en Galilée et la cuisine israélienne créative qu'il partage volontiers avec ses amis. En couple, il est généreux et protecteur, mais reste taquin et ne se prend jamais trop au sérieux. Ce qui le distingue, c'est son énergie contagieuse et son optimisme à toute épreuve."
+        "telephone": "0501112233",
+        "resume_ia": "Ilan est laïc et voyage souvent le Chabbat sans aucun scrupule religieux. Guide de trek freelance, globe-trotteur, il valorise l'aventure et la liberté. Passionné mais redoute la routine, il cherche une partenaire curieuse et tout aussi peu attachée à la pratique religieuse."
       },
       "profil_b": {
-        "id": 1,
-        "nom": "Léa",
-        "nom_famille": "Cohen",
-        "age": "27",
+        "id": 3,
+        "nom": "Sarah",
+        "nom_famille": "Touati",
+        "age": "24",
         "sexe": "Féminin",
-        "telephone": "0501234567",
-        "resume_ia": "Léa valorise l'authenticité et la curiosité intellectuelle avant tout. Elle recherche un partenaire avec qui partager des discussions profondes et construire une relation basée sur la confiance mutuelle. Passionnée d'archéologie levantine, elle consacre ses weekends à des fouilles bénévoles et à la randonnée dans le désert du Néguev. Son style de vie mêle spiritualité, yoga et cuisine méditerranéenne faite maison. En relation, elle est attentive et loyale, mais a besoin d'indépendance et d'espace pour ses projets personnels. Ce qui la rend unique, c'est sa capacité à voir la beauté dans les vieilles pierres comme dans les gens."
+        "telephone": "0541122334",
+        "resume_ia": "Sarah est complètement laïque, voire agnostique, et ne garde aucune cacherout. Elle place la liberté et la créativité au-dessus de tout. Photographe freelance, globe-trotteuse, elle vit entre cafés branchés et soirées électro. Passionnée et directe, elle cherche une connexion authentique sans pression religieuse ni engagement précoce."
       },
-      "score": 75,
-      "score_h": 78,
-      "score_f": 72,
-      "raison": "Léa partage avec David l'amour de la randonnée, la cuisine méditerranéenne et un ancrage culturel israélien fort, avec une loyauté et une profondeur relationnelle qui complètent bien son énergie généreuse.",
+      "score": 90,
+      "score_h": 91,
+      "score_f": 88,
+      "raison": "Laïque totale sans cacherout, globe-trotteuse freelance et créative : compatibilité quasi parfaite sur tous les axes avec Ilan.",
       "mutual": true
     },
     {
@@ -33,7 +33,32 @@
         "age": "31",
         "sexe": "Masculin",
         "telephone": "0529876543",
-        "resume_ia": "David est un entrepreneur tech ambitieux qui valorise l'humour et l'énergie positive dans une relation. Il cherche une partenaire spontanée, prête à voyager et à sortir de sa zone de confort. Son quotidien alterne entre le développement de sa startup, le hiking en Galilée et la cuisine israélienne créative qu'il partage volontiers avec ses amis. En couple, il est généreux et protecteur, mais reste taquin et ne se prend jamais trop au sérieux. Ce qui le distingue, c'est son énergie contagieuse et son optimisme à toute épreuve."
+        "resume_ia": "David est laïc (hiloni) et ne pratique pas, même s'il respecte les fêtes en famille par tradition. Entrepreneur tech, il valorise l'humour et l'énergie positive. Il cherche une partenaire spontanée, peu importe son niveau de religiosité tant qu'elle respecte son mode de vie libre. Hiking, cuisine créative, voyages. Généreux et taquin en couple, son optimisme contagieux le distingue."
+      },
+      "profil_b": {
+        "id": 5,
+        "nom": "Noa",
+        "nom_famille": "Bensimon",
+        "age": "29",
+        "sexe": "Féminin",
+        "telephone": "0533445566",
+        "resume_ia": "Noa est laïque au quotidien mais respecte Yom Kippour et le Seder de Pessah par attachement familial. Financière ambitieuse, sportive (marathon, crossfit), elle cherche un partenaire confiant non intimidé par sa réussite. Franche, parfois trop directe. Peu importe la pratique religieuse de l'autre, tant qu'il y a du respect mutuel."
+      },
+      "score": 86,
+      "score_h": 87,
+      "score_f": 84,
+      "raison": "Laïque assumée, sportive et ambitieuse, Noa partage l'énergie positive et la liberté de vie de David avec une compatibilité religieuse quasi-totale et des valeurs très alignées.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 6,
+        "nom": "Eytan",
+        "nom_famille": "Azoulay",
+        "age": "26",
+        "sexe": "Masculin",
+        "telephone": "0544556677",
+        "resume_ia": "Eytan est laïc et sort souvent le vendredi soir en boîte, sans aucune pratique religieuse. DJ amateur, il valorise la légèreté et le fun avant tout. Créatif et attachant mais hésitant face à l'engagement. Il préfère une partenaire tout aussi décontractée sur le plan religieux."
       },
       "profil_b": {
         "id": 3,
@@ -42,13 +67,13 @@
         "age": "24",
         "sexe": "Féminin",
         "telephone": "0541122334",
-        "resume_ia": "Sarah place la liberté et la créativité au cœur de ses valeurs. Elle n'est pas pressée de s'engager et recherche avant tout une connexion authentique, sans étiquette imposée trop vite. Photographe freelance, elle a déjà parcouru douze pays et adore documenter les marchés et la street art de Tel Aviv. Son mode de vie est flexible et improvisé, entre cafés branchés et soirées électro. En relation, elle est passionnée et directe, mais a besoin qu'on respecte son rythme. Ce qui la rend unique, c'est son regard artistique sur le monde et son franc-parler."
+        "resume_ia": "Sarah est complètement laïque, voire agnostique, et ne garde aucune cacherout. Elle place la liberté et la créativité au-dessus de tout. Photographe freelance, globe-trotteuse, elle vit entre cafés branchés et soirées électro. Passionnée et directe, elle cherche une connexion authentique sans pression religieuse ni engagement précoce."
       },
-      "score": 70,
-      "score_h": 65,
-      "score_f": 74,
-      "raison": "Sarah séduit par sa spontanéité et son goût du voyage qui rejoignent l'esprit aventurier de David, mais sa réticence à s'engager et son mode de vie très libre risquent de heurter ses aspirations à une relation structurée et protectrice.",
-      "mutual": false
+      "score": 86,
+      "score_h": 91,
+      "score_f": 82,
+      "raison": "Laïque totale, créative, amatrice de soirées électro et sans attente d'engagement précoce : une compatibilité quasi naturelle avec Eytan sur tous les plans.",
+      "mutual": true
     },
     {
       "profil_a": {
@@ -58,7 +83,7 @@
         "age": "35",
         "sexe": "Masculin",
         "telephone": "0556677889",
-        "resume_ia": "Yoni valorise la stabilité et la famille, deux piliers qu'il a appris à apprécier après son divorce il y a deux ans. Il cherche une relation sérieuse, construite sur le long terme, avec quelqu'un de mature et bienveillant. Comptable de profession, il consacre son temps libre à la coinche entre amis et au football le samedi. Son style de vie est posé, routinier mais chaleureux, centré sur les repas en famille élargie. En relation, il est fiable et attentionné, à l'écoute des besoins de l'autre. Ce qui le rend unique, c'est sa loyauté sans faille et son sens de l'humour discret mais mordant."
+        "resume_ia": "Yoni est traditionaliste : il garde la cacherout chez lui et va à la synagogue pour les grandes fêtes, sans être strict sur Chabbat. Comptable, divorcé depuis deux ans, il valorise la stabilité et la famille. Coinche et foot le samedi. Fiable et chaleureux, il cherche une partenaire qui partage des valeurs traditionnelles sans être rigide."
       },
       "profil_b": {
         "id": 1,
@@ -67,12 +92,337 @@
         "age": "27",
         "sexe": "Féminin",
         "telephone": "0501234567",
-        "resume_ia": "Léa valorise l'authenticité et la curiosité intellectuelle avant tout. Elle recherche un partenaire avec qui partager des discussions profondes et construire une relation basée sur la confiance mutuelle. Passionnée d'archéologie levantine, elle consacre ses weekends à des fouilles bénévoles et à la randonnée dans le désert du Néguev. Son style de vie mêle spiritualité, yoga et cuisine méditerranéenne faite maison. En relation, elle est attentive et loyale, mais a besoin d'indépendance et d'espace pour ses projets personnels. Ce qui la rend unique, c'est sa capacité à voir la beauté dans les vieilles pierres comme dans les gens."
+        "resume_ia": "Léa valorise l'authenticité et la curiosité intellectuelle. Traditionaliste (masortit), elle garde une cacherout souple à la maison et aime le dîner du vendredi soir en famille, sans être stricte sur le Chabbat. Passionnée d'archéologie levantine, elle fait des fouilles bénévoles et de la randonnée. En relation, attentive et loyale, elle a besoin d'indépendance. Elle cherche quelqu'un d'ouvert spirituellement, sans rigidité religieuse."
       },
-      "score": 54,
-      "score_h": 68,
-      "score_f": 41,
-      "raison": "Léa partage avec Yoni une loyauté sincère, un ancrage culturel méditerranéen et une maturité relationnelle, même si son besoin d'indépendance et son style de vie aventurier contrastent avec la routine chaleureuse qu'il recherche.",
+      "score": 84,
+      "score_h": 87,
+      "score_f": 82,
+      "raison": "Léa est masortit avec une cacherout souple et un rapport au Chabbat identique à celui de Yoni, partageant ses valeurs familiales et son ouverture spirituelle sans rigidité.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 12,
+        "nom": "Ilan",
+        "nom_famille": "Partouche",
+        "age": "27",
+        "sexe": "Masculin",
+        "telephone": "0501112233",
+        "resume_ia": "Ilan est laïc et voyage souvent le Chabbat sans aucun scrupule religieux. Guide de trek freelance, globe-trotteur, il valorise l'aventure et la liberté. Passionné mais redoute la routine, il cherche une partenaire curieuse et tout aussi peu attachée à la pratique religieuse."
+      },
+      "profil_b": {
+        "id": 9,
+        "nom": "Shirel",
+        "nom_famille": "Hadad",
+        "age": "22",
+        "sexe": "Féminin",
+        "telephone": "0577889900",
+        "resume_ia": "Shirel est laïque, sans aucune pratique religieuse, étudiante en art à Florentine. Elle valorise la spontanéité et l'aventure, peint et fréquente les galeries underground. Passionnée mais volage, elle cherche surtout à explorer sans contrainte, y compris sur le plan religieux."
+      },
+      "score": 84,
+      "score_h": 79,
+      "score_f": 88,
+      "raison": "Laïque sans aucune pratique, spontanée et aventurière, mais sa jeunesse et son côté volage peuvent poser problème sur la profondeur relationnelle.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 6,
+        "nom": "Eytan",
+        "nom_famille": "Azoulay",
+        "age": "26",
+        "sexe": "Masculin",
+        "telephone": "0544556677",
+        "resume_ia": "Eytan est laïc et sort souvent le vendredi soir en boîte, sans aucune pratique religieuse. DJ amateur, il valorise la légèreté et le fun avant tout. Créatif et attachant mais hésitant face à l'engagement. Il préfère une partenaire tout aussi décontractée sur le plan religieux."
+      },
+      "profil_b": {
+        "id": 9,
+        "nom": "Shirel",
+        "nom_famille": "Hadad",
+        "age": "22",
+        "sexe": "Féminin",
+        "telephone": "0577889900",
+        "resume_ia": "Shirel est laïque, sans aucune pratique religieuse, étudiante en art à Florentine. Elle valorise la spontanéité et l'aventure, peint et fréquente les galeries underground. Passionnée mais volage, elle cherche surtout à explorer sans contrainte, y compris sur le plan religieux."
+      },
+      "score": 82,
+      "score_h": 82,
+      "score_f": 83,
+      "raison": "Laïque sans pratique, spontanée et éprise de liberté, elle partage l'énergie créative et le refus de contrainte d'Eytan, malgré un léger écart d'âge et une instabilité qui peut faire écho positivement.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 8,
+        "nom": "Raphaël",
+        "nom_famille": "Ohana",
+        "age": "38",
+        "sexe": "Masculin",
+        "telephone": "0566778899",
+        "resume_ia": "Raphaël est traditionaliste moderne, cacherout respectée à la maison, fêtes célébrées en famille élargie. Architecte, père de deux enfants, il valorise la transmission et la famille recomposée. Calme et posé, il cherche une partenaire mature partageant un attachement similaire à la tradition juive sans extrémisme."
+      },
+      "profil_b": {
+        "id": 1,
+        "nom": "Léa",
+        "nom_famille": "Cohen",
+        "age": "27",
+        "sexe": "Féminin",
+        "telephone": "0501234567",
+        "resume_ia": "Léa valorise l'authenticité et la curiosité intellectuelle. Traditionaliste (masortit), elle garde une cacherout souple à la maison et aime le dîner du vendredi soir en famille, sans être stricte sur le Chabbat. Passionnée d'archéologie levantine, elle fait des fouilles bénévoles et de la randonnée. En relation, attentive et loyale, elle a besoin d'indépendance. Elle cherche quelqu'un d'ouvert spirituellement, sans rigidité religieuse."
+      },
+      "score": 82,
+      "score_h": 78,
+      "score_f": 87,
+      "raison": "Masortit avec cacherout souple et attachement au vendredi soir familial, profil intellectuellement curieux et loyal : correspondance naturelle avec le traditionalisme moderne de Raphaël, légèrement pénalisée par son jeune âge et son besoin d'indépendance marqué.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 8,
+        "nom": "Raphaël",
+        "nom_famille": "Ohana",
+        "age": "38",
+        "sexe": "Masculin",
+        "telephone": "0566778899",
+        "resume_ia": "Raphaël est traditionaliste moderne, cacherout respectée à la maison, fêtes célébrées en famille élargie. Architecte, père de deux enfants, il valorise la transmission et la famille recomposée. Calme et posé, il cherche une partenaire mature partageant un attachement similaire à la tradition juive sans extrémisme."
+      },
+      "profil_b": {
+        "id": 13,
+        "nom": "Adi",
+        "nom_famille": "Chocron",
+        "age": "36",
+        "sexe": "Féminin",
+        "telephone": "0512223344",
+        "resume_ia": "Adi est traditionaliste avec une cacherout stricte qu'elle exige aussi chez son futur partenaire. Infirmière, dévouée et empathique, elle valorise la stabilité émotionnelle après des relations compliquées. Elle cherche un engagement sérieux avec quelqu'un respectant au minimum les codes traditionnels juifs."
+      },
+      "score": 82,
+      "score_h": 82,
+      "score_f": 82,
+      "raison": "Traditionaliste avec cacherout stricte, cherche engagement sérieux et stabilité : alignement religieux et émotionnel très fort avec Raphaël, malgré une légère rigidité sur la cacherout par rapport à son profil 'sans extrémisme'.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 20,
+        "nom": "Michael",
+        "nom_famille": "Abergel",
+        "age": "24",
+        "sexe": "Masculin",
+        "telephone": "0589990011",
+        "resume_ia": "Michael est laïc, étudiant en cinéma, sans pratique religieuse. Il valorise la liberté et le moment présent, ne cherchant rien de précis pour l'instant. Créatif et insouciant, peu prévisible, il est ouvert à rencontrer des profils de tous niveaux de pratique religieuse."
+      },
+      "profil_b": {
+        "id": 3,
+        "nom": "Sarah",
+        "nom_famille": "Touati",
+        "age": "24",
+        "sexe": "Féminin",
+        "telephone": "0541122334",
+        "resume_ia": "Sarah est complètement laïque, voire agnostique, et ne garde aucune cacherout. Elle place la liberté et la créativité au-dessus de tout. Photographe freelance, globe-trotteuse, elle vit entre cafés branchés et soirées électro. Passionnée et directe, elle cherche une connexion authentique sans pression religieuse ni engagement précoce."
+      },
+      "score": 82,
+      "score_h": 91,
+      "score_f": 74,
+      "raison": "Laïque totale, créative, libre et sans attente d'engagement précoce : une compatibilité quasi parfaite avec Michael sur tous les critères.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 20,
+        "nom": "Michael",
+        "nom_famille": "Abergel",
+        "age": "24",
+        "sexe": "Masculin",
+        "telephone": "0589990011",
+        "resume_ia": "Michael est laïc, étudiant en cinéma, sans pratique religieuse. Il valorise la liberté et le moment présent, ne cherchant rien de précis pour l'instant. Créatif et insouciant, peu prévisible, il est ouvert à rencontrer des profils de tous niveaux de pratique religieuse."
+      },
+      "profil_b": {
+        "id": 9,
+        "nom": "Shirel",
+        "nom_famille": "Hadad",
+        "age": "22",
+        "sexe": "Féminin",
+        "telephone": "0577889900",
+        "resume_ia": "Shirel est laïque, sans aucune pratique religieuse, étudiante en art à Florentine. Elle valorise la spontanéité et l'aventure, peint et fréquente les galeries underground. Passionnée mais volage, elle cherche surtout à explorer sans contrainte, y compris sur le plan religieux."
+      },
+      "score": 82,
+      "score_h": 85,
+      "score_f": 80,
+      "raison": "Laïque, spontanée, artiste et sans contrainte religieuse, elle partage l'énergie créative et l'insouciance de Michael, malgré un léger décalage d'âge et une instabilité affective commune.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 2,
+        "nom": "David",
+        "nom_famille": "Mizrahi",
+        "age": "31",
+        "sexe": "Masculin",
+        "telephone": "0529876543",
+        "resume_ia": "David est laïc (hiloni) et ne pratique pas, même s'il respecte les fêtes en famille par tradition. Entrepreneur tech, il valorise l'humour et l'énergie positive. Il cherche une partenaire spontanée, peu importe son niveau de religiosité tant qu'elle respecte son mode de vie libre. Hiking, cuisine créative, voyages. Généreux et taquin en couple, son optimisme contagieux le distingue."
+      },
+      "profil_b": {
+        "id": 3,
+        "nom": "Sarah",
+        "nom_famille": "Touati",
+        "age": "24",
+        "sexe": "Féminin",
+        "telephone": "0541122334",
+        "resume_ia": "Sarah est complètement laïque, voire agnostique, et ne garde aucune cacherout. Elle place la liberté et la créativité au-dessus de tout. Photographe freelance, globe-trotteuse, elle vit entre cafés branchés et soirées électro. Passionnée et directe, elle cherche une connexion authentique sans pression religieuse ni engagement précoce."
+      },
+      "score": 80,
+      "score_h": 79,
+      "score_f": 80,
+      "raison": "Parfaitement alignée sur la liberté et l'absence de pratique religieuse, Sarah séduit par sa créativité et son goût du voyage, mais sa réticence à l'engagement précoce peut limiter la profondeur de la connexion.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 16,
+        "nom": "Avi",
+        "nom_famille": "Cohen",
+        "age": "29",
+        "sexe": "Masculin",
+        "telephone": "0545556677",
+        "resume_ia": "Avi est laïc et plutôt sceptique envers la religion, féru de débats politiques et philosophiques. Doctorant en sciences politiques, il valorise l'intellect et la culture. Attentif mais cérébral, il cherche une partenaire qui aime échanger, peu importe sa religiosité, mais ouverte au débat sur le sujet."
+      },
+      "profil_b": {
+        "id": 5,
+        "nom": "Noa",
+        "nom_famille": "Bensimon",
+        "age": "29",
+        "sexe": "Féminin",
+        "telephone": "0533445566",
+        "resume_ia": "Noa est laïque au quotidien mais respecte Yom Kippour et le Seder de Pessah par attachement familial. Financière ambitieuse, sportive (marathon, crossfit), elle cherche un partenaire confiant non intimidé par sa réussite. Franche, parfois trop directe. Peu importe la pratique religieuse de l'autre, tant qu'il y a du respect mutuel."
+      },
+      "score": 79,
+      "score_h": 82,
+      "score_f": 76,
+      "raison": "Laïque compatible avec une ouverture culturelle juive, ambitieuse et franche, elle s'inscrit bien dans l'univers intellectuel et non-religieux d'Avi, même si son franc-parler et sa compétitivité pourraient demander un ajustement.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 12,
+        "nom": "Ilan",
+        "nom_famille": "Partouche",
+        "age": "27",
+        "sexe": "Masculin",
+        "telephone": "0501112233",
+        "resume_ia": "Ilan est laïc et voyage souvent le Chabbat sans aucun scrupule religieux. Guide de trek freelance, globe-trotteur, il valorise l'aventure et la liberté. Passionné mais redoute la routine, il cherche une partenaire curieuse et tout aussi peu attachée à la pratique religieuse."
+      },
+      "profil_b": {
+        "id": 15,
+        "nom": "Leeor",
+        "nom_famille": "Malka",
+        "age": "25",
+        "sexe": "Féminin",
+        "telephone": "0534445566",
+        "resume_ia": "Leeor est laïque, influenceuse lifestyle sans aucune pratique religieuse particulière. Elle valorise l'authenticité loin des faux-semblants des applis classiques. Intense et spontanée, parfois instable, elle cherche une connexion réelle sans considération religieuse précise."
+      },
+      "score": 77,
+      "score_h": 72,
+      "score_f": 82,
+      "raison": "Laïque sans pratique religieuse et authentique, mais son instabilité caractérielle réduit la compatibilité sur le long terme.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 2,
+        "nom": "David",
+        "nom_famille": "Mizrahi",
+        "age": "31",
+        "sexe": "Masculin",
+        "telephone": "0529876543",
+        "resume_ia": "David est laïc (hiloni) et ne pratique pas, même s'il respecte les fêtes en famille par tradition. Entrepreneur tech, il valorise l'humour et l'énergie positive. Il cherche une partenaire spontanée, peu importe son niveau de religiosité tant qu'elle respecte son mode de vie libre. Hiking, cuisine créative, voyages. Généreux et taquin en couple, son optimisme contagieux le distingue."
+      },
+      "profil_b": {
+        "id": 15,
+        "nom": "Leeor",
+        "nom_famille": "Malka",
+        "age": "25",
+        "sexe": "Féminin",
+        "telephone": "0534445566",
+        "resume_ia": "Leeor est laïque, influenceuse lifestyle sans aucune pratique religieuse particulière. Elle valorise l'authenticité loin des faux-semblants des applis classiques. Intense et spontanée, parfois instable, elle cherche une connexion réelle sans considération religieuse précise."
+      },
+      "score": 76,
+      "score_h": 65,
+      "score_f": 87,
+      "raison": "Laïque sans pratique et spontanée comme David, Leeor coche les cases religieuses et lifestyle, mais son instabilité émotionnelle et son profil d'influenceuse superficiel tempèrent la compatibilité réelle.",
+      "mutual": false
+    },
+    {
+      "profil_a": {
+        "id": 6,
+        "nom": "Eytan",
+        "nom_famille": "Azoulay",
+        "age": "26",
+        "sexe": "Masculin",
+        "telephone": "0544556677",
+        "resume_ia": "Eytan est laïc et sort souvent le vendredi soir en boîte, sans aucune pratique religieuse. DJ amateur, il valorise la légèreté et le fun avant tout. Créatif et attachant mais hésitant face à l'engagement. Il préfère une partenaire tout aussi décontractée sur le plan religieux."
+      },
+      "profil_b": {
+        "id": 15,
+        "nom": "Leeor",
+        "nom_famille": "Malka",
+        "age": "25",
+        "sexe": "Féminin",
+        "telephone": "0534445566",
+        "resume_ia": "Leeor est laïque, influenceuse lifestyle sans aucune pratique religieuse particulière. Elle valorise l'authenticité loin des faux-semblants des applis classiques. Intense et spontanée, parfois instable, elle cherche une connexion réelle sans considération religieuse précise."
+      },
+      "score": 76,
+      "score_h": 76,
+      "score_f": 76,
+      "raison": "Laïque assumée, spontanée et authentique, elle s'aligne bien religieusement et personnellement avec Eytan, même si son instabilité émotionnelle peut créer quelques frictions.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 10,
+        "nom": "Yossef",
+        "nom_famille": "Knafo",
+        "age": "41",
+        "sexe": "Masculin",
+        "telephone": "0588990011",
+        "resume_ia": "Yossef est traditionaliste : cacherout à la maison, synagogue le vendredi soir occasionnellement. Plombier indépendant, divorcé, il valorise la loyauté et la simplicité après un divorce difficile. Protecteur mais parfois jaloux, il cherche une femme sincère partageant un attachement traditionnel similaire."
+      },
+      "profil_b": {
+        "id": 13,
+        "nom": "Adi",
+        "nom_famille": "Chocron",
+        "age": "36",
+        "sexe": "Féminin",
+        "telephone": "0512223344",
+        "resume_ia": "Adi est traditionaliste avec une cacherout stricte qu'elle exige aussi chez son futur partenaire. Infirmière, dévouée et empathique, elle valorise la stabilité émotionnelle après des relations compliquées. Elle cherche un engagement sérieux avec quelqu'un respectant au minimum les codes traditionnels juifs."
+      },
+      "score": 76,
+      "score_h": 82,
+      "score_f": 71,
+      "raison": "Adi partage le même profil traditionaliste avec cacherout stricte, valorise la stabilité émotionnelle après des épreuves relationnelles et cherche un engagement sérieux, ce qui s'aligne très bien avec Yossef.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 18,
+        "nom": "Gabriel",
+        "nom_famille": "Nahmias",
+        "age": "33",
+        "sexe": "Masculin",
+        "telephone": "0567778899",
+        "resume_ia": "Gabriel est traditionaliste léger : cacherout respectée par habitude familiale, sans grande conviction. Développeur web, passionné de coinche compétitive, il valorise l'humour et la complicité. Fidèle et drôle, il cherche une partenaire avec qui rire, sans exigence religieuse particulière."
+      },
+      "profil_b": {
+        "id": 1,
+        "nom": "Léa",
+        "nom_famille": "Cohen",
+        "age": "27",
+        "sexe": "Féminin",
+        "telephone": "0501234567",
+        "resume_ia": "Léa valorise l'authenticité et la curiosité intellectuelle. Traditionaliste (masortit), elle garde une cacherout souple à la maison et aime le dîner du vendredi soir en famille, sans être stricte sur le Chabbat. Passionnée d'archéologie levantine, elle fait des fouilles bénévoles et de la randonnée. En relation, attentive et loyale, elle a besoin d'indépendance. Elle cherche quelqu'un d'ouvert spirituellement, sans rigidité religieuse."
+      },
+      "score": 76,
+      "score_h": 84,
+      "score_f": 68,
+      "raison": "Traditionaliste souple comme Gabriel, cacherout compatible, loyale et curieuse intellectuellement, avec une belle complémentarité de valeurs et d'ouverture spirituelle.",
       "mutual": false
     },
     {
@@ -83,61 +433,97 @@
         "age": "35",
         "sexe": "Masculin",
         "telephone": "0556677889",
-        "resume_ia": "Yoni valorise la stabilité et la famille, deux piliers qu'il a appris à apprécier après son divorce il y a deux ans. Il cherche une relation sérieuse, construite sur le long terme, avec quelqu'un de mature et bienveillant. Comptable de profession, il consacre son temps libre à la coinche entre amis et au football le samedi. Son style de vie est posé, routinier mais chaleureux, centré sur les repas en famille élargie. En relation, il est fiable et attentionné, à l'écoute des besoins de l'autre. Ce qui le rend unique, c'est sa loyauté sans faille et son sens de l'humour discret mais mordant."
+        "resume_ia": "Yoni est traditionaliste : il garde la cacherout chez lui et va à la synagogue pour les grandes fêtes, sans être strict sur Chabbat. Comptable, divorcé depuis deux ans, il valorise la stabilité et la famille. Coinche et foot le samedi. Fiable et chaleureux, il cherche une partenaire qui partage des valeurs traditionnelles sans être rigide."
       },
       "profil_b": {
-        "id": 3,
-        "nom": "Sarah",
-        "nom_famille": "Touati",
-        "age": "24",
+        "id": 13,
+        "nom": "Adi",
+        "nom_famille": "Chocron",
+        "age": "36",
         "sexe": "Féminin",
-        "telephone": "0541122334",
-        "resume_ia": "Sarah place la liberté et la créativité au cœur de ses valeurs. Elle n'est pas pressée de s'engager et recherche avant tout une connexion authentique, sans étiquette imposée trop vite. Photographe freelance, elle a déjà parcouru douze pays et adore documenter les marchés et la street art de Tel Aviv. Son mode de vie est flexible et improvisé, entre cafés branchés et soirées électro. En relation, elle est passionnée et directe, mais a besoin qu'on respecte son rythme. Ce qui la rend unique, c'est son regard artistique sur le monde et son franc-parler."
+        "telephone": "0512223344",
+        "resume_ia": "Adi est traditionaliste avec une cacherout stricte qu'elle exige aussi chez son futur partenaire. Infirmière, dévouée et empathique, elle valorise la stabilité émotionnelle après des relations compliquées. Elle cherche un engagement sérieux avec quelqu'un respectant au minimum les codes traditionnels juifs."
       },
-      "score": 31,
-      "score_h": 31,
-      "score_f": 31,
-      "raison": "Sarah, jeune, nomade et peu disposée à s'engager rapidement, est à l'opposé de la stabilité familiale et de la relation sérieuse sur le long terme que Yoni appelle de ses vœux.",
+      "score": 75,
+      "score_h": 72,
+      "score_f": 78,
+      "raison": "Adi est traditionaliste et cherche un engagement stable, mais sa cacherout stricte qu'elle exige chez le partenaire crée une légère friction avec la pratique plus souple de Yoni.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 2,
+        "nom": "David",
+        "nom_famille": "Mizrahi",
+        "age": "31",
+        "sexe": "Masculin",
+        "telephone": "0529876543",
+        "resume_ia": "David est laïc (hiloni) et ne pratique pas, même s'il respecte les fêtes en famille par tradition. Entrepreneur tech, il valorise l'humour et l'énergie positive. Il cherche une partenaire spontanée, peu importe son niveau de religiosité tant qu'elle respecte son mode de vie libre. Hiking, cuisine créative, voyages. Généreux et taquin en couple, son optimisme contagieux le distingue."
+      },
+      "profil_b": {
+        "id": 11,
+        "nom": "Maya",
+        "nom_famille": "Dahan",
+        "age": "30",
+        "sexe": "Féminin",
+        "telephone": "0599001122",
+        "resume_ia": "Maya est laïque mais respecte Yom Kippour et certaines fêtes par culture plus que par foi. Avocate, passionnée de cuisine fusion franco-israélienne, elle valorise l'équilibre vie pro/perso. Réfléchie, elle prend son temps avant de s'engager et privilégie la compatibilité de valeurs à la pratique religieuse stricte."
+      },
+      "score": 74,
+      "score_h": 84,
+      "score_f": 65,
+      "raison": "Laïque culturelle comme David, passionnée de cuisine fusion et de valeurs partagées, Maya offre une compatibilité solide même si son rythme d'engagement plus lent peut demander de la patience.",
       "mutual": false
+    },
+    {
+      "profil_a": {
+        "id": 20,
+        "nom": "Michael",
+        "nom_famille": "Abergel",
+        "age": "24",
+        "sexe": "Masculin",
+        "telephone": "0589990011",
+        "resume_ia": "Michael est laïc, étudiant en cinéma, sans pratique religieuse. Il valorise la liberté et le moment présent, ne cherchant rien de précis pour l'instant. Créatif et insouciant, peu prévisible, il est ouvert à rencontrer des profils de tous niveaux de pratique religieuse."
+      },
+      "profil_b": {
+        "id": 15,
+        "nom": "Leeor",
+        "nom_famille": "Malka",
+        "age": "25",
+        "sexe": "Féminin",
+        "telephone": "0534445566",
+        "resume_ia": "Leeor est laïque, influenceuse lifestyle sans aucune pratique religieuse particulière. Elle valorise l'authenticité loin des faux-semblants des applis classiques. Intense et spontanée, parfois instable, elle cherche une connexion réelle sans considération religieuse précise."
+      },
+      "score": 74,
+      "score_h": 78,
+      "score_f": 71,
+      "raison": "Laïque, authentique et spontanée, elle s'aligne bien avec Michael, mais son instabilité émotionnelle et son profil d'influenceuse peuvent créer un écart de profondeur.",
+      "mutual": true
     }
   ],
   "best_per_person": [
     {
       "personne": {
-        "id": 2,
-        "nom": "David",
-        "nom_famille": "Mizrahi",
-        "age": "31",
+        "id": 12,
+        "nom": "Ilan",
+        "nom_famille": "Partouche",
+        "age": "27",
         "sexe": "Masculin",
-        "telephone": "0529876543",
-        "resume_ia": "David est un entrepreneur tech ambitieux qui valorise l'humour et l'énergie positive dans une relation. Il cherche une partenaire spontanée, prête à voyager et à sortir de sa zone de confort. Son quotidien alterne entre le développement de sa startup, le hiking en Galilée et la cuisine israélienne créative qu'il partage volontiers avec ses amis. En couple, il est généreux et protecteur, mais reste taquin et ne se prend jamais trop au sérieux. Ce qui le distingue, c'est son énergie contagieuse et son optimisme à toute épreuve."
+        "telephone": "0501112233",
+        "resume_ia": "Ilan est laïc et voyage souvent le Chabbat sans aucun scrupule religieux. Guide de trek freelance, globe-trotteur, il valorise l'aventure et la liberté. Passionné mais redoute la routine, il cherche une partenaire curieuse et tout aussi peu attachée à la pratique religieuse."
       },
       "meilleur_match": {
-        "id": 1,
-        "nom": "Léa",
-        "nom_famille": "Cohen",
-        "age": "27",
+        "id": 3,
+        "nom": "Sarah",
+        "nom_famille": "Touati",
+        "age": "24",
         "sexe": "Féminin",
-        "telephone": "0501234567",
-        "resume_ia": "Léa valorise l'authenticité et la curiosité intellectuelle avant tout. Elle recherche un partenaire avec qui partager des discussions profondes et construire une relation basée sur la confiance mutuelle. Passionnée d'archéologie levantine, elle consacre ses weekends à des fouilles bénévoles et à la randonnée dans le désert du Néguev. Son style de vie mêle spiritualité, yoga et cuisine méditerranéenne faite maison. En relation, elle est attentive et loyale, mais a besoin d'indépendance et d'espace pour ses projets personnels. Ce qui la rend unique, c'est sa capacité à voir la beauté dans les vieilles pierres comme dans les gens."
+        "telephone": "0541122334",
+        "resume_ia": "Sarah est complètement laïque, voire agnostique, et ne garde aucune cacherout. Elle place la liberté et la créativité au-dessus de tout. Photographe freelance, globe-trotteuse, elle vit entre cafés branchés et soirées électro. Passionnée et directe, elle cherche une connexion authentique sans pression religieuse ni engagement précoce."
       },
-      "score": 75,
-      "raison": "Léa partage avec David l'amour de la randonnée, la cuisine méditerranéenne et un ancrage culturel israélien fort, avec une loyauté et une profondeur relationnelle qui complètent bien son énergie généreuse.",
+      "score": 90,
+      "raison": "Laïque totale sans cacherout, globe-trotteuse freelance et créative : compatibilité quasi parfaite sur tous les axes avec Ilan.",
       "top3": [
-        {
-          "match": {
-            "id": 1,
-            "nom": "Léa",
-            "nom_famille": "Cohen",
-            "age": "27",
-            "sexe": "Féminin",
-            "telephone": "0501234567",
-            "resume_ia": "Léa valorise l'authenticité et la curiosité intellectuelle avant tout. Elle recherche un partenaire avec qui partager des discussions profondes et construire une relation basée sur la confiance mutuelle. Passionnée d'archéologie levantine, elle consacre ses weekends à des fouilles bénévoles et à la randonnée dans le désert du Néguev. Son style de vie mêle spiritualité, yoga et cuisine méditerranéenne faite maison. En relation, elle est attentive et loyale, mais a besoin d'indépendance et d'espace pour ses projets personnels. Ce qui la rend unique, c'est sa capacité à voir la beauté dans les vieilles pierres comme dans les gens."
-          },
-          "score": 75,
-          "raison": "Léa partage avec David l'amour de la randonnée, la cuisine méditerranéenne et un ancrage culturel israélien fort, avec une loyauté et une profondeur relationnelle qui complètent bien son énergie généreuse.",
-          "mutual": true
-        },
         {
           "match": {
             "id": 3,
@@ -146,63 +532,39 @@
             "age": "24",
             "sexe": "Féminin",
             "telephone": "0541122334",
-            "resume_ia": "Sarah place la liberté et la créativité au cœur de ses valeurs. Elle n'est pas pressée de s'engager et recherche avant tout une connexion authentique, sans étiquette imposée trop vite. Photographe freelance, elle a déjà parcouru douze pays et adore documenter les marchés et la street art de Tel Aviv. Son mode de vie est flexible et improvisé, entre cafés branchés et soirées électro. En relation, elle est passionnée et directe, mais a besoin qu'on respecte son rythme. Ce qui la rend unique, c'est son regard artistique sur le monde et son franc-parler."
+            "resume_ia": "Sarah est complètement laïque, voire agnostique, et ne garde aucune cacherout. Elle place la liberté et la créativité au-dessus de tout. Photographe freelance, globe-trotteuse, elle vit entre cafés branchés et soirées électro. Passionnée et directe, elle cherche une connexion authentique sans pression religieuse ni engagement précoce."
           },
-          "score": 70,
-          "raison": "Sarah séduit par sa spontanéité et son goût du voyage qui rejoignent l'esprit aventurier de David, mais sa réticence à s'engager et son mode de vie très libre risquent de heurter ses aspirations à une relation structurée et protectrice.",
-          "mutual": false
-        }
-      ]
-    },
-    {
-      "personne": {
-        "id": 1,
-        "nom": "Léa",
-        "nom_famille": "Cohen",
-        "age": "27",
-        "sexe": "Féminin",
-        "telephone": "0501234567",
-        "resume_ia": "Léa valorise l'authenticité et la curiosité intellectuelle avant tout. Elle recherche un partenaire avec qui partager des discussions profondes et construire une relation basée sur la confiance mutuelle. Passionnée d'archéologie levantine, elle consacre ses weekends à des fouilles bénévoles et à la randonnée dans le désert du Néguev. Son style de vie mêle spiritualité, yoga et cuisine méditerranéenne faite maison. En relation, elle est attentive et loyale, mais a besoin d'indépendance et d'espace pour ses projets personnels. Ce qui la rend unique, c'est sa capacité à voir la beauté dans les vieilles pierres comme dans les gens."
-      },
-      "meilleur_match": {
-        "id": 2,
-        "nom": "David",
-        "nom_famille": "Mizrahi",
-        "age": "31",
-        "sexe": "Masculin",
-        "telephone": "0529876543",
-        "resume_ia": "David est un entrepreneur tech ambitieux qui valorise l'humour et l'énergie positive dans une relation. Il cherche une partenaire spontanée, prête à voyager et à sortir de sa zone de confort. Son quotidien alterne entre le développement de sa startup, le hiking en Galilée et la cuisine israélienne créative qu'il partage volontiers avec ses amis. En couple, il est généreux et protecteur, mais reste taquin et ne se prend jamais trop au sérieux. Ce qui le distingue, c'est son énergie contagieuse et son optimisme à toute épreuve."
-      },
-      "score": 75,
-      "raison": "Léa partage avec David l'amour de la randonnée, la cuisine méditerranéenne et un ancrage culturel israélien fort, avec une loyauté et une profondeur relationnelle qui complètent bien son énergie généreuse.",
-      "top3": [
-        {
-          "match": {
-            "id": 2,
-            "nom": "David",
-            "nom_famille": "Mizrahi",
-            "age": "31",
-            "sexe": "Masculin",
-            "telephone": "0529876543",
-            "resume_ia": "David est un entrepreneur tech ambitieux qui valorise l'humour et l'énergie positive dans une relation. Il cherche une partenaire spontanée, prête à voyager et à sortir de sa zone de confort. Son quotidien alterne entre le développement de sa startup, le hiking en Galilée et la cuisine israélienne créative qu'il partage volontiers avec ses amis. En couple, il est généreux et protecteur, mais reste taquin et ne se prend jamais trop au sérieux. Ce qui le distingue, c'est son énergie contagieuse et son optimisme à toute épreuve."
-          },
-          "score": 75,
-          "raison": "Léa partage avec David l'amour de la randonnée, la cuisine méditerranéenne et un ancrage culturel israélien fort, avec une loyauté et une profondeur relationnelle qui complètent bien son énergie généreuse.",
+          "score": 90,
+          "raison": "Laïque totale sans cacherout, globe-trotteuse freelance et créative : compatibilité quasi parfaite sur tous les axes avec Ilan.",
           "mutual": true
         },
         {
           "match": {
-            "id": 4,
-            "nom": "Yoni",
-            "nom_famille": "Edery",
-            "age": "35",
-            "sexe": "Masculin",
-            "telephone": "0556677889",
-            "resume_ia": "Yoni valorise la stabilité et la famille, deux piliers qu'il a appris à apprécier après son divorce il y a deux ans. Il cherche une relation sérieuse, construite sur le long terme, avec quelqu'un de mature et bienveillant. Comptable de profession, il consacre son temps libre à la coinche entre amis et au football le samedi. Son style de vie est posé, routinier mais chaleureux, centré sur les repas en famille élargie. En relation, il est fiable et attentionné, à l'écoute des besoins de l'autre. Ce qui le rend unique, c'est sa loyauté sans faille et son sens de l'humour discret mais mordant."
+            "id": 9,
+            "nom": "Shirel",
+            "nom_famille": "Hadad",
+            "age": "22",
+            "sexe": "Féminin",
+            "telephone": "0577889900",
+            "resume_ia": "Shirel est laïque, sans aucune pratique religieuse, étudiante en art à Florentine. Elle valorise la spontanéité et l'aventure, peint et fréquente les galeries underground. Passionnée mais volage, elle cherche surtout à explorer sans contrainte, y compris sur le plan religieux."
           },
-          "score": 54,
-          "raison": "Léa partage avec Yoni une loyauté sincère, un ancrage culturel méditerranéen et une maturité relationnelle, même si son besoin d'indépendance et son style de vie aventurier contrastent avec la routine chaleureuse qu'il recherche.",
-          "mutual": false
+          "score": 84,
+          "raison": "Laïque sans aucune pratique, spontanée et aventurière, mais sa jeunesse et son côté volage peuvent poser problème sur la profondeur relationnelle.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 15,
+            "nom": "Leeor",
+            "nom_famille": "Malka",
+            "age": "25",
+            "sexe": "Féminin",
+            "telephone": "0534445566",
+            "resume_ia": "Leeor est laïque, influenceuse lifestyle sans aucune pratique religieuse particulière. Elle valorise l'authenticité loin des faux-semblants des applis classiques. Intense et spontanée, parfois instable, elle cherche une connexion réelle sans considération religieuse précise."
+          },
+          "score": 77,
+          "raison": "Laïque sans pratique religieuse et authentique, mais son instabilité caractérielle réduit la compatibilité sur le long terme.",
+          "mutual": true
         }
       ]
     },
@@ -214,7 +576,139 @@
         "age": "24",
         "sexe": "Féminin",
         "telephone": "0541122334",
-        "resume_ia": "Sarah place la liberté et la créativité au cœur de ses valeurs. Elle n'est pas pressée de s'engager et recherche avant tout une connexion authentique, sans étiquette imposée trop vite. Photographe freelance, elle a déjà parcouru douze pays et adore documenter les marchés et la street art de Tel Aviv. Son mode de vie est flexible et improvisé, entre cafés branchés et soirées électro. En relation, elle est passionnée et directe, mais a besoin qu'on respecte son rythme. Ce qui la rend unique, c'est son regard artistique sur le monde et son franc-parler."
+        "resume_ia": "Sarah est complètement laïque, voire agnostique, et ne garde aucune cacherout. Elle place la liberté et la créativité au-dessus de tout. Photographe freelance, globe-trotteuse, elle vit entre cafés branchés et soirées électro. Passionnée et directe, elle cherche une connexion authentique sans pression religieuse ni engagement précoce."
+      },
+      "meilleur_match": {
+        "id": 12,
+        "nom": "Ilan",
+        "nom_famille": "Partouche",
+        "age": "27",
+        "sexe": "Masculin",
+        "telephone": "0501112233",
+        "resume_ia": "Ilan est laïc et voyage souvent le Chabbat sans aucun scrupule religieux. Guide de trek freelance, globe-trotteur, il valorise l'aventure et la liberté. Passionné mais redoute la routine, il cherche une partenaire curieuse et tout aussi peu attachée à la pratique religieuse."
+      },
+      "score": 90,
+      "raison": "Laïque totale sans cacherout, globe-trotteuse freelance et créative : compatibilité quasi parfaite sur tous les axes avec Ilan.",
+      "top3": [
+        {
+          "match": {
+            "id": 12,
+            "nom": "Ilan",
+            "nom_famille": "Partouche",
+            "age": "27",
+            "sexe": "Masculin",
+            "telephone": "0501112233",
+            "resume_ia": "Ilan est laïc et voyage souvent le Chabbat sans aucun scrupule religieux. Guide de trek freelance, globe-trotteur, il valorise l'aventure et la liberté. Passionné mais redoute la routine, il cherche une partenaire curieuse et tout aussi peu attachée à la pratique religieuse."
+          },
+          "score": 90,
+          "raison": "Laïque totale sans cacherout, globe-trotteuse freelance et créative : compatibilité quasi parfaite sur tous les axes avec Ilan.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 6,
+            "nom": "Eytan",
+            "nom_famille": "Azoulay",
+            "age": "26",
+            "sexe": "Masculin",
+            "telephone": "0544556677",
+            "resume_ia": "Eytan est laïc et sort souvent le vendredi soir en boîte, sans aucune pratique religieuse. DJ amateur, il valorise la légèreté et le fun avant tout. Créatif et attachant mais hésitant face à l'engagement. Il préfère une partenaire tout aussi décontractée sur le plan religieux."
+          },
+          "score": 86,
+          "raison": "Laïque totale, créative, amatrice de soirées électro et sans attente d'engagement précoce : une compatibilité quasi naturelle avec Eytan sur tous les plans.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 20,
+            "nom": "Michael",
+            "nom_famille": "Abergel",
+            "age": "24",
+            "sexe": "Masculin",
+            "telephone": "0589990011",
+            "resume_ia": "Michael est laïc, étudiant en cinéma, sans pratique religieuse. Il valorise la liberté et le moment présent, ne cherchant rien de précis pour l'instant. Créatif et insouciant, peu prévisible, il est ouvert à rencontrer des profils de tous niveaux de pratique religieuse."
+          },
+          "score": 82,
+          "raison": "Laïque totale, créative, libre et sans attente d'engagement précoce : une compatibilité quasi parfaite avec Michael sur tous les critères.",
+          "mutual": true
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 2,
+        "nom": "David",
+        "nom_famille": "Mizrahi",
+        "age": "31",
+        "sexe": "Masculin",
+        "telephone": "0529876543",
+        "resume_ia": "David est laïc (hiloni) et ne pratique pas, même s'il respecte les fêtes en famille par tradition. Entrepreneur tech, il valorise l'humour et l'énergie positive. Il cherche une partenaire spontanée, peu importe son niveau de religiosité tant qu'elle respecte son mode de vie libre. Hiking, cuisine créative, voyages. Généreux et taquin en couple, son optimisme contagieux le distingue."
+      },
+      "meilleur_match": {
+        "id": 5,
+        "nom": "Noa",
+        "nom_famille": "Bensimon",
+        "age": "29",
+        "sexe": "Féminin",
+        "telephone": "0533445566",
+        "resume_ia": "Noa est laïque au quotidien mais respecte Yom Kippour et le Seder de Pessah par attachement familial. Financière ambitieuse, sportive (marathon, crossfit), elle cherche un partenaire confiant non intimidé par sa réussite. Franche, parfois trop directe. Peu importe la pratique religieuse de l'autre, tant qu'il y a du respect mutuel."
+      },
+      "score": 86,
+      "raison": "Laïque assumée, sportive et ambitieuse, Noa partage l'énergie positive et la liberté de vie de David avec une compatibilité religieuse quasi-totale et des valeurs très alignées.",
+      "top3": [
+        {
+          "match": {
+            "id": 5,
+            "nom": "Noa",
+            "nom_famille": "Bensimon",
+            "age": "29",
+            "sexe": "Féminin",
+            "telephone": "0533445566",
+            "resume_ia": "Noa est laïque au quotidien mais respecte Yom Kippour et le Seder de Pessah par attachement familial. Financière ambitieuse, sportive (marathon, crossfit), elle cherche un partenaire confiant non intimidé par sa réussite. Franche, parfois trop directe. Peu importe la pratique religieuse de l'autre, tant qu'il y a du respect mutuel."
+          },
+          "score": 86,
+          "raison": "Laïque assumée, sportive et ambitieuse, Noa partage l'énergie positive et la liberté de vie de David avec une compatibilité religieuse quasi-totale et des valeurs très alignées.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 3,
+            "nom": "Sarah",
+            "nom_famille": "Touati",
+            "age": "24",
+            "sexe": "Féminin",
+            "telephone": "0541122334",
+            "resume_ia": "Sarah est complètement laïque, voire agnostique, et ne garde aucune cacherout. Elle place la liberté et la créativité au-dessus de tout. Photographe freelance, globe-trotteuse, elle vit entre cafés branchés et soirées électro. Passionnée et directe, elle cherche une connexion authentique sans pression religieuse ni engagement précoce."
+          },
+          "score": 80,
+          "raison": "Parfaitement alignée sur la liberté et l'absence de pratique religieuse, Sarah séduit par sa créativité et son goût du voyage, mais sa réticence à l'engagement précoce peut limiter la profondeur de la connexion.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 15,
+            "nom": "Leeor",
+            "nom_famille": "Malka",
+            "age": "25",
+            "sexe": "Féminin",
+            "telephone": "0534445566",
+            "resume_ia": "Leeor est laïque, influenceuse lifestyle sans aucune pratique religieuse particulière. Elle valorise l'authenticité loin des faux-semblants des applis classiques. Intense et spontanée, parfois instable, elle cherche une connexion réelle sans considération religieuse précise."
+          },
+          "score": 76,
+          "raison": "Laïque sans pratique et spontanée comme David, Leeor coche les cases religieuses et lifestyle, mais son instabilité émotionnelle et son profil d'influenceuse superficiel tempèrent la compatibilité réelle.",
+          "mutual": false
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 5,
+        "nom": "Noa",
+        "nom_famille": "Bensimon",
+        "age": "29",
+        "sexe": "Féminin",
+        "telephone": "0533445566",
+        "resume_ia": "Noa est laïque au quotidien mais respecte Yom Kippour et le Seder de Pessah par attachement familial. Financière ambitieuse, sportive (marathon, crossfit), elle cherche un partenaire confiant non intimidé par sa réussite. Franche, parfois trop directe. Peu importe la pratique religieuse de l'autre, tant qu'il y a du respect mutuel."
       },
       "meilleur_match": {
         "id": 2,
@@ -223,10 +717,10 @@
         "age": "31",
         "sexe": "Masculin",
         "telephone": "0529876543",
-        "resume_ia": "David est un entrepreneur tech ambitieux qui valorise l'humour et l'énergie positive dans une relation. Il cherche une partenaire spontanée, prête à voyager et à sortir de sa zone de confort. Son quotidien alterne entre le développement de sa startup, le hiking en Galilée et la cuisine israélienne créative qu'il partage volontiers avec ses amis. En couple, il est généreux et protecteur, mais reste taquin et ne se prend jamais trop au sérieux. Ce qui le distingue, c'est son énergie contagieuse et son optimisme à toute épreuve."
+        "resume_ia": "David est laïc (hiloni) et ne pratique pas, même s'il respecte les fêtes en famille par tradition. Entrepreneur tech, il valorise l'humour et l'énergie positive. Il cherche une partenaire spontanée, peu importe son niveau de religiosité tant qu'elle respecte son mode de vie libre. Hiking, cuisine créative, voyages. Généreux et taquin en couple, son optimisme contagieux le distingue."
       },
-      "score": 70,
-      "raison": "Sarah séduit par sa spontanéité et son goût du voyage qui rejoignent l'esprit aventurier de David, mais sa réticence à s'engager et son mode de vie très libre risquent de heurter ses aspirations à une relation structurée et protectrice.",
+      "score": 86,
+      "raison": "Laïque assumée, sportive et ambitieuse, Noa partage l'énergie positive et la liberté de vie de David avec une compatibilité religieuse quasi-totale et des valeurs très alignées.",
       "top3": [
         {
           "match": {
@@ -236,25 +730,105 @@
             "age": "31",
             "sexe": "Masculin",
             "telephone": "0529876543",
-            "resume_ia": "David est un entrepreneur tech ambitieux qui valorise l'humour et l'énergie positive dans une relation. Il cherche une partenaire spontanée, prête à voyager et à sortir de sa zone de confort. Son quotidien alterne entre le développement de sa startup, le hiking en Galilée et la cuisine israélienne créative qu'il partage volontiers avec ses amis. En couple, il est généreux et protecteur, mais reste taquin et ne se prend jamais trop au sérieux. Ce qui le distingue, c'est son énergie contagieuse et son optimisme à toute épreuve."
+            "resume_ia": "David est laïc (hiloni) et ne pratique pas, même s'il respecte les fêtes en famille par tradition. Entrepreneur tech, il valorise l'humour et l'énergie positive. Il cherche une partenaire spontanée, peu importe son niveau de religiosité tant qu'elle respecte son mode de vie libre. Hiking, cuisine créative, voyages. Généreux et taquin en couple, son optimisme contagieux le distingue."
           },
-          "score": 70,
-          "raison": "Sarah séduit par sa spontanéité et son goût du voyage qui rejoignent l'esprit aventurier de David, mais sa réticence à s'engager et son mode de vie très libre risquent de heurter ses aspirations à une relation structurée et protectrice.",
-          "mutual": false
+          "score": 86,
+          "raison": "Laïque assumée, sportive et ambitieuse, Noa partage l'énergie positive et la liberté de vie de David avec une compatibilité religieuse quasi-totale et des valeurs très alignées.",
+          "mutual": true
         },
         {
           "match": {
-            "id": 4,
-            "nom": "Yoni",
-            "nom_famille": "Edery",
-            "age": "35",
+            "id": 16,
+            "nom": "Avi",
+            "nom_famille": "Cohen",
+            "age": "29",
             "sexe": "Masculin",
-            "telephone": "0556677889",
-            "resume_ia": "Yoni valorise la stabilité et la famille, deux piliers qu'il a appris à apprécier après son divorce il y a deux ans. Il cherche une relation sérieuse, construite sur le long terme, avec quelqu'un de mature et bienveillant. Comptable de profession, il consacre son temps libre à la coinche entre amis et au football le samedi. Son style de vie est posé, routinier mais chaleureux, centré sur les repas en famille élargie. En relation, il est fiable et attentionné, à l'écoute des besoins de l'autre. Ce qui le rend unique, c'est sa loyauté sans faille et son sens de l'humour discret mais mordant."
+            "telephone": "0545556677",
+            "resume_ia": "Avi est laïc et plutôt sceptique envers la religion, féru de débats politiques et philosophiques. Doctorant en sciences politiques, il valorise l'intellect et la culture. Attentif mais cérébral, il cherche une partenaire qui aime échanger, peu importe sa religiosité, mais ouverte au débat sur le sujet."
           },
-          "score": 31,
-          "raison": "Sarah, jeune, nomade et peu disposée à s'engager rapidement, est à l'opposé de la stabilité familiale et de la relation sérieuse sur le long terme que Yoni appelle de ses vœux.",
+          "score": 79,
+          "raison": "Laïque compatible avec une ouverture culturelle juive, ambitieuse et franche, elle s'inscrit bien dans l'univers intellectuel et non-religieux d'Avi, même si son franc-parler et sa compétitivité pourraient demander un ajustement.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 18,
+            "nom": "Gabriel",
+            "nom_famille": "Nahmias",
+            "age": "33",
+            "sexe": "Masculin",
+            "telephone": "0567778899",
+            "resume_ia": "Gabriel est traditionaliste léger : cacherout respectée par habitude familiale, sans grande conviction. Développeur web, passionné de coinche compétitive, il valorise l'humour et la complicité. Fidèle et drôle, il cherche une partenaire avec qui rire, sans exigence religieuse particulière."
+          },
+          "score": 69,
+          "raison": "Laïque avec attachement culturel aux fêtes, ouverte sur la pratique de l'autre, mais son ambition sportive intense et son caractère très direct peuvent moins coller avec la légèreté et l'humour que cherche Gabriel.",
           "mutual": false
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 6,
+        "nom": "Eytan",
+        "nom_famille": "Azoulay",
+        "age": "26",
+        "sexe": "Masculin",
+        "telephone": "0544556677",
+        "resume_ia": "Eytan est laïc et sort souvent le vendredi soir en boîte, sans aucune pratique religieuse. DJ amateur, il valorise la légèreté et le fun avant tout. Créatif et attachant mais hésitant face à l'engagement. Il préfère une partenaire tout aussi décontractée sur le plan religieux."
+      },
+      "meilleur_match": {
+        "id": 3,
+        "nom": "Sarah",
+        "nom_famille": "Touati",
+        "age": "24",
+        "sexe": "Féminin",
+        "telephone": "0541122334",
+        "resume_ia": "Sarah est complètement laïque, voire agnostique, et ne garde aucune cacherout. Elle place la liberté et la créativité au-dessus de tout. Photographe freelance, globe-trotteuse, elle vit entre cafés branchés et soirées électro. Passionnée et directe, elle cherche une connexion authentique sans pression religieuse ni engagement précoce."
+      },
+      "score": 86,
+      "raison": "Laïque totale, créative, amatrice de soirées électro et sans attente d'engagement précoce : une compatibilité quasi naturelle avec Eytan sur tous les plans.",
+      "top3": [
+        {
+          "match": {
+            "id": 3,
+            "nom": "Sarah",
+            "nom_famille": "Touati",
+            "age": "24",
+            "sexe": "Féminin",
+            "telephone": "0541122334",
+            "resume_ia": "Sarah est complètement laïque, voire agnostique, et ne garde aucune cacherout. Elle place la liberté et la créativité au-dessus de tout. Photographe freelance, globe-trotteuse, elle vit entre cafés branchés et soirées électro. Passionnée et directe, elle cherche une connexion authentique sans pression religieuse ni engagement précoce."
+          },
+          "score": 86,
+          "raison": "Laïque totale, créative, amatrice de soirées électro et sans attente d'engagement précoce : une compatibilité quasi naturelle avec Eytan sur tous les plans.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 9,
+            "nom": "Shirel",
+            "nom_famille": "Hadad",
+            "age": "22",
+            "sexe": "Féminin",
+            "telephone": "0577889900",
+            "resume_ia": "Shirel est laïque, sans aucune pratique religieuse, étudiante en art à Florentine. Elle valorise la spontanéité et l'aventure, peint et fréquente les galeries underground. Passionnée mais volage, elle cherche surtout à explorer sans contrainte, y compris sur le plan religieux."
+          },
+          "score": 82,
+          "raison": "Laïque sans pratique, spontanée et éprise de liberté, elle partage l'énergie créative et le refus de contrainte d'Eytan, malgré un léger écart d'âge et une instabilité qui peut faire écho positivement.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 15,
+            "nom": "Leeor",
+            "nom_famille": "Malka",
+            "age": "25",
+            "sexe": "Féminin",
+            "telephone": "0534445566",
+            "resume_ia": "Leeor est laïque, influenceuse lifestyle sans aucune pratique religieuse particulière. Elle valorise l'authenticité loin des faux-semblants des applis classiques. Intense et spontanée, parfois instable, elle cherche une connexion réelle sans considération religieuse précise."
+          },
+          "score": 76,
+          "raison": "Laïque assumée, spontanée et authentique, elle s'aligne bien religieusement et personnellement avec Eytan, même si son instabilité émotionnelle peut créer quelques frictions.",
+          "mutual": true
         }
       ]
     },
@@ -266,7 +840,7 @@
         "age": "35",
         "sexe": "Masculin",
         "telephone": "0556677889",
-        "resume_ia": "Yoni valorise la stabilité et la famille, deux piliers qu'il a appris à apprécier après son divorce il y a deux ans. Il cherche une relation sérieuse, construite sur le long terme, avec quelqu'un de mature et bienveillant. Comptable de profession, il consacre son temps libre à la coinche entre amis et au football le samedi. Son style de vie est posé, routinier mais chaleureux, centré sur les repas en famille élargie. En relation, il est fiable et attentionné, à l'écoute des besoins de l'autre. Ce qui le rend unique, c'est sa loyauté sans faille et son sens de l'humour discret mais mordant."
+        "resume_ia": "Yoni est traditionaliste : il garde la cacherout chez lui et va à la synagogue pour les grandes fêtes, sans être strict sur Chabbat. Comptable, divorcé depuis deux ans, il valorise la stabilité et la famille. Coinche et foot le samedi. Fiable et chaleureux, il cherche une partenaire qui partage des valeurs traditionnelles sans être rigide."
       },
       "meilleur_match": {
         "id": 1,
@@ -275,10 +849,10 @@
         "age": "27",
         "sexe": "Féminin",
         "telephone": "0501234567",
-        "resume_ia": "Léa valorise l'authenticité et la curiosité intellectuelle avant tout. Elle recherche un partenaire avec qui partager des discussions profondes et construire une relation basée sur la confiance mutuelle. Passionnée d'archéologie levantine, elle consacre ses weekends à des fouilles bénévoles et à la randonnée dans le désert du Néguev. Son style de vie mêle spiritualité, yoga et cuisine méditerranéenne faite maison. En relation, elle est attentive et loyale, mais a besoin d'indépendance et d'espace pour ses projets personnels. Ce qui la rend unique, c'est sa capacité à voir la beauté dans les vieilles pierres comme dans les gens."
+        "resume_ia": "Léa valorise l'authenticité et la curiosité intellectuelle. Traditionaliste (masortit), elle garde une cacherout souple à la maison et aime le dîner du vendredi soir en famille, sans être stricte sur le Chabbat. Passionnée d'archéologie levantine, elle fait des fouilles bénévoles et de la randonnée. En relation, attentive et loyale, elle a besoin d'indépendance. Elle cherche quelqu'un d'ouvert spirituellement, sans rigidité religieuse."
       },
-      "score": 54,
-      "raison": "Léa partage avec Yoni une loyauté sincère, un ancrage culturel méditerranéen et une maturité relationnelle, même si son besoin d'indépendance et son style de vie aventurier contrastent avec la routine chaleureuse qu'il recherche.",
+      "score": 84,
+      "raison": "Léa est masortit avec une cacherout souple et un rapport au Chabbat identique à celui de Yoni, partageant ses valeurs familiales et son ouverture spirituelle sans rigidité.",
       "top3": [
         {
           "match": {
@@ -288,10 +862,420 @@
             "age": "27",
             "sexe": "Féminin",
             "telephone": "0501234567",
-            "resume_ia": "Léa valorise l'authenticité et la curiosité intellectuelle avant tout. Elle recherche un partenaire avec qui partager des discussions profondes et construire une relation basée sur la confiance mutuelle. Passionnée d'archéologie levantine, elle consacre ses weekends à des fouilles bénévoles et à la randonnée dans le désert du Néguev. Son style de vie mêle spiritualité, yoga et cuisine méditerranéenne faite maison. En relation, elle est attentive et loyale, mais a besoin d'indépendance et d'espace pour ses projets personnels. Ce qui la rend unique, c'est sa capacité à voir la beauté dans les vieilles pierres comme dans les gens."
+            "resume_ia": "Léa valorise l'authenticité et la curiosité intellectuelle. Traditionaliste (masortit), elle garde une cacherout souple à la maison et aime le dîner du vendredi soir en famille, sans être stricte sur le Chabbat. Passionnée d'archéologie levantine, elle fait des fouilles bénévoles et de la randonnée. En relation, attentive et loyale, elle a besoin d'indépendance. Elle cherche quelqu'un d'ouvert spirituellement, sans rigidité religieuse."
           },
-          "score": 54,
-          "raison": "Léa partage avec Yoni une loyauté sincère, un ancrage culturel méditerranéen et une maturité relationnelle, même si son besoin d'indépendance et son style de vie aventurier contrastent avec la routine chaleureuse qu'il recherche.",
+          "score": 84,
+          "raison": "Léa est masortit avec une cacherout souple et un rapport au Chabbat identique à celui de Yoni, partageant ses valeurs familiales et son ouverture spirituelle sans rigidité.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 13,
+            "nom": "Adi",
+            "nom_famille": "Chocron",
+            "age": "36",
+            "sexe": "Féminin",
+            "telephone": "0512223344",
+            "resume_ia": "Adi est traditionaliste avec une cacherout stricte qu'elle exige aussi chez son futur partenaire. Infirmière, dévouée et empathique, elle valorise la stabilité émotionnelle après des relations compliquées. Elle cherche un engagement sérieux avec quelqu'un respectant au minimum les codes traditionnels juifs."
+          },
+          "score": 75,
+          "raison": "Adi est traditionaliste et cherche un engagement stable, mais sa cacherout stricte qu'elle exige chez le partenaire crée une légère friction avec la pratique plus souple de Yoni.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 17,
+            "nom": "Romi",
+            "nom_famille": "Bouhadana",
+            "age": "31",
+            "sexe": "Féminin",
+            "telephone": "0556667788",
+            "resume_ia": "Romi se définit comme spirituelle mais non religieuse au sens orthodoxe : elle garde une cacherout flexible et privilégie une spiritualité personnelle (méditation, conscience) à la pratique institutionnelle. Coach de vie, elle valorise le développement personnel. Elle cherche un partenaire émotionnellement disponible, religieux ou non."
+          },
+          "score": 70,
+          "raison": "Romi garde une cacherout flexible et est émotionnellement disponible, mais sa spiritualité individualiste et new-age s'éloigne du traditionalisme ancré et communautaire de Yoni.",
+          "mutual": false
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 1,
+        "nom": "Léa",
+        "nom_famille": "Cohen",
+        "age": "27",
+        "sexe": "Féminin",
+        "telephone": "0501234567",
+        "resume_ia": "Léa valorise l'authenticité et la curiosité intellectuelle. Traditionaliste (masortit), elle garde une cacherout souple à la maison et aime le dîner du vendredi soir en famille, sans être stricte sur le Chabbat. Passionnée d'archéologie levantine, elle fait des fouilles bénévoles et de la randonnée. En relation, attentive et loyale, elle a besoin d'indépendance. Elle cherche quelqu'un d'ouvert spirituellement, sans rigidité religieuse."
+      },
+      "meilleur_match": {
+        "id": 4,
+        "nom": "Yoni",
+        "nom_famille": "Edery",
+        "age": "35",
+        "sexe": "Masculin",
+        "telephone": "0556677889",
+        "resume_ia": "Yoni est traditionaliste : il garde la cacherout chez lui et va à la synagogue pour les grandes fêtes, sans être strict sur Chabbat. Comptable, divorcé depuis deux ans, il valorise la stabilité et la famille. Coinche et foot le samedi. Fiable et chaleureux, il cherche une partenaire qui partage des valeurs traditionnelles sans être rigide."
+      },
+      "score": 84,
+      "raison": "Léa est masortit avec une cacherout souple et un rapport au Chabbat identique à celui de Yoni, partageant ses valeurs familiales et son ouverture spirituelle sans rigidité.",
+      "top3": [
+        {
+          "match": {
+            "id": 4,
+            "nom": "Yoni",
+            "nom_famille": "Edery",
+            "age": "35",
+            "sexe": "Masculin",
+            "telephone": "0556677889",
+            "resume_ia": "Yoni est traditionaliste : il garde la cacherout chez lui et va à la synagogue pour les grandes fêtes, sans être strict sur Chabbat. Comptable, divorcé depuis deux ans, il valorise la stabilité et la famille. Coinche et foot le samedi. Fiable et chaleureux, il cherche une partenaire qui partage des valeurs traditionnelles sans être rigide."
+          },
+          "score": 84,
+          "raison": "Léa est masortit avec une cacherout souple et un rapport au Chabbat identique à celui de Yoni, partageant ses valeurs familiales et son ouverture spirituelle sans rigidité.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 8,
+            "nom": "Raphaël",
+            "nom_famille": "Ohana",
+            "age": "38",
+            "sexe": "Masculin",
+            "telephone": "0566778899",
+            "resume_ia": "Raphaël est traditionaliste moderne, cacherout respectée à la maison, fêtes célébrées en famille élargie. Architecte, père de deux enfants, il valorise la transmission et la famille recomposée. Calme et posé, il cherche une partenaire mature partageant un attachement similaire à la tradition juive sans extrémisme."
+          },
+          "score": 82,
+          "raison": "Masortit avec cacherout souple et attachement au vendredi soir familial, profil intellectuellement curieux et loyal : correspondance naturelle avec le traditionalisme moderne de Raphaël, légèrement pénalisée par son jeune âge et son besoin d'indépendance marqué.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 18,
+            "nom": "Gabriel",
+            "nom_famille": "Nahmias",
+            "age": "33",
+            "sexe": "Masculin",
+            "telephone": "0567778899",
+            "resume_ia": "Gabriel est traditionaliste léger : cacherout respectée par habitude familiale, sans grande conviction. Développeur web, passionné de coinche compétitive, il valorise l'humour et la complicité. Fidèle et drôle, il cherche une partenaire avec qui rire, sans exigence religieuse particulière."
+          },
+          "score": 76,
+          "raison": "Traditionaliste souple comme Gabriel, cacherout compatible, loyale et curieuse intellectuellement, avec une belle complémentarité de valeurs et d'ouverture spirituelle.",
+          "mutual": false
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 9,
+        "nom": "Shirel",
+        "nom_famille": "Hadad",
+        "age": "22",
+        "sexe": "Féminin",
+        "telephone": "0577889900",
+        "resume_ia": "Shirel est laïque, sans aucune pratique religieuse, étudiante en art à Florentine. Elle valorise la spontanéité et l'aventure, peint et fréquente les galeries underground. Passionnée mais volage, elle cherche surtout à explorer sans contrainte, y compris sur le plan religieux."
+      },
+      "meilleur_match": {
+        "id": 12,
+        "nom": "Ilan",
+        "nom_famille": "Partouche",
+        "age": "27",
+        "sexe": "Masculin",
+        "telephone": "0501112233",
+        "resume_ia": "Ilan est laïc et voyage souvent le Chabbat sans aucun scrupule religieux. Guide de trek freelance, globe-trotteur, il valorise l'aventure et la liberté. Passionné mais redoute la routine, il cherche une partenaire curieuse et tout aussi peu attachée à la pratique religieuse."
+      },
+      "score": 84,
+      "raison": "Laïque sans aucune pratique, spontanée et aventurière, mais sa jeunesse et son côté volage peuvent poser problème sur la profondeur relationnelle.",
+      "top3": [
+        {
+          "match": {
+            "id": 12,
+            "nom": "Ilan",
+            "nom_famille": "Partouche",
+            "age": "27",
+            "sexe": "Masculin",
+            "telephone": "0501112233",
+            "resume_ia": "Ilan est laïc et voyage souvent le Chabbat sans aucun scrupule religieux. Guide de trek freelance, globe-trotteur, il valorise l'aventure et la liberté. Passionné mais redoute la routine, il cherche une partenaire curieuse et tout aussi peu attachée à la pratique religieuse."
+          },
+          "score": 84,
+          "raison": "Laïque sans aucune pratique, spontanée et aventurière, mais sa jeunesse et son côté volage peuvent poser problème sur la profondeur relationnelle.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 6,
+            "nom": "Eytan",
+            "nom_famille": "Azoulay",
+            "age": "26",
+            "sexe": "Masculin",
+            "telephone": "0544556677",
+            "resume_ia": "Eytan est laïc et sort souvent le vendredi soir en boîte, sans aucune pratique religieuse. DJ amateur, il valorise la légèreté et le fun avant tout. Créatif et attachant mais hésitant face à l'engagement. Il préfère une partenaire tout aussi décontractée sur le plan religieux."
+          },
+          "score": 82,
+          "raison": "Laïque sans pratique, spontanée et éprise de liberté, elle partage l'énergie créative et le refus de contrainte d'Eytan, malgré un léger écart d'âge et une instabilité qui peut faire écho positivement.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 20,
+            "nom": "Michael",
+            "nom_famille": "Abergel",
+            "age": "24",
+            "sexe": "Masculin",
+            "telephone": "0589990011",
+            "resume_ia": "Michael est laïc, étudiant en cinéma, sans pratique religieuse. Il valorise la liberté et le moment présent, ne cherchant rien de précis pour l'instant. Créatif et insouciant, peu prévisible, il est ouvert à rencontrer des profils de tous niveaux de pratique religieuse."
+          },
+          "score": 82,
+          "raison": "Laïque, spontanée, artiste et sans contrainte religieuse, elle partage l'énergie créative et l'insouciance de Michael, malgré un léger décalage d'âge et une instabilité affective commune.",
+          "mutual": true
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 8,
+        "nom": "Raphaël",
+        "nom_famille": "Ohana",
+        "age": "38",
+        "sexe": "Masculin",
+        "telephone": "0566778899",
+        "resume_ia": "Raphaël est traditionaliste moderne, cacherout respectée à la maison, fêtes célébrées en famille élargie. Architecte, père de deux enfants, il valorise la transmission et la famille recomposée. Calme et posé, il cherche une partenaire mature partageant un attachement similaire à la tradition juive sans extrémisme."
+      },
+      "meilleur_match": {
+        "id": 1,
+        "nom": "Léa",
+        "nom_famille": "Cohen",
+        "age": "27",
+        "sexe": "Féminin",
+        "telephone": "0501234567",
+        "resume_ia": "Léa valorise l'authenticité et la curiosité intellectuelle. Traditionaliste (masortit), elle garde une cacherout souple à la maison et aime le dîner du vendredi soir en famille, sans être stricte sur le Chabbat. Passionnée d'archéologie levantine, elle fait des fouilles bénévoles et de la randonnée. En relation, attentive et loyale, elle a besoin d'indépendance. Elle cherche quelqu'un d'ouvert spirituellement, sans rigidité religieuse."
+      },
+      "score": 82,
+      "raison": "Masortit avec cacherout souple et attachement au vendredi soir familial, profil intellectuellement curieux et loyal : correspondance naturelle avec le traditionalisme moderne de Raphaël, légèrement pénalisée par son jeune âge et son besoin d'indépendance marqué.",
+      "top3": [
+        {
+          "match": {
+            "id": 1,
+            "nom": "Léa",
+            "nom_famille": "Cohen",
+            "age": "27",
+            "sexe": "Féminin",
+            "telephone": "0501234567",
+            "resume_ia": "Léa valorise l'authenticité et la curiosité intellectuelle. Traditionaliste (masortit), elle garde une cacherout souple à la maison et aime le dîner du vendredi soir en famille, sans être stricte sur le Chabbat. Passionnée d'archéologie levantine, elle fait des fouilles bénévoles et de la randonnée. En relation, attentive et loyale, elle a besoin d'indépendance. Elle cherche quelqu'un d'ouvert spirituellement, sans rigidité religieuse."
+          },
+          "score": 82,
+          "raison": "Masortit avec cacherout souple et attachement au vendredi soir familial, profil intellectuellement curieux et loyal : correspondance naturelle avec le traditionalisme moderne de Raphaël, légèrement pénalisée par son jeune âge et son besoin d'indépendance marqué.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 13,
+            "nom": "Adi",
+            "nom_famille": "Chocron",
+            "age": "36",
+            "sexe": "Féminin",
+            "telephone": "0512223344",
+            "resume_ia": "Adi est traditionaliste avec une cacherout stricte qu'elle exige aussi chez son futur partenaire. Infirmière, dévouée et empathique, elle valorise la stabilité émotionnelle après des relations compliquées. Elle cherche un engagement sérieux avec quelqu'un respectant au minimum les codes traditionnels juifs."
+          },
+          "score": 82,
+          "raison": "Traditionaliste avec cacherout stricte, cherche engagement sérieux et stabilité : alignement religieux et émotionnel très fort avec Raphaël, malgré une légère rigidité sur la cacherout par rapport à son profil 'sans extrémisme'.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 17,
+            "nom": "Romi",
+            "nom_famille": "Bouhadana",
+            "age": "31",
+            "sexe": "Féminin",
+            "telephone": "0556667788",
+            "resume_ia": "Romi se définit comme spirituelle mais non religieuse au sens orthodoxe : elle garde une cacherout flexible et privilégie une spiritualité personnelle (méditation, conscience) à la pratique institutionnelle. Coach de vie, elle valorise le développement personnel. Elle cherche un partenaire émotionnellement disponible, religieux ou non."
+          },
+          "score": 72,
+          "raison": "Cacherout flexible et spiritualité personnelle sincère offrent un pont possible avec Raphaël, mais l'approche non institutionnelle et le flou religieux créent une incertitude réelle sur la compatibilité de pratique au quotidien.",
+          "mutual": false
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 13,
+        "nom": "Adi",
+        "nom_famille": "Chocron",
+        "age": "36",
+        "sexe": "Féminin",
+        "telephone": "0512223344",
+        "resume_ia": "Adi est traditionaliste avec une cacherout stricte qu'elle exige aussi chez son futur partenaire. Infirmière, dévouée et empathique, elle valorise la stabilité émotionnelle après des relations compliquées. Elle cherche un engagement sérieux avec quelqu'un respectant au minimum les codes traditionnels juifs."
+      },
+      "meilleur_match": {
+        "id": 8,
+        "nom": "Raphaël",
+        "nom_famille": "Ohana",
+        "age": "38",
+        "sexe": "Masculin",
+        "telephone": "0566778899",
+        "resume_ia": "Raphaël est traditionaliste moderne, cacherout respectée à la maison, fêtes célébrées en famille élargie. Architecte, père de deux enfants, il valorise la transmission et la famille recomposée. Calme et posé, il cherche une partenaire mature partageant un attachement similaire à la tradition juive sans extrémisme."
+      },
+      "score": 82,
+      "raison": "Traditionaliste avec cacherout stricte, cherche engagement sérieux et stabilité : alignement religieux et émotionnel très fort avec Raphaël, malgré une légère rigidité sur la cacherout par rapport à son profil 'sans extrémisme'.",
+      "top3": [
+        {
+          "match": {
+            "id": 8,
+            "nom": "Raphaël",
+            "nom_famille": "Ohana",
+            "age": "38",
+            "sexe": "Masculin",
+            "telephone": "0566778899",
+            "resume_ia": "Raphaël est traditionaliste moderne, cacherout respectée à la maison, fêtes célébrées en famille élargie. Architecte, père de deux enfants, il valorise la transmission et la famille recomposée. Calme et posé, il cherche une partenaire mature partageant un attachement similaire à la tradition juive sans extrémisme."
+          },
+          "score": 82,
+          "raison": "Traditionaliste avec cacherout stricte, cherche engagement sérieux et stabilité : alignement religieux et émotionnel très fort avec Raphaël, malgré une légère rigidité sur la cacherout par rapport à son profil 'sans extrémisme'.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 10,
+            "nom": "Yossef",
+            "nom_famille": "Knafo",
+            "age": "41",
+            "sexe": "Masculin",
+            "telephone": "0588990011",
+            "resume_ia": "Yossef est traditionaliste : cacherout à la maison, synagogue le vendredi soir occasionnellement. Plombier indépendant, divorcé, il valorise la loyauté et la simplicité après un divorce difficile. Protecteur mais parfois jaloux, il cherche une femme sincère partageant un attachement traditionnel similaire."
+          },
+          "score": 76,
+          "raison": "Adi partage le même profil traditionaliste avec cacherout stricte, valorise la stabilité émotionnelle après des épreuves relationnelles et cherche un engagement sérieux, ce qui s'aligne très bien avec Yossef.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 4,
+            "nom": "Yoni",
+            "nom_famille": "Edery",
+            "age": "35",
+            "sexe": "Masculin",
+            "telephone": "0556677889",
+            "resume_ia": "Yoni est traditionaliste : il garde la cacherout chez lui et va à la synagogue pour les grandes fêtes, sans être strict sur Chabbat. Comptable, divorcé depuis deux ans, il valorise la stabilité et la famille. Coinche et foot le samedi. Fiable et chaleureux, il cherche une partenaire qui partage des valeurs traditionnelles sans être rigide."
+          },
+          "score": 75,
+          "raison": "Adi est traditionaliste et cherche un engagement stable, mais sa cacherout stricte qu'elle exige chez le partenaire crée une légère friction avec la pratique plus souple de Yoni.",
+          "mutual": true
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 20,
+        "nom": "Michael",
+        "nom_famille": "Abergel",
+        "age": "24",
+        "sexe": "Masculin",
+        "telephone": "0589990011",
+        "resume_ia": "Michael est laïc, étudiant en cinéma, sans pratique religieuse. Il valorise la liberté et le moment présent, ne cherchant rien de précis pour l'instant. Créatif et insouciant, peu prévisible, il est ouvert à rencontrer des profils de tous niveaux de pratique religieuse."
+      },
+      "meilleur_match": {
+        "id": 3,
+        "nom": "Sarah",
+        "nom_famille": "Touati",
+        "age": "24",
+        "sexe": "Féminin",
+        "telephone": "0541122334",
+        "resume_ia": "Sarah est complètement laïque, voire agnostique, et ne garde aucune cacherout. Elle place la liberté et la créativité au-dessus de tout. Photographe freelance, globe-trotteuse, elle vit entre cafés branchés et soirées électro. Passionnée et directe, elle cherche une connexion authentique sans pression religieuse ni engagement précoce."
+      },
+      "score": 82,
+      "raison": "Laïque totale, créative, libre et sans attente d'engagement précoce : une compatibilité quasi parfaite avec Michael sur tous les critères.",
+      "top3": [
+        {
+          "match": {
+            "id": 3,
+            "nom": "Sarah",
+            "nom_famille": "Touati",
+            "age": "24",
+            "sexe": "Féminin",
+            "telephone": "0541122334",
+            "resume_ia": "Sarah est complètement laïque, voire agnostique, et ne garde aucune cacherout. Elle place la liberté et la créativité au-dessus de tout. Photographe freelance, globe-trotteuse, elle vit entre cafés branchés et soirées électro. Passionnée et directe, elle cherche une connexion authentique sans pression religieuse ni engagement précoce."
+          },
+          "score": 82,
+          "raison": "Laïque totale, créative, libre et sans attente d'engagement précoce : une compatibilité quasi parfaite avec Michael sur tous les critères.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 9,
+            "nom": "Shirel",
+            "nom_famille": "Hadad",
+            "age": "22",
+            "sexe": "Féminin",
+            "telephone": "0577889900",
+            "resume_ia": "Shirel est laïque, sans aucune pratique religieuse, étudiante en art à Florentine. Elle valorise la spontanéité et l'aventure, peint et fréquente les galeries underground. Passionnée mais volage, elle cherche surtout à explorer sans contrainte, y compris sur le plan religieux."
+          },
+          "score": 82,
+          "raison": "Laïque, spontanée, artiste et sans contrainte religieuse, elle partage l'énergie créative et l'insouciance de Michael, malgré un léger décalage d'âge et une instabilité affective commune.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 15,
+            "nom": "Leeor",
+            "nom_famille": "Malka",
+            "age": "25",
+            "sexe": "Féminin",
+            "telephone": "0534445566",
+            "resume_ia": "Leeor est laïque, influenceuse lifestyle sans aucune pratique religieuse particulière. Elle valorise l'authenticité loin des faux-semblants des applis classiques. Intense et spontanée, parfois instable, elle cherche une connexion réelle sans considération religieuse précise."
+          },
+          "score": 74,
+          "raison": "Laïque, authentique et spontanée, elle s'aligne bien avec Michael, mais son instabilité émotionnelle et son profil d'influenceuse peuvent créer un écart de profondeur.",
+          "mutual": true
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 16,
+        "nom": "Avi",
+        "nom_famille": "Cohen",
+        "age": "29",
+        "sexe": "Masculin",
+        "telephone": "0545556677",
+        "resume_ia": "Avi est laïc et plutôt sceptique envers la religion, féru de débats politiques et philosophiques. Doctorant en sciences politiques, il valorise l'intellect et la culture. Attentif mais cérébral, il cherche une partenaire qui aime échanger, peu importe sa religiosité, mais ouverte au débat sur le sujet."
+      },
+      "meilleur_match": {
+        "id": 5,
+        "nom": "Noa",
+        "nom_famille": "Bensimon",
+        "age": "29",
+        "sexe": "Féminin",
+        "telephone": "0533445566",
+        "resume_ia": "Noa est laïque au quotidien mais respecte Yom Kippour et le Seder de Pessah par attachement familial. Financière ambitieuse, sportive (marathon, crossfit), elle cherche un partenaire confiant non intimidé par sa réussite. Franche, parfois trop directe. Peu importe la pratique religieuse de l'autre, tant qu'il y a du respect mutuel."
+      },
+      "score": 79,
+      "raison": "Laïque compatible avec une ouverture culturelle juive, ambitieuse et franche, elle s'inscrit bien dans l'univers intellectuel et non-religieux d'Avi, même si son franc-parler et sa compétitivité pourraient demander un ajustement.",
+      "top3": [
+        {
+          "match": {
+            "id": 5,
+            "nom": "Noa",
+            "nom_famille": "Bensimon",
+            "age": "29",
+            "sexe": "Féminin",
+            "telephone": "0533445566",
+            "resume_ia": "Noa est laïque au quotidien mais respecte Yom Kippour et le Seder de Pessah par attachement familial. Financière ambitieuse, sportive (marathon, crossfit), elle cherche un partenaire confiant non intimidé par sa réussite. Franche, parfois trop directe. Peu importe la pratique religieuse de l'autre, tant qu'il y a du respect mutuel."
+          },
+          "score": 79,
+          "raison": "Laïque compatible avec une ouverture culturelle juive, ambitieuse et franche, elle s'inscrit bien dans l'univers intellectuel et non-religieux d'Avi, même si son franc-parler et sa compétitivité pourraient demander un ajustement.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 11,
+            "nom": "Maya",
+            "nom_famille": "Dahan",
+            "age": "30",
+            "sexe": "Féminin",
+            "telephone": "0599001122",
+            "resume_ia": "Maya est laïque mais respecte Yom Kippour et certaines fêtes par culture plus que par foi. Avocate, passionnée de cuisine fusion franco-israélienne, elle valorise l'équilibre vie pro/perso. Réfléchie, elle prend son temps avant de s'engager et privilégie la compatibilité de valeurs à la pratique religieuse stricte."
+          },
+          "score": 66,
+          "raison": "Laïque cultivée et réfléchie, avocate habituée aux débats, elle partage les valeurs d'Avi sur la compatibilité intellectuelle et l'absence de pratique stricte, avec une maturité relationnelle bien alignée.",
           "mutual": false
         },
         {
@@ -302,10 +1286,538 @@
             "age": "24",
             "sexe": "Féminin",
             "telephone": "0541122334",
-            "resume_ia": "Sarah place la liberté et la créativité au cœur de ses valeurs. Elle n'est pas pressée de s'engager et recherche avant tout une connexion authentique, sans étiquette imposée trop vite. Photographe freelance, elle a déjà parcouru douze pays et adore documenter les marchés et la street art de Tel Aviv. Son mode de vie est flexible et improvisé, entre cafés branchés et soirées électro. En relation, elle est passionnée et directe, mais a besoin qu'on respecte son rythme. Ce qui la rend unique, c'est son regard artistique sur le monde et son franc-parler."
+            "resume_ia": "Sarah est complètement laïque, voire agnostique, et ne garde aucune cacherout. Elle place la liberté et la créativité au-dessus de tout. Photographe freelance, globe-trotteuse, elle vit entre cafés branchés et soirées électro. Passionnée et directe, elle cherche une connexion authentique sans pression religieuse ni engagement précoce."
           },
-          "score": 31,
-          "raison": "Sarah, jeune, nomade et peu disposée à s'engager rapidement, est à l'opposé de la stabilité familiale et de la relation sérieuse sur le long terme que Yoni appelle de ses vœux.",
+          "score": 64,
+          "raison": "Parfaitement alignée sur la laïcité et l'absence de pratique, Sarah séduit par son authenticité et sa liberté, mais son rejet de tout engagement précoce et son mode de vie globe-trotteur contrastent avec le projet de vie plus structuré d'un doctorant cherchant une vraie partenaire d'échange.",
+          "mutual": false
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 15,
+        "nom": "Leeor",
+        "nom_famille": "Malka",
+        "age": "25",
+        "sexe": "Féminin",
+        "telephone": "0534445566",
+        "resume_ia": "Leeor est laïque, influenceuse lifestyle sans aucune pratique religieuse particulière. Elle valorise l'authenticité loin des faux-semblants des applis classiques. Intense et spontanée, parfois instable, elle cherche une connexion réelle sans considération religieuse précise."
+      },
+      "meilleur_match": {
+        "id": 12,
+        "nom": "Ilan",
+        "nom_famille": "Partouche",
+        "age": "27",
+        "sexe": "Masculin",
+        "telephone": "0501112233",
+        "resume_ia": "Ilan est laïc et voyage souvent le Chabbat sans aucun scrupule religieux. Guide de trek freelance, globe-trotteur, il valorise l'aventure et la liberté. Passionné mais redoute la routine, il cherche une partenaire curieuse et tout aussi peu attachée à la pratique religieuse."
+      },
+      "score": 77,
+      "raison": "Laïque sans pratique religieuse et authentique, mais son instabilité caractérielle réduit la compatibilité sur le long terme.",
+      "top3": [
+        {
+          "match": {
+            "id": 12,
+            "nom": "Ilan",
+            "nom_famille": "Partouche",
+            "age": "27",
+            "sexe": "Masculin",
+            "telephone": "0501112233",
+            "resume_ia": "Ilan est laïc et voyage souvent le Chabbat sans aucun scrupule religieux. Guide de trek freelance, globe-trotteur, il valorise l'aventure et la liberté. Passionné mais redoute la routine, il cherche une partenaire curieuse et tout aussi peu attachée à la pratique religieuse."
+          },
+          "score": 77,
+          "raison": "Laïque sans pratique religieuse et authentique, mais son instabilité caractérielle réduit la compatibilité sur le long terme.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 2,
+            "nom": "David",
+            "nom_famille": "Mizrahi",
+            "age": "31",
+            "sexe": "Masculin",
+            "telephone": "0529876543",
+            "resume_ia": "David est laïc (hiloni) et ne pratique pas, même s'il respecte les fêtes en famille par tradition. Entrepreneur tech, il valorise l'humour et l'énergie positive. Il cherche une partenaire spontanée, peu importe son niveau de religiosité tant qu'elle respecte son mode de vie libre. Hiking, cuisine créative, voyages. Généreux et taquin en couple, son optimisme contagieux le distingue."
+          },
+          "score": 76,
+          "raison": "Laïque sans pratique et spontanée comme David, Leeor coche les cases religieuses et lifestyle, mais son instabilité émotionnelle et son profil d'influenceuse superficiel tempèrent la compatibilité réelle.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 6,
+            "nom": "Eytan",
+            "nom_famille": "Azoulay",
+            "age": "26",
+            "sexe": "Masculin",
+            "telephone": "0544556677",
+            "resume_ia": "Eytan est laïc et sort souvent le vendredi soir en boîte, sans aucune pratique religieuse. DJ amateur, il valorise la légèreté et le fun avant tout. Créatif et attachant mais hésitant face à l'engagement. Il préfère une partenaire tout aussi décontractée sur le plan religieux."
+          },
+          "score": 76,
+          "raison": "Laïque assumée, spontanée et authentique, elle s'aligne bien religieusement et personnellement avec Eytan, même si son instabilité émotionnelle peut créer quelques frictions.",
+          "mutual": true
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 10,
+        "nom": "Yossef",
+        "nom_famille": "Knafo",
+        "age": "41",
+        "sexe": "Masculin",
+        "telephone": "0588990011",
+        "resume_ia": "Yossef est traditionaliste : cacherout à la maison, synagogue le vendredi soir occasionnellement. Plombier indépendant, divorcé, il valorise la loyauté et la simplicité après un divorce difficile. Protecteur mais parfois jaloux, il cherche une femme sincère partageant un attachement traditionnel similaire."
+      },
+      "meilleur_match": {
+        "id": 13,
+        "nom": "Adi",
+        "nom_famille": "Chocron",
+        "age": "36",
+        "sexe": "Féminin",
+        "telephone": "0512223344",
+        "resume_ia": "Adi est traditionaliste avec une cacherout stricte qu'elle exige aussi chez son futur partenaire. Infirmière, dévouée et empathique, elle valorise la stabilité émotionnelle après des relations compliquées. Elle cherche un engagement sérieux avec quelqu'un respectant au minimum les codes traditionnels juifs."
+      },
+      "score": 76,
+      "raison": "Adi partage le même profil traditionaliste avec cacherout stricte, valorise la stabilité émotionnelle après des épreuves relationnelles et cherche un engagement sérieux, ce qui s'aligne très bien avec Yossef.",
+      "top3": [
+        {
+          "match": {
+            "id": 13,
+            "nom": "Adi",
+            "nom_famille": "Chocron",
+            "age": "36",
+            "sexe": "Féminin",
+            "telephone": "0512223344",
+            "resume_ia": "Adi est traditionaliste avec une cacherout stricte qu'elle exige aussi chez son futur partenaire. Infirmière, dévouée et empathique, elle valorise la stabilité émotionnelle après des relations compliquées. Elle cherche un engagement sérieux avec quelqu'un respectant au minimum les codes traditionnels juifs."
+          },
+          "score": 76,
+          "raison": "Adi partage le même profil traditionaliste avec cacherout stricte, valorise la stabilité émotionnelle après des épreuves relationnelles et cherche un engagement sérieux, ce qui s'aligne très bien avec Yossef.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 1,
+            "nom": "Léa",
+            "nom_famille": "Cohen",
+            "age": "27",
+            "sexe": "Féminin",
+            "telephone": "0501234567",
+            "resume_ia": "Léa valorise l'authenticité et la curiosité intellectuelle. Traditionaliste (masortit), elle garde une cacherout souple à la maison et aime le dîner du vendredi soir en famille, sans être stricte sur le Chabbat. Passionnée d'archéologie levantine, elle fait des fouilles bénévoles et de la randonnée. En relation, attentive et loyale, elle a besoin d'indépendance. Elle cherche quelqu'un d'ouvert spirituellement, sans rigidité religieuse."
+          },
+          "score": 73,
+          "raison": "Léa est masortit avec une pratique très proche de celle de Yossef, loyale et sincère, bien que son besoin d'indépendance et son écart d'âge puissent créer quelques frictions avec son côté protecteur.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 17,
+            "nom": "Romi",
+            "nom_famille": "Bouhadana",
+            "age": "31",
+            "sexe": "Féminin",
+            "telephone": "0556667788",
+            "resume_ia": "Romi se définit comme spirituelle mais non religieuse au sens orthodoxe : elle garde une cacherout flexible et privilégie une spiritualité personnelle (méditation, conscience) à la pratique institutionnelle. Coach de vie, elle valorise le développement personnel. Elle cherche un partenaire émotionnellement disponible, religieux ou non."
+          },
+          "score": 60,
+          "raison": "Romi garde une cacherout flexible et une spiritualité sincère, mais son orientation vers la croissance personnelle et sa pratique non institutionnelle créent un décalage modéré avec le traditionalisme ancré de Yossef.",
+          "mutual": false
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 18,
+        "nom": "Gabriel",
+        "nom_famille": "Nahmias",
+        "age": "33",
+        "sexe": "Masculin",
+        "telephone": "0567778899",
+        "resume_ia": "Gabriel est traditionaliste léger : cacherout respectée par habitude familiale, sans grande conviction. Développeur web, passionné de coinche compétitive, il valorise l'humour et la complicité. Fidèle et drôle, il cherche une partenaire avec qui rire, sans exigence religieuse particulière."
+      },
+      "meilleur_match": {
+        "id": 1,
+        "nom": "Léa",
+        "nom_famille": "Cohen",
+        "age": "27",
+        "sexe": "Féminin",
+        "telephone": "0501234567",
+        "resume_ia": "Léa valorise l'authenticité et la curiosité intellectuelle. Traditionaliste (masortit), elle garde une cacherout souple à la maison et aime le dîner du vendredi soir en famille, sans être stricte sur le Chabbat. Passionnée d'archéologie levantine, elle fait des fouilles bénévoles et de la randonnée. En relation, attentive et loyale, elle a besoin d'indépendance. Elle cherche quelqu'un d'ouvert spirituellement, sans rigidité religieuse."
+      },
+      "score": 76,
+      "raison": "Traditionaliste souple comme Gabriel, cacherout compatible, loyale et curieuse intellectuellement, avec une belle complémentarité de valeurs et d'ouverture spirituelle.",
+      "top3": [
+        {
+          "match": {
+            "id": 1,
+            "nom": "Léa",
+            "nom_famille": "Cohen",
+            "age": "27",
+            "sexe": "Féminin",
+            "telephone": "0501234567",
+            "resume_ia": "Léa valorise l'authenticité et la curiosité intellectuelle. Traditionaliste (masortit), elle garde une cacherout souple à la maison et aime le dîner du vendredi soir en famille, sans être stricte sur le Chabbat. Passionnée d'archéologie levantine, elle fait des fouilles bénévoles et de la randonnée. En relation, attentive et loyale, elle a besoin d'indépendance. Elle cherche quelqu'un d'ouvert spirituellement, sans rigidité religieuse."
+          },
+          "score": 76,
+          "raison": "Traditionaliste souple comme Gabriel, cacherout compatible, loyale et curieuse intellectuellement, avec une belle complémentarité de valeurs et d'ouverture spirituelle.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 17,
+            "nom": "Romi",
+            "nom_famille": "Bouhadana",
+            "age": "31",
+            "sexe": "Féminin",
+            "telephone": "0556667788",
+            "resume_ia": "Romi se définit comme spirituelle mais non religieuse au sens orthodoxe : elle garde une cacherout flexible et privilégie une spiritualité personnelle (méditation, conscience) à la pratique institutionnelle. Coach de vie, elle valorise le développement personnel. Elle cherche un partenaire émotionnellement disponible, religieux ou non."
+          },
+          "score": 73,
+          "raison": "Cacherout flexible et spiritualité non dogmatique s'accordent bien avec le traditionalisme léger de Gabriel, et sa recherche d'un partenaire émotionnellement disponible est un atout.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 11,
+            "nom": "Maya",
+            "nom_famille": "Dahan",
+            "age": "30",
+            "sexe": "Féminin",
+            "telephone": "0599001122",
+            "resume_ia": "Maya est laïque mais respecte Yom Kippour et certaines fêtes par culture plus que par foi. Avocate, passionnée de cuisine fusion franco-israélienne, elle valorise l'équilibre vie pro/perso. Réfléchie, elle prend son temps avant de s'engager et privilégie la compatibilité de valeurs à la pratique religieuse stricte."
+          },
+          "score": 72,
+          "raison": "Laïque culturelle respectueuse des fêtes, valeurs solides et équilibre vie pro/perso séduisants, bien que l'absence totale de cacherout crée un léger écart avec les habitudes familiales de Gabriel.",
+          "mutual": true
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 11,
+        "nom": "Maya",
+        "nom_famille": "Dahan",
+        "age": "30",
+        "sexe": "Féminin",
+        "telephone": "0599001122",
+        "resume_ia": "Maya est laïque mais respecte Yom Kippour et certaines fêtes par culture plus que par foi. Avocate, passionnée de cuisine fusion franco-israélienne, elle valorise l'équilibre vie pro/perso. Réfléchie, elle prend son temps avant de s'engager et privilégie la compatibilité de valeurs à la pratique religieuse stricte."
+      },
+      "meilleur_match": {
+        "id": 2,
+        "nom": "David",
+        "nom_famille": "Mizrahi",
+        "age": "31",
+        "sexe": "Masculin",
+        "telephone": "0529876543",
+        "resume_ia": "David est laïc (hiloni) et ne pratique pas, même s'il respecte les fêtes en famille par tradition. Entrepreneur tech, il valorise l'humour et l'énergie positive. Il cherche une partenaire spontanée, peu importe son niveau de religiosité tant qu'elle respecte son mode de vie libre. Hiking, cuisine créative, voyages. Généreux et taquin en couple, son optimisme contagieux le distingue."
+      },
+      "score": 74,
+      "raison": "Laïque culturelle comme David, passionnée de cuisine fusion et de valeurs partagées, Maya offre une compatibilité solide même si son rythme d'engagement plus lent peut demander de la patience.",
+      "top3": [
+        {
+          "match": {
+            "id": 2,
+            "nom": "David",
+            "nom_famille": "Mizrahi",
+            "age": "31",
+            "sexe": "Masculin",
+            "telephone": "0529876543",
+            "resume_ia": "David est laïc (hiloni) et ne pratique pas, même s'il respecte les fêtes en famille par tradition. Entrepreneur tech, il valorise l'humour et l'énergie positive. Il cherche une partenaire spontanée, peu importe son niveau de religiosité tant qu'elle respecte son mode de vie libre. Hiking, cuisine créative, voyages. Généreux et taquin en couple, son optimisme contagieux le distingue."
+          },
+          "score": 74,
+          "raison": "Laïque culturelle comme David, passionnée de cuisine fusion et de valeurs partagées, Maya offre une compatibilité solide même si son rythme d'engagement plus lent peut demander de la patience.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 18,
+            "nom": "Gabriel",
+            "nom_famille": "Nahmias",
+            "age": "33",
+            "sexe": "Masculin",
+            "telephone": "0567778899",
+            "resume_ia": "Gabriel est traditionaliste léger : cacherout respectée par habitude familiale, sans grande conviction. Développeur web, passionné de coinche compétitive, il valorise l'humour et la complicité. Fidèle et drôle, il cherche une partenaire avec qui rire, sans exigence religieuse particulière."
+          },
+          "score": 72,
+          "raison": "Laïque culturelle respectueuse des fêtes, valeurs solides et équilibre vie pro/perso séduisants, bien que l'absence totale de cacherout crée un léger écart avec les habitudes familiales de Gabriel.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 16,
+            "nom": "Avi",
+            "nom_famille": "Cohen",
+            "age": "29",
+            "sexe": "Masculin",
+            "telephone": "0545556677",
+            "resume_ia": "Avi est laïc et plutôt sceptique envers la religion, féru de débats politiques et philosophiques. Doctorant en sciences politiques, il valorise l'intellect et la culture. Attentif mais cérébral, il cherche une partenaire qui aime échanger, peu importe sa religiosité, mais ouverte au débat sur le sujet."
+          },
+          "score": 66,
+          "raison": "Laïque cultivée et réfléchie, avocate habituée aux débats, elle partage les valeurs d'Avi sur la compatibilité intellectuelle et l'absence de pratique stricte, avec une maturité relationnelle bien alignée.",
+          "mutual": false
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 17,
+        "nom": "Romi",
+        "nom_famille": "Bouhadana",
+        "age": "31",
+        "sexe": "Féminin",
+        "telephone": "0556667788",
+        "resume_ia": "Romi se définit comme spirituelle mais non religieuse au sens orthodoxe : elle garde une cacherout flexible et privilégie une spiritualité personnelle (méditation, conscience) à la pratique institutionnelle. Coach de vie, elle valorise le développement personnel. Elle cherche un partenaire émotionnellement disponible, religieux ou non."
+      },
+      "meilleur_match": {
+        "id": 18,
+        "nom": "Gabriel",
+        "nom_famille": "Nahmias",
+        "age": "33",
+        "sexe": "Masculin",
+        "telephone": "0567778899",
+        "resume_ia": "Gabriel est traditionaliste léger : cacherout respectée par habitude familiale, sans grande conviction. Développeur web, passionné de coinche compétitive, il valorise l'humour et la complicité. Fidèle et drôle, il cherche une partenaire avec qui rire, sans exigence religieuse particulière."
+      },
+      "score": 73,
+      "raison": "Cacherout flexible et spiritualité non dogmatique s'accordent bien avec le traditionalisme léger de Gabriel, et sa recherche d'un partenaire émotionnellement disponible est un atout.",
+      "top3": [
+        {
+          "match": {
+            "id": 18,
+            "nom": "Gabriel",
+            "nom_famille": "Nahmias",
+            "age": "33",
+            "sexe": "Masculin",
+            "telephone": "0567778899",
+            "resume_ia": "Gabriel est traditionaliste léger : cacherout respectée par habitude familiale, sans grande conviction. Développeur web, passionné de coinche compétitive, il valorise l'humour et la complicité. Fidèle et drôle, il cherche une partenaire avec qui rire, sans exigence religieuse particulière."
+          },
+          "score": 73,
+          "raison": "Cacherout flexible et spiritualité non dogmatique s'accordent bien avec le traditionalisme léger de Gabriel, et sa recherche d'un partenaire émotionnellement disponible est un atout.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 8,
+            "nom": "Raphaël",
+            "nom_famille": "Ohana",
+            "age": "38",
+            "sexe": "Masculin",
+            "telephone": "0566778899",
+            "resume_ia": "Raphaël est traditionaliste moderne, cacherout respectée à la maison, fêtes célébrées en famille élargie. Architecte, père de deux enfants, il valorise la transmission et la famille recomposée. Calme et posé, il cherche une partenaire mature partageant un attachement similaire à la tradition juive sans extrémisme."
+          },
+          "score": 72,
+          "raison": "Cacherout flexible et spiritualité personnelle sincère offrent un pont possible avec Raphaël, mais l'approche non institutionnelle et le flou religieux créent une incertitude réelle sur la compatibilité de pratique au quotidien.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 4,
+            "nom": "Yoni",
+            "nom_famille": "Edery",
+            "age": "35",
+            "sexe": "Masculin",
+            "telephone": "0556677889",
+            "resume_ia": "Yoni est traditionaliste : il garde la cacherout chez lui et va à la synagogue pour les grandes fêtes, sans être strict sur Chabbat. Comptable, divorcé depuis deux ans, il valorise la stabilité et la famille. Coinche et foot le samedi. Fiable et chaleureux, il cherche une partenaire qui partage des valeurs traditionnelles sans être rigide."
+          },
+          "score": 70,
+          "raison": "Romi garde une cacherout flexible et est émotionnellement disponible, mais sa spiritualité individualiste et new-age s'éloigne du traditionalisme ancré et communautaire de Yoni.",
+          "mutual": false
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 14,
+        "nom": "Doron",
+        "nom_famille": "Amar",
+        "age": "45",
+        "sexe": "Masculin",
+        "telephone": "0523334455",
+        "resume_ia": "Doron est traditionaliste, fréquente surtout les restaurants cashers par habitude commerciale (il en possède deux). Restaurateur expérimenté, généreux et charismatique, il valorise la maturité. Il cherche une femme posée, peu importe son niveau de pratique tant qu'elle apprécie la convivialité des repas en famille."
+      },
+      "meilleur_match": {
+        "id": 13,
+        "nom": "Adi",
+        "nom_famille": "Chocron",
+        "age": "36",
+        "sexe": "Féminin",
+        "telephone": "0512223344",
+        "resume_ia": "Adi est traditionaliste avec une cacherout stricte qu'elle exige aussi chez son futur partenaire. Infirmière, dévouée et empathique, elle valorise la stabilité émotionnelle après des relations compliquées. Elle cherche un engagement sérieux avec quelqu'un respectant au minimum les codes traditionnels juifs."
+      },
+      "score": 71,
+      "raison": "Traditionaliste avec cacherout stricte, maturité émotionnelle et recherche d'engagement sérieux : très alignée avec Doron sur l'essentiel, malgré une légère rigidité sur la cacherout qui dépasse son niveau de pratique habituel.",
+      "top3": [
+        {
+          "match": {
+            "id": 13,
+            "nom": "Adi",
+            "nom_famille": "Chocron",
+            "age": "36",
+            "sexe": "Féminin",
+            "telephone": "0512223344",
+            "resume_ia": "Adi est traditionaliste avec une cacherout stricte qu'elle exige aussi chez son futur partenaire. Infirmière, dévouée et empathique, elle valorise la stabilité émotionnelle après des relations compliquées. Elle cherche un engagement sérieux avec quelqu'un respectant au minimum les codes traditionnels juifs."
+          },
+          "score": 71,
+          "raison": "Traditionaliste avec cacherout stricte, maturité émotionnelle et recherche d'engagement sérieux : très alignée avec Doron sur l'essentiel, malgré une légère rigidité sur la cacherout qui dépasse son niveau de pratique habituel.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 17,
+            "nom": "Romi",
+            "nom_famille": "Bouhadana",
+            "age": "31",
+            "sexe": "Féminin",
+            "telephone": "0556667788",
+            "resume_ia": "Romi se définit comme spirituelle mais non religieuse au sens orthodoxe : elle garde une cacherout flexible et privilégie une spiritualité personnelle (méditation, conscience) à la pratique institutionnelle. Coach de vie, elle valorise le développement personnel. Elle cherche un partenaire émotionnellement disponible, religieux ou non."
+          },
+          "score": 69,
+          "raison": "Cacherout flexible et ouverture spirituelle sans rigidité religieuse : un équilibre proche de celui de Doron, avec des valeurs de convivialité et de développement personnel compatibles, bien que sa spiritualité atypique reste éloignée d'un cadre traditionnel clairement partagé.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 1,
+            "nom": "Léa",
+            "nom_famille": "Cohen",
+            "age": "27",
+            "sexe": "Féminin",
+            "telephone": "0501234567",
+            "resume_ia": "Léa valorise l'authenticité et la curiosité intellectuelle. Traditionaliste (masortit), elle garde une cacherout souple à la maison et aime le dîner du vendredi soir en famille, sans être stricte sur le Chabbat. Passionnée d'archéologie levantine, elle fait des fouilles bénévoles et de la randonnée. En relation, attentive et loyale, elle a besoin d'indépendance. Elle cherche quelqu'un d'ouvert spirituellement, sans rigidité religieuse."
+          },
+          "score": 68,
+          "raison": "Masortit souple, attachée au repas du vendredi soir en famille et à la convivialité, elle correspond bien au profil traditionaliste décontracté de Doron, même si la différence d'âge (18 ans) et son besoin d'indépendance sont des points de vigilance.",
+          "mutual": false
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 7,
+        "nom": "Tamar",
+        "nom_famille": "Suissa",
+        "age": "33",
+        "sexe": "Féminin",
+        "telephone": "0555667788",
+        "resume_ia": "Tamar est datiya (religieuse pratiquante) : cacherout stricte, Chabbat intégralement respecté, étude de la Torah le vendredi soir. Psychologue, elle valorise la profondeur émotionnelle et la spiritualité juive. Patiente mais exigeante sur l'authenticité, elle cherche impérativement un partenaire pratiquant ou prêt à se rapprocher de la tradition."
+      },
+      "meilleur_match": {
+        "id": 8,
+        "nom": "Raphaël",
+        "nom_famille": "Ohana",
+        "age": "38",
+        "sexe": "Masculin",
+        "telephone": "0566778899",
+        "resume_ia": "Raphaël est traditionaliste moderne, cacherout respectée à la maison, fêtes célébrées en famille élargie. Architecte, père de deux enfants, il valorise la transmission et la famille recomposée. Calme et posé, il cherche une partenaire mature partageant un attachement similaire à la tradition juive sans extrémisme."
+      },
+      "score": 60,
+      "raison": "Profonde cohérence sur les valeurs juives et la famille, mais le niveau datiya strict (Chabbat intégral, étude Torah) dépasse le positionnement 'sans extrémisme' de Raphaël et risque de créer une friction structurelle.",
+      "top3": [
+        {
+          "match": {
+            "id": 8,
+            "nom": "Raphaël",
+            "nom_famille": "Ohana",
+            "age": "38",
+            "sexe": "Masculin",
+            "telephone": "0566778899",
+            "resume_ia": "Raphaël est traditionaliste moderne, cacherout respectée à la maison, fêtes célébrées en famille élargie. Architecte, père de deux enfants, il valorise la transmission et la famille recomposée. Calme et posé, il cherche une partenaire mature partageant un attachement similaire à la tradition juive sans extrémisme."
+          },
+          "score": 60,
+          "raison": "Profonde cohérence sur les valeurs juives et la famille, mais le niveau datiya strict (Chabbat intégral, étude Torah) dépasse le positionnement 'sans extrémisme' de Raphaël et risque de créer une friction structurelle.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 10,
+            "nom": "Yossef",
+            "nom_famille": "Knafo",
+            "age": "41",
+            "sexe": "Masculin",
+            "telephone": "0588990011",
+            "resume_ia": "Yossef est traditionaliste : cacherout à la maison, synagogue le vendredi soir occasionnellement. Plombier indépendant, divorcé, il valorise la loyauté et la simplicité après un divorce difficile. Protecteur mais parfois jaloux, il cherche une femme sincère partageant un attachement traditionnel similaire."
+          },
+          "score": 51,
+          "raison": "Tamar partage une vraie profondeur spirituelle et une cacherout stricte compatible, mais son niveau de pratique datiya dépasse celui de Yossef et ses exigences religieuses risquent de le mettre sous pression.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 4,
+            "nom": "Yoni",
+            "nom_famille": "Edery",
+            "age": "35",
+            "sexe": "Masculin",
+            "telephone": "0556677889",
+            "resume_ia": "Yoni est traditionaliste : il garde la cacherout chez lui et va à la synagogue pour les grandes fêtes, sans être strict sur Chabbat. Comptable, divorcé depuis deux ans, il valorise la stabilité et la famille. Coinche et foot le samedi. Fiable et chaleureux, il cherche une partenaire qui partage des valeurs traditionnelles sans être rigide."
+          },
+          "score": 45,
+          "raison": "Tamar est sincère et profonde, mais son niveau datiya strict (Chabbat intégral, Torah le vendredi soir) est fondamentalement incompatible avec le profil masorti détendu de Yoni.",
+          "mutual": false
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 19,
+        "nom": "Yael",
+        "nom_famille": "Levy",
+        "age": "39",
+        "sexe": "Féminin",
+        "telephone": "0578889900",
+        "resume_ia": "Yael est datiya leumi (religieuse-nationale) : cacherout stricte, Chabbat observé, synagogue régulière. Sage-femme investie, elle valorise la sincérité et un projet de vie commun rapide. Directe sur ses attentes, elle exige impérativement un partenaire pratiquant pour fonder une famille religieuse cohérente."
+      },
+      "meilleur_match": {
+        "id": 8,
+        "nom": "Raphaël",
+        "nom_famille": "Ohana",
+        "age": "38",
+        "sexe": "Masculin",
+        "telephone": "0566778899",
+        "resume_ia": "Raphaël est traditionaliste moderne, cacherout respectée à la maison, fêtes célébrées en famille élargie. Architecte, père de deux enfants, il valorise la transmission et la famille recomposée. Calme et posé, il cherche une partenaire mature partageant un attachement similaire à la tradition juive sans extrémisme."
+      },
+      "score": 48,
+      "raison": "Datiya leumi avec exigence impérative d'un partenaire pratiquant : l'écart entre sa rigueur religieuse et le traditionalisme modéré de Raphaël est trop important pour une compatibilité durable, malgré la maturité du projet familial.",
+      "top3": [
+        {
+          "match": {
+            "id": 8,
+            "nom": "Raphaël",
+            "nom_famille": "Ohana",
+            "age": "38",
+            "sexe": "Masculin",
+            "telephone": "0566778899",
+            "resume_ia": "Raphaël est traditionaliste moderne, cacherout respectée à la maison, fêtes célébrées en famille élargie. Architecte, père de deux enfants, il valorise la transmission et la famille recomposée. Calme et posé, il cherche une partenaire mature partageant un attachement similaire à la tradition juive sans extrémisme."
+          },
+          "score": 48,
+          "raison": "Datiya leumi avec exigence impérative d'un partenaire pratiquant : l'écart entre sa rigueur religieuse et le traditionalisme modéré de Raphaël est trop important pour une compatibilité durable, malgré la maturité du projet familial.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 10,
+            "nom": "Yossef",
+            "nom_famille": "Knafo",
+            "age": "41",
+            "sexe": "Masculin",
+            "telephone": "0588990011",
+            "resume_ia": "Yossef est traditionaliste : cacherout à la maison, synagogue le vendredi soir occasionnellement. Plombier indépendant, divorcé, il valorise la loyauté et la simplicité après un divorce difficile. Protecteur mais parfois jaloux, il cherche une femme sincère partageant un attachement traditionnel similaire."
+          },
+          "score": 44,
+          "raison": "Yael est religieuse-nationale avec une cacherout stricte et des valeurs familiales fortes, mais elle exige impérativement un partenaire pratiquant au même niveau qu'elle, ce que Yossef ne peut pas offrir.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 4,
+            "nom": "Yoni",
+            "nom_famille": "Edery",
+            "age": "35",
+            "sexe": "Masculin",
+            "telephone": "0556677889",
+            "resume_ia": "Yoni est traditionaliste : il garde la cacherout chez lui et va à la synagogue pour les grandes fêtes, sans être strict sur Chabbat. Comptable, divorcé depuis deux ans, il valorise la stabilité et la famille. Coinche et foot le samedi. Fiable et chaleureux, il cherche une partenaire qui partage des valeurs traditionnelles sans être rigide."
+          },
+          "score": 43,
+          "raison": "Yael partage la synagogue et les valeurs familiales, mais son observance datiya leumi stricte (Chabbat complet, cacherout rigoureuse) dépasse largement le niveau de pratique de Yoni et son exigence d'un partenaire pratiquant le rend incompatible.",
           "mutual": false
         }
       ]
@@ -314,13 +1826,88 @@
   "mutual_matches": [
     {
       "profil_a": {
+        "id": 12,
+        "nom": "Ilan",
+        "nom_famille": "Partouche",
+        "age": "27",
+        "sexe": "Masculin",
+        "telephone": "0501112233",
+        "resume_ia": "Ilan est laïc et voyage souvent le Chabbat sans aucun scrupule religieux. Guide de trek freelance, globe-trotteur, il valorise l'aventure et la liberté. Passionné mais redoute la routine, il cherche une partenaire curieuse et tout aussi peu attachée à la pratique religieuse."
+      },
+      "profil_b": {
+        "id": 3,
+        "nom": "Sarah",
+        "nom_famille": "Touati",
+        "age": "24",
+        "sexe": "Féminin",
+        "telephone": "0541122334",
+        "resume_ia": "Sarah est complètement laïque, voire agnostique, et ne garde aucune cacherout. Elle place la liberté et la créativité au-dessus de tout. Photographe freelance, globe-trotteuse, elle vit entre cafés branchés et soirées électro. Passionnée et directe, elle cherche une connexion authentique sans pression religieuse ni engagement précoce."
+      },
+      "score": 90,
+      "score_h": 91,
+      "score_f": 88,
+      "raison": "Laïque totale sans cacherout, globe-trotteuse freelance et créative : compatibilité quasi parfaite sur tous les axes avec Ilan.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
         "id": 2,
         "nom": "David",
         "nom_famille": "Mizrahi",
         "age": "31",
         "sexe": "Masculin",
         "telephone": "0529876543",
-        "resume_ia": "David est un entrepreneur tech ambitieux qui valorise l'humour et l'énergie positive dans une relation. Il cherche une partenaire spontanée, prête à voyager et à sortir de sa zone de confort. Son quotidien alterne entre le développement de sa startup, le hiking en Galilée et la cuisine israélienne créative qu'il partage volontiers avec ses amis. En couple, il est généreux et protecteur, mais reste taquin et ne se prend jamais trop au sérieux. Ce qui le distingue, c'est son énergie contagieuse et son optimisme à toute épreuve."
+        "resume_ia": "David est laïc (hiloni) et ne pratique pas, même s'il respecte les fêtes en famille par tradition. Entrepreneur tech, il valorise l'humour et l'énergie positive. Il cherche une partenaire spontanée, peu importe son niveau de religiosité tant qu'elle respecte son mode de vie libre. Hiking, cuisine créative, voyages. Généreux et taquin en couple, son optimisme contagieux le distingue."
+      },
+      "profil_b": {
+        "id": 5,
+        "nom": "Noa",
+        "nom_famille": "Bensimon",
+        "age": "29",
+        "sexe": "Féminin",
+        "telephone": "0533445566",
+        "resume_ia": "Noa est laïque au quotidien mais respecte Yom Kippour et le Seder de Pessah par attachement familial. Financière ambitieuse, sportive (marathon, crossfit), elle cherche un partenaire confiant non intimidé par sa réussite. Franche, parfois trop directe. Peu importe la pratique religieuse de l'autre, tant qu'il y a du respect mutuel."
+      },
+      "score": 86,
+      "score_h": 87,
+      "score_f": 84,
+      "raison": "Laïque assumée, sportive et ambitieuse, Noa partage l'énergie positive et la liberté de vie de David avec une compatibilité religieuse quasi-totale et des valeurs très alignées.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 6,
+        "nom": "Eytan",
+        "nom_famille": "Azoulay",
+        "age": "26",
+        "sexe": "Masculin",
+        "telephone": "0544556677",
+        "resume_ia": "Eytan est laïc et sort souvent le vendredi soir en boîte, sans aucune pratique religieuse. DJ amateur, il valorise la légèreté et le fun avant tout. Créatif et attachant mais hésitant face à l'engagement. Il préfère une partenaire tout aussi décontractée sur le plan religieux."
+      },
+      "profil_b": {
+        "id": 3,
+        "nom": "Sarah",
+        "nom_famille": "Touati",
+        "age": "24",
+        "sexe": "Féminin",
+        "telephone": "0541122334",
+        "resume_ia": "Sarah est complètement laïque, voire agnostique, et ne garde aucune cacherout. Elle place la liberté et la créativité au-dessus de tout. Photographe freelance, globe-trotteuse, elle vit entre cafés branchés et soirées électro. Passionnée et directe, elle cherche une connexion authentique sans pression religieuse ni engagement précoce."
+      },
+      "score": 86,
+      "score_h": 91,
+      "score_f": 82,
+      "raison": "Laïque totale, créative, amatrice de soirées électro et sans attente d'engagement précoce : une compatibilité quasi naturelle avec Eytan sur tous les plans.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 4,
+        "nom": "Yoni",
+        "nom_famille": "Edery",
+        "age": "35",
+        "sexe": "Masculin",
+        "telephone": "0556677889",
+        "resume_ia": "Yoni est traditionaliste : il garde la cacherout chez lui et va à la synagogue pour les grandes fêtes, sans être strict sur Chabbat. Comptable, divorcé depuis deux ans, il valorise la stabilité et la famille. Coinche et foot le samedi. Fiable et chaleureux, il cherche une partenaire qui partage des valeurs traditionnelles sans être rigide."
       },
       "profil_b": {
         "id": 1,
@@ -329,19 +1916,394 @@
         "age": "27",
         "sexe": "Féminin",
         "telephone": "0501234567",
-        "resume_ia": "Léa valorise l'authenticité et la curiosité intellectuelle avant tout. Elle recherche un partenaire avec qui partager des discussions profondes et construire une relation basée sur la confiance mutuelle. Passionnée d'archéologie levantine, elle consacre ses weekends à des fouilles bénévoles et à la randonnée dans le désert du Néguev. Son style de vie mêle spiritualité, yoga et cuisine méditerranéenne faite maison. En relation, elle est attentive et loyale, mais a besoin d'indépendance et d'espace pour ses projets personnels. Ce qui la rend unique, c'est sa capacité à voir la beauté dans les vieilles pierres comme dans les gens."
+        "resume_ia": "Léa valorise l'authenticité et la curiosité intellectuelle. Traditionaliste (masortit), elle garde une cacherout souple à la maison et aime le dîner du vendredi soir en famille, sans être stricte sur le Chabbat. Passionnée d'archéologie levantine, elle fait des fouilles bénévoles et de la randonnée. En relation, attentive et loyale, elle a besoin d'indépendance. Elle cherche quelqu'un d'ouvert spirituellement, sans rigidité religieuse."
+      },
+      "score": 84,
+      "score_h": 87,
+      "score_f": 82,
+      "raison": "Léa est masortit avec une cacherout souple et un rapport au Chabbat identique à celui de Yoni, partageant ses valeurs familiales et son ouverture spirituelle sans rigidité.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 12,
+        "nom": "Ilan",
+        "nom_famille": "Partouche",
+        "age": "27",
+        "sexe": "Masculin",
+        "telephone": "0501112233",
+        "resume_ia": "Ilan est laïc et voyage souvent le Chabbat sans aucun scrupule religieux. Guide de trek freelance, globe-trotteur, il valorise l'aventure et la liberté. Passionné mais redoute la routine, il cherche une partenaire curieuse et tout aussi peu attachée à la pratique religieuse."
+      },
+      "profil_b": {
+        "id": 9,
+        "nom": "Shirel",
+        "nom_famille": "Hadad",
+        "age": "22",
+        "sexe": "Féminin",
+        "telephone": "0577889900",
+        "resume_ia": "Shirel est laïque, sans aucune pratique religieuse, étudiante en art à Florentine. Elle valorise la spontanéité et l'aventure, peint et fréquente les galeries underground. Passionnée mais volage, elle cherche surtout à explorer sans contrainte, y compris sur le plan religieux."
+      },
+      "score": 84,
+      "score_h": 79,
+      "score_f": 88,
+      "raison": "Laïque sans aucune pratique, spontanée et aventurière, mais sa jeunesse et son côté volage peuvent poser problème sur la profondeur relationnelle.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 6,
+        "nom": "Eytan",
+        "nom_famille": "Azoulay",
+        "age": "26",
+        "sexe": "Masculin",
+        "telephone": "0544556677",
+        "resume_ia": "Eytan est laïc et sort souvent le vendredi soir en boîte, sans aucune pratique religieuse. DJ amateur, il valorise la légèreté et le fun avant tout. Créatif et attachant mais hésitant face à l'engagement. Il préfère une partenaire tout aussi décontractée sur le plan religieux."
+      },
+      "profil_b": {
+        "id": 9,
+        "nom": "Shirel",
+        "nom_famille": "Hadad",
+        "age": "22",
+        "sexe": "Féminin",
+        "telephone": "0577889900",
+        "resume_ia": "Shirel est laïque, sans aucune pratique religieuse, étudiante en art à Florentine. Elle valorise la spontanéité et l'aventure, peint et fréquente les galeries underground. Passionnée mais volage, elle cherche surtout à explorer sans contrainte, y compris sur le plan religieux."
+      },
+      "score": 82,
+      "score_h": 82,
+      "score_f": 83,
+      "raison": "Laïque sans pratique, spontanée et éprise de liberté, elle partage l'énergie créative et le refus de contrainte d'Eytan, malgré un léger écart d'âge et une instabilité qui peut faire écho positivement.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 8,
+        "nom": "Raphaël",
+        "nom_famille": "Ohana",
+        "age": "38",
+        "sexe": "Masculin",
+        "telephone": "0566778899",
+        "resume_ia": "Raphaël est traditionaliste moderne, cacherout respectée à la maison, fêtes célébrées en famille élargie. Architecte, père de deux enfants, il valorise la transmission et la famille recomposée. Calme et posé, il cherche une partenaire mature partageant un attachement similaire à la tradition juive sans extrémisme."
+      },
+      "profil_b": {
+        "id": 1,
+        "nom": "Léa",
+        "nom_famille": "Cohen",
+        "age": "27",
+        "sexe": "Féminin",
+        "telephone": "0501234567",
+        "resume_ia": "Léa valorise l'authenticité et la curiosité intellectuelle. Traditionaliste (masortit), elle garde une cacherout souple à la maison et aime le dîner du vendredi soir en famille, sans être stricte sur le Chabbat. Passionnée d'archéologie levantine, elle fait des fouilles bénévoles et de la randonnée. En relation, attentive et loyale, elle a besoin d'indépendance. Elle cherche quelqu'un d'ouvert spirituellement, sans rigidité religieuse."
+      },
+      "score": 82,
+      "score_h": 78,
+      "score_f": 87,
+      "raison": "Masortit avec cacherout souple et attachement au vendredi soir familial, profil intellectuellement curieux et loyal : correspondance naturelle avec le traditionalisme moderne de Raphaël, légèrement pénalisée par son jeune âge et son besoin d'indépendance marqué.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 8,
+        "nom": "Raphaël",
+        "nom_famille": "Ohana",
+        "age": "38",
+        "sexe": "Masculin",
+        "telephone": "0566778899",
+        "resume_ia": "Raphaël est traditionaliste moderne, cacherout respectée à la maison, fêtes célébrées en famille élargie. Architecte, père de deux enfants, il valorise la transmission et la famille recomposée. Calme et posé, il cherche une partenaire mature partageant un attachement similaire à la tradition juive sans extrémisme."
+      },
+      "profil_b": {
+        "id": 13,
+        "nom": "Adi",
+        "nom_famille": "Chocron",
+        "age": "36",
+        "sexe": "Féminin",
+        "telephone": "0512223344",
+        "resume_ia": "Adi est traditionaliste avec une cacherout stricte qu'elle exige aussi chez son futur partenaire. Infirmière, dévouée et empathique, elle valorise la stabilité émotionnelle après des relations compliquées. Elle cherche un engagement sérieux avec quelqu'un respectant au minimum les codes traditionnels juifs."
+      },
+      "score": 82,
+      "score_h": 82,
+      "score_f": 82,
+      "raison": "Traditionaliste avec cacherout stricte, cherche engagement sérieux et stabilité : alignement religieux et émotionnel très fort avec Raphaël, malgré une légère rigidité sur la cacherout par rapport à son profil 'sans extrémisme'.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 20,
+        "nom": "Michael",
+        "nom_famille": "Abergel",
+        "age": "24",
+        "sexe": "Masculin",
+        "telephone": "0589990011",
+        "resume_ia": "Michael est laïc, étudiant en cinéma, sans pratique religieuse. Il valorise la liberté et le moment présent, ne cherchant rien de précis pour l'instant. Créatif et insouciant, peu prévisible, il est ouvert à rencontrer des profils de tous niveaux de pratique religieuse."
+      },
+      "profil_b": {
+        "id": 3,
+        "nom": "Sarah",
+        "nom_famille": "Touati",
+        "age": "24",
+        "sexe": "Féminin",
+        "telephone": "0541122334",
+        "resume_ia": "Sarah est complètement laïque, voire agnostique, et ne garde aucune cacherout. Elle place la liberté et la créativité au-dessus de tout. Photographe freelance, globe-trotteuse, elle vit entre cafés branchés et soirées électro. Passionnée et directe, elle cherche une connexion authentique sans pression religieuse ni engagement précoce."
+      },
+      "score": 82,
+      "score_h": 91,
+      "score_f": 74,
+      "raison": "Laïque totale, créative, libre et sans attente d'engagement précoce : une compatibilité quasi parfaite avec Michael sur tous les critères.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 20,
+        "nom": "Michael",
+        "nom_famille": "Abergel",
+        "age": "24",
+        "sexe": "Masculin",
+        "telephone": "0589990011",
+        "resume_ia": "Michael est laïc, étudiant en cinéma, sans pratique religieuse. Il valorise la liberté et le moment présent, ne cherchant rien de précis pour l'instant. Créatif et insouciant, peu prévisible, il est ouvert à rencontrer des profils de tous niveaux de pratique religieuse."
+      },
+      "profil_b": {
+        "id": 9,
+        "nom": "Shirel",
+        "nom_famille": "Hadad",
+        "age": "22",
+        "sexe": "Féminin",
+        "telephone": "0577889900",
+        "resume_ia": "Shirel est laïque, sans aucune pratique religieuse, étudiante en art à Florentine. Elle valorise la spontanéité et l'aventure, peint et fréquente les galeries underground. Passionnée mais volage, elle cherche surtout à explorer sans contrainte, y compris sur le plan religieux."
+      },
+      "score": 82,
+      "score_h": 85,
+      "score_f": 80,
+      "raison": "Laïque, spontanée, artiste et sans contrainte religieuse, elle partage l'énergie créative et l'insouciance de Michael, malgré un léger décalage d'âge et une instabilité affective commune.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 2,
+        "nom": "David",
+        "nom_famille": "Mizrahi",
+        "age": "31",
+        "sexe": "Masculin",
+        "telephone": "0529876543",
+        "resume_ia": "David est laïc (hiloni) et ne pratique pas, même s'il respecte les fêtes en famille par tradition. Entrepreneur tech, il valorise l'humour et l'énergie positive. Il cherche une partenaire spontanée, peu importe son niveau de religiosité tant qu'elle respecte son mode de vie libre. Hiking, cuisine créative, voyages. Généreux et taquin en couple, son optimisme contagieux le distingue."
+      },
+      "profil_b": {
+        "id": 3,
+        "nom": "Sarah",
+        "nom_famille": "Touati",
+        "age": "24",
+        "sexe": "Féminin",
+        "telephone": "0541122334",
+        "resume_ia": "Sarah est complètement laïque, voire agnostique, et ne garde aucune cacherout. Elle place la liberté et la créativité au-dessus de tout. Photographe freelance, globe-trotteuse, elle vit entre cafés branchés et soirées électro. Passionnée et directe, elle cherche une connexion authentique sans pression religieuse ni engagement précoce."
+      },
+      "score": 80,
+      "score_h": 79,
+      "score_f": 80,
+      "raison": "Parfaitement alignée sur la liberté et l'absence de pratique religieuse, Sarah séduit par sa créativité et son goût du voyage, mais sa réticence à l'engagement précoce peut limiter la profondeur de la connexion.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 16,
+        "nom": "Avi",
+        "nom_famille": "Cohen",
+        "age": "29",
+        "sexe": "Masculin",
+        "telephone": "0545556677",
+        "resume_ia": "Avi est laïc et plutôt sceptique envers la religion, féru de débats politiques et philosophiques. Doctorant en sciences politiques, il valorise l'intellect et la culture. Attentif mais cérébral, il cherche une partenaire qui aime échanger, peu importe sa religiosité, mais ouverte au débat sur le sujet."
+      },
+      "profil_b": {
+        "id": 5,
+        "nom": "Noa",
+        "nom_famille": "Bensimon",
+        "age": "29",
+        "sexe": "Féminin",
+        "telephone": "0533445566",
+        "resume_ia": "Noa est laïque au quotidien mais respecte Yom Kippour et le Seder de Pessah par attachement familial. Financière ambitieuse, sportive (marathon, crossfit), elle cherche un partenaire confiant non intimidé par sa réussite. Franche, parfois trop directe. Peu importe la pratique religieuse de l'autre, tant qu'il y a du respect mutuel."
+      },
+      "score": 79,
+      "score_h": 82,
+      "score_f": 76,
+      "raison": "Laïque compatible avec une ouverture culturelle juive, ambitieuse et franche, elle s'inscrit bien dans l'univers intellectuel et non-religieux d'Avi, même si son franc-parler et sa compétitivité pourraient demander un ajustement.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 12,
+        "nom": "Ilan",
+        "nom_famille": "Partouche",
+        "age": "27",
+        "sexe": "Masculin",
+        "telephone": "0501112233",
+        "resume_ia": "Ilan est laïc et voyage souvent le Chabbat sans aucun scrupule religieux. Guide de trek freelance, globe-trotteur, il valorise l'aventure et la liberté. Passionné mais redoute la routine, il cherche une partenaire curieuse et tout aussi peu attachée à la pratique religieuse."
+      },
+      "profil_b": {
+        "id": 15,
+        "nom": "Leeor",
+        "nom_famille": "Malka",
+        "age": "25",
+        "sexe": "Féminin",
+        "telephone": "0534445566",
+        "resume_ia": "Leeor est laïque, influenceuse lifestyle sans aucune pratique religieuse particulière. Elle valorise l'authenticité loin des faux-semblants des applis classiques. Intense et spontanée, parfois instable, elle cherche une connexion réelle sans considération religieuse précise."
+      },
+      "score": 77,
+      "score_h": 72,
+      "score_f": 82,
+      "raison": "Laïque sans pratique religieuse et authentique, mais son instabilité caractérielle réduit la compatibilité sur le long terme.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 6,
+        "nom": "Eytan",
+        "nom_famille": "Azoulay",
+        "age": "26",
+        "sexe": "Masculin",
+        "telephone": "0544556677",
+        "resume_ia": "Eytan est laïc et sort souvent le vendredi soir en boîte, sans aucune pratique religieuse. DJ amateur, il valorise la légèreté et le fun avant tout. Créatif et attachant mais hésitant face à l'engagement. Il préfère une partenaire tout aussi décontractée sur le plan religieux."
+      },
+      "profil_b": {
+        "id": 15,
+        "nom": "Leeor",
+        "nom_famille": "Malka",
+        "age": "25",
+        "sexe": "Féminin",
+        "telephone": "0534445566",
+        "resume_ia": "Leeor est laïque, influenceuse lifestyle sans aucune pratique religieuse particulière. Elle valorise l'authenticité loin des faux-semblants des applis classiques. Intense et spontanée, parfois instable, elle cherche une connexion réelle sans considération religieuse précise."
+      },
+      "score": 76,
+      "score_h": 76,
+      "score_f": 76,
+      "raison": "Laïque assumée, spontanée et authentique, elle s'aligne bien religieusement et personnellement avec Eytan, même si son instabilité émotionnelle peut créer quelques frictions.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 10,
+        "nom": "Yossef",
+        "nom_famille": "Knafo",
+        "age": "41",
+        "sexe": "Masculin",
+        "telephone": "0588990011",
+        "resume_ia": "Yossef est traditionaliste : cacherout à la maison, synagogue le vendredi soir occasionnellement. Plombier indépendant, divorcé, il valorise la loyauté et la simplicité après un divorce difficile. Protecteur mais parfois jaloux, il cherche une femme sincère partageant un attachement traditionnel similaire."
+      },
+      "profil_b": {
+        "id": 13,
+        "nom": "Adi",
+        "nom_famille": "Chocron",
+        "age": "36",
+        "sexe": "Féminin",
+        "telephone": "0512223344",
+        "resume_ia": "Adi est traditionaliste avec une cacherout stricte qu'elle exige aussi chez son futur partenaire. Infirmière, dévouée et empathique, elle valorise la stabilité émotionnelle après des relations compliquées. Elle cherche un engagement sérieux avec quelqu'un respectant au minimum les codes traditionnels juifs."
+      },
+      "score": 76,
+      "score_h": 82,
+      "score_f": 71,
+      "raison": "Adi partage le même profil traditionaliste avec cacherout stricte, valorise la stabilité émotionnelle après des épreuves relationnelles et cherche un engagement sérieux, ce qui s'aligne très bien avec Yossef.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 4,
+        "nom": "Yoni",
+        "nom_famille": "Edery",
+        "age": "35",
+        "sexe": "Masculin",
+        "telephone": "0556677889",
+        "resume_ia": "Yoni est traditionaliste : il garde la cacherout chez lui et va à la synagogue pour les grandes fêtes, sans être strict sur Chabbat. Comptable, divorcé depuis deux ans, il valorise la stabilité et la famille. Coinche et foot le samedi. Fiable et chaleureux, il cherche une partenaire qui partage des valeurs traditionnelles sans être rigide."
+      },
+      "profil_b": {
+        "id": 13,
+        "nom": "Adi",
+        "nom_famille": "Chocron",
+        "age": "36",
+        "sexe": "Féminin",
+        "telephone": "0512223344",
+        "resume_ia": "Adi est traditionaliste avec une cacherout stricte qu'elle exige aussi chez son futur partenaire. Infirmière, dévouée et empathique, elle valorise la stabilité émotionnelle après des relations compliquées. Elle cherche un engagement sérieux avec quelqu'un respectant au minimum les codes traditionnels juifs."
       },
       "score": 75,
+      "score_h": 72,
+      "score_f": 78,
+      "raison": "Adi est traditionaliste et cherche un engagement stable, mais sa cacherout stricte qu'elle exige chez le partenaire crée une légère friction avec la pratique plus souple de Yoni.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 20,
+        "nom": "Michael",
+        "nom_famille": "Abergel",
+        "age": "24",
+        "sexe": "Masculin",
+        "telephone": "0589990011",
+        "resume_ia": "Michael est laïc, étudiant en cinéma, sans pratique religieuse. Il valorise la liberté et le moment présent, ne cherchant rien de précis pour l'instant. Créatif et insouciant, peu prévisible, il est ouvert à rencontrer des profils de tous niveaux de pratique religieuse."
+      },
+      "profil_b": {
+        "id": 15,
+        "nom": "Leeor",
+        "nom_famille": "Malka",
+        "age": "25",
+        "sexe": "Féminin",
+        "telephone": "0534445566",
+        "resume_ia": "Leeor est laïque, influenceuse lifestyle sans aucune pratique religieuse particulière. Elle valorise l'authenticité loin des faux-semblants des applis classiques. Intense et spontanée, parfois instable, elle cherche une connexion réelle sans considération religieuse précise."
+      },
+      "score": 74,
       "score_h": 78,
-      "score_f": 72,
-      "raison": "Léa partage avec David l'amour de la randonnée, la cuisine méditerranéenne et un ancrage culturel israélien fort, avec une loyauté et une profondeur relationnelle qui complètent bien son énergie généreuse.",
+      "score_f": 71,
+      "raison": "Laïque, authentique et spontanée, elle s'aligne bien avec Michael, mais son instabilité émotionnelle et son profil d'influenceuse peuvent créer un écart de profondeur.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 10,
+        "nom": "Yossef",
+        "nom_famille": "Knafo",
+        "age": "41",
+        "sexe": "Masculin",
+        "telephone": "0588990011",
+        "resume_ia": "Yossef est traditionaliste : cacherout à la maison, synagogue le vendredi soir occasionnellement. Plombier indépendant, divorcé, il valorise la loyauté et la simplicité après un divorce difficile. Protecteur mais parfois jaloux, il cherche une femme sincère partageant un attachement traditionnel similaire."
+      },
+      "profil_b": {
+        "id": 1,
+        "nom": "Léa",
+        "nom_famille": "Cohen",
+        "age": "27",
+        "sexe": "Féminin",
+        "telephone": "0501234567",
+        "resume_ia": "Léa valorise l'authenticité et la curiosité intellectuelle. Traditionaliste (masortit), elle garde une cacherout souple à la maison et aime le dîner du vendredi soir en famille, sans être stricte sur le Chabbat. Passionnée d'archéologie levantine, elle fait des fouilles bénévoles et de la randonnée. En relation, attentive et loyale, elle a besoin d'indépendance. Elle cherche quelqu'un d'ouvert spirituellement, sans rigidité religieuse."
+      },
+      "score": 73,
+      "score_h": 75,
+      "score_f": 71,
+      "raison": "Léa est masortit avec une pratique très proche de celle de Yossef, loyale et sincère, bien que son besoin d'indépendance et son écart d'âge puissent créer quelques frictions avec son côté protecteur.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 18,
+        "nom": "Gabriel",
+        "nom_famille": "Nahmias",
+        "age": "33",
+        "sexe": "Masculin",
+        "telephone": "0567778899",
+        "resume_ia": "Gabriel est traditionaliste léger : cacherout respectée par habitude familiale, sans grande conviction. Développeur web, passionné de coinche compétitive, il valorise l'humour et la complicité. Fidèle et drôle, il cherche une partenaire avec qui rire, sans exigence religieuse particulière."
+      },
+      "profil_b": {
+        "id": 11,
+        "nom": "Maya",
+        "nom_famille": "Dahan",
+        "age": "30",
+        "sexe": "Féminin",
+        "telephone": "0599001122",
+        "resume_ia": "Maya est laïque mais respecte Yom Kippour et certaines fêtes par culture plus que par foi. Avocate, passionnée de cuisine fusion franco-israélienne, elle valorise l'équilibre vie pro/perso. Réfléchie, elle prend son temps avant de s'engager et privilégie la compatibilité de valeurs à la pratique religieuse stricte."
+      },
+      "score": 72,
+      "score_h": 71,
+      "score_f": 73,
+      "raison": "Laïque culturelle respectueuse des fêtes, valeurs solides et équilibre vie pro/perso séduisants, bien que l'absence totale de cacherout crée un léger écart avec les habitudes familiales de Gabriel.",
       "mutual": true
     }
   ],
-  "total_profils": 4,
+  "total_profils": 20,
   "stats": {
-    "hommes": 2,
-    "femmes": 2,
-    "mutuals": 1
+    "hommes": 10,
+    "femmes": 10,
+    "mutuals": 19
   }
 }
