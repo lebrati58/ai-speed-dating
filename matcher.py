@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """
-AI Speed Dating Matcher — version finale optimisée
-Soirée célibataires francophones · Tel Aviv
-50 appels API au lieu de 625 → résultats en 2-3 min
+SpeedAite Matcher — Algorithme configurable
+AI-Powered Speed Dating · Tel Aviv
 """
 
 import json, os, sys, time
@@ -10,15 +9,45 @@ import anthropic
 import gspread
 from google.oauth2.service_account import Credentials
 
-# ─── CONFIG ───────────────────────────────────────────────────────────────────
+# ═══════════════════════════════════════════════════════════════════
+#  ⚙️  CONFIG — MODIFIE ICI LES CRITÈRES ET LEUR IMPORTANCE
+# ═══════════════════════════════════════════════════════════════════
+
+CRITERES = {
+    # Nom du critère              : poids (les poids sont relatifs entre eux)
+    "Valeurs & vision de la vie"  : 30,   # ex: famille, ambitions, priorités
+    "Religion & culture"          : 25,   # pratique, tradition, style de vie
+    "Personnalité & caractère"    : 20,   # introverti/extraverti, humour, énergie
+    "Style de vie & passions"     : 15,   # loisirs, sport, voyage, sorties
+    "Projet de vie & famille"     : 10,   # enfants, lieu de vie, avenir
+}
+
+# Seuil pour être considéré "affinité mutuelle" (les deux se choisissent)
+SEUIL_MUTUAL = 70   # entre 0 et 100
+
+# Nombre de top matchs affichés sur le site
+TOP_N = 20
+
+# ═══════════════════════════════════════════════════════════════════
+
 SHEET_ID          = "1EjAt9vvFgWGKdHdZhQ3mZilDKt_ojn27UNld8Xi2Gcg"
 CREDENTIALS_FILE  = "credentials.json"
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 OUTPUT_FILE       = "results.json"
-# ──────────────────────────────────────────────────────────────────────────────
+
+
+def build_criteria_text():
+    """Construit le texte des critères pondérés pour le prompt"""
+    total = sum(CRITERES.values())
+    lines = []
+    for critere, poids in CRITERES.items():
+        pct = round(poids / total * 100)
+        lines.append(f"  - {critere} : {pct}% du score")
+    return "\n".join(lines)
+
 
 def load_profiles():
-    """Charge les profils depuis Google Sheets — noms de colonnes flexibles"""
+    """Charge les profils depuis Google Sheets"""
     scopes = ["https://www.googleapis.com/auth/spreadsheets.readonly"]
     creds  = Credentials.from_service_account_file(CREDENTIALS_FILE, scopes=scopes)
     client = gspread.authorize(creds)
@@ -47,10 +76,14 @@ def load_profiles():
 
 def rank_for_person(client, person, candidates):
     """1 appel API : Claude classe tous les candidats pour une personne"""
+
+    criteria_text = build_criteria_text()
+
     candidates_text = "\n\n".join([
         f"[ID:{c['id']}] {c['nom']}, {c['age']} ans :\n{c['resume_ia']}"
         for c in candidates
     ])
+
     prompt = f"""Tu es un expert en compatibilité romantique.
 
 PROFIL DE {person['nom'].upper()}, {person['age']} ans :
@@ -58,12 +91,15 @@ PROFIL DE {person['nom'].upper()}, {person['age']} ans :
 
 Classe ces {len(candidates)} candidats du plus au moins compatible avec {person['nom']}.
 
-Règle importante : la compatibilité religieuse et culturelle est un facteur primordial. Si les profils indiquent des niveaux de pratique ou des valeurs religieuses/culturelles incompatibles (ex: très religieux vs laïque, modes de vie fondamentalement différents), réduis le score de manière significative (-20 à -40 points). À l'inverse, une compatibilité religieuse et culturelle forte doit booster le score.
+GRILLE DE NOTATION (total = 100 points) :
+{criteria_text}
+
+Applique cette grille rigoureusement. Si un critère à fort poids est incompatible (ex: niveaux religieux très différents alors que "Religion & culture" pèse lourd), réduis significativement le score.
 
 Réponds UNIQUEMENT en JSON :
 {{
   "classement": [
-    {{"id": <id>, "score": <0-100>, "raison": "<une phrase courte>"}},
+    {{"id": <id>, "score": <0-100>, "raison": "<une phrase courte en français>"}},
     ...
   ]
 }}
@@ -91,7 +127,7 @@ def compute_matches(profiles):
     femmes = [p for p in profiles if p["sexe"].lower() in ("femme","f","female","féminin","feminin","נקבה")]
 
     print(f"✓ {len(hommes)} hommes | {len(femmes)} femmes")
-    print(f"→ {len(hommes) + len(femmes)} appels API (au lieu de {len(hommes)*len(femmes)})\n")
+    print(f"→ {len(hommes) + len(femmes)} appels API\n")
 
     scores_h, scores_f = {}, {}
 
@@ -126,14 +162,14 @@ def compute_matches(profiles):
                 "score": score_avg,
                 "score_h": h_d["score"], "score_f": f_d["score"],
                 "raison": h_d["raison"] or f_d["raison"],
-                "mutual": h_d["score"] >= 70 and f_d["score"] >= 70,
+                "mutual": h_d["score"] >= SEUIL_MUTUAL and f_d["score"] >= SEUIL_MUTUAL,
             })
 
     all_scores.sort(key=lambda x: x["score"], reverse=True)
-    return all_scores
+    return all_scores, hommes, femmes
 
 
-def build_results(all_scores, profiles):
+def build_results(all_scores, profiles, hommes, femmes):
     top3_per_person = {}
     for entry in all_scores:
         for role in ("profil_a", "profil_b"):
@@ -160,17 +196,19 @@ def build_results(all_scores, profiles):
     ]
 
     mutual_matches = [e for e in all_scores if e["mutual"]]
-    hommes = [p for p in profiles if p["sexe"].lower() in ("homme","h","m","male","masculin","זכר")]
-    femmes = [p for p in profiles if p["sexe"].lower() in ("femme","f","female","féminin","feminin","נקבה")]
 
     return {
-        "top_matchs":      all_scores[:20],
+        "top_matchs":      all_scores[:TOP_N],
         "best_per_person": best_per_person,
         "mutual_matches":  mutual_matches,
         "total_profils":   len(profiles),
         "stats": {
             "hommes": len(hommes), "femmes": len(femmes),
             "mutuals": len(mutual_matches),
+        },
+        "config": {
+            "criteres": CRITERES,
+            "seuil_mutual": SEUIL_MUTUAL,
         }
     }
 
@@ -179,19 +217,23 @@ def main():
     if not ANTHROPIC_API_KEY:
         print("❌ Lance : export ANTHROPIC_API_KEY=sk-ant-..."); sys.exit(1)
 
+    # Affiche la config active
+    print("⚙️  Config active :")
+    total = sum(CRITERES.values())
+    for c, p in CRITERES.items():
+        print(f"   {c} : {round(p/total*100)}%")
+    print(f"   Seuil mutual : {SEUIL_MUTUAL}%\n")
+
     print("📋 Chargement des profils depuis Google Sheets...")
     profiles = load_profiles()
     print(f"✓ {len(profiles)} profils chargés\n")
 
     if len(profiles) < 2:
-        print("❌ Pas assez de profils (minimum 2).")
-        print("   Vérifie que le Sheet est bien partagé avec :")
-        print("   dating-reader@direct-beacon-487015-c0.iam.gserviceaccount.com")
-        sys.exit(1)
+        print("❌ Pas assez de profils (minimum 2)."); sys.exit(1)
 
     print("🤖 Calcul des matchs via Claude...\n")
-    all_scores = compute_matches(profiles)
-    results    = build_results(all_scores, profiles)
+    all_scores, hommes, femmes = compute_matches(profiles)
+    results = build_results(all_scores, profiles, hommes, femmes)
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
@@ -202,7 +244,6 @@ def main():
     if all_scores:
         top = all_scores[0]
         print(f"   → 🏆 Top : {top['profil_a']['nom']} × {top['profil_b']['nom']} ({top['score']}%)")
-    print(f"\n→ Ouvre display.html dans Chrome 🎉")
 
 
 if __name__ == "__main__":
