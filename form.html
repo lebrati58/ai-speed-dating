@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SpeedAite — Crée ton profil</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --pink: #E8006B;
+  --pink2: #FF4DA6;
+  --pink3: #FFB3D0;
+  --dark: #09090F;
+  --card: #12101A;
+  --gris: #7A7A9A;
+  --blanc: #F8F4FC;
+  --border: rgba(232,0,107,0.22);
+  --purple: #9B30FF;
+}
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+  background: var(--dark);
+  color: var(--blanc);
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 16px;
+  background-image:
+    radial-gradient(ellipse at 15% 40%, rgba(232,0,107,0.07) 0%, transparent 55%),
+    radial-gradient(ellipse at 85% 20%, rgba(155,48,255,0.05) 0%, transparent 50%);
+}
+
+.card {
+  max-width: 520px; width: 100%;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 18px; overflow: hidden;
+  box-shadow: 0 24px 80px rgba(0,0,0,0.6),
+              0 0 0 1px rgba(232,0,107,0.05);
+}
+
+/* ── HEADER ── */
+.card-header {
+  background: linear-gradient(135deg, rgba(232,0,107,0.1), rgba(155,48,255,0.05));
+  border-bottom: 1px solid var(--border);
+  padding: 40px 36px 32px;
+  text-align: center;
+}
+
+.logo-wrap {
+  display: flex; align-items: center; justify-content: center;
+  gap: 14px; margin-bottom: 20px;
+}
+.logo-icon { width: 52px; height: 52px; }
+.logo-text-block { text-align: left; }
+.logo-name {
+  font-family: 'Inter', sans-serif; font-weight: 700;
+  font-size: 28px; letter-spacing: -1px;
+  background: linear-gradient(135deg, var(--pink), var(--pink2), var(--purple));
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  background-clip: text; line-height: 1;
+}
+.logo-tagline {
+  font-size: 9px; letter-spacing: 3px;
+  text-transform: uppercase; color: var(--gris); margin-top: 4px;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 26px; font-weight: 400;
+  color: var(--blanc); line-height: 1.25;
+}
+h1 em { font-style: italic; color: var(--pink2); }
+.subtitle {
+  margin-top: 8px; font-size: 13px;
+  color: var(--gris); letter-spacing: 0.3px;
+}
+
+/* ── FORM ── */
+.form-body { padding: 32px 36px; }
+
+.form-row {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 14px;
+}
+.field { margin-bottom: 18px; }
+.field label {
+  display: block; font-size: 11px; font-weight: 500;
+  letter-spacing: 2px; text-transform: uppercase;
+  color: var(--pink); margin-bottom: 8px;
+}
+
+.field input,
+.field select,
+.field textarea {
+  width: 100%;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(232,0,107,0.18);
+  border-radius: 10px; padding: 13px 16px;
+  font-size: 15px; color: var(--blanc);
+  font-family: 'Inter', sans-serif; font-weight: 300;
+  transition: border-color 0.2s, background 0.2s;
+  outline: none; -webkit-appearance: none;
+}
+.field select {
+  cursor: pointer;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23E8006B' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat; background-position: right 14px center;
+  padding-right: 36px;
+}
+.field select option { background: #1a0a1f; color: var(--blanc); }
+.field input::placeholder, .field textarea::placeholder { color: rgba(255,255,255,0.18); }
+.field input:focus, .field select:focus, .field textarea:focus {
+  border-color: rgba(232,0,107,0.5);
+  background: rgba(232,0,107,0.04);
+}
+.field textarea { resize: vertical; min-height: 110px; line-height: 1.6; }
+
+/* Prompt box */
+.prompt-hint {
+  margin-bottom: 18px;
+  background: rgba(0,0,0,0.3);
+  border: 1px solid rgba(232,0,107,0.15);
+  border-left: 3px solid var(--pink);
+  border-radius: 10px; padding: 16px 18px;
+}
+.prompt-hint-label {
+  font-size: 9px; letter-spacing: 3px;
+  text-transform: uppercase; color: var(--pink); margin-bottom: 8px;
+}
+.prompt-hint-text {
+  font-size: 12px; color: rgba(248,244,252,0.55);
+  font-style: italic; line-height: 1.75;
+  user-select: all; cursor: text;
+}
+.copy-btn {
+  margin-top: 10px; background: none;
+  border: 1px solid rgba(232,0,107,0.3);
+  color: var(--pink); font-size: 11px;
+  letter-spacing: 1px; padding: 6px 14px;
+  border-radius: 6px; cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  transition: background 0.2s;
+}
+.copy-btn:hover { background: rgba(232,0,107,0.1); }
+
+/* Submit */
+.submit-btn {
+  width: 100%; padding: 16px;
+  background: linear-gradient(135deg, var(--pink), var(--purple));
+  color: #fff; border: none; border-radius: 12px;
+  font-size: 15px; font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  cursor: pointer; letter-spacing: 0.5px;
+  transition: opacity 0.2s, transform 0.1s;
+  margin-top: 6px;
+  box-shadow: 0 8px 24px rgba(232,0,107,0.3);
+}
+.submit-btn:hover { opacity: 0.9; transform: translateY(-1px); }
+.submit-btn:active { transform: translateY(0); }
+.submit-btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+
+/* Success */
+.success-screen {
+  display: none; padding: 52px 36px; text-align: center;
+}
+.success-icon { font-size: 48px; margin-bottom: 20px; }
+.success-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 26px; color: var(--blanc); margin-bottom: 10px;
+}
+.success-sub { font-size: 14px; color: var(--gris); line-height: 1.6; }
+
+/* Error */
+.error-msg {
+  display: none; margin-top: 12px;
+  font-size: 13px; color: #FF6B6B; text-align: center;
+}
+
+/* Footer */
+.card-footer {
+  border-top: 1px solid rgba(255,255,255,0.05);
+  padding: 14px 36px; text-align: center;
+  font-size: 10px; color: rgba(255,255,255,0.15);
+  letter-spacing: 2px; text-transform: uppercase;
+}
+
+@media (max-width: 480px) {
+  .card-header { padding: 32px 24px 24px; }
+  .form-body { padding: 24px; }
+  .form-row { grid-template-columns: 1fr; gap: 0; }
+  h1 { font-size: 22px; }
+}
+</style>
+</head>
+<body>
+
+<div class="card">
+
+  <div class="card-header">
+    <div class="logo-wrap">
+      <svg class="logo-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="32" cy="32" r="30" fill="#1A0A20" stroke="rgba(232,0,107,0.3)" stroke-width="1.5"/>
+        <path d="M32 44 C32 44 16 34 16 24 C16 19 20 16 24 16 C27 16 29.5 18 32 20 C34.5 18 37 16 40 16 C44 16 48 19 48 24 C48 34 32 44 32 44Z"
+              fill="url(#heartGrad2)" opacity="0.9"/>
+        <path d="M24 24 L28 24 L28 28 L32 28" stroke="rgba(255,255,255,0.25)" stroke-width="1" fill="none"/>
+        <path d="M40 24 L36 24 L36 28 L32 28" stroke="rgba(255,255,255,0.25)" stroke-width="1" fill="none"/>
+        <circle cx="24" cy="24" r="1.5" fill="rgba(255,255,255,0.5)"/>
+        <circle cx="40" cy="24" r="1.5" fill="rgba(255,255,255,0.5)"/>
+        <circle cx="32" cy="28" r="2" fill="white" opacity="0.8"/>
+        <circle cx="22" cy="48" r="3" fill="rgba(232,0,107,0.6)"/>
+        <path d="M18 58 Q22 53 26 58" stroke="rgba(232,0,107,0.6)" stroke-width="1.5" fill="none"/>
+        <circle cx="42" cy="48" r="3" fill="rgba(155,48,255,0.6)"/>
+        <path d="M38 58 Q42 53 46 58" stroke="rgba(155,48,255,0.6)" stroke-width="1.5" fill="none"/>
+        <path d="M6 32 L14 32" stroke="rgba(232,0,107,0.4)" stroke-width="1.5" stroke-linecap="round"/>
+        <path d="M8 28 L13 28" stroke="rgba(232,0,107,0.25)" stroke-width="1" stroke-linecap="round"/>
+        <path d="M50 32 L58 32" stroke="rgba(155,48,255,0.4)" stroke-width="1.5" stroke-linecap="round"/>
+        <path d="M51 28 L56 28" stroke="rgba(155,48,255,0.25)" stroke-width="1" stroke-linecap="round"/>
+        <defs>
+          <linearGradient id="heartGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#E8006B"/>
+            <stop offset="100%" stop-color="#9B30FF"/>
+          </linearGradient>
+        </defs>
+      </svg>
+      <div class="logo-text-block">
+        <div class="logo-name">SpeedAite</div>
+        <div class="logo-tagline">AI-Powered Speed Dating</div>
+      </div>
+    </div>
+    <h1>Crée ton profil<br><em>en 5 minutes</em></h1>
+    <p class="subtitle">Soirée Célibataires · Tel Aviv</p>
+  </div>
+
+  <!-- FORM -->
+  <div class="form-body" id="form-container">
+    <form id="profile-form" novalidate>
+
+      <div class="form-row">
+        <div class="field">
+          <label for="prenom">Prénom</label>
+          <input type="text" id="prenom" name="prenom" placeholder="Léa" required autocomplete="given-name">
+        </div>
+        <div class="field">
+          <label for="nom">Nom</label>
+          <input type="text" id="nom" name="nom" placeholder="Cohen" required autocomplete="family-name">
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="field">
+          <label for="age">Âge</label>
+          <input type="number" id="age" name="age" placeholder="28" min="18" max="99" required>
+        </div>
+        <div class="field">
+          <label for="sexe">Sexe</label>
+          <select id="sexe" name="sexe" required>
+            <option value="" disabled selected>— Choisir —</option>
+            <option value="Féminin">Féminin</option>
+            <option value="Masculin">Masculin</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="whatsapp">Numéro WhatsApp</label>
+        <input type="tel" id="whatsapp" name="whatsapp" placeholder="+972 50 000 0000" required autocomplete="tel">
+      </div>
+
+      <!-- PROMPT HINT -->
+      <div class="prompt-hint">
+        <div class="prompt-hint-label">✦ Étape bonus — Profil IA</div>
+        <div class="prompt-hint-text" id="prompt-text">"En te basant sur nos conversations, décris-moi en 8 à 10 lignes pour un profil de rencontre. Inclus : mes valeurs principales, ce que je recherche chez un partenaire, mon style de vie et mes passions, ma façon d'être en relation, et ce qui me rend unique. Sois honnête, précis et personnel. Écris à la troisième personne."</div>
+        <button type="button" class="copy-btn" onclick="copyPrompt()">📋 Copier le prompt</button>
+      </div>
+
+      <div class="field">
+        <label for="ai_text">Texte généré par l'IA <span style="color:var(--gris);text-transform:none;letter-spacing:0;font-size:11px;">(optionnel)</span></label>
+        <textarea id="ai_text" name="ai_text" placeholder="Colle ici le texte que l'IA a généré pour toi…"></textarea>
+      </div>
+
+      <button type="submit" class="submit-btn" id="submit-btn">Envoyer mon profil ✦</button>
+      <div class="error-msg" id="error-msg">Une erreur est survenue. Réessaie.</div>
+
+    </form>
+  </div>
+
+  <!-- SUCCESS -->
+  <div class="success-screen" id="success-screen">
+    <div class="success-icon">💫</div>
+    <div class="success-title">Profil enregistré !</div>
+    <div class="success-sub">Tu es inscrit(e) à la soirée.<br>Les matchs IA seront révélés ce soir.<br><br>À tout à l'heure ♥</div>
+  </div>
+
+  <div class="card-footer">speedaite.com · AI-Powered Speed Dating</div>
+
+</div>
+
+<script>
+const APPS_SCRIPT_URL = 'REMPLACER_PAR_URL_APPS_SCRIPT';
+
+function copyPrompt() {
+  const text = document.getElementById('prompt-text').textContent;
+  navigator.clipboard.writeText(text).then(() => {
+    const btn = document.querySelector('.copy-btn');
+    btn.textContent = '✅ Copié !';
+    setTimeout(() => btn.textContent = '📋 Copier le prompt', 2000);
+  });
+}
+
+document.getElementById('profile-form').addEventListener('submit', async function(e) {
+  e.preventDefault();
+
+  const btn = document.getElementById('submit-btn');
+  const errEl = document.getElementById('error-msg');
+  errEl.style.display = 'none';
+
+  const prenom   = document.getElementById('prenom').value.trim();
+  const nom      = document.getElementById('nom').value.trim();
+  const age      = document.getElementById('age').value.trim();
+  const sexe     = document.getElementById('sexe').value;
+  const whatsapp = document.getElementById('whatsapp').value.trim();
+  const ai_text  = document.getElementById('ai_text').value.trim();
+
+  if (!prenom || !nom || !age || !sexe || !whatsapp) {
+    errEl.textContent = 'Merci de remplir tous les champs obligatoires.';
+    errEl.style.display = 'block';
+    return;
+  }
+
+  btn.disabled = true;
+  btn.textContent = 'Envoi en cours…';
+
+  const payload = { prenom, nom, age, sexe, whatsapp, ai_text };
+
+  try {
+    await fetch(APPS_SCRIPT_URL, {
+      method: 'POST',
+      mode: 'no-cors',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    });
+
+    document.getElementById('form-container').style.display = 'none';
+    document.getElementById('success-screen').style.display = 'block';
+
+  } catch(err) {
+    btn.disabled = false;
+    btn.textContent = 'Envoyer mon profil ✦';
+    errEl.textContent = 'Erreur réseau. Vérifie ta connexion et réessaie.';
+    errEl.style.display = 'block';
+  }
+});
+</script>
+
+</body>
+</html>
