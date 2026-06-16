@@ -794,7 +794,6 @@ function matchCard(m, index) {
           <div class="person-age">${m.profil_b.age} ans</div>
         </div>
       </div>
-      <div class="match-raison">${m.raison || ''}</div>
     </div>`;
 }
 
@@ -850,7 +849,6 @@ function renderPersons(persons) {
           <div class="entry-info">
             <div class="entry-name${isMut ? ' purple' : ''}">${e.match.nom} ${e.match.nom_famille||''}${isMut ? ' ♥' : ''}</div>
             <div class="entry-meta">${e.match.age} ans · ${e.score}% compatibilité</div>
-            <div class="entry-raison">${e.raison || ''}</div>
           </div>
           ${smallRing(e.score, isMut)}
         </div>`;

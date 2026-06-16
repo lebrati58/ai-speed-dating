@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SpeedAite — Admin</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;1,400&display=swap');
+
+:root {
+  --pink: #E8006B;
+  --pink2: #FF4DA6;
+  --dark: #09090F;
+  --card: #12101A;
+  --gris: #7A7A9A;
+  --blanc: #F8F4FC;
+  --border: rgba(232,0,107,0.2);
+  --purple: #9B30FF;
+  --green: #00C896;
+}
+
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  background: var(--dark); color: var(--blanc);
+  font-family: 'Inter', sans-serif; font-weight: 300;
+  min-height: 100vh;
+}
+
+/* ── LOGIN ── */
+#login-screen {
+  min-height: 100vh; display: flex; align-items: center; justify-content: center;
+  background: radial-gradient(ellipse at 50% 50%, rgba(232,0,107,0.06), transparent 70%);
+}
+.login-box {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: 16px; padding: 40px 36px; width: 340px;
+  text-align: center; box-shadow: 0 24px 60px rgba(0,0,0,0.5);
+}
+.login-logo { font-size: 28px; font-weight: 700; letter-spacing: -1px;
+  background: linear-gradient(135deg, var(--pink), var(--purple));
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  background-clip: text; margin-bottom: 4px;
+}
+.login-sub { font-size: 11px; color: var(--gris); letter-spacing: 2px;
+  text-transform: uppercase; margin-bottom: 28px; }
+.login-box input {
+  width: 100%; background: rgba(255,255,255,0.05); border: 1px solid rgba(232,0,107,0.2);
+  border-radius: 10px; padding: 13px 16px; font-size: 15px; color: var(--blanc);
+  font-family: 'Inter', sans-serif; outline: none; margin-bottom: 14px;
+  text-align: center; letter-spacing: 3px;
+}
+.login-box input:focus { border-color: rgba(232,0,107,0.5); }
+.login-btn {
+  width: 100%; padding: 14px; border: none; border-radius: 10px;
+  background: linear-gradient(135deg, var(--pink), var(--purple));
+  color: #fff; font-size: 14px; font-weight: 600; cursor: pointer;
+  font-family: 'Inter', sans-serif; letter-spacing: 0.5px;
+  box-shadow: 0 6px 20px rgba(232,0,107,0.3);
+}
+.login-err { font-size: 12px; color: #FF6B6B; margin-top: 10px; display: none; }
+
+/* ── ADMIN APP ── */
+#admin-app { display: none; }
+
+/* Header admin */
+.admin-header {
+  background: rgba(9,9,15,0.95); backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(232,0,107,0.15);
+  padding: 16px 24px; display: flex; align-items: center;
+  justify-content: space-between; position: sticky; top: 0; z-index: 10;
+}
+.admin-logo { font-size: 18px; font-weight: 700; letter-spacing: -0.5px;
+  background: linear-gradient(135deg, var(--pink), var(--purple));
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.admin-badge {
+  font-size: 9px; letter-spacing: 2px; text-transform: uppercase;
+  color: var(--pink); border: 1px solid rgba(232,0,107,0.3);
+  padding: 3px 10px; border-radius: 20px;
+}
+.logout-btn {
+  background: none; border: 1px solid rgba(255,255,255,0.1);
+  color: var(--gris); font-size: 11px; padding: 6px 14px;
+  border-radius: 6px; cursor: pointer; font-family: 'Inter', sans-serif;
+}
+.logout-btn:hover { border-color: var(--pink); color: var(--pink); }
+
+/* Nav admin */
+.admin-nav {
+  display: flex; border-bottom: 1px solid rgba(255,255,255,0.05);
+  padding: 0 24px; overflow-x: auto;
+  background: rgba(9,9,15,0.8);
+}
+.admin-nav button {
+  background: none; border: none; border-bottom: 2px solid transparent;
+  color: var(--gris); font-size: 11px; letter-spacing: 2px;
+  text-transform: uppercase; padding: 14px 18px; cursor: pointer;
+  font-family: 'Inter', sans-serif; white-space: nowrap; transition: all 0.2s;
+}
+.admin-nav button.active, .admin-nav button:hover { color: var(--pink); border-bottom-color: var(--pink); }
+
+/* Main */
+.admin-main { max-width: 1200px; margin: 0 auto; padding: 32px 20px 80px; }
+.admin-section { display: none; }
+.admin-section.active { display: block; }
+
+/* Stats bar */
+.stats-row {
+  display: grid; grid-template-columns: repeat(4, 1fr);
+  gap: 12px; margin-bottom: 32px;
+}
+.stat-box {
+  background: var(--card); border: 1px solid rgba(232,0,107,0.12);
+  border-radius: 10px; padding: 18px 16px; text-align: center;
+}
+.stat-big { font-size: 36px; font-family: 'Playfair Display', serif;
+  color: var(--pink); line-height: 1; }
+.stat-lbl { font-size: 9px; letter-spacing: 2px; color: var(--gris);
+  text-transform: uppercase; margin-top: 6px; }
+
+/* Section title */
+.section-title {
+  font-family: 'Playfair Display', serif; font-size: 22px; font-weight: 400;
+  margin-bottom: 20px; color: var(--blanc);
+}
+.section-title span { color: var(--pink); }
+
+/* Table matchs admin */
+.match-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.match-table th {
+  text-align: left; font-size: 9px; letter-spacing: 2px;
+  text-transform: uppercase; color: var(--gris); padding: 10px 14px;
+  border-bottom: 1px solid rgba(255,255,255,0.06); font-weight: 500;
+}
+.match-table td {
+  padding: 12px 14px; border-bottom: 1px solid rgba(255,255,255,0.04);
+  vertical-align: top;
+}
+.match-table tr:hover td { background: rgba(232,0,107,0.03); }
+
+.score-pill {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 48px; height: 24px; border-radius: 12px;
+  font-size: 11px; font-weight: 600;
+  background: rgba(232,0,107,0.15); color: var(--pink);
+}
+.score-pill.high { background: rgba(0,200,150,0.15); color: var(--green); }
+.score-pill.mutual { background: rgba(155,48,255,0.2); color: var(--purple); }
+
+.mutual-chip {
+  font-size: 9px; letter-spacing: 1px; padding: 2px 8px;
+  border-radius: 10px; background: rgba(155,48,255,0.15);
+  color: var(--purple); border: 1px solid rgba(155,48,255,0.2);
+}
+
+.raison-text { color: rgba(248,244,252,0.5); font-style: italic; font-size: 12px; line-height: 1.5; }
+
+/* Participants */
+.participant-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(300px,1fr)); gap: 14px;
+}
+.participant-card {
+  background: var(--card); border: 1px solid rgba(255,255,255,0.05);
+  border-radius: 10px; padding: 18px;
+}
+.p-header { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; }
+.p-avatar {
+  width: 40px; height: 40px; border-radius: 50%; flex-shrink: 0;
+  background: linear-gradient(135deg, rgba(232,0,107,0.3), rgba(155,48,255,0.2));
+  border: 1px solid rgba(232,0,107,0.3);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 16px; color: var(--pink); font-weight: 600;
+}
+.p-name { font-size: 16px; font-weight: 500; }
+.p-meta { font-size: 11px; color: var(--gris); margin-top: 2px; }
+.p-resume {
+  font-size: 11px; color: rgba(248,244,252,0.5); line-height: 1.6;
+  border-top: 1px solid rgba(255,255,255,0.05); padding-top: 10px;
+  max-height: 80px; overflow: hidden; position: relative;
+}
+.p-resume.expanded { max-height: none; }
+.expand-btn {
+  background: none; border: none; color: var(--pink); font-size: 10px;
+  cursor: pointer; font-family: 'Inter', sans-serif; margin-top: 4px;
+  letter-spacing: 1px; text-transform: uppercase;
+}
+.p-tel { font-size: 11px; color: var(--gris); margin-top: 8px; }
+
+/* Tables admin */
+.admin-tables-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px,1fr)); gap: 20px; }
+.admin-table-card {
+  background: var(--card); border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 12px; overflow: hidden;
+}
+.admin-table-header {
+  background: linear-gradient(135deg, rgba(232,0,107,0.12), rgba(155,48,255,0.08));
+  padding: 12px 16px; font-size: 11px; font-weight: 600;
+  letter-spacing: 2px; text-transform: uppercase; color: var(--pink);
+  border-bottom: 1px solid rgba(232,0,107,0.12);
+}
+.admin-couple {
+  padding: 12px 16px; border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+.admin-couple:last-child { border-bottom: none; }
+.couple-names { font-size: 14px; margin-bottom: 4px; }
+.couple-names strong { color: var(--pink); }
+.couple-names .sep { color: var(--gris); margin: 0 6px; }
+.couple-names.c2 strong { color: var(--purple); }
+.couple-raison { font-size: 11px; color: rgba(248,244,252,0.45); font-style: italic; line-height: 1.5; margin-top: 4px; }
+.couple-info { display: flex; align-items: center; gap: 8px; margin-top: 6px; }
+
+/* Export btn */
+.export-btn {
+  background: none; border: 1px solid rgba(232,0,107,0.3);
+  color: var(--pink); font-size: 11px; padding: 8px 16px;
+  border-radius: 8px; cursor: pointer; font-family: 'Inter', sans-serif;
+  letter-spacing: 1px; margin-bottom: 20px; transition: background 0.2s;
+}
+.export-btn:hover { background: rgba(232,0,107,0.1); }
+
+/* Filter */
+.filter-row { display: flex; gap: 10px; margin-bottom: 18px; flex-wrap: wrap; }
+.filter-btn {
+  background: none; border: 1px solid rgba(255,255,255,0.1);
+  color: var(--gris); font-size: 11px; padding: 6px 14px;
+  border-radius: 20px; cursor: pointer; font-family: 'Inter', sans-serif;
+  transition: all 0.2s;
+}
+.filter-btn.active, .filter-btn:hover { border-color: var(--pink); color: var(--pink); }
+
+@media (max-width: 600px) {
+  .stats-row { grid-template-columns: 1fr 1fr; }
+  .match-table { font-size: 11px; }
+  .match-table td, .match-table th { padding: 8px; }
+  .admin-main { padding: 20px 12px 60px; }
+  .raison-text { font-size: 11px; }
+  .admin-tables-grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<!-- LOGIN -->
+<div id="login-screen">
+  <div class="login-box">
+    <div class="login-logo">SpeedAite</div>
+    <div class="login-sub">Espace administrateur</div>
+    <input type="password" id="pwd-input" placeholder="••••••••" onkeydown="if(event.key==='Enter')tryLogin()">
+    <button class="login-btn" onclick="tryLogin()">Accéder →</button>
+    <div class="login-err" id="login-err">Mot de passe incorrect</div>
+  </div>
+</div>
+
+<!-- ADMIN APP -->
+<div id="admin-app">
+
+  <div class="admin-header">
+    <div>
+      <div class="admin-logo">SpeedAite</div>
+    </div>
+    <div class="admin-badge">Admin</div>
+    <button class="logout-btn" onclick="logout()">Déconnexion</button>
+  </div>
+
+  <div class="admin-nav">
+    <button class="active" onclick="adminTab('dashboard',this)">📊 Dashboard</button>
+    <button onclick="adminTab('matchs',this)">🔗 Tous les matchs</button>
+    <button onclick="adminTab('mutuels',this)">♥ Mutuels</button>
+    <button onclick="adminTab('tables',this)">🪡 Tables</button>
+    <button onclick="adminTab('participants',this)">👥 Participants</button>
+  </div>
+
+  <div class="admin-main">
+
+    <!-- DASHBOARD -->
+    <div id="admin-dashboard" class="admin-section active">
+      <div class="stats-row" id="admin-stats"></div>
+      <p class="section-title">Top 10 matchs <span>(avec raisons)</span></p>
+      <div id="admin-top10"></div>
+    </div>
+
+    <!-- TOUS LES MATCHS -->
+    <div id="admin-matchs" class="admin-section">
+      <div class="filter-row">
+        <button class="filter-btn active" onclick="filterMatchs('all',this)">Tous</button>
+        <button class="filter-btn" onclick="filterMatchs('mutual',this)">Mutuels seulement</button>
+        <button class="filter-btn" onclick="filterMatchs('high',this)">Score ≥ 80%</button>
+      </div>
+      <button class="export-btn" onclick="exportCSV()">⬇ Exporter CSV</button>
+      <div id="admin-matchs-list"></div>
+    </div>
+
+    <!-- MUTUELS -->
+    <div id="admin-mutuels" class="admin-section">
+      <p class="section-title">♥ Affinités <span>Mutuelles</span></p>
+      <div id="admin-mutuels-list"></div>
+    </div>
+
+    <!-- TABLES -->
+    <div id="admin-tables" class="admin-section">
+      <p class="section-title">🪡 Placement des <span>Tables</span></p>
+      <p style="font-size:12px;color:var(--gris);margin-bottom:20px;">2 couples par table · Les raisons sont visibles ici uniquement</p>
+      <div class="admin-tables-grid" id="admin-tables-list"></div>
+    </div>
+
+    <!-- PARTICIPANTS -->
+    <div id="admin-participants" class="admin-section">
+      <p class="section-title">👥 <span>Participants</span></p>
+      <div class="participant-grid" id="admin-participants-list"></div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+const ADMIN_PASS = '123lia';
+let DATA = null;
+let allMatchsCurrent = [];
+
+function tryLogin() {
+  const v = document.getElementById('pwd-input').value;
+  if (v === ADMIN_PASS) {
+    document.getElementById('login-screen').style.display = 'none';
+    document.getElementById('admin-app').style.display = 'block';
+    sessionStorage.setItem('sa_admin', '1');
+    loadData();
+  } else {
+    document.getElementById('login-err').style.display = 'block';
+  }
+}
+
+function logout() {
+  sessionStorage.removeItem('sa_admin');
+  location.reload();
+}
+
+// Auto-login si déjà connecté dans la session
+if (sessionStorage.getItem('sa_admin') === '1') {
+  document.getElementById('login-screen').style.display = 'none';
+  document.getElementById('admin-app').style.display = 'block';
+}
+
+function adminTab(id, btn) {
+  document.querySelectorAll('.admin-section').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('.admin-nav button').forEach(b => b.classList.remove('active'));
+  document.getElementById('admin-' + id).classList.add('active');
+  btn.classList.add('active');
+}
+
+function scorePill(score, isMutual) {
+  let cls = '';
+  if (isMutual) cls = 'mutual';
+  else if (score >= 80) cls = 'high';
+  return `<span class="score-pill ${cls}">${score}%</span>`;
+}
+
+function matchRow(m, showRaison = true) {
+  const isMut = m.mutual === true || m.isMutual === true;
+  return `<tr>
+    <td>${m.profil_a.nom} ${m.profil_a.nom_famille||''}<br><span style="color:var(--gris);font-size:10px">${m.profil_a.age} ans</span></td>
+    <td>${m.profil_b.nom} ${m.profil_b.nom_famille||''}<br><span style="color:var(--gris);font-size:10px">${m.profil_b.age} ans</span></td>
+    <td>${scorePill(m.score, isMut)}</td>
+    <td>${isMut ? '<span class="mutual-chip">♥ Mutuel</span>' : ''}</td>
+    ${showRaison ? `<td><span class="raison-text">${m.raison || '—'}</span></td>` : ''}
+  </tr>`;
+}
+
+function matchTableHTML(rows, showRaison = true) {
+  return `<table class="match-table">
+    <thead><tr>
+      <th>Personne A</th><th>Personne B</th><th>Score</th><th>Statut</th>
+      ${showRaison ? '<th>Raison (confidentiel)</th>' : ''}
+    </tr></thead>
+    <tbody>${rows}</tbody>
+  </table>`;
+}
+
+function filterMatchs(type, btn) {
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  let matchs = DATA.top_matchs || [];
+  if (type === 'mutual') matchs = matchs.filter(m => m.mutual);
+  if (type === 'high') matchs = matchs.filter(m => m.score >= 80);
+  allMatchsCurrent = matchs;
+  const el = document.getElementById('admin-matchs-list');
+  el.innerHTML = matchTableHTML(matchs.map(m => matchRow(m)).join(''));
+}
+
+function exportCSV() {
+  const matchs = allMatchsCurrent.length ? allMatchsCurrent : (DATA.top_matchs || []);
+  let csv = 'Personne A,Age A,Personne B,Age B,Score,Mutuel,Raison\n';
+  matchs.forEach(m => {
+    const r = m.raison ? m.raison.replace(/,/g,'|').replace(/"/g,"'") : '';
+    csv += `"${m.profil_a.nom} ${m.profil_a.nom_famille||''}",${m.profil_a.age},"${m.profil_b.nom} ${m.profil_b.nom_famille||''}",${m.profil_b.age},${m.score},${m.mutual?'Oui':'Non'},"${r}"\n`;
+  });
+  const blob = new Blob([csv], {type:'text/csv'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'speedaite-matchs.csv';
+  a.click();
+}
+
+function buildAdminTables(data) {
+  const assigned = new Set();
+  const couples = [];
+  const seen = new Set();
+  const merged = [
+    ...(data.mutual_matches||[]).map(m=>({...m,isMutual:true})),
+    ...(data.top_matchs||[]).map(m=>({...m,isMutual:!!m.mutual}))
+  ];
+  for (const m of merged) {
+    const key = [m.profil_a.id??m.profil_a.nom, m.profil_b.id??m.profil_b.nom].sort().join('|');
+    if (!seen.has(key)) { seen.add(key); merged._merged = true; }
+    else continue;
+    const idA = m.profil_a.id??m.profil_a.nom, idB = m.profil_b.id??m.profil_b.nom;
+    if (!assigned.has(idA) && !assigned.has(idB)) {
+      couples.push(m); assigned.add(idA); assigned.add(idB);
+    }
+  }
+  const tables = [];
+  for (let i = 0; i < couples.length; i += 2)
+    tables.push({ c1: couples[i], c2: couples[i+1]||null });
+  return tables;
+}
+
+async function loadData() {
+  try {
+    const res = await fetch('results.json?t=' + Date.now());
+    DATA = await res.json();
+
+    // STATS
+    const st = DATA.stats || {};
+    document.getElementById('admin-stats').innerHTML = `
+      <div class="stat-box"><div class="stat-big">${DATA.total_profils||0}</div><div class="stat-lbl">Participants</div></div>
+      <div class="stat-box"><div class="stat-big">${st.hommes||0}×${st.femmes||0}</div><div class="stat-lbl">H × F</div></div>
+      <div class="stat-box"><div class="stat-big">${DATA.top_matchs?.[0]?.score||0}%</div><div class="stat-lbl">Top score</div></div>
+      <div class="stat-box"><div class="stat-big">${st.mutuals||0}</div><div class="stat-lbl">Mutuels ♥</div></div>`;
+
+    // TOP 10
+    const top10 = (DATA.top_matchs||[]).slice(0,10);
+    document.getElementById('admin-top10').innerHTML = matchTableHTML(top10.map(m=>matchRow(m)).join(''));
+
+    // TOUS LES MATCHS
+    allMatchsCurrent = DATA.top_matchs || [];
+    document.getElementById('admin-matchs-list').innerHTML = matchTableHTML(allMatchsCurrent.map(m=>matchRow(m)).join(''));
+
+    // MUTUELS
+    const mutuels = DATA.mutual_matches || [];
+    document.getElementById('admin-mutuels-list').innerHTML = matchTableHTML(mutuels.map(m=>matchRow(m)).join(''));
+
+    // TABLES ADMIN
+    const tables = buildAdminTables(DATA);
+    document.getElementById('admin-tables-list').innerHTML = tables.map((t,i) => {
+      const c1 = t.c1, c2 = t.c2;
+      const coupleHtml = (c, cls) => `
+        <div class="admin-couple">
+          <div class="couple-names ${cls}">
+            <strong>${c.profil_a.nom} ${c.profil_a.nom_famille||''}</strong>
+            <span class="sep">&amp;</span>
+            <strong>${c.profil_b.nom} ${c.profil_b.nom_famille||''}</strong>
+          </div>
+          <div class="couple-raison">${c.raison || '—'}</div>
+          <div class="couple-info">
+            ${scorePill(c.score, c.mutual||c.isMutual)}
+            ${(c.mutual||c.isMutual) ? '<span class="mutual-chip">♥ Mutuel</span>' : ''}
+          </div>
+        </div>`;
+      return `
+        <div class="admin-table-card">
+          <div class="admin-table-header">Table ${i+1}</div>
+          ${coupleHtml(c1, 'c1')}
+          ${c2 ? coupleHtml(c2, 'c2') : '<div style="padding:12px 16px;font-size:11px;color:var(--gris)">Place disponible</div>'}
+        </div>`;
+    }).join('');
+
+    // PARTICIPANTS
+    const profiles = [];
+    const seen2 = new Set();
+    (DATA.best_per_person||[]).forEach(p => {
+      const id = p.personne.id ?? p.personne.nom;
+      if (!seen2.has(id)) { seen2.add(id); profiles.push(p.personne); }
+    });
+    document.getElementById('admin-participants-list').innerHTML = profiles.map(p => `
+      <div class="participant-card">
+        <div class="p-header">
+          <div class="p-avatar">${(p.nom||'?')[0]}</div>
+          <div>
+            <div class="p-name">${p.nom} ${p.nom_famille||''}</div>
+            <div class="p-meta">${p.age} ans · ${p.sexe}</div>
+          </div>
+        </div>
+        ${p.resume_ia ? `<div class="p-resume" id="resume-${p.id||p.nom}">${p.resume_ia}</div>
+        <button class="expand-btn" onclick="toggleResume('${p.id||p.nom}',this)">▼ Voir plus</button>` : ''}
+        ${p.telephone ? `<div class="p-tel">📱 ${p.telephone}</div>` : ''}
+      </div>`).join('');
+
+  } catch(e) {
+    console.error(e);
+  }
+}
+
+function toggleResume(id, btn) {
+  const el = document.getElementById('resume-' + id);
+  if (el.classList.contains('expanded')) {
+    el.classList.remove('expanded'); btn.textContent = '▼ Voir plus';
+  } else {
+    el.classList.add('expanded'); btn.textContent = '▲ Réduire';
+  }
+}
+
+// Check session au load
+if (sessionStorage.getItem('sa_admin') === '1') loadData();
+</script>
+</body>
+</html>
