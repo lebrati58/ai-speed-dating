@@ -288,22 +288,22 @@ h1 em { font-style: italic; color: var(--pink2); }
       <div class="logo-tagline">AI-Powered Speed Dating</div>
     </div>
   </a>
-  <p class="header-event">Soirée Célibataires en Israël</p>
+  <p class="header-event" data-i18n="event">Soirée Célibataires en Israël</p>
   <div class="lang-switcher">
-    <button class="lang-btn active" title="Français">🇫🇷</button>
-    <button class="lang-btn" title="English">🇺🇸</button>
-    <button class="lang-btn" title="Italiano">🇮🇹</button>
-    <button class="lang-btn" title="Español">🇪🇸</button>
-    <button class="lang-btn" title="Deutsch">🇩🇪</button>
-    <button class="lang-btn" title="עברית">🇮🇱</button>
+    <button class="lang-btn active" onclick="setLang('fr')" title="Français">🇫🇷</button>
+    <button class="lang-btn" onclick="setLang('en')" title="English">🇺🇸</button>
+    <button class="lang-btn" onclick="setLang('it')" title="Italiano">🇮🇹</button>
+    <button class="lang-btn" onclick="setLang('es')" title="Español">🇪🇸</button>
+    <button class="lang-btn" onclick="setLang('de')" title="Deutsch">🇩🇪</button>
+    <button class="lang-btn" onclick="setLang('he')" title="עברית">🇮🇱</button>
   </div>
 </header>
 
 <div class="card">
 
   <div class="card-header">
-    <h1>Crée ton profil<br><em>en 1 minute</em></h1>
-    <p class="subtitle">Soirée Célibataires en Israël</p>
+    <h1 data-i18n-html="h1">Crée ton profil<br><em>en 1 minute</em></h1>
+    <p class="subtitle" data-i18n="subtitle">Soirée Célibataires en Israël</p>
   </div>
 
   <!-- FORM -->
@@ -312,48 +312,48 @@ h1 em { font-style: italic; color: var(--pink2); }
 
       <div class="form-row">
         <div class="field">
-          <label for="prenom">Prénom</label>
+          <label for="prenom" data-i18n="label_prenom">Prénom</label>
           <input type="text" id="prenom" name="prenom" placeholder="Léa" required autocomplete="given-name">
         </div>
         <div class="field">
-          <label for="nom">Nom</label>
+          <label for="nom" data-i18n="label_nom">Nom</label>
           <input type="text" id="nom" name="nom" placeholder="Cohen" required autocomplete="family-name">
         </div>
       </div>
 
       <div class="form-row">
         <div class="field">
-          <label for="age">Âge</label>
+          <label for="age" data-i18n="label_age">Âge</label>
           <input type="number" id="age" name="age" placeholder="28" min="18" max="99" required>
         </div>
         <div class="field">
-          <label for="sexe">Sexe</label>
+          <label for="sexe" data-i18n="label_sexe">Sexe</label>
           <select id="sexe" name="sexe" required>
-            <option value="" disabled selected>— Choisir —</option>
-            <option value="Féminin">Féminin</option>
-            <option value="Masculin">Masculin</option>
+            <option value="" disabled selected data-i18n="choose">— Choisir —</option>
+            <option value="Féminin" data-i18n="female">Féminin</option>
+            <option value="Masculin" data-i18n="male">Masculin</option>
           </select>
         </div>
       </div>
 
       <div class="field">
-        <label for="whatsapp">Numéro WhatsApp</label>
+        <label for="whatsapp" data-i18n="label_whatsapp">Numéro WhatsApp</label>
         <input type="tel" id="whatsapp" name="whatsapp" placeholder="+972 50 000 0000" required autocomplete="tel">
       </div>
 
       <!-- PROMPT HINT -->
       <div class="prompt-hint">
-        <div class="prompt-hint-label">✦ Étape bonus — Profil IA</div>
+        <div class="prompt-hint-label" data-i18n="bonus_label">✦ Étape bonus — Profil IA</div>
         <div class="prompt-hint-text" id="prompt-text">"En te basant sur nos conversations, décris-moi en 8 à 10 lignes pour un profil de rencontre. Inclus : mes valeurs principales, ce que je recherche chez un partenaire, mon style de vie et mes passions, ma façon d'être en relation, et ce qui me rend unique. Sois honnête, précis et personnel. Écris à la troisième personne."</div>
-        <button type="button" class="copy-btn" onclick="copyPrompt()">📋 Copier le prompt</button>
+        <button type="button" class="copy-btn" data-i18n="copy_btn" onclick="copyPrompt()">📋 Copier le prompt</button>
       </div>
 
       <div class="field">
-        <label for="ai_text">Texte généré par l'IA <span style="color:var(--gris);text-transform:none;letter-spacing:0;font-size:11px;">(optionnel)</span></label>
+        <label for="ai_text" data-i18n="label_ai">Texte généré par l'IA <span style="color:var(--gris);text-transform:none;letter-spacing:0;font-size:11px;">(optionnel)</span></label>
         <textarea id="ai_text" name="ai_text" placeholder="Colle ici le texte que l'IA a généré pour toi…"></textarea>
       </div>
 
-      <button type="submit" class="submit-btn" id="submit-btn">Envoyer mon profil ✦</button>
+      <button type="submit" class="submit-btn" id="submit-btn" data-i18n="submit">Envoyer mon profil ✦</button>
       <div class="error-msg" id="error-msg">Une erreur est survenue. Réessaie.</div>
 
     </form>
@@ -362,8 +362,8 @@ h1 em { font-style: italic; color: var(--pink2); }
   <!-- SUCCESS -->
   <div class="success-screen" id="success-screen">
     <div class="success-icon">💫</div>
-    <div class="success-title">Profil enregistré !</div>
-    <div class="success-sub">Tu es inscrit(e) à la soirée.<br>Les matchs IA seront révélés ce soir.<br><br>À tout à l'heure ♥</div>
+    <div class="success-title" data-i18n="success_title">Profil enregistré !</div>
+    <div class="success-sub" data-i18n-html="success_sub">Tu es inscrit(e) à la soirée.<br>Les matchs IA seront révélés ce soir.<br><br>À tout à l'heure ♥</div>
   </div>
 
   <div class="card-footer">speedaite.com · AI-Powered Speed Dating</div>
@@ -420,10 +420,146 @@ document.getElementById('profile-form').addEventListener('submit', async functio
 
   } catch(err) {
     btn.disabled = false;
-    btn.textContent = 'Envoyer mon profil ✦';
-    errEl.textContent = 'Erreur réseau. Vérifie ta connexion et réessaie.';
+    btn.textContent = T.submit;
+    errEl.textContent = T.error_network || 'Erreur réseau. Vérifie ta connexion et réessaie.';
     errEl.style.display = 'block';
   }
+});
+
+// ─── TRANSLATIONS ────────────────────────────────────────
+const FORM_TRANSLATIONS = {
+  fr: {
+    event:'Soirée Célibataires en Israël', tagline:'AI-Powered Speed Dating',
+    h1:'Crée ton profil<br><em>en 1 minute</em>', subtitle:'Soirée Célibataires en Israël',
+    label_prenom:'Prénom', label_nom:'Nom', label_age:'Âge', label_sexe:'Sexe', label_whatsapp:'Numéro WhatsApp',
+    ph_prenom:'Léa', ph_nom:'Cohen', ph_age:'28', ph_whatsapp:'+972 50 000 0000',
+    ph_ai:'Colle ici le texte que l’IA a généré pour toi…',
+    choose:'— Choisir —', female:'Féminin', male:'Masculin',
+    bonus_label:'✦ Étape bonus — Profil IA', copy_btn:'📋 Copier le prompt', label_ai:'Texte généré par l’IA',
+    submit:'Envoyer mon profil ✦', error_required:'Merci de remplir tous les champs obligatoires.',
+    error:'Une erreur est survenue. Réessaie.', error_network:'Erreur réseau. Vérifie ta connexion.',
+    sending:'Envoi en cours…',
+    success_title:'Profil enregistré !',
+    success_sub:'Tu es inscrit(e) à la soirée.<br>Les matchs IA seront révélés ce soir.<br><br>À tout à l’heure ♥',
+  },
+  en: {
+    event:'Singles Night in Israel', tagline:'AI-Powered Speed Dating',
+    h1:'Create your profile<br><em>in 1 minute</em>', subtitle:'Singles Night in Israel',
+    label_prenom:'First name', label_nom:'Last name', label_age:'Age', label_sexe:'Gender', label_whatsapp:'WhatsApp number',
+    ph_prenom:'Lea', ph_nom:'Cohen', ph_age:'28', ph_whatsapp:'+972 50 000 0000',
+    ph_ai:'Paste here the text generated by the AI…',
+    choose:'— Choose —', female:'Female', male:'Male',
+    bonus_label:'✦ Bonus step — AI Profile', copy_btn:'📋 Copy prompt', label_ai:'AI-generated text',
+    submit:'Send my profile ✦', error_required:'Please fill in all required fields.',
+    error:'An error occurred. Please try again.', error_network:'Network error. Check your connection.',
+    sending:'Sending…',
+    success_title:'Profile saved!',
+    success_sub:'You’re registered for the event.<br>AI matches will be revealed tonight.<br><br>See you soon ♥',
+  },
+  it: {
+    event:'Serata per Single in Israele', tagline:'AI-Powered Speed Dating',
+    h1:'Crea il tuo profilo<br><em>in 1 minuto</em>', subtitle:'Serata per Single in Israele',
+    label_prenom:'Nome', label_nom:'Cognome', label_age:'Età', label_sexe:'Sesso', label_whatsapp:'Numero WhatsApp',
+    ph_prenom:'Lea', ph_nom:'Cohen', ph_age:'28', ph_whatsapp:'+972 50 000 0000',
+    ph_ai:'Incolla qui il testo generato dall’IA…',
+    choose:'— Scegli —', female:'Femminile', male:'Maschile',
+    bonus_label:'✦ Passo bonus — Profilo IA', copy_btn:'📋 Copia prompt', label_ai:'Testo generato dall’IA',
+    submit:'Invia il mio profilo ✦', error_required:'Compila tutti i campi obbligatori.',
+    error:'Si è verificato un errore. Riprova.', error_network:'Errore di rete. Controlla la connessione.',
+    sending:'Invio in corso…',
+    success_title:'Profilo salvato!',
+    success_sub:'Sei registrato/a all’evento.<br>I match IA saranno rivelati stasera.<br><br>A presto ♥',
+  },
+  es: {
+    event:'Noche para Solteros en Israel', tagline:'AI-Powered Speed Dating',
+    h1:'Crea tu perfil<br><em>en 1 minuto</em>', subtitle:'Noche para Solteros en Israel',
+    label_prenom:'Nombre', label_nom:'Apellido', label_age:'Edad', label_sexe:'Género', label_whatsapp:'Número WhatsApp',
+    ph_prenom:'Lea', ph_nom:'Cohen', ph_age:'28', ph_whatsapp:'+972 50 000 0000',
+    ph_ai:'Pega aquí el texto generado por la IA…',
+    choose:'— Elegir —', female:'Femenino', male:'Masculino',
+    bonus_label:'✦ Paso extra — Perfil IA', copy_btn:'📋 Copiar prompt', label_ai:'Texto generado por IA',
+    submit:'Enviar mi perfil ✦', error_required:'Por favor, rellena todos los campos obligatorios.',
+    error:'Se produjo un error. Inténtalo de nuevo.', error_network:'Error de red. Comprueba tu conexión.',
+    sending:'Enviando…',
+    success_title:'¡Perfil guardado!',
+    success_sub:'Estás registrado/a en el evento.<br>Los matches IA se revelarán esta noche.<br><br>Hasta pronto ♥',
+  },
+  de: {
+    event:'Single-Abend in Israel', tagline:'KI-gestütztes Speed Dating',
+    h1:'Erstelle dein Profil<br><em>in 1 Minute</em>', subtitle:'Single-Abend in Israel',
+    label_prenom:'Vorname', label_nom:'Nachname', label_age:'Alter', label_sexe:'Geschlecht', label_whatsapp:'WhatsApp-Nummer',
+    ph_prenom:'Lea', ph_nom:'Cohen', ph_age:'28', ph_whatsapp:'+972 50 000 0000',
+    ph_ai:'Füge hier den von der KI generierten Text ein…',
+    choose:'— Auswählen —', female:'Weiblich', male:'Männlich',
+    bonus_label:'✦ Bonusschritt — KI-Profil', copy_btn:'📋 Prompt kopieren', label_ai:'KI-generierter Text',
+    submit:'Mein Profil senden ✦', error_required:'Bitte alle Pflichtfelder ausfüllen.',
+    error:'Ein Fehler ist aufgetreten. Bitte versuche es erneut.', error_network:'Netzwerkfehler. Überprüfe deine Verbindung.',
+    sending:'Wird gesendet…',
+    success_title:'Profil gespeichert!',
+    success_sub:'Du bist für das Event registriert.<br>KI-Matches werden heute Abend enthüllt.<br><br>Bis bald ♥',
+  },
+  he: {
+    event:'ערב רווקים בישראל', tagline:'שידוך מהיר מבוסס בינה מלאכותית',
+    h1:'צור את הפרופיל שלך<br><em>תוך דקה אחת</em>', subtitle:'ערב רווקים בישראל',
+    label_prenom:'שם פרטי', label_nom:'שם משפחה', label_age:'גיל', label_sexe:'מין', label_whatsapp:'מספר WhatsApp',
+    ph_prenom:'לאה', ph_nom:'כהן', ph_age:'28', ph_whatsapp:'+972 50 000 0000',
+    ph_ai:'הדבק כאן את הטקסט שנוצר עבורך על ידי ה-AI…',
+    choose:'— בחר —', female:'נקבה', male:'זכר',
+    bonus_label:'✦ שלב בונוס — פרופיל AI', copy_btn:'📋 העתק prompt', label_ai:'טקסט שנוצר על ידי AI',
+    submit:'שלח את הפרופיל שלי ✦', error_required:'נא למלא את כל השדות החובה.',
+    error:'אירעה שגיאה. נסה שוב.', error_network:'שגיאת רשת. בדוק את החיבור.',
+    sending:'שולח…',
+    success_title:'הפרופיל נשמר!',
+    success_sub:'נרשמת לאירוע.<br>ההתאמות של AI יתגלו הלילה.<br><br>להתראות ♥',
+  },
+};
+
+let currentLang = localStorage.getItem('sa_lang') || 'fr';
+let T = FORM_TRANSLATIONS[currentLang];
+
+function setLang(lang) {
+  currentLang = lang;
+  T = FORM_TRANSLATIONS[lang];
+  localStorage.setItem('sa_lang', lang);
+  document.documentElement.setAttribute('dir', lang === 'he' ? 'rtl' : 'ltr');
+  document.documentElement.setAttribute('lang', lang);
+  // Active button
+  document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
+  const langMap = {fr:0,en:1,it:2,es:3,de:4,he:5};
+  const btns = document.querySelectorAll('.lang-btn');
+  if (btns[langMap[lang]]) btns[langMap[lang]].classList.add('active');
+  applyTranslations();
+}
+
+function applyTranslations() {
+  // Texte simple
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const key = el.getAttribute('data-i18n');
+    if (T[key] !== undefined) el.textContent = T[key];
+  });
+  // Texte avec HTML (h1, success_sub)
+  document.querySelectorAll('[data-i18n-html]').forEach(el => {
+    const key = el.getAttribute('data-i18n-html');
+    if (T[key] !== undefined) el.innerHTML = T[key];
+  });
+  // Logo tagline
+  const tagEl = document.querySelector('.logo-tagline');
+  if (tagEl) tagEl.textContent = T.tagline;
+  // Placeholders
+  const fields = {
+    prenom: T.ph_prenom, nom: T.ph_nom, age: T.ph_age,
+    whatsapp: T.ph_whatsapp, ai_text: T.ph_ai
+  };
+  Object.entries(fields).forEach(([id, ph]) => {
+    const el = document.getElementById(id);
+    if (el) el.placeholder = ph;
+  });
+}
+
+// Init au chargement
+document.addEventListener('DOMContentLoaded', () => {
+  const saved = localStorage.getItem('sa_lang') || 'fr';
+  setLang(saved);
 });
 </script>
 
