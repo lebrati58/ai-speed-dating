@@ -650,14 +650,16 @@ footer {
   padding: 10px 0 0;
 }
 .lang-btn {
-  background: none; border: 2px solid transparent;
-  border-radius: 50%; width: 36px; height: 36px;
-  font-size: 20px; cursor: pointer;
-  transition: transform 0.15s, border-color 0.15s;
+  background: rgba(255,255,255,0.06); border: 2px solid transparent;
+  border-radius: 8px; padding: 5px 10px;
+  font-size: 11px; font-weight: 600; letter-spacing: 1px;
+  color: rgba(255,255,255,0.45); cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  transition: transform 0.15s, border-color 0.15s, color 0.15s;
   line-height: 1; display: flex; align-items: center; justify-content: center;
 }
-.lang-btn:hover { transform: scale(1.15); }
-.lang-btn.active { border-color: var(--pink); transform: scale(1.1); }
+.lang-btn:hover { color: rgba(255,255,255,0.8); transform: scale(1.05); }
+.lang-btn.active { border-color: var(--pink); color: var(--pink); transform: scale(1.05); }
 </style>
 </head>
 <body>
@@ -711,10 +713,10 @@ footer {
   </div>
   <p class="header-event" data-i18n="event">Soirée Célibataires en Israël</p>
   <div class="lang-switcher">
-    <button class="lang-btn active" onclick="setLang('fr')" title="Français">🇫🇷</button>
-    <button class="lang-btn" onclick="setLang('en')" title="English">🇺🇸</button>
-    <button class="lang-btn" onclick="setLang('it')" title="Italiano">🇮🇹</button>
-    <button class="lang-btn" onclick="setLang('he')" title="עברית">🇮🇱</button>
+    <button class="lang-btn active" onclick="setLang('fr')" title="Français">FR</button>
+    <button class="lang-btn" onclick="setLang('en')" title="English">EN</button>
+    <button class="lang-btn" onclick="setLang('it')" title="Italiano">IT</button>
+    <button class="lang-btn" onclick="setLang('he')" title="עברית">עב</button>
   </div>
 </header>
 
