@@ -714,8 +714,6 @@ footer {
     <button class="lang-btn active" onclick="setLang('fr')" title="Français">🇫🇷</button>
     <button class="lang-btn" onclick="setLang('en')" title="English">🇺🇸</button>
     <button class="lang-btn" onclick="setLang('it')" title="Italiano">🇮🇹</button>
-    <button class="lang-btn" onclick="setLang('es')" title="Español">🇪🇸</button>
-    <button class="lang-btn" onclick="setLang('de')" title="Deutsch">🇩🇪</button>
     <button class="lang-btn" onclick="setLang('he')" title="עברית">🇮🇱</button>
   </div>
 </header>
@@ -849,42 +847,6 @@ const TRANSLATIONS = {
     no_data: 'Nessun dato.', no_tables: 'Non abbastanza match per i tavoli.',
     available_seat: '… posto disponibile',
   },
-  es: {
-    event: 'Noche para Solteros en Israel',
-    tagline: 'AI-Powered Speed Dating',
-    nav_top: '✦ Mejores Matchs', nav_mutual: '♥ Afinidades Mutuas',
-    nav_all: '◈ Por Persona', nav_tables: '🪡 Mesas',
-    stat_participants: 'Participantes', stat_pairs: 'Pares analizados',
-    stat_top: 'Compatibilidad máx', stat_mutual: 'Afinidades mutuas ♥',
-    mutual_title: 'Afinidades Mutuas',
-    mutual_desc: 'Estas personas se eligieron mutuamente — compatibilidad en ambas direcciones',
-    tables_title: 'Ubicación de Mesas',
-    tables_desc: '2 parejas por mesa · basado en las mejores afinidades',
-    footer_text: 'SpeedAite · AI-Powered Speed Dating · Israel ♥',
-    years: 'años', affinity: 'afinidad', mutual_tag: 'Mutuo',
-    loading: 'Cargando afinidades…', no_match: 'No hay matches disponibles.',
-    no_mutual: 'Las afinidades mutuas aparecerán aquí ♥',
-    no_data: 'Sin datos.', no_tables: 'No hay suficientes matches para las mesas.',
-    available_seat: '… lugar disponible',
-  },
-  de: {
-    event: 'Single-Abend in Israel',
-    tagline: 'KI-gestütztes Speed Dating',
-    nav_top: '✦ Top Matches', nav_mutual: '♥ Gegenseitige Matches',
-    nav_all: '◈ Pro Person', nav_tables: '🪡 Tische',
-    stat_participants: 'Teilnehmer', stat_pairs: 'Analysierte Paare',
-    stat_top: 'Max. Kompatibilität', stat_mutual: 'Gegenseitige Matches ♥',
-    mutual_title: 'Gegenseitige Matches',
-    mutual_desc: 'Diese Personen haben sich gegenseitig gewählt — Kompatibilität in beide Richtungen',
-    tables_title: 'Tischplatzierung',
-    tables_desc: '2 Paare pro Tisch · basierend auf bester Affinität',
-    footer_text: 'SpeedAite · KI-gestütztes Speed Dating · Israel ♥',
-    years: 'J.', affinity: 'Affinität', mutual_tag: 'Gegenseitig',
-    loading: 'Affinitäten werden geladen…', no_match: 'Keine Matches verfügbar.',
-    no_mutual: 'Gegenseitige Matches erscheinen hier ♥',
-    no_data: 'Keine Daten.', no_tables: 'Nicht genug Matches für Tische.',
-    available_seat: '… Platz verfügbar',
-  },
   he: {
     event: 'ערב רווקים בישראל',
     tagline: 'שידוך מהיר מבוסס בינה מלאכותית',
@@ -917,7 +879,7 @@ function setLang(lang) {
   document.documentElement.setAttribute('lang', lang);
   // Active button
   document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
-  const langMap = {fr:0,en:1,it:2,es:3,de:4,he:5};
+  const langMap = {fr:0,en:1,it:2,he:3};
   const btns = document.querySelectorAll('.lang-btn');
   if (btns[langMap[lang]]) btns[langMap[lang]].classList.add('active');
   // Apply static translations
