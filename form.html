@@ -28,16 +28,50 @@ body {
   font-weight: 300;
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  padding: 30px 16px;
+  padding: 0 0 40px;
   background-image:
     radial-gradient(ellipse at 15% 40%, rgba(232,0,107,0.07) 0%, transparent 55%),
     radial-gradient(ellipse at 85% 20%, rgba(155,48,255,0.05) 0%, transparent 50%);
 }
 
+/* ── SITE HEADER ── */
+header {
+  width: 100%;
+  position: relative; z-index: 1;
+  text-align: center;
+  padding: 52px 20px 36px;
+  border-bottom: 1px solid rgba(232,0,107,0.12);
+  background: linear-gradient(180deg, rgba(232,0,107,0.05) 0%, transparent 100%);
+  margin-bottom: 36px;
+}
+
+.header-event {
+  font-size: 10px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--pink);
+  margin-top: 12px;
+  opacity: 0.8;
+}
+
+.lang-switcher {
+  display: flex; justify-content: center; gap: 8px;
+  padding: 10px 0 0;
+}
+.lang-btn {
+  background: none; border: 2px solid transparent;
+  border-radius: 50%; width: 36px; height: 36px;
+  font-size: 20px; cursor: pointer;
+  transition: transform 0.15s, border-color 0.15s;
+  line-height: 1; display: flex; align-items: center; justify-content: center;
+}
+.lang-btn:hover { transform: scale(1.15); }
+.lang-btn.active { border-color: var(--pink); transform: scale(1.1); }
+
 .card {
-  max-width: 520px; width: 100%;
+  max-width: 520px; width: calc(100% - 32px);
   background: var(--card);
   border: 1px solid var(--border);
   border-radius: 18px; overflow: hidden;
@@ -45,17 +79,18 @@ body {
               0 0 0 1px rgba(232,0,107,0.05);
 }
 
-/* ── HEADER ── */
+/* ── CARD HEADER ── */
 .card-header {
-  background: linear-gradient(135deg, rgba(232,0,107,0.1), rgba(155,48,255,0.05));
+  background: linear-gradient(135deg, rgba(232,0,107,0.08), rgba(155,48,255,0.04));
   border-bottom: 1px solid var(--border);
-  padding: 40px 36px 32px;
+  padding: 32px 36px 28px;
   text-align: center;
 }
 
 .logo-wrap {
-  display: flex; align-items: center; justify-content: center;
-  gap: 14px; margin-bottom: 20px;
+  display: inline-flex; align-items: center; justify-content: center;
+  gap: 14px; margin-bottom: 12px;
+  text-decoration: none; color: inherit;
 }
 .logo-icon { width: 52px; height: 52px; }
 .logo-text-block { text-align: left; }
@@ -191,12 +226,13 @@ h1 em { font-style: italic; color: var(--pink2); }
 }
 
 @media (max-width: 600px) {
-  body { padding: 0; align-items: flex-start; }
+  body { padding: 0; }
+  header { padding: 32px 16px 24px; margin-bottom: 0; }
   .card {
     border-radius: 0;
     border-left: none;
     border-right: none;
-    min-height: 100vh;
+    width: 100%;
     box-shadow: none;
   }
   .card-header { padding: 28px 20px 22px; }
@@ -221,39 +257,51 @@ h1 em { font-style: italic; color: var(--pink2); }
 </head>
 <body>
 
+<header>
+  <a href="https://lebrati58.github.io/ai-speed-dating" class="logo-wrap">
+    <svg class="logo-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="32" cy="32" r="30" fill="#1A0A20" stroke="rgba(232,0,107,0.3)" stroke-width="1.5"/>
+      <path d="M32 44 C32 44 16 34 16 24 C16 19 20 16 24 16 C27 16 29.5 18 32 20 C34.5 18 37 16 40 16 C44 16 48 19 48 24 C48 34 32 44 32 44Z"
+            fill="url(#heartGradH)" opacity="0.9"/>
+      <path d="M24 24 L28 24 L28 28 L32 28" stroke="rgba(255,255,255,0.25)" stroke-width="1" fill="none"/>
+      <path d="M40 24 L36 24 L36 28 L32 28" stroke="rgba(255,255,255,0.25)" stroke-width="1" fill="none"/>
+      <circle cx="24" cy="24" r="1.5" fill="rgba(255,255,255,0.5)"/>
+      <circle cx="40" cy="24" r="1.5" fill="rgba(255,255,255,0.5)"/>
+      <circle cx="32" cy="28" r="2" fill="white" opacity="0.8"/>
+      <circle cx="22" cy="48" r="3" fill="rgba(232,0,107,0.6)"/>
+      <path d="M18 58 Q22 53 26 58" stroke="rgba(232,0,107,0.6)" stroke-width="1.5" fill="none"/>
+      <circle cx="42" cy="48" r="3" fill="rgba(155,48,255,0.6)"/>
+      <path d="M38 58 Q42 53 46 58" stroke="rgba(155,48,255,0.6)" stroke-width="1.5" fill="none"/>
+      <path d="M6 32 L14 32" stroke="rgba(232,0,107,0.4)" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M8 28 L13 28" stroke="rgba(232,0,107,0.25)" stroke-width="1" stroke-linecap="round"/>
+      <path d="M50 32 L58 32" stroke="rgba(155,48,255,0.4)" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M51 28 L56 28" stroke="rgba(155,48,255,0.25)" stroke-width="1" stroke-linecap="round"/>
+      <defs>
+        <linearGradient id="heartGradH" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#E8006B"/>
+          <stop offset="100%" stop-color="#9B30FF"/>
+        </linearGradient>
+      </defs>
+    </svg>
+    <div class="logo-text-block">
+      <div class="logo-name">SpeedAite</div>
+      <div class="logo-tagline">AI-Powered Speed Dating</div>
+    </div>
+  </a>
+  <p class="header-event">Soirée Célibataires en Israël</p>
+  <div class="lang-switcher">
+    <button class="lang-btn active" title="Français">🇫🇷</button>
+    <button class="lang-btn" title="English">🇺🇸</button>
+    <button class="lang-btn" title="Italiano">🇮🇹</button>
+    <button class="lang-btn" title="Español">🇪🇸</button>
+    <button class="lang-btn" title="Deutsch">🇩🇪</button>
+    <button class="lang-btn" title="עברית">🇮🇱</button>
+  </div>
+</header>
+
 <div class="card">
 
   <div class="card-header">
-    <a href="https://lebrati58.github.io/ai-speed-dating" style="text-decoration:none;color:inherit;" class="logo-wrap">
-      <svg class="logo-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <circle cx="32" cy="32" r="30" fill="#1A0A20" stroke="rgba(232,0,107,0.3)" stroke-width="1.5"/>
-        <path d="M32 44 C32 44 16 34 16 24 C16 19 20 16 24 16 C27 16 29.5 18 32 20 C34.5 18 37 16 40 16 C44 16 48 19 48 24 C48 34 32 44 32 44Z"
-              fill="url(#heartGrad2)" opacity="0.9"/>
-        <path d="M24 24 L28 24 L28 28 L32 28" stroke="rgba(255,255,255,0.25)" stroke-width="1" fill="none"/>
-        <path d="M40 24 L36 24 L36 28 L32 28" stroke="rgba(255,255,255,0.25)" stroke-width="1" fill="none"/>
-        <circle cx="24" cy="24" r="1.5" fill="rgba(255,255,255,0.5)"/>
-        <circle cx="40" cy="24" r="1.5" fill="rgba(255,255,255,0.5)"/>
-        <circle cx="32" cy="28" r="2" fill="white" opacity="0.8"/>
-        <circle cx="22" cy="48" r="3" fill="rgba(232,0,107,0.6)"/>
-        <path d="M18 58 Q22 53 26 58" stroke="rgba(232,0,107,0.6)" stroke-width="1.5" fill="none"/>
-        <circle cx="42" cy="48" r="3" fill="rgba(155,48,255,0.6)"/>
-        <path d="M38 58 Q42 53 46 58" stroke="rgba(155,48,255,0.6)" stroke-width="1.5" fill="none"/>
-        <path d="M6 32 L14 32" stroke="rgba(232,0,107,0.4)" stroke-width="1.5" stroke-linecap="round"/>
-        <path d="M8 28 L13 28" stroke="rgba(232,0,107,0.25)" stroke-width="1" stroke-linecap="round"/>
-        <path d="M50 32 L58 32" stroke="rgba(155,48,255,0.4)" stroke-width="1.5" stroke-linecap="round"/>
-        <path d="M51 28 L56 28" stroke="rgba(155,48,255,0.25)" stroke-width="1" stroke-linecap="round"/>
-        <defs>
-          <linearGradient id="heartGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stop-color="#E8006B"/>
-            <stop offset="100%" stop-color="#9B30FF"/>
-          </linearGradient>
-        </defs>
-      </svg>
-      <div class="logo-text-block">
-        <div class="logo-name">SpeedAite</div>
-        <div class="logo-tagline">AI-Powered Speed Dating</div>
-      </div>
-    </a>
     <h1>Crée ton profil<br><em>en 1 minute</em></h1>
     <p class="subtitle">Soirée Célibataires · Tel Aviv</p>
   </div>
