@@ -26,6 +26,33 @@
       "mutual": true
     }
   ],
+  "mutual_matches": [
+    {
+      "profil_a": {
+        "id": 1,
+        "nom": "test lio",
+        "nom_famille": "lio",
+        "age": "23",
+        "sexe": "Masculin",
+        "telephone": "56748393",
+        "resume_ia": "Profil test"
+      },
+      "profil_b": {
+        "id": 2,
+        "nom": "sara",
+        "nom_famille": "test",
+        "age": "22",
+        "sexe": "Féminin",
+        "telephone": "5432432432",
+        "resume_ia": "Profil test"
+      },
+      "score": 82,
+      "score_h": 82,
+      "score_f": 82,
+      "raison": "Match test — profils de démonstration.",
+      "mutual": true
+    }
+  ],
   "best_per_person": [
     {
       "personne": {
