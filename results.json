@@ -1,9 +1,2432 @@
 {
-  "top_matchs": [],
-  "mutual_matches": [],
-  "best_per_person": [],
-  "total_profils": 0,
-  "stats": { "hommes": 0, "femmes": 0, "mutuals": 0 },
+  "top_matchs": [
+    {
+      "profil_a": {
+        "id": 14,
+        "nom": "Rony",
+        "nom_famille": "ARBIB",
+        "age": "41",
+        "sexe": "Masculin",
+        "telephone": "546412983",
+        "resume_ia": "Père de 4 enfants, famille et loyauté au cœur de sa vie. Profondément attaché aux valeurs juives. Entrepreneur dans le diamant. Aime voyager, moto, bons repas. Attentionné, généreux, protecteur. Recherche une femme avec des valeurs, de la profondeur et une vraie envie de construire."
+      },
+      "profil_b": {
+        "id": 15,
+        "nom": "Sarah",
+        "nom_famille": "Raccah",
+        "age": "34",
+        "sexe": "Féminin",
+        "telephone": "557724450",
+        "resume_ia": "Franco-israélienne, passionnée, ambitieuse, valeurs familiales et spirituelles fortes. Directrice Studio Nessi (danse). Vie active entre entrepreneuriat, sport, danse. Recherche homme sérieux, protecteur, bienveillant, engagé, valeurs de famille, connexion spirituelle. Sensible, loyale, investie."
+      },
+      "score": 80,
+      "score_h": 80,
+      "score_f": 80,
+      "raison": "Même ADN de valeurs — famille, foi, engagement, loyauté. L'ambition de Sarah et le leadership de Rony se complètent parfaitement.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 14,
+        "nom": "Rony",
+        "nom_famille": "ARBIB",
+        "age": "41",
+        "sexe": "Masculin",
+        "telephone": "546412983",
+        "resume_ia": "Père de 4 enfants, famille et loyauté au cœur de sa vie. Profondément attaché aux valeurs juives. Entrepreneur dans le diamant. Aime voyager, moto, bons repas. Attentionné, généreux, protecteur. Recherche une femme avec des valeurs, de la profondeur et une vraie envie de construire."
+      },
+      "profil_b": {
+        "id": 7,
+        "nom": "Vanessa",
+        "nom_famille": "R",
+        "age": "36",
+        "sexe": "Féminin",
+        "telephone": "587265202",
+        "resume_ia": "Femme de valeurs — loyauté, respect, sincérité, famille. Relations profondes. Active dans la santé. Traditions, moments simples. Recherche homme fiable, honnête, attentionné, investi. Donne beaucoup, attend réciprocité. Force de caractère et sensibilité."
+      },
+      "score": 74,
+      "score_h": 75,
+      "score_f": 73,
+      "raison": "Deux personnes de valeurs profondes, attachées à la loyauté et à la famille. La force de caractère de Vanessa résonne avec la générosité protectrice de Rony.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 19,
+        "nom": "Laurent",
+        "nom_famille": "Chekroun",
+        "age": "51",
+        "sexe": "Masculin",
+        "telephone": "547368535",
+        "resume_ia": "Homme de valeurs — famille, respect, sincérité, foi. Vie active, sport (padel). Plaisirs simples, conversations profondes. En couple : loyauté, communication, confiance. Recherche partenaire bienveillante, authentique, pour relation stable et épanouissante."
+      },
+      "profil_b": {
+        "id": 4,
+        "nom": "Emma",
+        "nom_famille": "Cc",
+        "age": "45",
+        "sexe": "Féminin",
+        "telephone": "522576744",
+        "resume_ia": "Indépendante, persévérante, attachée à l'authenticité. À Tel-Aviv entre France et Israël. Loyauté, honnêteté, confiance. Aime cuisiner, apprendre, animaux. Recherche connexion sincère, complicité, relation stable et respectueuse. Mélange de force et vulnérabilité, pragmatisme et sensibilité."
+      },
+      "score": 73,
+      "score_h": 72,
+      "score_f": 74,
+      "raison": "Même quête de stabilité, loyauté et authenticité. Emma's résilience complète la constance de Laurent. Les deux veulent construire, pas briller.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 11,
+        "nom": "David",
+        "nom_famille": "Superman",
+        "age": "42",
+        "sexe": "Masculin",
+        "telephone": "972585949795",
+        "resume_ia": "Juif Cohen, profonde quête de sens et d'authenticité. Épicurien rigoureux mêlant musculation et créativité artistique. Passionné d'histoire, généalogie, arts numériques. Recherche complicité intellectuelle forte, respect mutuel et envie de construire. Équilibre rare entre force tranquille, esprit analytique et sensibilité artistique."
+      },
+      "profil_b": {
+        "id": 21,
+        "nom": "Yael",
+        "nom_famille": "Benhammou",
+        "age": "36",
+        "sexe": "Féminin",
+        "telephone": "972559207791",
+        "resume_ia": "Française à Tel-Aviv, indépendante, curieuse, engagée. Directrice Marketing & Communication. Passionnée géopolitique, voyages, cuisine. Recherche partenaire stable, fiable, émotionnellement mature, honnête, vraie équipe à deux. Ambition professionnelle, franchise, résilience et chaleur humaine."
+      },
+      "score": 71,
+      "score_h": 70,
+      "score_f": 72,
+      "raison": "Affinité intellectuelle rare — curiosité, profondeur, ambition et authenticité se rejoignent. David's artistic depth meets Yael's strategic mind.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 19,
+        "nom": "Laurent",
+        "nom_famille": "Chekroun",
+        "age": "51",
+        "sexe": "Masculin",
+        "telephone": "547368535",
+        "resume_ia": "Homme de valeurs — famille, respect, sincérité, foi. Vie active, sport (padel). Plaisirs simples, conversations profondes. En couple : loyauté, communication, confiance. Recherche partenaire bienveillante, authentique, pour relation stable et épanouissante."
+      },
+      "profil_b": {
+        "id": 15,
+        "nom": "Sarah",
+        "nom_famille": "Raccah",
+        "age": "34",
+        "sexe": "Féminin",
+        "telephone": "557724450",
+        "resume_ia": "Franco-israélienne, passionnée, ambitieuse, valeurs familiales et spirituelles fortes. Directrice Studio Nessi (danse). Vie active entre entrepreneuriat, sport, danse. Recherche homme sérieux, protecteur, bienveillant, engagé, valeurs de famille, connexion spirituelle. Sensible, loyale, investie."
+      },
+      "score": 71,
+      "score_h": 71,
+      "score_f": 71,
+      "raison": "Même ancrage spirituel et familial. Laurent offre la stabilité que Sarah recherche chez un homme engagé.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 14,
+        "nom": "Rony",
+        "nom_famille": "ARBIB",
+        "age": "41",
+        "sexe": "Masculin",
+        "telephone": "546412983",
+        "resume_ia": "Père de 4 enfants, famille et loyauté au cœur de sa vie. Profondément attaché aux valeurs juives. Entrepreneur dans le diamant. Aime voyager, moto, bons repas. Attentionné, généreux, protecteur. Recherche une femme avec des valeurs, de la profondeur et une vraie envie de construire."
+      },
+      "profil_b": {
+        "id": 1,
+        "nom": "Sandrine",
+        "nom_famille": "Ballard",
+        "age": "30",
+        "sexe": "Féminin",
+        "telephone": "5052363215",
+        "resume_ia": "Chaleureuse, dynamique, attachée à la famille, la sincérité et la spiritualité. Créative et entreprenante. Recherche homme authentique, bienveillant, fidèle, engagé. Apprécie communication, complicité et humour. Généreuse, aime construire une relation basée sur respect et confiance."
+      },
+      "score": 71,
+      "score_h": 72,
+      "score_f": 70,
+      "raison": "Sandrine's warmth and spirituality perfectly match Rony's family values and protective nature. Belle complicité potentielle.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 29,
+        "nom": "Jeremie",
+        "nom_famille": "Calderon",
+        "age": "41",
+        "sexe": "Masculin",
+        "telephone": "972548126361",
+        "resume_ia": "Développeur, père de 4 enfants. Sincérité, loyauté, respect au cœur de tout. Réfléchi avec humour. Aime sorties, bons repas, vrais souvenirs. Impliqué, attentionné. Recherche partenaire bienveillante, honnête, facile à vivre, pour relation équilibrée."
+      },
+      "profil_b": {
+        "id": 15,
+        "nom": "Sarah",
+        "nom_famille": "Raccah",
+        "age": "34",
+        "sexe": "Féminin",
+        "telephone": "557724450",
+        "resume_ia": "Franco-israélienne, passionnée, ambitieuse, valeurs familiales et spirituelles fortes. Directrice Studio Nessi (danse). Vie active entre entrepreneuriat, sport, danse. Recherche homme sérieux, protecteur, bienveillant, engagé, valeurs de famille, connexion spirituelle. Sensible, loyale, investie."
+      },
+      "score": 71,
+      "score_h": 71,
+      "score_f": 71,
+      "raison": "Deux parents engagés, sincères, avec humour. Sarah's ambition et la fiabilité de Jeremie forment un couple solide.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 27,
+        "nom": "Loic aaron",
+        "nom_famille": "Laloum",
+        "age": "52",
+        "sexe": "Masculin",
+        "telephone": "542261974",
+        "resume_ia": "52 ans, entrepreneur, ancien athlète international — président fédération israélienne Muay Thaï. Discipline, loyauté, respect. Passionné de sport, voyages, défis. Protecteur, indépendant, franc. Recherche partenaire intelligente, stable émotionnellement, sincère et complice."
+      },
+      "profil_b": {
+        "id": 4,
+        "nom": "Emma",
+        "nom_famille": "Cc",
+        "age": "45",
+        "sexe": "Féminin",
+        "telephone": "522576744",
+        "resume_ia": "Indépendante, persévérante, attachée à l'authenticité. À Tel-Aviv entre France et Israël. Loyauté, honnêteté, confiance. Aime cuisiner, apprendre, animaux. Recherche connexion sincère, complicité, relation stable et respectueuse. Mélange de force et vulnérabilité, pragmatisme et sensibilité."
+      },
+      "score": 70,
+      "score_h": 70,
+      "score_f": 70,
+      "raison": "Deux personnalités fortes et indépendantes qui se respectent et se stimulent. Même franchise, même dynamisme.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 29,
+        "nom": "Jeremie",
+        "nom_famille": "Calderon",
+        "age": "41",
+        "sexe": "Masculin",
+        "telephone": "972548126361",
+        "resume_ia": "Développeur, père de 4 enfants. Sincérité, loyauté, respect au cœur de tout. Réfléchi avec humour. Aime sorties, bons repas, vrais souvenirs. Impliqué, attentionné. Recherche partenaire bienveillante, honnête, facile à vivre, pour relation équilibrée."
+      },
+      "profil_b": {
+        "id": 1,
+        "nom": "Sandrine",
+        "nom_famille": "Ballard",
+        "age": "30",
+        "sexe": "Féminin",
+        "telephone": "5052363215",
+        "resume_ia": "Chaleureuse, dynamique, attachée à la famille, la sincérité et la spiritualité. Créative et entreprenante. Recherche homme authentique, bienveillant, fidèle, engagé. Apprécie communication, complicité et humour. Généreuse, aime construire une relation basée sur respect et confiance."
+      },
+      "score": 68,
+      "score_h": 68,
+      "score_f": 68,
+      "raison": "Belle alchimie famille-humour-authenticité. La chaleur de Sandrine et la sincérité de Jeremie créent une base solide.",
+      "mutual": false
+    },
+    {
+      "profil_a": {
+        "id": 11,
+        "nom": "David",
+        "nom_famille": "Superman",
+        "age": "42",
+        "sexe": "Masculin",
+        "telephone": "972585949795",
+        "resume_ia": "Juif Cohen, profonde quête de sens et d'authenticité. Épicurien rigoureux mêlant musculation et créativité artistique. Passionné d'histoire, généalogie, arts numériques. Recherche complicité intellectuelle forte, respect mutuel et envie de construire. Équilibre rare entre force tranquille, esprit analytique et sensibilité artistique."
+      },
+      "profil_b": {
+        "id": 15,
+        "nom": "Sarah",
+        "nom_famille": "Raccah",
+        "age": "34",
+        "sexe": "Féminin",
+        "telephone": "557724450",
+        "resume_ia": "Franco-israélienne, passionnée, ambitieuse, valeurs familiales et spirituelles fortes. Directrice Studio Nessi (danse). Vie active entre entrepreneuriat, sport, danse. Recherche homme sérieux, protecteur, bienveillant, engagé, valeurs de famille, connexion spirituelle. Sensible, loyale, investie."
+      },
+      "score": 69,
+      "score_h": 72,
+      "score_f": 66,
+      "raison": "Identité juive forte, profondeur, ambition partagées. Bonne complémentarité même si Sarah cherche plus de côté protecteur.",
+      "mutual": false
+    },
+    {
+      "profil_a": {
+        "id": 19,
+        "nom": "Laurent",
+        "nom_famille": "Chekroun",
+        "age": "51",
+        "sexe": "Masculin",
+        "telephone": "547368535",
+        "resume_ia": "Homme de valeurs — famille, respect, sincérité, foi. Vie active, sport (padel). Plaisirs simples, conversations profondes. En couple : loyauté, communication, confiance. Recherche partenaire bienveillante, authentique, pour relation stable et épanouissante."
+      },
+      "profil_b": {
+        "id": 34,
+        "nom": "Angélique",
+        "nom_famille": "Karalou",
+        "age": "48",
+        "sexe": "Féminin",
+        "telephone": "586931193",
+        "resume_ia": "Sensible, profonde, fidèle à ses sentiments. Sincérité, loyauté, authenticité. Recherche partenaire capable de s'investir émotionnellement, communiquer honnêtement, construire un lien durable. Romantique, attentionnée, investie. Croit aux histoires nées d'une vraie rencontre."
+      },
+      "score": 67,
+      "score_h": 68,
+      "score_f": 66,
+      "raison": "Même quête d'authenticité et de relation stable. Laurent's steadiness matches Angélique's romantic depth.",
+      "mutual": false
+    },
+    {
+      "profil_a": {
+        "id": 26,
+        "nom": "Jean-Maurice",
+        "nom_famille": "Cohen",
+        "age": "67",
+        "sexe": "Masculin",
+        "telephone": "0",
+        "resume_ia": "Esprit cultivé, sensibilité et goût des autres. Écoute subtile et attentive aux émotions. Passions : philosophie, sociologie, littérature, cinéma, politique. Pas de sport, pas de télévision. Recherche échanges authentiques, partages d'idées et conversations vibrantes."
+      },
+      "profil_b": {
+        "id": 6,
+        "nom": "Lucy",
+        "nom_famille": "Levy",
+        "age": "35",
+        "sexe": "Féminin",
+        "telephone": "972587823348",
+        "resume_ia": "Curieuse, engagée, tournée vers le sens. Passionnée environnement, développement durable. Parcours ONG, analyse des risques, gestion de projets. Profondeur intellectuelle. Valeurs : ouverture d'esprit, honnêteté, bienveillance. Recherche connexion authentique, échanges riches."
+      },
+      "score": 65,
+      "score_h": 66,
+      "score_f": 64,
+      "raison": "Rare convergence intellectuelle. Lucy's engagement pour le sens et la pensée profonde de Jean-Maurice s'accordent bien.",
+      "mutual": false
+    },
+    {
+      "profil_a": {
+        "id": 31,
+        "nom": "marc",
+        "nom_famille": "elfassy",
+        "age": "62",
+        "sexe": "Masculin",
+        "telephone": "972547755129",
+        "resume_ia": "Loyauté, responsabilité, famille. Très proche des animaux (Rocky, berger belge). Vie simple et authentique. Protecteur, présent, investi. Recherche partenaire honnête, bienveillante, fidèle pour relation stable et complice."
+      },
+      "profil_b": {
+        "id": 4,
+        "nom": "Emma",
+        "nom_famille": "Cc",
+        "age": "45",
+        "sexe": "Féminin",
+        "telephone": "522576744",
+        "resume_ia": "Indépendante, persévérante, attachée à l'authenticité. À Tel-Aviv entre France et Israël. Loyauté, honnêteté, confiance. Aime cuisiner, apprendre, animaux. Recherche connexion sincère, complicité, relation stable et respectueuse. Mélange de force et vulnérabilité, pragmatisme et sensibilité."
+      },
+      "score": 65,
+      "score_h": 68,
+      "score_f": 62,
+      "raison": "Amour des animaux, loyauté, authenticité — terrain commun solide. Marc's protectiveness et l'indépendance d'Emma se complètent.",
+      "mutual": false
+    },
+    {
+      "profil_a": {
+        "id": 26,
+        "nom": "Jean-Maurice",
+        "nom_famille": "Cohen",
+        "age": "67",
+        "sexe": "Masculin",
+        "telephone": "0",
+        "resume_ia": "Esprit cultivé, sensibilité et goût des autres. Écoute subtile et attentive aux émotions. Passions : philosophie, sociologie, littérature, cinéma, politique. Pas de sport, pas de télévision. Recherche échanges authentiques, partages d'idées et conversations vibrantes."
+      },
+      "profil_b": {
+        "id": 34,
+        "nom": "Angélique",
+        "nom_famille": "Karalou",
+        "age": "48",
+        "sexe": "Féminin",
+        "telephone": "586931193",
+        "resume_ia": "Sensible, profonde, fidèle à ses sentiments. Sincérité, loyauté, authenticité. Recherche partenaire capable de s'investir émotionnellement, communiquer honnêtement, construire un lien durable. Romantique, attentionnée, investie. Croit aux histoires nées d'une vraie rencontre."
+      },
+      "score": 62,
+      "score_h": 62,
+      "score_f": 62,
+      "raison": "Jean-Maurice's emotional depth et la sensibilité d'Angélique créent un espace d'échanges riches et authentiques.",
+      "mutual": false
+    },
+    {
+      "profil_a": {
+        "id": 31,
+        "nom": "marc",
+        "nom_famille": "elfassy",
+        "age": "62",
+        "sexe": "Masculin",
+        "telephone": "972547755129",
+        "resume_ia": "Loyauté, responsabilité, famille. Très proche des animaux (Rocky, berger belge). Vie simple et authentique. Protecteur, présent, investi. Recherche partenaire honnête, bienveillante, fidèle pour relation stable et complice."
+      },
+      "profil_b": {
+        "id": 3,
+        "nom": "Sandrine",
+        "nom_famille": "Goldmic",
+        "age": "59",
+        "sexe": "Féminin",
+        "telephone": "555003470",
+        "resume_ia": "Tournée vers l'humain, écoute, entraide, développement personnel. Accompagne personnes en reconversion. Passionnée par les animaux (chats). Vie active entre projets entrepreneuriaux et accompagnement. Recherche personne sincère, stable émotionnellement, capable de communiquer honnêtement."
+      },
+      "score": 63,
+      "score_h": 66,
+      "score_f": 60,
+      "raison": "Amour des animaux (Rocky vs chats), authenticité, vie simple. Même génération, mêmes valeurs fondamentales.",
+      "mutual": false
+    },
+    {
+      "profil_a": {
+        "id": 27,
+        "nom": "Loic aaron",
+        "nom_famille": "Laloum",
+        "age": "52",
+        "sexe": "Masculin",
+        "telephone": "542261974",
+        "resume_ia": "52 ans, entrepreneur, ancien athlète international — président fédération israélienne Muay Thaï. Discipline, loyauté, respect. Passionné de sport, voyages, défis. Protecteur, indépendant, franc. Recherche partenaire intelligente, stable émotionnellement, sincère et complice."
+      },
+      "profil_b": {
+        "id": 21,
+        "nom": "Yael",
+        "nom_famille": "Benhammou",
+        "age": "36",
+        "sexe": "Féminin",
+        "telephone": "972559207791",
+        "resume_ia": "Française à Tel-Aviv, indépendante, curieuse, engagée. Directrice Marketing & Communication. Passionnée géopolitique, voyages, cuisine. Recherche partenaire stable, fiable, émotionnellement mature, honnête, vraie équipe à deux. Ambition professionnelle, franchise, résilience et chaleur humaine."
+      },
+      "score": 62,
+      "score_h": 64,
+      "score_f": 60,
+      "raison": "Deux ambitieux accomplis. Loic's discipline et l'indépendance de Yael peuvent créer une dynamique stimulante.",
+      "mutual": false
+    },
+    {
+      "profil_a": {
+        "id": 36,
+        "nom": "יצחק",
+        "nom_famille": "אביסירא",
+        "age": "57",
+        "sexe": "Masculin",
+        "telephone": "972586759898",
+        "resume_ia": "Pragmatique, curieux, orienté solutions. Valeurs : loyauté, autonomie, sincérité, respect. Recherche stabilité émotionnelle, honnêteté, maturité. Direct, investi, fiable. Préfère la clarté aux jeux. Installé en Israël."
+      },
+      "profil_b": {
+        "id": 4,
+        "nom": "Emma",
+        "nom_famille": "Cc",
+        "age": "45",
+        "sexe": "Féminin",
+        "telephone": "522576744",
+        "resume_ia": "Indépendante, persévérante, attachée à l'authenticité. À Tel-Aviv entre France et Israël. Loyauté, honnêteté, confiance. Aime cuisiner, apprendre, animaux. Recherche connexion sincère, complicité, relation stable et respectueuse. Mélange de force et vulnérabilité, pragmatisme et sensibilité."
+      },
+      "score": 62,
+      "score_h": 63,
+      "score_f": 61,
+      "raison": "Deux pragmatiques loyaux ancrés en Israël. Emma's resilience et la détermination d'יצחק se rejoignent sur l'essentiel.",
+      "mutual": false
+    },
+    {
+      "profil_a": {
+        "id": 20,
+        "nom": "laurent",
+        "nom_famille": "seban",
+        "age": "57",
+        "sexe": "Masculin",
+        "telephone": "532336348",
+        "resume_ia": "Pragmatique, santé et qualité de vie au premier plan. Curieux, tourné vers les solutions concrètes. Relations sincères fondées sur confiance et soutien mutuel. Recherche bienveillance, stabilité émotionnelle, authenticité. Loyal et investi dans la durée."
+      },
+      "profil_b": {
+        "id": 4,
+        "nom": "Emma",
+        "nom_famille": "Cc",
+        "age": "45",
+        "sexe": "Féminin",
+        "telephone": "522576744",
+        "resume_ia": "Indépendante, persévérante, attachée à l'authenticité. À Tel-Aviv entre France et Israël. Loyauté, honnêteté, confiance. Aime cuisiner, apprendre, animaux. Recherche connexion sincère, complicité, relation stable et respectueuse. Mélange de force et vulnérabilité, pragmatisme et sensibilité."
+      },
+      "score": 60,
+      "score_h": 61,
+      "score_f": 59,
+      "raison": "Même pragmatisme et recherche d'authenticité. Base commune de valeurs simples et sincères.",
+      "mutual": false
+    },
+    {
+      "profil_a": {
+        "id": 26,
+        "nom": "Jean-Maurice",
+        "nom_famille": "Cohen",
+        "age": "67",
+        "sexe": "Masculin",
+        "telephone": "0",
+        "resume_ia": "Esprit cultivé, sensibilité et goût des autres. Écoute subtile et attentive aux émotions. Passions : philosophie, sociologie, littérature, cinéma, politique. Pas de sport, pas de télévision. Recherche échanges authentiques, partages d'idées et conversations vibrantes."
+      },
+      "profil_b": {
+        "id": 3,
+        "nom": "Sandrine",
+        "nom_famille": "Goldmic",
+        "age": "59",
+        "sexe": "Féminin",
+        "telephone": "555003470",
+        "resume_ia": "Tournée vers l'humain, écoute, entraide, développement personnel. Accompagne personnes en reconversion. Passionnée par les animaux (chats). Vie active entre projets entrepreneuriaux et accompagnement. Recherche personne sincère, stable émotionnellement, capable de communiquer honnêtement."
+      },
+      "score": 60,
+      "score_h": 62,
+      "score_f": 58,
+      "raison": "Même génération, culture française, goût pour les échanges de fond. Sandrine's human focus et la sensibilité de Jean-Maurice.",
+      "mutual": false
+    },
+    {
+      "profil_a": {
+        "id": 11,
+        "nom": "David",
+        "nom_famille": "Superman",
+        "age": "42",
+        "sexe": "Masculin",
+        "telephone": "972585949795",
+        "resume_ia": "Juif Cohen, profonde quête de sens et d'authenticité. Épicurien rigoureux mêlant musculation et créativité artistique. Passionné d'histoire, généalogie, arts numériques. Recherche complicité intellectuelle forte, respect mutuel et envie de construire. Équilibre rare entre force tranquille, esprit analytique et sensibilité artistique."
+      },
+      "profil_b": {
+        "id": 7,
+        "nom": "Vanessa",
+        "nom_famille": "R",
+        "age": "36",
+        "sexe": "Féminin",
+        "telephone": "587265202",
+        "resume_ia": "Femme de valeurs — loyauté, respect, sincérité, famille. Relations profondes. Active dans la santé. Traditions, moments simples. Recherche homme fiable, honnête, attentionné, investi. Donne beaucoup, attend réciprocité. Force de caractère et sensibilité."
+      },
+      "score": 60,
+      "score_h": 62,
+      "score_f": 58,
+      "raison": "David's authenticity et les valeurs fortes de Vanessa se rejoignent sur l'engagement et la construction à deux.",
+      "mutual": false
+    }
+  ],
+  "mutual_matches": [
+    {
+      "profil_a": {
+        "id": 14,
+        "nom": "Rony",
+        "nom_famille": "ARBIB",
+        "age": "41",
+        "sexe": "Masculin",
+        "telephone": "546412983",
+        "resume_ia": "Père de 4 enfants, famille et loyauté au cœur de sa vie. Profondément attaché aux valeurs juives. Entrepreneur dans le diamant. Aime voyager, moto, bons repas. Attentionné, généreux, protecteur. Recherche une femme avec des valeurs, de la profondeur et une vraie envie de construire."
+      },
+      "profil_b": {
+        "id": 15,
+        "nom": "Sarah",
+        "nom_famille": "Raccah",
+        "age": "34",
+        "sexe": "Féminin",
+        "telephone": "557724450",
+        "resume_ia": "Franco-israélienne, passionnée, ambitieuse, valeurs familiales et spirituelles fortes. Directrice Studio Nessi (danse). Vie active entre entrepreneuriat, sport, danse. Recherche homme sérieux, protecteur, bienveillant, engagé, valeurs de famille, connexion spirituelle. Sensible, loyale, investie."
+      },
+      "score": 80,
+      "score_h": 80,
+      "score_f": 80,
+      "raison": "Même ADN de valeurs — famille, foi, engagement, loyauté. L'ambition de Sarah et le leadership de Rony se complètent parfaitement.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 14,
+        "nom": "Rony",
+        "nom_famille": "ARBIB",
+        "age": "41",
+        "sexe": "Masculin",
+        "telephone": "546412983",
+        "resume_ia": "Père de 4 enfants, famille et loyauté au cœur de sa vie. Profondément attaché aux valeurs juives. Entrepreneur dans le diamant. Aime voyager, moto, bons repas. Attentionné, généreux, protecteur. Recherche une femme avec des valeurs, de la profondeur et une vraie envie de construire."
+      },
+      "profil_b": {
+        "id": 7,
+        "nom": "Vanessa",
+        "nom_famille": "R",
+        "age": "36",
+        "sexe": "Féminin",
+        "telephone": "587265202",
+        "resume_ia": "Femme de valeurs — loyauté, respect, sincérité, famille. Relations profondes. Active dans la santé. Traditions, moments simples. Recherche homme fiable, honnête, attentionné, investi. Donne beaucoup, attend réciprocité. Force de caractère et sensibilité."
+      },
+      "score": 74,
+      "score_h": 75,
+      "score_f": 73,
+      "raison": "Deux personnes de valeurs profondes, attachées à la loyauté et à la famille. La force de caractère de Vanessa résonne avec la générosité protectrice de Rony.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 19,
+        "nom": "Laurent",
+        "nom_famille": "Chekroun",
+        "age": "51",
+        "sexe": "Masculin",
+        "telephone": "547368535",
+        "resume_ia": "Homme de valeurs — famille, respect, sincérité, foi. Vie active, sport (padel). Plaisirs simples, conversations profondes. En couple : loyauté, communication, confiance. Recherche partenaire bienveillante, authentique, pour relation stable et épanouissante."
+      },
+      "profil_b": {
+        "id": 4,
+        "nom": "Emma",
+        "nom_famille": "Cc",
+        "age": "45",
+        "sexe": "Féminin",
+        "telephone": "522576744",
+        "resume_ia": "Indépendante, persévérante, attachée à l'authenticité. À Tel-Aviv entre France et Israël. Loyauté, honnêteté, confiance. Aime cuisiner, apprendre, animaux. Recherche connexion sincère, complicité, relation stable et respectueuse. Mélange de force et vulnérabilité, pragmatisme et sensibilité."
+      },
+      "score": 73,
+      "score_h": 72,
+      "score_f": 74,
+      "raison": "Même quête de stabilité, loyauté et authenticité. Emma's résilience complète la constance de Laurent. Les deux veulent construire, pas briller.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 11,
+        "nom": "David",
+        "nom_famille": "Superman",
+        "age": "42",
+        "sexe": "Masculin",
+        "telephone": "972585949795",
+        "resume_ia": "Juif Cohen, profonde quête de sens et d'authenticité. Épicurien rigoureux mêlant musculation et créativité artistique. Passionné d'histoire, généalogie, arts numériques. Recherche complicité intellectuelle forte, respect mutuel et envie de construire. Équilibre rare entre force tranquille, esprit analytique et sensibilité artistique."
+      },
+      "profil_b": {
+        "id": 21,
+        "nom": "Yael",
+        "nom_famille": "Benhammou",
+        "age": "36",
+        "sexe": "Féminin",
+        "telephone": "972559207791",
+        "resume_ia": "Française à Tel-Aviv, indépendante, curieuse, engagée. Directrice Marketing & Communication. Passionnée géopolitique, voyages, cuisine. Recherche partenaire stable, fiable, émotionnellement mature, honnête, vraie équipe à deux. Ambition professionnelle, franchise, résilience et chaleur humaine."
+      },
+      "score": 71,
+      "score_h": 70,
+      "score_f": 72,
+      "raison": "Affinité intellectuelle rare — curiosité, profondeur, ambition et authenticité se rejoignent. David's artistic depth meets Yael's strategic mind.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 19,
+        "nom": "Laurent",
+        "nom_famille": "Chekroun",
+        "age": "51",
+        "sexe": "Masculin",
+        "telephone": "547368535",
+        "resume_ia": "Homme de valeurs — famille, respect, sincérité, foi. Vie active, sport (padel). Plaisirs simples, conversations profondes. En couple : loyauté, communication, confiance. Recherche partenaire bienveillante, authentique, pour relation stable et épanouissante."
+      },
+      "profil_b": {
+        "id": 15,
+        "nom": "Sarah",
+        "nom_famille": "Raccah",
+        "age": "34",
+        "sexe": "Féminin",
+        "telephone": "557724450",
+        "resume_ia": "Franco-israélienne, passionnée, ambitieuse, valeurs familiales et spirituelles fortes. Directrice Studio Nessi (danse). Vie active entre entrepreneuriat, sport, danse. Recherche homme sérieux, protecteur, bienveillant, engagé, valeurs de famille, connexion spirituelle. Sensible, loyale, investie."
+      },
+      "score": 71,
+      "score_h": 71,
+      "score_f": 71,
+      "raison": "Même ancrage spirituel et familial. Laurent offre la stabilité que Sarah recherche chez un homme engagé.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 14,
+        "nom": "Rony",
+        "nom_famille": "ARBIB",
+        "age": "41",
+        "sexe": "Masculin",
+        "telephone": "546412983",
+        "resume_ia": "Père de 4 enfants, famille et loyauté au cœur de sa vie. Profondément attaché aux valeurs juives. Entrepreneur dans le diamant. Aime voyager, moto, bons repas. Attentionné, généreux, protecteur. Recherche une femme avec des valeurs, de la profondeur et une vraie envie de construire."
+      },
+      "profil_b": {
+        "id": 1,
+        "nom": "Sandrine",
+        "nom_famille": "Ballard",
+        "age": "30",
+        "sexe": "Féminin",
+        "telephone": "5052363215",
+        "resume_ia": "Chaleureuse, dynamique, attachée à la famille, la sincérité et la spiritualité. Créative et entreprenante. Recherche homme authentique, bienveillant, fidèle, engagé. Apprécie communication, complicité et humour. Généreuse, aime construire une relation basée sur respect et confiance."
+      },
+      "score": 71,
+      "score_h": 72,
+      "score_f": 70,
+      "raison": "Sandrine's warmth and spirituality perfectly match Rony's family values and protective nature. Belle complicité potentielle.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 29,
+        "nom": "Jeremie",
+        "nom_famille": "Calderon",
+        "age": "41",
+        "sexe": "Masculin",
+        "telephone": "972548126361",
+        "resume_ia": "Développeur, père de 4 enfants. Sincérité, loyauté, respect au cœur de tout. Réfléchi avec humour. Aime sorties, bons repas, vrais souvenirs. Impliqué, attentionné. Recherche partenaire bienveillante, honnête, facile à vivre, pour relation équilibrée."
+      },
+      "profil_b": {
+        "id": 15,
+        "nom": "Sarah",
+        "nom_famille": "Raccah",
+        "age": "34",
+        "sexe": "Féminin",
+        "telephone": "557724450",
+        "resume_ia": "Franco-israélienne, passionnée, ambitieuse, valeurs familiales et spirituelles fortes. Directrice Studio Nessi (danse). Vie active entre entrepreneuriat, sport, danse. Recherche homme sérieux, protecteur, bienveillant, engagé, valeurs de famille, connexion spirituelle. Sensible, loyale, investie."
+      },
+      "score": 71,
+      "score_h": 71,
+      "score_f": 71,
+      "raison": "Deux parents engagés, sincères, avec humour. Sarah's ambition et la fiabilité de Jeremie forment un couple solide.",
+      "mutual": true
+    },
+    {
+      "profil_a": {
+        "id": 27,
+        "nom": "Loic aaron",
+        "nom_famille": "Laloum",
+        "age": "52",
+        "sexe": "Masculin",
+        "telephone": "542261974",
+        "resume_ia": "52 ans, entrepreneur, ancien athlète international — président fédération israélienne Muay Thaï. Discipline, loyauté, respect. Passionné de sport, voyages, défis. Protecteur, indépendant, franc. Recherche partenaire intelligente, stable émotionnellement, sincère et complice."
+      },
+      "profil_b": {
+        "id": 4,
+        "nom": "Emma",
+        "nom_famille": "Cc",
+        "age": "45",
+        "sexe": "Féminin",
+        "telephone": "522576744",
+        "resume_ia": "Indépendante, persévérante, attachée à l'authenticité. À Tel-Aviv entre France et Israël. Loyauté, honnêteté, confiance. Aime cuisiner, apprendre, animaux. Recherche connexion sincère, complicité, relation stable et respectueuse. Mélange de force et vulnérabilité, pragmatisme et sensibilité."
+      },
+      "score": 70,
+      "score_h": 70,
+      "score_f": 70,
+      "raison": "Deux personnalités fortes et indépendantes qui se respectent et se stimulent. Même franchise, même dynamisme.",
+      "mutual": true
+    }
+  ],
+  "best_per_person": [
+    {
+      "personne": {
+        "id": 14,
+        "nom": "Rony",
+        "nom_famille": "ARBIB",
+        "age": "41",
+        "sexe": "Masculin",
+        "telephone": "546412983",
+        "resume_ia": "Père de 4 enfants, famille et loyauté au cœur de sa vie. Profondément attaché aux valeurs juives. Entrepreneur dans le diamant. Aime voyager, moto, bons repas. Attentionné, généreux, protecteur. Recherche une femme avec des valeurs, de la profondeur et une vraie envie de construire."
+      },
+      "meilleur_match": {
+        "id": 15,
+        "nom": "Sarah",
+        "nom_famille": "Raccah",
+        "age": "34",
+        "sexe": "Féminin",
+        "telephone": "557724450",
+        "resume_ia": "Franco-israélienne, passionnée, ambitieuse, valeurs familiales et spirituelles fortes. Directrice Studio Nessi (danse). Vie active entre entrepreneuriat, sport, danse. Recherche homme sérieux, protecteur, bienveillant, engagé, valeurs de famille, connexion spirituelle. Sensible, loyale, investie."
+      },
+      "score": 80,
+      "raison": "Même ADN de valeurs — famille, foi, engagement.",
+      "top3": [
+        {
+          "match": {
+            "id": 15,
+            "nom": "Sarah",
+            "nom_famille": "Raccah",
+            "age": "34",
+            "sexe": "Féminin",
+            "telephone": "557724450",
+            "resume_ia": "Franco-israélienne, passionnée, ambitieuse, valeurs familiales et spirituelles fortes. Directrice Studio Nessi (danse). Vie active entre entrepreneuriat, sport, danse. Recherche homme sérieux, protecteur, bienveillant, engagé, valeurs de famille, connexion spirituelle. Sensible, loyale, investie."
+          },
+          "score": 80,
+          "raison": "Même ADN de valeurs — famille, foi, engagement.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 7,
+            "nom": "Vanessa",
+            "nom_famille": "R",
+            "age": "36",
+            "sexe": "Féminin",
+            "telephone": "587265202",
+            "resume_ia": "Femme de valeurs — loyauté, respect, sincérité, famille. Relations profondes. Active dans la santé. Traditions, moments simples. Recherche homme fiable, honnête, attentionné, investi. Donne beaucoup, attend réciprocité. Force de caractère et sensibilité."
+          },
+          "score": 74,
+          "raison": "Femme de valeurs, santé, famille.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 1,
+            "nom": "Sandrine",
+            "nom_famille": "Ballard",
+            "age": "30",
+            "sexe": "Féminin",
+            "telephone": "5052363215",
+            "resume_ia": "Chaleureuse, dynamique, attachée à la famille, la sincérité et la spiritualité. Créative et entreprenante. Recherche homme authentique, bienveillant, fidèle, engagé. Apprécie communication, complicité et humour. Généreuse, aime construire une relation basée sur respect et confiance."
+          },
+          "score": 71,
+          "raison": "Chaleur, spiritualité, famille.",
+          "mutual": true
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 19,
+        "nom": "Laurent",
+        "nom_famille": "Chekroun",
+        "age": "51",
+        "sexe": "Masculin",
+        "telephone": "547368535",
+        "resume_ia": "Homme de valeurs — famille, respect, sincérité, foi. Vie active, sport (padel). Plaisirs simples, conversations profondes. En couple : loyauté, communication, confiance. Recherche partenaire bienveillante, authentique, pour relation stable et épanouissante."
+      },
+      "meilleur_match": {
+        "id": 4,
+        "nom": "Emma",
+        "nom_famille": "Cc",
+        "age": "45",
+        "sexe": "Féminin",
+        "telephone": "522576744",
+        "resume_ia": "Indépendante, persévérante, attachée à l'authenticité. À Tel-Aviv entre France et Israël. Loyauté, honnêteté, confiance. Aime cuisiner, apprendre, animaux. Recherche connexion sincère, complicité, relation stable et respectueuse. Mélange de force et vulnérabilité, pragmatisme et sensibilité."
+      },
+      "score": 73,
+      "raison": "Stabilité, loyauté, authenticité.",
+      "top3": [
+        {
+          "match": {
+            "id": 4,
+            "nom": "Emma",
+            "nom_famille": "Cc",
+            "age": "45",
+            "sexe": "Féminin",
+            "telephone": "522576744",
+            "resume_ia": "Indépendante, persévérante, attachée à l'authenticité. À Tel-Aviv entre France et Israël. Loyauté, honnêteté, confiance. Aime cuisiner, apprendre, animaux. Recherche connexion sincère, complicité, relation stable et respectueuse. Mélange de force et vulnérabilité, pragmatisme et sensibilité."
+          },
+          "score": 73,
+          "raison": "Stabilité, loyauté, authenticité.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 15,
+            "nom": "Sarah",
+            "nom_famille": "Raccah",
+            "age": "34",
+            "sexe": "Féminin",
+            "telephone": "557724450",
+            "resume_ia": "Franco-israélienne, passionnée, ambitieuse, valeurs familiales et spirituelles fortes. Directrice Studio Nessi (danse). Vie active entre entrepreneuriat, sport, danse. Recherche homme sérieux, protecteur, bienveillant, engagé, valeurs de famille, connexion spirituelle. Sensible, loyale, investie."
+          },
+          "score": 71,
+          "raison": "Ancrage spirituel et familial commun.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 34,
+            "nom": "Angélique",
+            "nom_famille": "Karalou",
+            "age": "48",
+            "sexe": "Féminin",
+            "telephone": "586931193",
+            "resume_ia": "Sensible, profonde, fidèle à ses sentiments. Sincérité, loyauté, authenticité. Recherche partenaire capable de s'investir émotionnellement, communiquer honnêtement, construire un lien durable. Romantique, attentionnée, investie. Croit aux histoires nées d'une vraie rencontre."
+          },
+          "score": 67,
+          "raison": "Authenticité et relation durable.",
+          "mutual": false
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 11,
+        "nom": "David",
+        "nom_famille": "Superman",
+        "age": "42",
+        "sexe": "Masculin",
+        "telephone": "972585949795",
+        "resume_ia": "Juif Cohen, profonde quête de sens et d'authenticité. Épicurien rigoureux mêlant musculation et créativité artistique. Passionné d'histoire, généalogie, arts numériques. Recherche complicité intellectuelle forte, respect mutuel et envie de construire. Équilibre rare entre force tranquille, esprit analytique et sensibilité artistique."
+      },
+      "meilleur_match": {
+        "id": 21,
+        "nom": "Yael",
+        "nom_famille": "Benhammou",
+        "age": "36",
+        "sexe": "Féminin",
+        "telephone": "972559207791",
+        "resume_ia": "Française à Tel-Aviv, indépendante, curieuse, engagée. Directrice Marketing & Communication. Passionnée géopolitique, voyages, cuisine. Recherche partenaire stable, fiable, émotionnellement mature, honnête, vraie équipe à deux. Ambition professionnelle, franchise, résilience et chaleur humaine."
+      },
+      "score": 71,
+      "raison": "Affinité intellectuelle, ambition, profondeur.",
+      "top3": [
+        {
+          "match": {
+            "id": 21,
+            "nom": "Yael",
+            "nom_famille": "Benhammou",
+            "age": "36",
+            "sexe": "Féminin",
+            "telephone": "972559207791",
+            "resume_ia": "Française à Tel-Aviv, indépendante, curieuse, engagée. Directrice Marketing & Communication. Passionnée géopolitique, voyages, cuisine. Recherche partenaire stable, fiable, émotionnellement mature, honnête, vraie équipe à deux. Ambition professionnelle, franchise, résilience et chaleur humaine."
+          },
+          "score": 71,
+          "raison": "Affinité intellectuelle, ambition, profondeur.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 15,
+            "nom": "Sarah",
+            "nom_famille": "Raccah",
+            "age": "34",
+            "sexe": "Féminin",
+            "telephone": "557724450",
+            "resume_ia": "Franco-israélienne, passionnée, ambitieuse, valeurs familiales et spirituelles fortes. Directrice Studio Nessi (danse). Vie active entre entrepreneuriat, sport, danse. Recherche homme sérieux, protecteur, bienveillant, engagé, valeurs de famille, connexion spirituelle. Sensible, loyale, investie."
+          },
+          "score": 69,
+          "raison": "Identité juive, authenticité, construction.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 7,
+            "nom": "Vanessa",
+            "nom_famille": "R",
+            "age": "36",
+            "sexe": "Féminin",
+            "telephone": "587265202",
+            "resume_ia": "Femme de valeurs — loyauté, respect, sincérité, famille. Relations profondes. Active dans la santé. Traditions, moments simples. Recherche homme fiable, honnête, attentionné, investi. Donne beaucoup, attend réciprocité. Force de caractère et sensibilité."
+          },
+          "score": 60,
+          "raison": "Valeurs fortes, engagement.",
+          "mutual": false
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 29,
+        "nom": "Jeremie",
+        "nom_famille": "Calderon",
+        "age": "41",
+        "sexe": "Masculin",
+        "telephone": "972548126361",
+        "resume_ia": "Développeur, père de 4 enfants. Sincérité, loyauté, respect au cœur de tout. Réfléchi avec humour. Aime sorties, bons repas, vrais souvenirs. Impliqué, attentionné. Recherche partenaire bienveillante, honnête, facile à vivre, pour relation équilibrée."
+      },
+      "meilleur_match": {
+        "id": 15,
+        "nom": "Sarah",
+        "nom_famille": "Raccah",
+        "age": "34",
+        "sexe": "Féminin",
+        "telephone": "557724450",
+        "resume_ia": "Franco-israélienne, passionnée, ambitieuse, valeurs familiales et spirituelles fortes. Directrice Studio Nessi (danse). Vie active entre entrepreneuriat, sport, danse. Recherche homme sérieux, protecteur, bienveillant, engagé, valeurs de famille, connexion spirituelle. Sensible, loyale, investie."
+      },
+      "score": 71,
+      "raison": "Parents engagés, sincères, humour.",
+      "top3": [
+        {
+          "match": {
+            "id": 15,
+            "nom": "Sarah",
+            "nom_famille": "Raccah",
+            "age": "34",
+            "sexe": "Féminin",
+            "telephone": "557724450",
+            "resume_ia": "Franco-israélienne, passionnée, ambitieuse, valeurs familiales et spirituelles fortes. Directrice Studio Nessi (danse). Vie active entre entrepreneuriat, sport, danse. Recherche homme sérieux, protecteur, bienveillant, engagé, valeurs de famille, connexion spirituelle. Sensible, loyale, investie."
+          },
+          "score": 71,
+          "raison": "Parents engagés, sincères, humour.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 1,
+            "nom": "Sandrine",
+            "nom_famille": "Ballard",
+            "age": "30",
+            "sexe": "Féminin",
+            "telephone": "5052363215",
+            "resume_ia": "Chaleureuse, dynamique, attachée à la famille, la sincérité et la spiritualité. Créative et entreprenante. Recherche homme authentique, bienveillant, fidèle, engagé. Apprécie communication, complicité et humour. Généreuse, aime construire une relation basée sur respect et confiance."
+          },
+          "score": 68,
+          "raison": "Chaleur, famille, authenticité.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 7,
+            "nom": "Vanessa",
+            "nom_famille": "R",
+            "age": "36",
+            "sexe": "Féminin",
+            "telephone": "587265202",
+            "resume_ia": "Femme de valeurs — loyauté, respect, sincérité, famille. Relations profondes. Active dans la santé. Traditions, moments simples. Recherche homme fiable, honnête, attentionné, investi. Donne beaucoup, attend réciprocité. Force de caractère et sensibilité."
+          },
+          "score": 63,
+          "raison": "Valeurs, sérieux, complicité.",
+          "mutual": false
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 27,
+        "nom": "Loic aaron",
+        "nom_famille": "Laloum",
+        "age": "52",
+        "sexe": "Masculin",
+        "telephone": "542261974",
+        "resume_ia": "52 ans, entrepreneur, ancien athlète international — président fédération israélienne Muay Thaï. Discipline, loyauté, respect. Passionné de sport, voyages, défis. Protecteur, indépendant, franc. Recherche partenaire intelligente, stable émotionnellement, sincère et complice."
+      },
+      "meilleur_match": {
+        "id": 4,
+        "nom": "Emma",
+        "nom_famille": "Cc",
+        "age": "45",
+        "sexe": "Féminin",
+        "telephone": "522576744",
+        "resume_ia": "Indépendante, persévérante, attachée à l'authenticité. À Tel-Aviv entre France et Israël. Loyauté, honnêteté, confiance. Aime cuisiner, apprendre, animaux. Recherche connexion sincère, complicité, relation stable et respectueuse. Mélange de force et vulnérabilité, pragmatisme et sensibilité."
+      },
+      "score": 70,
+      "raison": "Deux indépendants forts qui se respectent.",
+      "top3": [
+        {
+          "match": {
+            "id": 4,
+            "nom": "Emma",
+            "nom_famille": "Cc",
+            "age": "45",
+            "sexe": "Féminin",
+            "telephone": "522576744",
+            "resume_ia": "Indépendante, persévérante, attachée à l'authenticité. À Tel-Aviv entre France et Israël. Loyauté, honnêteté, confiance. Aime cuisiner, apprendre, animaux. Recherche connexion sincère, complicité, relation stable et respectueuse. Mélange de force et vulnérabilité, pragmatisme et sensibilité."
+          },
+          "score": 70,
+          "raison": "Deux indépendants forts qui se respectent.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 21,
+            "nom": "Yael",
+            "nom_famille": "Benhammou",
+            "age": "36",
+            "sexe": "Féminin",
+            "telephone": "972559207791",
+            "resume_ia": "Française à Tel-Aviv, indépendante, curieuse, engagée. Directrice Marketing & Communication. Passionnée géopolitique, voyages, cuisine. Recherche partenaire stable, fiable, émotionnellement mature, honnête, vraie équipe à deux. Ambition professionnelle, franchise, résilience et chaleur humaine."
+          },
+          "score": 62,
+          "raison": "Ambition et accomplissement communs.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 7,
+            "nom": "Vanessa",
+            "nom_famille": "R",
+            "age": "36",
+            "sexe": "Féminin",
+            "telephone": "587265202",
+            "resume_ia": "Femme de valeurs — loyauté, respect, sincérité, famille. Relations profondes. Active dans la santé. Traditions, moments simples. Recherche homme fiable, honnête, attentionné, investi. Donne beaucoup, attend réciprocité. Force de caractère et sensibilité."
+          },
+          "score": 60,
+          "raison": "Valeurs, dynamisme, loyauté.",
+          "mutual": false
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 26,
+        "nom": "Jean-Maurice",
+        "nom_famille": "Cohen",
+        "age": "67",
+        "sexe": "Masculin",
+        "telephone": "0",
+        "resume_ia": "Esprit cultivé, sensibilité et goût des autres. Écoute subtile et attentive aux émotions. Passions : philosophie, sociologie, littérature, cinéma, politique. Pas de sport, pas de télévision. Recherche échanges authentiques, partages d'idées et conversations vibrantes."
+      },
+      "meilleur_match": {
+        "id": 6,
+        "nom": "Lucy",
+        "nom_famille": "Levy",
+        "age": "35",
+        "sexe": "Féminin",
+        "telephone": "972587823348",
+        "resume_ia": "Curieuse, engagée, tournée vers le sens. Passionnée environnement, développement durable. Parcours ONG, analyse des risques, gestion de projets. Profondeur intellectuelle. Valeurs : ouverture d'esprit, honnêteté, bienveillance. Recherche connexion authentique, échanges riches."
+      },
+      "score": 65,
+      "raison": "Rare convergence intellectuelle et engagement.",
+      "top3": [
+        {
+          "match": {
+            "id": 6,
+            "nom": "Lucy",
+            "nom_famille": "Levy",
+            "age": "35",
+            "sexe": "Féminin",
+            "telephone": "972587823348",
+            "resume_ia": "Curieuse, engagée, tournée vers le sens. Passionnée environnement, développement durable. Parcours ONG, analyse des risques, gestion de projets. Profondeur intellectuelle. Valeurs : ouverture d'esprit, honnêteté, bienveillance. Recherche connexion authentique, échanges riches."
+          },
+          "score": 65,
+          "raison": "Rare convergence intellectuelle et engagement.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 34,
+            "nom": "Angélique",
+            "nom_famille": "Karalou",
+            "age": "48",
+            "sexe": "Féminin",
+            "telephone": "586931193",
+            "resume_ia": "Sensible, profonde, fidèle à ses sentiments. Sincérité, loyauté, authenticité. Recherche partenaire capable de s'investir émotionnellement, communiquer honnêtement, construire un lien durable. Romantique, attentionnée, investie. Croit aux histoires nées d'une vraie rencontre."
+          },
+          "score": 62,
+          "raison": "Profondeur émotionnelle et échanges authentiques.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 3,
+            "nom": "Sandrine",
+            "nom_famille": "Goldmic",
+            "age": "59",
+            "sexe": "Féminin",
+            "telephone": "555003470",
+            "resume_ia": "Tournée vers l'humain, écoute, entraide, développement personnel. Accompagne personnes en reconversion. Passionnée par les animaux (chats). Vie active entre projets entrepreneuriaux et accompagnement. Recherche personne sincère, stable émotionnellement, capable de communiquer honnêtement."
+          },
+          "score": 60,
+          "raison": "Même génération, culture, goût des échanges.",
+          "mutual": false
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 31,
+        "nom": "marc",
+        "nom_famille": "elfassy",
+        "age": "62",
+        "sexe": "Masculin",
+        "telephone": "972547755129",
+        "resume_ia": "Loyauté, responsabilité, famille. Très proche des animaux (Rocky, berger belge). Vie simple et authentique. Protecteur, présent, investi. Recherche partenaire honnête, bienveillante, fidèle pour relation stable et complice."
+      },
+      "meilleur_match": {
+        "id": 4,
+        "nom": "Emma",
+        "nom_famille": "Cc",
+        "age": "45",
+        "sexe": "Féminin",
+        "telephone": "522576744",
+        "resume_ia": "Indépendante, persévérante, attachée à l'authenticité. À Tel-Aviv entre France et Israël. Loyauté, honnêteté, confiance. Aime cuisiner, apprendre, animaux. Recherche connexion sincère, complicité, relation stable et respectueuse. Mélange de force et vulnérabilité, pragmatisme et sensibilité."
+      },
+      "score": 65,
+      "raison": "Animaux, loyauté, authenticité — terrain commun.",
+      "top3": [
+        {
+          "match": {
+            "id": 4,
+            "nom": "Emma",
+            "nom_famille": "Cc",
+            "age": "45",
+            "sexe": "Féminin",
+            "telephone": "522576744",
+            "resume_ia": "Indépendante, persévérante, attachée à l'authenticité. À Tel-Aviv entre France et Israël. Loyauté, honnêteté, confiance. Aime cuisiner, apprendre, animaux. Recherche connexion sincère, complicité, relation stable et respectueuse. Mélange de force et vulnérabilité, pragmatisme et sensibilité."
+          },
+          "score": 65,
+          "raison": "Animaux, loyauté, authenticité — terrain commun.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 3,
+            "nom": "Sandrine",
+            "nom_famille": "Goldmic",
+            "age": "59",
+            "sexe": "Féminin",
+            "telephone": "555003470",
+            "resume_ia": "Tournée vers l'humain, écoute, entraide, développement personnel. Accompagne personnes en reconversion. Passionnée par les animaux (chats). Vie active entre projets entrepreneuriaux et accompagnement. Recherche personne sincère, stable émotionnellement, capable de communiquer honnêtement."
+          },
+          "score": 63,
+          "raison": "Chats vs Rocky, mêmes valeurs, même génération.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 34,
+            "nom": "Angélique",
+            "nom_famille": "Karalou",
+            "age": "48",
+            "sexe": "Féminin",
+            "telephone": "586931193",
+            "resume_ia": "Sensible, profonde, fidèle à ses sentiments. Sincérité, loyauté, authenticité. Recherche partenaire capable de s'investir émotionnellement, communiquer honnêtement, construire un lien durable. Romantique, attentionnée, investie. Croit aux histoires nées d'une vraie rencontre."
+          },
+          "score": 60,
+          "raison": "Sincérité, loyauté, vie simple.",
+          "mutual": false
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 20,
+        "nom": "laurent",
+        "nom_famille": "seban",
+        "age": "57",
+        "sexe": "Masculin",
+        "telephone": "532336348",
+        "resume_ia": "Pragmatique, santé et qualité de vie au premier plan. Curieux, tourné vers les solutions concrètes. Relations sincères fondées sur confiance et soutien mutuel. Recherche bienveillance, stabilité émotionnelle, authenticité. Loyal et investi dans la durée."
+      },
+      "meilleur_match": {
+        "id": 4,
+        "nom": "Emma",
+        "nom_famille": "Cc",
+        "age": "45",
+        "sexe": "Féminin",
+        "telephone": "522576744",
+        "resume_ia": "Indépendante, persévérante, attachée à l'authenticité. À Tel-Aviv entre France et Israël. Loyauté, honnêteté, confiance. Aime cuisiner, apprendre, animaux. Recherche connexion sincère, complicité, relation stable et respectueuse. Mélange de force et vulnérabilité, pragmatisme et sensibilité."
+      },
+      "score": 60,
+      "raison": "Pragmatisme, authenticité, loyauté.",
+      "top3": [
+        {
+          "match": {
+            "id": 4,
+            "nom": "Emma",
+            "nom_famille": "Cc",
+            "age": "45",
+            "sexe": "Féminin",
+            "telephone": "522576744",
+            "resume_ia": "Indépendante, persévérante, attachée à l'authenticité. À Tel-Aviv entre France et Israël. Loyauté, honnêteté, confiance. Aime cuisiner, apprendre, animaux. Recherche connexion sincère, complicité, relation stable et respectueuse. Mélange de force et vulnérabilité, pragmatisme et sensibilité."
+          },
+          "score": 60,
+          "raison": "Pragmatisme, authenticité, loyauté.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 3,
+            "nom": "Sandrine",
+            "nom_famille": "Goldmic",
+            "age": "59",
+            "sexe": "Féminin",
+            "telephone": "555003470",
+            "resume_ia": "Tournée vers l'humain, écoute, entraide, développement personnel. Accompagne personnes en reconversion. Passionnée par les animaux (chats). Vie active entre projets entrepreneuriaux et accompagnement. Recherche personne sincère, stable émotionnellement, capable de communiquer honnêtement."
+          },
+          "score": 57,
+          "raison": "Même génération, valeurs simples.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 34,
+            "nom": "Angélique",
+            "nom_famille": "Karalou",
+            "age": "48",
+            "sexe": "Féminin",
+            "telephone": "586931193",
+            "resume_ia": "Sensible, profonde, fidèle à ses sentiments. Sincérité, loyauté, authenticité. Recherche partenaire capable de s'investir émotionnellement, communiquer honnêtement, construire un lien durable. Romantique, attentionnée, investie. Croit aux histoires nées d'une vraie rencontre."
+          },
+          "score": 55,
+          "raison": "Recherche sincérité et relation durable.",
+          "mutual": false
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 36,
+        "nom": "יצחק",
+        "nom_famille": "אביסירא",
+        "age": "57",
+        "sexe": "Masculin",
+        "telephone": "972586759898",
+        "resume_ia": "Pragmatique, curieux, orienté solutions. Valeurs : loyauté, autonomie, sincérité, respect. Recherche stabilité émotionnelle, honnêteté, maturité. Direct, investi, fiable. Préfère la clarté aux jeux. Installé en Israël."
+      },
+      "meilleur_match": {
+        "id": 4,
+        "nom": "Emma",
+        "nom_famille": "Cc",
+        "age": "45",
+        "sexe": "Féminin",
+        "telephone": "522576744",
+        "resume_ia": "Indépendante, persévérante, attachée à l'authenticité. À Tel-Aviv entre France et Israël. Loyauté, honnêteté, confiance. Aime cuisiner, apprendre, animaux. Recherche connexion sincère, complicité, relation stable et respectueuse. Mélange de force et vulnérabilité, pragmatisme et sensibilité."
+      },
+      "score": 62,
+      "raison": "Pragmatiques loyaux ancrés en Israël.",
+      "top3": [
+        {
+          "match": {
+            "id": 4,
+            "nom": "Emma",
+            "nom_famille": "Cc",
+            "age": "45",
+            "sexe": "Féminin",
+            "telephone": "522576744",
+            "resume_ia": "Indépendante, persévérante, attachée à l'authenticité. À Tel-Aviv entre France et Israël. Loyauté, honnêteté, confiance. Aime cuisiner, apprendre, animaux. Recherche connexion sincère, complicité, relation stable et respectueuse. Mélange de force et vulnérabilité, pragmatisme et sensibilité."
+          },
+          "score": 62,
+          "raison": "Pragmatiques loyaux ancrés en Israël.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 3,
+            "nom": "Sandrine",
+            "nom_famille": "Goldmic",
+            "age": "59",
+            "sexe": "Féminin",
+            "telephone": "555003470",
+            "resume_ia": "Tournée vers l'humain, écoute, entraide, développement personnel. Accompagne personnes en reconversion. Passionnée par les animaux (chats). Vie active entre projets entrepreneuriaux et accompagnement. Recherche personne sincère, stable émotionnellement, capable de communiquer honnêtement."
+          },
+          "score": 60,
+          "raison": "Même génération, stabilité, authenticité.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 34,
+            "nom": "Angélique",
+            "nom_famille": "Karalou",
+            "age": "48",
+            "sexe": "Féminin",
+            "telephone": "586931193",
+            "resume_ia": "Sensible, profonde, fidèle à ses sentiments. Sincérité, loyauté, authenticité. Recherche partenaire capable de s'investir émotionnellement, communiquer honnêtement, construire un lien durable. Romantique, attentionnée, investie. Croit aux histoires nées d'une vraie rencontre."
+          },
+          "score": 59,
+          "raison": "Sincérité, loyauté, profondeur.",
+          "mutual": false
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 5,
+        "nom": "Yoram",
+        "nom_famille": "Halberstam",
+        "age": "50",
+        "sexe": "Masculin",
+        "telephone": "546125039",
+        "resume_ia": "Français de 50 ans installé en Israël depuis 13 ans, père de 5 enfants issus de 3 mariages. Installé à Ofakim, il aime le rock, les discussions profondes et cherche une femme heureuse et indépendante. Joker qui assume, franc jeu et plein d'humour."
+      },
+      "meilleur_match": {
+        "id": 4,
+        "nom": "Emma",
+        "nom_famille": "Cc",
+        "age": "45",
+        "sexe": "Féminin",
+        "telephone": "522576744",
+        "resume_ia": "Indépendante, persévérante, attachée à l'authenticité. À Tel-Aviv entre France et Israël. Loyauté, honnêteté, confiance. Aime cuisiner, apprendre, animaux. Recherche connexion sincère, complicité, relation stable et respectueuse. Mélange de force et vulnérabilité, pragmatisme et sensibilité."
+      },
+      "score": 52,
+      "raison": "Emma apprécie l'humour et l'authenticité, Yoram's energy peut séduire.",
+      "top3": [
+        {
+          "match": {
+            "id": 4,
+            "nom": "Emma",
+            "nom_famille": "Cc",
+            "age": "45",
+            "sexe": "Féminin",
+            "telephone": "522576744",
+            "resume_ia": "Indépendante, persévérante, attachée à l'authenticité. À Tel-Aviv entre France et Israël. Loyauté, honnêteté, confiance. Aime cuisiner, apprendre, animaux. Recherche connexion sincère, complicité, relation stable et respectueuse. Mélange de force et vulnérabilité, pragmatisme et sensibilité."
+          },
+          "score": 52,
+          "raison": "Emma apprécie l'humour et l'authenticité, Yoram's energy peut séduire.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 1,
+            "nom": "Sandrine",
+            "nom_famille": "Ballard",
+            "age": "30",
+            "sexe": "Féminin",
+            "telephone": "5052363215",
+            "resume_ia": "Chaleureuse, dynamique, attachée à la famille, la sincérité et la spiritualité. Créative et entreprenante. Recherche homme authentique, bienveillant, fidèle, engagé. Apprécie communication, complicité et humour. Généreuse, aime construire une relation basée sur respect et confiance."
+          },
+          "score": 47,
+          "raison": "Chaleur et dynamisme communs malgré les différences.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 7,
+            "nom": "Vanessa",
+            "nom_famille": "R",
+            "age": "36",
+            "sexe": "Féminin",
+            "telephone": "587265202",
+            "resume_ia": "Femme de valeurs — loyauté, respect, sincérité, famille. Relations profondes. Active dans la santé. Traditions, moments simples. Recherche homme fiable, honnête, attentionné, investi. Donne beaucoup, attend réciprocité. Force de caractère et sensibilité."
+          },
+          "score": 44,
+          "raison": "Valeurs partiellement communes.",
+          "mutual": false
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 22,
+        "nom": "Jeremie",
+        "nom_famille": "Levy",
+        "age": "45",
+        "sexe": "Masculin",
+        "telephone": "503389653",
+        "resume_ia": "Profil en cours de complétion."
+      },
+      "meilleur_match": {
+        "id": 15,
+        "nom": "Sarah",
+        "nom_famille": "Raccah",
+        "age": "34",
+        "sexe": "Féminin",
+        "telephone": "557724450",
+        "resume_ia": "Franco-israélienne, passionnée, ambitieuse, valeurs familiales et spirituelles fortes. Directrice Studio Nessi (danse). Vie active entre entrepreneuriat, sport, danse. Recherche homme sérieux, protecteur, bienveillant, engagé, valeurs de famille, connexion spirituelle. Sensible, loyale, investie."
+      },
+      "score": 50,
+      "raison": "Valeurs familiales et engagement.",
+      "top3": [
+        {
+          "match": {
+            "id": 15,
+            "nom": "Sarah",
+            "nom_famille": "Raccah",
+            "age": "34",
+            "sexe": "Féminin",
+            "telephone": "557724450",
+            "resume_ia": "Franco-israélienne, passionnée, ambitieuse, valeurs familiales et spirituelles fortes. Directrice Studio Nessi (danse). Vie active entre entrepreneuriat, sport, danse. Recherche homme sérieux, protecteur, bienveillant, engagé, valeurs de famille, connexion spirituelle. Sensible, loyale, investie."
+          },
+          "score": 50,
+          "raison": "Valeurs familiales et engagement.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 7,
+            "nom": "Vanessa",
+            "nom_famille": "R",
+            "age": "36",
+            "sexe": "Féminin",
+            "telephone": "587265202",
+            "resume_ia": "Femme de valeurs — loyauté, respect, sincérité, famille. Relations profondes. Active dans la santé. Traditions, moments simples. Recherche homme fiable, honnête, attentionné, investi. Donne beaucoup, attend réciprocité. Force de caractère et sensibilité."
+          },
+          "score": 48,
+          "raison": "Femme de valeurs sérieuse.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 1,
+            "nom": "Sandrine",
+            "nom_famille": "Ballard",
+            "age": "30",
+            "sexe": "Féminin",
+            "telephone": "5052363215",
+            "resume_ia": "Chaleureuse, dynamique, attachée à la famille, la sincérité et la spiritualité. Créative et entreprenante. Recherche homme authentique, bienveillant, fidèle, engagé. Apprécie communication, complicité et humour. Généreuse, aime construire une relation basée sur respect et confiance."
+          },
+          "score": 46,
+          "raison": "Chaleur et authenticité.",
+          "mutual": false
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 35,
+        "nom": "Aron",
+        "nom_famille": "Melloul",
+        "age": "45",
+        "sexe": "Masculin",
+        "telephone": "972547302110",
+        "resume_ia": "Profil en cours de complétion."
+      },
+      "meilleur_match": {
+        "id": 1,
+        "nom": "Sandrine",
+        "nom_famille": "Ballard",
+        "age": "30",
+        "sexe": "Féminin",
+        "telephone": "5052363215",
+        "resume_ia": "Chaleureuse, dynamique, attachée à la famille, la sincérité et la spiritualité. Créative et entreprenante. Recherche homme authentique, bienveillant, fidèle, engagé. Apprécie communication, complicité et humour. Généreuse, aime construire une relation basée sur respect et confiance."
+      },
+      "score": 48,
+      "raison": "Warmth, famille, engagement.",
+      "top3": [
+        {
+          "match": {
+            "id": 1,
+            "nom": "Sandrine",
+            "nom_famille": "Ballard",
+            "age": "30",
+            "sexe": "Féminin",
+            "telephone": "5052363215",
+            "resume_ia": "Chaleureuse, dynamique, attachée à la famille, la sincérité et la spiritualité. Créative et entreprenante. Recherche homme authentique, bienveillant, fidèle, engagé. Apprécie communication, complicité et humour. Généreuse, aime construire une relation basée sur respect et confiance."
+          },
+          "score": 48,
+          "raison": "Warmth, famille, engagement.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 7,
+            "nom": "Vanessa",
+            "nom_famille": "R",
+            "age": "36",
+            "sexe": "Féminin",
+            "telephone": "587265202",
+            "resume_ia": "Femme de valeurs — loyauté, respect, sincérité, famille. Relations profondes. Active dans la santé. Traditions, moments simples. Recherche homme fiable, honnête, attentionné, investi. Donne beaucoup, attend réciprocité. Force de caractère et sensibilité."
+          },
+          "score": 46,
+          "raison": "Valeurs et sérieux.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 15,
+            "nom": "Sarah",
+            "nom_famille": "Raccah",
+            "age": "34",
+            "sexe": "Féminin",
+            "telephone": "557724450",
+            "resume_ia": "Franco-israélienne, passionnée, ambitieuse, valeurs familiales et spirituelles fortes. Directrice Studio Nessi (danse). Vie active entre entrepreneuriat, sport, danse. Recherche homme sérieux, protecteur, bienveillant, engagé, valeurs de famille, connexion spirituelle. Sensible, loyale, investie."
+          },
+          "score": 44,
+          "raison": "Famille et spiritualité.",
+          "mutual": false
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 15,
+        "nom": "Sarah",
+        "nom_famille": "Raccah",
+        "age": "34",
+        "sexe": "Féminin",
+        "telephone": "557724450",
+        "resume_ia": "Franco-israélienne, passionnée, ambitieuse, valeurs familiales et spirituelles fortes. Directrice Studio Nessi (danse). Vie active entre entrepreneuriat, sport, danse. Recherche homme sérieux, protecteur, bienveillant, engagé, valeurs de famille, connexion spirituelle. Sensible, loyale, investie."
+      },
+      "meilleur_match": {
+        "id": 14,
+        "nom": "Rony",
+        "nom_famille": "ARBIB",
+        "age": "41",
+        "sexe": "Masculin",
+        "telephone": "546412983",
+        "resume_ia": "Père de 4 enfants, famille et loyauté au cœur de sa vie. Profondément attaché aux valeurs juives. Entrepreneur dans le diamant. Aime voyager, moto, bons repas. Attentionné, généreux, protecteur. Recherche une femme avec des valeurs, de la profondeur et une vraie envie de construire."
+      },
+      "score": 80,
+      "raison": "Même ADN de valeurs — famille, foi, engagement.",
+      "top3": [
+        {
+          "match": {
+            "id": 14,
+            "nom": "Rony",
+            "nom_famille": "ARBIB",
+            "age": "41",
+            "sexe": "Masculin",
+            "telephone": "546412983",
+            "resume_ia": "Père de 4 enfants, famille et loyauté au cœur de sa vie. Profondément attaché aux valeurs juives. Entrepreneur dans le diamant. Aime voyager, moto, bons repas. Attentionné, généreux, protecteur. Recherche une femme avec des valeurs, de la profondeur et une vraie envie de construire."
+          },
+          "score": 80,
+          "raison": "Même ADN de valeurs — famille, foi, engagement.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 29,
+            "nom": "Jeremie",
+            "nom_famille": "Calderon",
+            "age": "41",
+            "sexe": "Masculin",
+            "telephone": "972548126361",
+            "resume_ia": "Développeur, père de 4 enfants. Sincérité, loyauté, respect au cœur de tout. Réfléchi avec humour. Aime sorties, bons repas, vrais souvenirs. Impliqué, attentionné. Recherche partenaire bienveillante, honnête, facile à vivre, pour relation équilibrée."
+          },
+          "score": 71,
+          "raison": "Parents engagés, sincères, humour.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 19,
+            "nom": "Laurent",
+            "nom_famille": "Chekroun",
+            "age": "51",
+            "sexe": "Masculin",
+            "telephone": "547368535",
+            "resume_ia": "Homme de valeurs — famille, respect, sincérité, foi. Vie active, sport (padel). Plaisirs simples, conversations profondes. En couple : loyauté, communication, confiance. Recherche partenaire bienveillante, authentique, pour relation stable et épanouissante."
+          },
+          "score": 71,
+          "raison": "Ancrage spirituel et familial.",
+          "mutual": true
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 4,
+        "nom": "Emma",
+        "nom_famille": "Cc",
+        "age": "45",
+        "sexe": "Féminin",
+        "telephone": "522576744",
+        "resume_ia": "Indépendante, persévérante, attachée à l'authenticité. À Tel-Aviv entre France et Israël. Loyauté, honnêteté, confiance. Aime cuisiner, apprendre, animaux. Recherche connexion sincère, complicité, relation stable et respectueuse. Mélange de force et vulnérabilité, pragmatisme et sensibilité."
+      },
+      "meilleur_match": {
+        "id": 19,
+        "nom": "Laurent",
+        "nom_famille": "Chekroun",
+        "age": "51",
+        "sexe": "Masculin",
+        "telephone": "547368535",
+        "resume_ia": "Homme de valeurs — famille, respect, sincérité, foi. Vie active, sport (padel). Plaisirs simples, conversations profondes. En couple : loyauté, communication, confiance. Recherche partenaire bienveillante, authentique, pour relation stable et épanouissante."
+      },
+      "score": 73,
+      "raison": "Stabilité, loyauté, authenticité.",
+      "top3": [
+        {
+          "match": {
+            "id": 19,
+            "nom": "Laurent",
+            "nom_famille": "Chekroun",
+            "age": "51",
+            "sexe": "Masculin",
+            "telephone": "547368535",
+            "resume_ia": "Homme de valeurs — famille, respect, sincérité, foi. Vie active, sport (padel). Plaisirs simples, conversations profondes. En couple : loyauté, communication, confiance. Recherche partenaire bienveillante, authentique, pour relation stable et épanouissante."
+          },
+          "score": 73,
+          "raison": "Stabilité, loyauté, authenticité.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 27,
+            "nom": "Loic aaron",
+            "nom_famille": "Laloum",
+            "age": "52",
+            "sexe": "Masculin",
+            "telephone": "542261974",
+            "resume_ia": "52 ans, entrepreneur, ancien athlète international — président fédération israélienne Muay Thaï. Discipline, loyauté, respect. Passionné de sport, voyages, défis. Protecteur, indépendant, franc. Recherche partenaire intelligente, stable émotionnellement, sincère et complice."
+          },
+          "score": 70,
+          "raison": "Indépendance, force, dynamisme.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 31,
+            "nom": "marc",
+            "nom_famille": "elfassy",
+            "age": "62",
+            "sexe": "Masculin",
+            "telephone": "972547755129",
+            "resume_ia": "Loyauté, responsabilité, famille. Très proche des animaux (Rocky, berger belge). Vie simple et authentique. Protecteur, présent, investi. Recherche partenaire honnête, bienveillante, fidèle pour relation stable et complice."
+          },
+          "score": 65,
+          "raison": "Animaux, loyauté, authenticité.",
+          "mutual": false
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 7,
+        "nom": "Vanessa",
+        "nom_famille": "R",
+        "age": "36",
+        "sexe": "Féminin",
+        "telephone": "587265202",
+        "resume_ia": "Femme de valeurs — loyauté, respect, sincérité, famille. Relations profondes. Active dans la santé. Traditions, moments simples. Recherche homme fiable, honnête, attentionné, investi. Donne beaucoup, attend réciprocité. Force de caractère et sensibilité."
+      },
+      "meilleur_match": {
+        "id": 14,
+        "nom": "Rony",
+        "nom_famille": "ARBIB",
+        "age": "41",
+        "sexe": "Masculin",
+        "telephone": "546412983",
+        "resume_ia": "Père de 4 enfants, famille et loyauté au cœur de sa vie. Profondément attaché aux valeurs juives. Entrepreneur dans le diamant. Aime voyager, moto, bons repas. Attentionné, généreux, protecteur. Recherche une femme avec des valeurs, de la profondeur et une vraie envie de construire."
+      },
+      "score": 74,
+      "raison": "Valeurs profondes, famille, loyauté.",
+      "top3": [
+        {
+          "match": {
+            "id": 14,
+            "nom": "Rony",
+            "nom_famille": "ARBIB",
+            "age": "41",
+            "sexe": "Masculin",
+            "telephone": "546412983",
+            "resume_ia": "Père de 4 enfants, famille et loyauté au cœur de sa vie. Profondément attaché aux valeurs juives. Entrepreneur dans le diamant. Aime voyager, moto, bons repas. Attentionné, généreux, protecteur. Recherche une femme avec des valeurs, de la profondeur et une vraie envie de construire."
+          },
+          "score": 74,
+          "raison": "Valeurs profondes, famille, loyauté.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 29,
+            "nom": "Jeremie",
+            "nom_famille": "Calderon",
+            "age": "41",
+            "sexe": "Masculin",
+            "telephone": "972548126361",
+            "resume_ia": "Développeur, père de 4 enfants. Sincérité, loyauté, respect au cœur de tout. Réfléchi avec humour. Aime sorties, bons repas, vrais souvenirs. Impliqué, attentionné. Recherche partenaire bienveillante, honnête, facile à vivre, pour relation équilibrée."
+          },
+          "score": 63,
+          "raison": "Sincérité, engagement, famille.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 27,
+            "nom": "Loic aaron",
+            "nom_famille": "Laloum",
+            "age": "52",
+            "sexe": "Masculin",
+            "telephone": "542261974",
+            "resume_ia": "52 ans, entrepreneur, ancien athlète international — président fédération israélienne Muay Thaï. Discipline, loyauté, respect. Passionné de sport, voyages, défis. Protecteur, indépendant, franc. Recherche partenaire intelligente, stable émotionnellement, sincère et complice."
+          },
+          "score": 60,
+          "raison": "Dynamisme et valeurs partagés.",
+          "mutual": false
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 1,
+        "nom": "Sandrine",
+        "nom_famille": "Ballard",
+        "age": "30",
+        "sexe": "Féminin",
+        "telephone": "5052363215",
+        "resume_ia": "Chaleureuse, dynamique, attachée à la famille, la sincérité et la spiritualité. Créative et entreprenante. Recherche homme authentique, bienveillant, fidèle, engagé. Apprécie communication, complicité et humour. Généreuse, aime construire une relation basée sur respect et confiance."
+      },
+      "meilleur_match": {
+        "id": 14,
+        "nom": "Rony",
+        "nom_famille": "ARBIB",
+        "age": "41",
+        "sexe": "Masculin",
+        "telephone": "546412983",
+        "resume_ia": "Père de 4 enfants, famille et loyauté au cœur de sa vie. Profondément attaché aux valeurs juives. Entrepreneur dans le diamant. Aime voyager, moto, bons repas. Attentionné, généreux, protecteur. Recherche une femme avec des valeurs, de la profondeur et une vraie envie de construire."
+      },
+      "score": 71,
+      "raison": "Famille, spiritualité, engagement.",
+      "top3": [
+        {
+          "match": {
+            "id": 14,
+            "nom": "Rony",
+            "nom_famille": "ARBIB",
+            "age": "41",
+            "sexe": "Masculin",
+            "telephone": "546412983",
+            "resume_ia": "Père de 4 enfants, famille et loyauté au cœur de sa vie. Profondément attaché aux valeurs juives. Entrepreneur dans le diamant. Aime voyager, moto, bons repas. Attentionné, généreux, protecteur. Recherche une femme avec des valeurs, de la profondeur et une vraie envie de construire."
+          },
+          "score": 71,
+          "raison": "Famille, spiritualité, engagement.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 29,
+            "nom": "Jeremie",
+            "nom_famille": "Calderon",
+            "age": "41",
+            "sexe": "Masculin",
+            "telephone": "972548126361",
+            "resume_ia": "Développeur, père de 4 enfants. Sincérité, loyauté, respect au cœur de tout. Réfléchi avec humour. Aime sorties, bons repas, vrais souvenirs. Impliqué, attentionné. Recherche partenaire bienveillante, honnête, facile à vivre, pour relation équilibrée."
+          },
+          "score": 68,
+          "raison": "Sincérité, humour, famille.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 11,
+            "nom": "David",
+            "nom_famille": "Superman",
+            "age": "42",
+            "sexe": "Masculin",
+            "telephone": "972585949795",
+            "resume_ia": "Juif Cohen, profonde quête de sens et d'authenticité. Épicurien rigoureux mêlant musculation et créativité artistique. Passionné d'histoire, généalogie, arts numériques. Recherche complicité intellectuelle forte, respect mutuel et envie de construire. Équilibre rare entre force tranquille, esprit analytique et sensibilité artistique."
+          },
+          "score": 55,
+          "raison": "Authenticité, profondeur.",
+          "mutual": false
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 21,
+        "nom": "Yael",
+        "nom_famille": "Benhammou",
+        "age": "36",
+        "sexe": "Féminin",
+        "telephone": "972559207791",
+        "resume_ia": "Française à Tel-Aviv, indépendante, curieuse, engagée. Directrice Marketing & Communication. Passionnée géopolitique, voyages, cuisine. Recherche partenaire stable, fiable, émotionnellement mature, honnête, vraie équipe à deux. Ambition professionnelle, franchise, résilience et chaleur humaine."
+      },
+      "meilleur_match": {
+        "id": 11,
+        "nom": "David",
+        "nom_famille": "Superman",
+        "age": "42",
+        "sexe": "Masculin",
+        "telephone": "972585949795",
+        "resume_ia": "Juif Cohen, profonde quête de sens et d'authenticité. Épicurien rigoureux mêlant musculation et créativité artistique. Passionné d'histoire, généalogie, arts numériques. Recherche complicité intellectuelle forte, respect mutuel et envie de construire. Équilibre rare entre force tranquille, esprit analytique et sensibilité artistique."
+      },
+      "score": 71,
+      "raison": "Affinité intellectuelle, ambition, profondeur.",
+      "top3": [
+        {
+          "match": {
+            "id": 11,
+            "nom": "David",
+            "nom_famille": "Superman",
+            "age": "42",
+            "sexe": "Masculin",
+            "telephone": "972585949795",
+            "resume_ia": "Juif Cohen, profonde quête de sens et d'authenticité. Épicurien rigoureux mêlant musculation et créativité artistique. Passionné d'histoire, généalogie, arts numériques. Recherche complicité intellectuelle forte, respect mutuel et envie de construire. Équilibre rare entre force tranquille, esprit analytique et sensibilité artistique."
+          },
+          "score": 71,
+          "raison": "Affinité intellectuelle, ambition, profondeur.",
+          "mutual": true
+        },
+        {
+          "match": {
+            "id": 27,
+            "nom": "Loic aaron",
+            "nom_famille": "Laloum",
+            "age": "52",
+            "sexe": "Masculin",
+            "telephone": "542261974",
+            "resume_ia": "52 ans, entrepreneur, ancien athlète international — président fédération israélienne Muay Thaï. Discipline, loyauté, respect. Passionné de sport, voyages, défis. Protecteur, indépendant, franc. Recherche partenaire intelligente, stable émotionnellement, sincère et complice."
+          },
+          "score": 62,
+          "raison": "Ambition et accomplissement.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 19,
+            "nom": "Laurent",
+            "nom_famille": "Chekroun",
+            "age": "51",
+            "sexe": "Masculin",
+            "telephone": "547368535",
+            "resume_ia": "Homme de valeurs — famille, respect, sincérité, foi. Vie active, sport (padel). Plaisirs simples, conversations profondes. En couple : loyauté, communication, confiance. Recherche partenaire bienveillante, authentique, pour relation stable et épanouissante."
+          },
+          "score": 60,
+          "raison": "Stabilité et communication.",
+          "mutual": false
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 6,
+        "nom": "Lucy",
+        "nom_famille": "Levy",
+        "age": "35",
+        "sexe": "Féminin",
+        "telephone": "972587823348",
+        "resume_ia": "Curieuse, engagée, tournée vers le sens. Passionnée environnement, développement durable. Parcours ONG, analyse des risques, gestion de projets. Profondeur intellectuelle. Valeurs : ouverture d'esprit, honnêteté, bienveillance. Recherche connexion authentique, échanges riches."
+      },
+      "meilleur_match": {
+        "id": 26,
+        "nom": "Jean-Maurice",
+        "nom_famille": "Cohen",
+        "age": "67",
+        "sexe": "Masculin",
+        "telephone": "0",
+        "resume_ia": "Esprit cultivé, sensibilité et goût des autres. Écoute subtile et attentive aux émotions. Passions : philosophie, sociologie, littérature, cinéma, politique. Pas de sport, pas de télévision. Recherche échanges authentiques, partages d'idées et conversations vibrantes."
+      },
+      "score": 65,
+      "raison": "Convergence intellectuelle et amour des échanges.",
+      "top3": [
+        {
+          "match": {
+            "id": 26,
+            "nom": "Jean-Maurice",
+            "nom_famille": "Cohen",
+            "age": "67",
+            "sexe": "Masculin",
+            "telephone": "0",
+            "resume_ia": "Esprit cultivé, sensibilité et goût des autres. Écoute subtile et attentive aux émotions. Passions : philosophie, sociologie, littérature, cinéma, politique. Pas de sport, pas de télévision. Recherche échanges authentiques, partages d'idées et conversations vibrantes."
+          },
+          "score": 65,
+          "raison": "Convergence intellectuelle et amour des échanges.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 11,
+            "nom": "David",
+            "nom_famille": "Superman",
+            "age": "42",
+            "sexe": "Masculin",
+            "telephone": "972585949795",
+            "resume_ia": "Juif Cohen, profonde quête de sens et d'authenticité. Épicurien rigoureux mêlant musculation et créativité artistique. Passionné d'histoire, généalogie, arts numériques. Recherche complicité intellectuelle forte, respect mutuel et envie de construire. Équilibre rare entre force tranquille, esprit analytique et sensibilité artistique."
+          },
+          "score": 58,
+          "raison": "Profondeur, authenticité, quête de sens.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 29,
+            "nom": "Jeremie",
+            "nom_famille": "Calderon",
+            "age": "41",
+            "sexe": "Masculin",
+            "telephone": "972548126361",
+            "resume_ia": "Développeur, père de 4 enfants. Sincérité, loyauté, respect au cœur de tout. Réfléchi avec humour. Aime sorties, bons repas, vrais souvenirs. Impliqué, attentionné. Recherche partenaire bienveillante, honnête, facile à vivre, pour relation équilibrée."
+          },
+          "score": 55,
+          "raison": "Sincérité et ouverture.",
+          "mutual": false
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 34,
+        "nom": "Angélique",
+        "nom_famille": "Karalou",
+        "age": "48",
+        "sexe": "Féminin",
+        "telephone": "586931193",
+        "resume_ia": "Sensible, profonde, fidèle à ses sentiments. Sincérité, loyauté, authenticité. Recherche partenaire capable de s'investir émotionnellement, communiquer honnêtement, construire un lien durable. Romantique, attentionnée, investie. Croit aux histoires nées d'une vraie rencontre."
+      },
+      "meilleur_match": {
+        "id": 19,
+        "nom": "Laurent",
+        "nom_famille": "Chekroun",
+        "age": "51",
+        "sexe": "Masculin",
+        "telephone": "547368535",
+        "resume_ia": "Homme de valeurs — famille, respect, sincérité, foi. Vie active, sport (padel). Plaisirs simples, conversations profondes. En couple : loyauté, communication, confiance. Recherche partenaire bienveillante, authentique, pour relation stable et épanouissante."
+      },
+      "score": 67,
+      "raison": "Authenticité et relation durable.",
+      "top3": [
+        {
+          "match": {
+            "id": 19,
+            "nom": "Laurent",
+            "nom_famille": "Chekroun",
+            "age": "51",
+            "sexe": "Masculin",
+            "telephone": "547368535",
+            "resume_ia": "Homme de valeurs — famille, respect, sincérité, foi. Vie active, sport (padel). Plaisirs simples, conversations profondes. En couple : loyauté, communication, confiance. Recherche partenaire bienveillante, authentique, pour relation stable et épanouissante."
+          },
+          "score": 67,
+          "raison": "Authenticité et relation durable.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 26,
+            "nom": "Jean-Maurice",
+            "nom_famille": "Cohen",
+            "age": "67",
+            "sexe": "Masculin",
+            "telephone": "0",
+            "resume_ia": "Esprit cultivé, sensibilité et goût des autres. Écoute subtile et attentive aux émotions. Passions : philosophie, sociologie, littérature, cinéma, politique. Pas de sport, pas de télévision. Recherche échanges authentiques, partages d'idées et conversations vibrantes."
+          },
+          "score": 62,
+          "raison": "Profondeur émotionnelle et échanges riches.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 31,
+            "nom": "marc",
+            "nom_famille": "elfassy",
+            "age": "62",
+            "sexe": "Masculin",
+            "telephone": "972547755129",
+            "resume_ia": "Loyauté, responsabilité, famille. Très proche des animaux (Rocky, berger belge). Vie simple et authentique. Protecteur, présent, investi. Recherche partenaire honnête, bienveillante, fidèle pour relation stable et complice."
+          },
+          "score": 60,
+          "raison": "Sincérité et loyauté.",
+          "mutual": false
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 3,
+        "nom": "Sandrine",
+        "nom_famille": "Goldmic",
+        "age": "59",
+        "sexe": "Féminin",
+        "telephone": "555003470",
+        "resume_ia": "Tournée vers l'humain, écoute, entraide, développement personnel. Accompagne personnes en reconversion. Passionnée par les animaux (chats). Vie active entre projets entrepreneuriaux et accompagnement. Recherche personne sincère, stable émotionnellement, capable de communiquer honnêtement."
+      },
+      "meilleur_match": {
+        "id": 31,
+        "nom": "marc",
+        "nom_famille": "elfassy",
+        "age": "62",
+        "sexe": "Masculin",
+        "telephone": "972547755129",
+        "resume_ia": "Loyauté, responsabilité, famille. Très proche des animaux (Rocky, berger belge). Vie simple et authentique. Protecteur, présent, investi. Recherche partenaire honnête, bienveillante, fidèle pour relation stable et complice."
+      },
+      "score": 63,
+      "raison": "Animaux, authenticité, même génération.",
+      "top3": [
+        {
+          "match": {
+            "id": 31,
+            "nom": "marc",
+            "nom_famille": "elfassy",
+            "age": "62",
+            "sexe": "Masculin",
+            "telephone": "972547755129",
+            "resume_ia": "Loyauté, responsabilité, famille. Très proche des animaux (Rocky, berger belge). Vie simple et authentique. Protecteur, présent, investi. Recherche partenaire honnête, bienveillante, fidèle pour relation stable et complice."
+          },
+          "score": 63,
+          "raison": "Animaux, authenticité, même génération.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 26,
+            "nom": "Jean-Maurice",
+            "nom_famille": "Cohen",
+            "age": "67",
+            "sexe": "Masculin",
+            "telephone": "0",
+            "resume_ia": "Esprit cultivé, sensibilité et goût des autres. Écoute subtile et attentive aux émotions. Passions : philosophie, sociologie, littérature, cinéma, politique. Pas de sport, pas de télévision. Recherche échanges authentiques, partages d'idées et conversations vibrantes."
+          },
+          "score": 60,
+          "raison": "Culture, profondeur, même âge.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 20,
+            "nom": "laurent",
+            "nom_famille": "seban",
+            "age": "57",
+            "sexe": "Masculin",
+            "telephone": "532336348",
+            "resume_ia": "Pragmatique, santé et qualité de vie au premier plan. Curieux, tourné vers les solutions concrètes. Relations sincères fondées sur confiance et soutien mutuel. Recherche bienveillance, stabilité émotionnelle, authenticité. Loyal et investi dans la durée."
+          },
+          "score": 57,
+          "raison": "Pragmatisme, valeurs, même génération.",
+          "mutual": false
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 33,
+        "nom": "Pascale",
+        "nom_famille": "Souffir",
+        "age": "65",
+        "sexe": "Féminin",
+        "telephone": "537089573",
+        "resume_ia": "Cherche relations authentiques avec lucidité. Apprécie honnêteté et échanges profonds. Valeurs de sincérité, respect mutuel, cohérence. Recherche connexion vraie, fondée sur confiance et compréhension réciproque. Veut être vue telle qu'elle est, sans artifice."
+      },
+      "meilleur_match": {
+        "id": 26,
+        "nom": "Jean-Maurice",
+        "nom_famille": "Cohen",
+        "age": "67",
+        "sexe": "Masculin",
+        "telephone": "0",
+        "resume_ia": "Esprit cultivé, sensibilité et goût des autres. Écoute subtile et attentive aux émotions. Passions : philosophie, sociologie, littérature, cinéma, politique. Pas de sport, pas de télévision. Recherche échanges authentiques, partages d'idées et conversations vibrantes."
+      },
+      "score": 62,
+      "raison": "Échanges profonds, authenticité, lucidité.",
+      "top3": [
+        {
+          "match": {
+            "id": 26,
+            "nom": "Jean-Maurice",
+            "nom_famille": "Cohen",
+            "age": "67",
+            "sexe": "Masculin",
+            "telephone": "0",
+            "resume_ia": "Esprit cultivé, sensibilité et goût des autres. Écoute subtile et attentive aux émotions. Passions : philosophie, sociologie, littérature, cinéma, politique. Pas de sport, pas de télévision. Recherche échanges authentiques, partages d'idées et conversations vibrantes."
+          },
+          "score": 62,
+          "raison": "Échanges profonds, authenticité, lucidité.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 31,
+            "nom": "marc",
+            "nom_famille": "elfassy",
+            "age": "62",
+            "sexe": "Masculin",
+            "telephone": "972547755129",
+            "resume_ia": "Loyauté, responsabilité, famille. Très proche des animaux (Rocky, berger belge). Vie simple et authentique. Protecteur, présent, investi. Recherche partenaire honnête, bienveillante, fidèle pour relation stable et complice."
+          },
+          "score": 58,
+          "raison": "Loyauté, sincérité, vie simple.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 20,
+            "nom": "laurent",
+            "nom_famille": "seban",
+            "age": "57",
+            "sexe": "Masculin",
+            "telephone": "532336348",
+            "resume_ia": "Pragmatique, santé et qualité de vie au premier plan. Curieux, tourné vers les solutions concrètes. Relations sincères fondées sur confiance et soutien mutuel. Recherche bienveillance, stabilité émotionnelle, authenticité. Loyal et investi dans la durée."
+          },
+          "score": 55,
+          "raison": "Stabilité, pragmatisme.",
+          "mutual": false
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 13,
+        "nom": "Rivka",
+        "nom_famille": "Slovak",
+        "age": "40",
+        "sexe": "Féminin",
+        "telephone": "587291093",
+        "resume_ia": "Profil axé valeurs fortes — Torah, musique, technologie, famille. Recherche complicité intellectuelle, respect, bienveillance, profondeur émotionnelle. Apprécie personnes sincères, ouvertes, capables de rire et réfléchir. Aspire à relation stable où chacun peut grandir."
+      },
+      "meilleur_match": {
+        "id": 11,
+        "nom": "David",
+        "nom_famille": "Superman",
+        "age": "42",
+        "sexe": "Masculin",
+        "telephone": "972585949795",
+        "resume_ia": "Juif Cohen, profonde quête de sens et d'authenticité. Épicurien rigoureux mêlant musculation et créativité artistique. Passionné d'histoire, généalogie, arts numériques. Recherche complicité intellectuelle forte, respect mutuel et envie de construire. Équilibre rare entre force tranquille, esprit analytique et sensibilité artistique."
+      },
+      "score": 58,
+      "raison": "Valeurs Torah, musique, quête de sens communs.",
+      "top3": [
+        {
+          "match": {
+            "id": 11,
+            "nom": "David",
+            "nom_famille": "Superman",
+            "age": "42",
+            "sexe": "Masculin",
+            "telephone": "972585949795",
+            "resume_ia": "Juif Cohen, profonde quête de sens et d'authenticité. Épicurien rigoureux mêlant musculation et créativité artistique. Passionné d'histoire, généalogie, arts numériques. Recherche complicité intellectuelle forte, respect mutuel et envie de construire. Équilibre rare entre force tranquille, esprit analytique et sensibilité artistique."
+          },
+          "score": 58,
+          "raison": "Valeurs Torah, musique, quête de sens communs.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 14,
+            "nom": "Rony",
+            "nom_famille": "ARBIB",
+            "age": "41",
+            "sexe": "Masculin",
+            "telephone": "546412983",
+            "resume_ia": "Père de 4 enfants, famille et loyauté au cœur de sa vie. Profondément attaché aux valeurs juives. Entrepreneur dans le diamant. Aime voyager, moto, bons repas. Attentionné, généreux, protecteur. Recherche une femme avec des valeurs, de la profondeur et une vraie envie de construire."
+          },
+          "score": 55,
+          "raison": "Valeurs juives, famille, engagement.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 19,
+            "nom": "Laurent",
+            "nom_famille": "Chekroun",
+            "age": "51",
+            "sexe": "Masculin",
+            "telephone": "547368535",
+            "resume_ia": "Homme de valeurs — famille, respect, sincérité, foi. Vie active, sport (padel). Plaisirs simples, conversations profondes. En couple : loyauté, communication, confiance. Recherche partenaire bienveillante, authentique, pour relation stable et épanouissante."
+          },
+          "score": 52,
+          "raison": "Sincérité, foi, construction.",
+          "mutual": false
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 24,
+        "nom": "Veronique",
+        "nom_famille": "Dahan",
+        "age": "68",
+        "sexe": "Féminin",
+        "telephone": "504845565",
+        "resume_ia": "Dynamique, chaleureuse, tournée vers les autres. À Tel-Aviv, vaste réseau francophone. Mère de 6 enfants, grand-mère. Organise événements, projets, mer, musique, danse. Recherche partenaire sincère, fiable, bienveillant, pour relation stable fondée sur confiance et complicité."
+      },
+      "meilleur_match": {
+        "id": 26,
+        "nom": "Jean-Maurice",
+        "nom_famille": "Cohen",
+        "age": "67",
+        "sexe": "Masculin",
+        "telephone": "0",
+        "resume_ia": "Esprit cultivé, sensibilité et goût des autres. Écoute subtile et attentive aux émotions. Passions : philosophie, sociologie, littérature, cinéma, politique. Pas de sport, pas de télévision. Recherche échanges authentiques, partages d'idées et conversations vibrantes."
+      },
+      "score": 55,
+      "raison": "Génération similaire, culture, profondeur.",
+      "top3": [
+        {
+          "match": {
+            "id": 26,
+            "nom": "Jean-Maurice",
+            "nom_famille": "Cohen",
+            "age": "67",
+            "sexe": "Masculin",
+            "telephone": "0",
+            "resume_ia": "Esprit cultivé, sensibilité et goût des autres. Écoute subtile et attentive aux émotions. Passions : philosophie, sociologie, littérature, cinéma, politique. Pas de sport, pas de télévision. Recherche échanges authentiques, partages d'idées et conversations vibrantes."
+          },
+          "score": 55,
+          "raison": "Génération similaire, culture, profondeur.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 31,
+            "nom": "marc",
+            "nom_famille": "elfassy",
+            "age": "62",
+            "sexe": "Masculin",
+            "telephone": "972547755129",
+            "resume_ia": "Loyauté, responsabilité, famille. Très proche des animaux (Rocky, berger belge). Vie simple et authentique. Protecteur, présent, investi. Recherche partenaire honnête, bienveillante, fidèle pour relation stable et complice."
+          },
+          "score": 52,
+          "raison": "Même génération, authenticité, valeurs.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 20,
+            "nom": "laurent",
+            "nom_famille": "seban",
+            "age": "57",
+            "sexe": "Masculin",
+            "telephone": "532336348",
+            "resume_ia": "Pragmatique, santé et qualité de vie au premier plan. Curieux, tourné vers les solutions concrètes. Relations sincères fondées sur confiance et soutien mutuel. Recherche bienveillance, stabilité émotionnelle, authenticité. Loyal et investi dans la durée."
+          },
+          "score": 50,
+          "raison": "Pragmatisme et vie simple partagés.",
+          "mutual": false
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 9,
+        "nom": "Lisa",
+        "nom_famille": "M",
+        "age": "36",
+        "sexe": "Féminin",
+        "telephone": "585804049",
+        "resume_ia": "Profil en cours de complétion."
+      },
+      "meilleur_match": {
+        "id": 14,
+        "nom": "Rony",
+        "nom_famille": "ARBIB",
+        "age": "41",
+        "sexe": "Masculin",
+        "telephone": "546412983",
+        "resume_ia": "Père de 4 enfants, famille et loyauté au cœur de sa vie. Profondément attaché aux valeurs juives. Entrepreneur dans le diamant. Aime voyager, moto, bons repas. Attentionné, généreux, protecteur. Recherche une femme avec des valeurs, de la profondeur et une vraie envie de construire."
+      },
+      "score": 50,
+      "raison": "Valeurs familiales solides.",
+      "top3": [
+        {
+          "match": {
+            "id": 14,
+            "nom": "Rony",
+            "nom_famille": "ARBIB",
+            "age": "41",
+            "sexe": "Masculin",
+            "telephone": "546412983",
+            "resume_ia": "Père de 4 enfants, famille et loyauté au cœur de sa vie. Profondément attaché aux valeurs juives. Entrepreneur dans le diamant. Aime voyager, moto, bons repas. Attentionné, généreux, protecteur. Recherche une femme avec des valeurs, de la profondeur et une vraie envie de construire."
+          },
+          "score": 50,
+          "raison": "Valeurs familiales solides.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 29,
+            "nom": "Jeremie",
+            "nom_famille": "Calderon",
+            "age": "41",
+            "sexe": "Masculin",
+            "telephone": "972548126361",
+            "resume_ia": "Développeur, père de 4 enfants. Sincérité, loyauté, respect au cœur de tout. Réfléchi avec humour. Aime sorties, bons repas, vrais souvenirs. Impliqué, attentionné. Recherche partenaire bienveillante, honnête, facile à vivre, pour relation équilibrée."
+          },
+          "score": 48,
+          "raison": "Sincérité et engagement.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 11,
+            "nom": "David",
+            "nom_famille": "Superman",
+            "age": "42",
+            "sexe": "Masculin",
+            "telephone": "972585949795",
+            "resume_ia": "Juif Cohen, profonde quête de sens et d'authenticité. Épicurien rigoureux mêlant musculation et créativité artistique. Passionné d'histoire, généalogie, arts numériques. Recherche complicité intellectuelle forte, respect mutuel et envie de construire. Équilibre rare entre force tranquille, esprit analytique et sensibilité artistique."
+          },
+          "score": 45,
+          "raison": "Authenticité et profondeur.",
+          "mutual": false
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 10,
+        "nom": "חנה",
+        "nom_famille": "ישראל",
+        "age": "32",
+        "sexe": "Féminin",
+        "telephone": "972534714328",
+        "resume_ia": "Profil en cours de complétion."
+      },
+      "meilleur_match": {
+        "id": 11,
+        "nom": "David",
+        "nom_famille": "Superman",
+        "age": "42",
+        "sexe": "Masculin",
+        "telephone": "972585949795",
+        "resume_ia": "Juif Cohen, profonde quête de sens et d'authenticité. Épicurien rigoureux mêlant musculation et créativité artistique. Passionné d'histoire, généalogie, arts numériques. Recherche complicité intellectuelle forte, respect mutuel et envie de construire. Équilibre rare entre force tranquille, esprit analytique et sensibilité artistique."
+      },
+      "score": 50,
+      "raison": "Profondeur, authenticité, quête de sens.",
+      "top3": [
+        {
+          "match": {
+            "id": 11,
+            "nom": "David",
+            "nom_famille": "Superman",
+            "age": "42",
+            "sexe": "Masculin",
+            "telephone": "972585949795",
+            "resume_ia": "Juif Cohen, profonde quête de sens et d'authenticité. Épicurien rigoureux mêlant musculation et créativité artistique. Passionné d'histoire, généalogie, arts numériques. Recherche complicité intellectuelle forte, respect mutuel et envie de construire. Équilibre rare entre force tranquille, esprit analytique et sensibilité artistique."
+          },
+          "score": 50,
+          "raison": "Profondeur, authenticité, quête de sens.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 29,
+            "nom": "Jeremie",
+            "nom_famille": "Calderon",
+            "age": "41",
+            "sexe": "Masculin",
+            "telephone": "972548126361",
+            "resume_ia": "Développeur, père de 4 enfants. Sincérité, loyauté, respect au cœur de tout. Réfléchi avec humour. Aime sorties, bons repas, vrais souvenirs. Impliqué, attentionné. Recherche partenaire bienveillante, honnête, facile à vivre, pour relation équilibrée."
+          },
+          "score": 48,
+          "raison": "Sincérité, humour, engagement.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 14,
+            "nom": "Rony",
+            "nom_famille": "ARBIB",
+            "age": "41",
+            "sexe": "Masculin",
+            "telephone": "546412983",
+            "resume_ia": "Père de 4 enfants, famille et loyauté au cœur de sa vie. Profondément attaché aux valeurs juives. Entrepreneur dans le diamant. Aime voyager, moto, bons repas. Attentionné, généreux, protecteur. Recherche une femme avec des valeurs, de la profondeur et une vraie envie de construire."
+          },
+          "score": 47,
+          "raison": "Famille et loyauté.",
+          "mutual": false
+        }
+      ]
+    },
+    {
+      "personne": {
+        "id": 32,
+        "nom": "Patricia",
+        "nom_famille": "Sroussi",
+        "age": "60",
+        "sexe": "Féminin",
+        "telephone": "557737354",
+        "resume_ia": "Profil en cours de complétion."
+      },
+      "meilleur_match": {
+        "id": 19,
+        "nom": "Laurent",
+        "nom_famille": "Chekroun",
+        "age": "51",
+        "sexe": "Masculin",
+        "telephone": "547368535",
+        "resume_ia": "Homme de valeurs — famille, respect, sincérité, foi. Vie active, sport (padel). Plaisirs simples, conversations profondes. En couple : loyauté, communication, confiance. Recherche partenaire bienveillante, authentique, pour relation stable et épanouissante."
+      },
+      "score": 50,
+      "raison": "Valeurs, foi, stabilité.",
+      "top3": [
+        {
+          "match": {
+            "id": 19,
+            "nom": "Laurent",
+            "nom_famille": "Chekroun",
+            "age": "51",
+            "sexe": "Masculin",
+            "telephone": "547368535",
+            "resume_ia": "Homme de valeurs — famille, respect, sincérité, foi. Vie active, sport (padel). Plaisirs simples, conversations profondes. En couple : loyauté, communication, confiance. Recherche partenaire bienveillante, authentique, pour relation stable et épanouissante."
+          },
+          "score": 50,
+          "raison": "Valeurs, foi, stabilité.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 14,
+            "nom": "Rony",
+            "nom_famille": "ARBIB",
+            "age": "41",
+            "sexe": "Masculin",
+            "telephone": "546412983",
+            "resume_ia": "Père de 4 enfants, famille et loyauté au cœur de sa vie. Profondément attaché aux valeurs juives. Entrepreneur dans le diamant. Aime voyager, moto, bons repas. Attentionné, généreux, protecteur. Recherche une femme avec des valeurs, de la profondeur et une vraie envie de construire."
+          },
+          "score": 48,
+          "raison": "Famille et engagement.",
+          "mutual": false
+        },
+        {
+          "match": {
+            "id": 31,
+            "nom": "marc",
+            "nom_famille": "elfassy",
+            "age": "62",
+            "sexe": "Masculin",
+            "telephone": "972547755129",
+            "resume_ia": "Loyauté, responsabilité, famille. Très proche des animaux (Rocky, berger belge). Vie simple et authentique. Protecteur, présent, investi. Recherche partenaire honnête, bienveillante, fidèle pour relation stable et complice."
+          },
+          "score": 45,
+          "raison": "Loyauté et sincérité.",
+          "mutual": false
+        }
+      ]
+    }
+  ],
+  "total_profils": 26,
+  "stats": {
+    "hommes": 12,
+    "femmes": 14,
+    "mutuals": 8
+  },
   "config": {
     "criteres": {
       "Valeurs & vision de la vie": 30,
